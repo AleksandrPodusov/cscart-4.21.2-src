@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: /release-4.21.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 10684\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "도시"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "애드온은 주문 페이지에 도시가 자동으로 추가되는 새로운 기능을 제공합니다."
+
+msgctxt "Languages::cities.select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "새로운 도시를 생성하려면 국가와 지역을 선택하고 \"검색\" 버튼을 클릭한 다음 \"+\" 버튼을 사용하여 도시를 생성하세요. 해당 국가에 지역이 없는 경우 지역을 생성해야 합니다."
+
+msgctxt "Languages::cities.add_city"
+msgid "Add new city"
+msgstr "새로운 도시를 추가하세요"
+
+msgctxt "Languages::cities.new_city"
+msgid "New city"
+msgstr "새로운 도시"
+
+msgctxt "Languages::cities.select_city"
+msgid "Select city"
+msgstr "도시를 선택하세요"
+
+msgctxt "Languages::cities.empty_state"
+msgid "No states created"
+msgstr "국가가 설립되지 않았습니다."
+
+msgctxt "Languages::cities.not_selected_state"
+msgid "No state selected"
+msgstr "선택된 주가 없습니다"
+
+msgctxt "Languages::cities.other_town"
+msgid "another city"
+msgstr "또 다른 도시"
+
+msgctxt "Languages::cities.new_city_state"
+msgid "Create new state"
+msgstr "새로운 상태를 생성합니다."
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "볼 수 있음"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "편집 가능"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "편집 가능"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "도시"
+
+msgctxt "Languages::cities.code_sdek"
+msgid "Code city cdek"
+msgstr ""
+
+msgctxt "Languages::cities.city_prefix"
+msgid "city., city"
+msgstr "도시, 도시"
+

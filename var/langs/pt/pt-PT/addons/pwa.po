@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: /release-4.21.2/addons/pwa.po\n"
+"X-Crowdin-File-ID: 10788\n"
+"PO-Revision-Date: 2026-09-21 11:54\n"
+
+msgctxt "Addons::name::pwa"
+msgid "Mobile application (PWA)"
+msgstr "Aplicação móvel (PWA)"
+
+msgctxt "Addons::description::pwa"
+msgid "Quickly set up a progressive web app for each of your storefronts. No publishing in app stores required. The app will closely match the look and functionality of your site."
+msgstr "Configure rapidamente uma aplicação web progressiva para cada uma das suas lojas virtuais. Não é necessário publicar em lojas de aplicações. A aplicação terá a mesma aparência e funcionalidade do seu site."
+
+msgctxt "Languages::pwa.title"
+msgid "Mobile application (PWA)"
+msgstr "Aplicação móvel (PWA)"
+
+msgctxt "Languages::pwa.warning_relative_storefronts_with_no_active_apps"
+msgid "Domain <u>[main_domain]</u> has multiple storefronts:<br><ul>[items]</ul><b>Problem:</b> A domain can support only one PWA app without issues. For example, an app for <i>[current_name]</i> (<u>[current_url]</u>) will override the icons and content—and may even prevent installation—of the other apps listed above.<br><br><b>Solution:</b> If you're planning to use all these apps, move storefronts to subdomains (like <u>[subfolder].[main_domain]</u>) or to different domains. For help with that, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contact us via Help Desk.</a>"
+msgstr "O domínio <u>[main_domain]</u> possui várias lojas virtuais:<br><ul>[items]</ul><b>Problema:</b> Um domínio só pode suportar uma aplicação PWA sem problemas. Por exemplo, uma aplicação para <i>[nome_atual]</i> (<u>[url_atual]</u>) irá substituir os ícones e o conteúdo — e poderá até impedir a instalação — das outras aplicações listadas acima.<br><br><b>Solução:</b> Se pretende utilizar todas estas aplicações, mova as lojas virtuais para subdomínios (como <u>[subpasta].[domínio_principal]</u>) ou para domínios diferentes. Para obter ajuda com isto, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contacte-nos através do Help Desk.</a>"
+
+msgctxt "Languages::pwa.warning_relative_storefront_has_active_app"
+msgid "Domain <u>[main_domain]</u> already has a PWA for storefront <b>[active_name]</b> (<u>[active_url]</u>).<br><br><b>Problem:</b> Going live with an app for <i>[current_name]</i> (<u>[current_url]</u>) can lead to technical issues with other apps on this domain.<br><br><b>Solution:</b> If you need a separate app for <b>[current_name]</b>, move the storefront to a subdomain (like <u>[subfolder].[main_domain]</u>) or to a different domain. For help with that, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contact us via Help Desk.</a>"
+msgstr "O domínio <u>[main_domain]</u> já possui um PWA para a loja <b>[active_name]</b> (<u>[active_url]</u>).<br><br><b>Problema:</b> Colocar uma aplicação em funcionamento para <i>[nome_atual]</i> (<u>[url_atual]</u>) pode causar problemas técnicos com outras aplicações neste domínio.<br><br><b>Solução:</b> Se precisar de uma aplicação separada para <b>[nome_atual]</b>, mover a loja virtual para um subdomínio (como <u>[subpasta].[domínio_principal]</u>) ou para um domínio diferente. Para obter ajuda com isto, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contacte-nos através do Help Desk.</a>"
+
+msgctxt "Languages::pwa.manifest_status"
+msgid "Go live"
+msgstr "Transmita ao vivo"
+
+msgctxt "Languages::pwa.manifest_status_tooltip"
+msgid "When the app is live, site visitors can install it. Any changes to the settings on this page WON'T AFFECT any installed apps."
+msgstr "Quando a aplicação estiver disponível, os visitantes do site poderão instalá-la. Quaisquer alterações nas definições desta página NÃO AFETARÃO as aplicações já instaladas."
+
+msgctxt "Languages::pwa.manifest_status_confirm_on_warning"
+msgid "Once the app goes live and a customer installs it, you won't be able to change the app settings for that customer (unless they reinstall the app)."
+msgstr "Assim que a aplicação for lançada e um cliente a instalar, não poderá alterar as definições da aplicação para esse cliente (a menos que reinstale a aplicação)."
+
+msgctxt "Languages::pwa.manifest_status_confirm_off_warning"
+msgid "This change will only prevent new installations of the app. Any apps that are already installed will continue to work."
+msgstr "Esta alteração impedirá apenas novas instalações da aplicação. As aplicações já instaladas continuarão a funcionar normalmente."
+
+msgctxt "Languages::pwa.manifest_status_confirm_warning_first_app_for_domain"
+msgid "Your app is about to go live. To avoid technical issues in the future, it must remain the only one for domain [main_domain]. Are you sure you want to proceed?"
+msgstr "A sua aplicação está prestes a entrar em operação. Para evitar problemas técnicos no futuro, deve continuar a ser o único disponível para o domínio [main_domain]. Tem a certeza de que pretende prosseguir?"
+
+msgctxt "Languages::pwa.manifest_icon_cannot_be_uploaded"
+msgid "Couldn't load new icon for PWA. It must be a 512x512 image with non-transparent background."
+msgstr "Não foi possível carregar o novo ícone para o PWA. Precisa de ser uma imagem de 512x512 pixels com um fundo não transparente."
+
+msgctxt "Languages::pwa.manifest_app_name"
+msgid "App name"
+msgstr "Nome do aplicativo"
+
+msgctxt "Languages::pwa.manifest_app_name_tooltip"
+msgid "The name of your app as customers will see it on their devices. Ideally, keep it under 12 symbols."
+msgstr "O nome da sua aplicação, exatamente como os clientes o verão nos seus dispositivos. O ideal é que tenha menos de 12 caracteres."
+
+msgctxt "Languages::pwa.manifest_icon"
+msgid "App icon"
+msgstr "Ícone do aplicativo"
+
+msgctxt "Languages::pwa.manifest_icon_tooltip"
+msgid "Appears on user devices when the app is installed. Ideally, use a square non-transparent icon 512x512 pixels."
+msgstr "Aparece nos dispositivos do utilizador quando a aplicação é instalada. Idealmente, utilize um ícone quadrado não transparente de 512x512 pixels."
+
+msgctxt "Languages::pwa.nav_back"
+msgid "Show the previous page"
+msgstr "Mostrar a página anterior"
+
+msgctxt "Languages::pwa.offline.window_title"
+msgid "You are offline"
+msgstr "Você está offline"
+
+msgctxt "Languages::pwa.offline.page_title"
+msgid "You are offline"
+msgstr "Você está offline"
+
+msgctxt "Languages::pwa.offline.page_description"
+msgid "Click the button below to try reloading."
+msgstr "Clique no botão abaixo para tentar recarregar."
+
+msgctxt "Languages::pwa.offline.reload_button"
+msgid "Reload"
+msgstr "Recarregar"
+

@@ -1,0 +1,28 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+namespace Tygh\Enum\Addons\Rma;
+
+/**
+ * The class declares available statuses for return operations
+ *
+ * @package Tygh\Enum\Addons\Rma\ReturnOperationStatuses
+ */
+class ReturnOperationStatuses
+{
+    const REQUESTED = RMA_DEFAULT_STATUS;
+    const APPROVED = RETURN_PRODUCT_ACCEPTED;
+    const DECLINED = RETURN_PRODUCT_DECLINED;
+    const COMPLETED = 'C';
+}

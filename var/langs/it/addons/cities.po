@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /release-4.21.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 10684\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Città"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "L'add-on fornisce nuove funzionalità: città da aggiungere automaticamente alla pagina di inserimento degli ordini."
+
+msgctxt "Languages::cities.select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Per creare una nuova città, seleziona il paese e la regione, clicca sul pulsante \"Cerca\" e crea una città utilizzando il pulsante \"+\". Se per il paese non sono presenti regioni, è necessario crearle."
+
+msgctxt "Languages::cities.add_city"
+msgid "Add new city"
+msgstr "Aggiungi una nuova città"
+
+msgctxt "Languages::cities.new_city"
+msgid "New city"
+msgstr "Nuova città"
+
+msgctxt "Languages::cities.select_city"
+msgid "Select city"
+msgstr "Seleziona la città"
+
+msgctxt "Languages::cities.empty_state"
+msgid "No states created"
+msgstr "Non sono stati creati stati"
+
+msgctxt "Languages::cities.not_selected_state"
+msgid "No state selected"
+msgstr "Nessuno stato selezionato"
+
+msgctxt "Languages::cities.other_town"
+msgid "another city"
+msgstr "un'altra città"
+
+msgctxt "Languages::cities.new_city_state"
+msgid "Create new state"
+msgstr "Crea un nuovo stato"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Posso vedere"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Può modificare"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Può modificare"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Città"
+
+msgctxt "Languages::cities.code_sdek"
+msgid "Code city cdek"
+msgstr ""
+
+msgctxt "Languages::cities.city_prefix"
+msgid "city., city"
+msgstr "città, città"
+

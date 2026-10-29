@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /release-4.21.2/addons/commerceml.po\n"
+"X-Crowdin-File-ID: 10688\n"
+"PO-Revision-Date: 2026-09-21 11:54\n"
+
+msgctxt "Addons::name::commerceml"
+msgid "CommerceML Integration"
+msgstr "Integracja CommerceML"
+
+msgctxt "Addons::description::commerceml"
+msgid "Allows you to import products from and export orders to CRMs that support CommerceML."
+msgstr "Umożliwia importowanie produktów i eksportowanie zamówień do systemów CRM obsługujących CommerceML."
+
+msgctxt "Languages::commerceml.map.no_available_data.marketplace"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the marketplace."
+msgstr "Brak dostępnych danych. Zazwyczaj pojawiają się one w tym miejscu po pomyślnym połączeniu CRM z platformą handlową."
+
+msgctxt "Languages::commerceml.map.no_available_data.store"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the store."
+msgstr "Brak dostępnych danych. Zazwyczaj pojawiają się one w tym miejscu po pomyślnym połączeniu CRM ze sklepem."
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode"
+msgid "Import strategy"
+msgstr "Strategia importowa"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.all"
+msgid "Import all products"
+msgstr "Importuj wszystkie produkty"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_new"
+msgid "Create new products only"
+msgstr "Twórz tylko nowe produkty"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_existing"
+msgid "Update existing products only"
+msgstr "Aktualizuj tylko istniejące produkty"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.none"
+msgid "Don't import anything"
+msgstr "Nie importuj niczego"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_offers"
+msgid "Import product offers"
+msgstr "Oferty produktów importowych"
+
+msgctxt "Languages::commerceml.cml_catalog_hide_out_of_stock_products"
+msgid "Hide out-of-stock products"
+msgstr "Ukryj produkty niedostępne"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_categories"
+msgid "Import categories"
+msgstr "Importuj kategorie"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_features"
+msgid "Import features"
+msgstr "Funkcje importu"
+
+msgctxt "Languages::commerceml.cml_catalog_import_images_as_additional"
+msgid "Import images as additional ones"
+msgstr "Importuj obrazy jako dodatkowe"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status"
+msgid "Status for new products"
+msgstr "Status nowych produktów"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.a"
+msgid "Active"
+msgstr "Aktywny"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.h"
+msgid "Hidden"
+msgstr "Ukryty"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.d"
+msgid "Disabled"
+msgstr "Wyłączony"
+
+msgctxt "Languages::commerceml.cml_default_lang"
+msgid "Content language in CRM"
+msgstr "Język treści w CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id"
+msgid "Default category"
+msgstr "Kategoria domyślna"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id.tooltip"
+msgid "Products that don't have any other category will be imported here."
+msgstr "Produkty nie posiadające żadnej innej kategorii zostaną tutaj zaimportowane."
+
+msgctxt "Languages::commerceml.cml_catalog_use_taxes"
+msgid "Add tax to products"
+msgstr "Dodaj podatek do produktów"
+
+msgctxt "Languages::commerceml.main_information"
+msgid "Main information"
+msgstr "Informacje główne"
+
+msgctxt "Languages::commerceml.field_in_marketplace"
+msgid "Field in the marketplace"
+msgstr "Pole na rynku"
+
+msgctxt "Languages::commerceml.field_in_store"
+msgid "Field in the store"
+msgstr "Pole w sklepie"
+
+msgctxt "Languages::commerceml.field_in_crm"
+msgid "Field in CRM"
+msgstr "Pole w CRM"
+
+msgctxt "Languages::commerceml.fields_in_crm"
+msgid "Field(s) in CRM"
+msgstr "Pola w CRM"
+
+msgctxt "Languages::commerceml.custom_field_name"
+msgid "Custom field name"
+msgstr "Nazwa pola niestandardowego"
+
+msgctxt "Languages::commerceml.show_as_product_feature"
+msgid "Show as a product feature"
+msgstr "Pokaż jako cechę produktu"
+
+msgctxt "Languages::commerceml.automatic_matching_title"
+msgid "Automatic matching"
+msgstr "Automatyczne dopasowywanie"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_category_by_name"
+msgid "Match categories by name"
+msgstr "Dopasuj kategorie według nazwy"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_product_by_product_code"
+msgid "Match products by product code"
+msgstr "Dopasuj produkty według kodu produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source"
+msgid "Product name"
+msgstr "Nazwa produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.name"
+msgid "Name"
+msgstr "Nazwa"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.full_name"
+msgid "Full name"
+msgstr "Pełne imię i nazwisko"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source"
+msgid "Product code"
+msgstr "Kod produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.article"
+msgid "SKU"
+msgstr "SKU"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.code"
+msgid "Item number"
+msgstr "Numer przedmiotu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.bar"
+msgid "Bar code"
+msgstr "Kod kreskowy"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source"
+msgid "Full description"
+msgstr "Pełny opis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.none"
+msgid "Do not import"
+msgstr "Nie importuj"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.description"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.html_description"
+msgid "File description"
+msgstr "Opis pliku"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.full_name"
+msgid "Full name"
+msgstr "Pełne imię i nazwisko"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source"
+msgid "Short description"
+msgstr "Krótki opis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.none"
+msgid "Do not import"
+msgstr "Nie importuj"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.description"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.html_description"
+msgid "File description"
+msgstr "Opis pliku"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.full_name"
+msgid "Full name"
+msgstr "Pełne imię i nazwisko"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from"
+msgid "Names of product variations"
+msgstr "Nazwy wariantów produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.tooltip"
+msgid "Determines where product variations will get their names during import. After the import, you'll be able to edit their names in CS-Cart as you see fit."
+msgstr "Określa, skąd warianty produktu otrzymają swoje nazwy podczas importu. Po zaimportowaniu będziesz mógł edytować ich nazwy w CS-Cart według własnego uznania."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically"
+msgid "Choose automatically"
+msgstr "Wybierz automatycznie"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically.tooltip"
+msgid "If any of a product's variations are \"separate products\", then all variations of that product will use unique names from offers.xml"
+msgstr "Jeśli którykolwiek z wariantów produktu jest „osobnym produktem”, wówczas wszystkie warianty tego produktu będą używać unikalnych nazw z pliku offers.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import"
+msgid "Use catalog names"
+msgstr "Użyj nazw katalogowych"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import.tooltip"
+msgid "All variations of a product will use their common catalog name from import.xml"
+msgstr "Wszystkie warianty produktu będą używać wspólnej nazwy katalogowej z pliku import.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers"
+msgid "Use offer names"
+msgstr "Użyj nazw ofert"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers.tooltip"
+msgid "All variations of a product will use their unique offer names from offers.xml"
+msgstr "Wszystkie warianty produktu będą używać unikalnych nazw ofert z pliku offers.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source"
+msgid "Page title (SEO)"
+msgstr "Tytuł strony (SEO)"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.none"
+msgid "Do not import"
+msgstr "Nie importuj"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.name"
+msgid "Name"
+msgstr "Nazwa"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.full_name"
+msgid "Full name"
+msgstr "Pełne imię i nazwisko"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source.custom_field"
+msgid "Custom field"
+msgstr "Pole niestandardowe"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source"
+msgid "Promo text (field in CRM)"
+msgstr "Tekst promocyjny (pole w CRM)"
+
+msgctxt "Languages::commerceml.shipping_information"
+msgid "Shipping information"
+msgstr "Informacje o wysyłce"
+
+msgctxt "Languages::commerceml.shipping_information_info_block"
+msgid "If your CRM has fields with the same information as product shipping properties in the store, then you can import values from those fields. You can enter multiple fields (each in new line). In that case, the value of the latest found field will be used."
+msgstr "Jeśli Twój system CRM zawiera pola z tymi samymi informacjami, co właściwości wysyłki produktu w sklepie, możesz zaimportować wartości z tych pól. Możesz wprowadzić wiele pól (każde w nowym wierszu). W takim przypadku zostanie użyta wartość ostatniego znalezionego pola."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_weight_property_source_list"
+msgid "Weight"
+msgstr "Waga"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list"
+msgid "Free shipping"
+msgstr "Darmowa wysyłka"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list.tooltip"
+msgid "Value of the field in CRM must be \"true\" or \"false\""
+msgstr "Wartość pola w CRM musi być „prawda” lub „fałsz”"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_shipping_cost_property_source_list"
+msgid "Shipping cost"
+msgstr "Koszt wysyłki"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_number_of_items_property_source_list"
+msgid "Items in a box"
+msgstr "Przedmioty w pudełku"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_length_property_source_list"
+msgid "Box length"
+msgstr "Długość pudełka"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_width_property_source_list"
+msgid "Box width"
+msgstr "Szerokość pudełka"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_height_property_source_list"
+msgid "Box height"
+msgstr "Wysokość pudełka"
+
+msgctxt "Languages::commerceml.orders_export"
+msgid "Orders export"
+msgstr "Eksport zamówień"
+
+msgctxt "Languages::commerceml.orders_import"
+msgid "Orders import"
+msgstr "Import zamówień"
+
+msgctxt "Languages::commerceml.cml_order_export_strategy"
+msgid "Export strategy"
+msgstr "Strategia eksportowa"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.a"
+msgid "Export all orders"
+msgstr "Eksportuj wszystkie zamówienia"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.n"
+msgid "Export new orders and changes to existing orders only"
+msgstr "Eksportuj tylko nowe zamówienia i zmiany w istniejących zamówieniach"
+
+msgctxt "Languages::commerceml.product_features"
+msgid "Product features"
+msgstr "Cechy produktu"
+
+msgctxt "Languages::commerceml.product_features_info_block"
+msgid "Write each CRM field in a new line."
+msgstr "Każde pole CRM wpisz w nowym wierszu."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_blocklist"
+msgid "Don't import these CRM fields as product features"
+msgstr "Nie importuj tych pól CRM jako funkcji produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_allowlist"
+msgid "Import only these CRM fields as product features"
+msgstr "Importuj tylko te pola CRM jako cechy produktu"
+
+msgctxt "Languages::commerceml.never"
+msgid "Never"
+msgstr "Nigdy"
+
+msgctxt "Languages::commerceml.last_status.X"
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgctxt "Languages::commerceml.last_status.S"
+msgid "Success"
+msgstr "Sukces"
+
+msgctxt "Languages::commerceml.last_status.P"
+msgid "In progress"
+msgstr "W toku"
+
+msgctxt "Languages::commerceml.last_status.F"
+msgid "Failure"
+msgstr "Awaria"
+
+msgctxt "Languages::commerceml.last_status.N"
+msgid "New"
+msgstr "Nowy"
+
+msgctxt "Languages::privilege_groups.commerceml"
+msgid "CommerceML"
+msgstr "CommerceML"
+
+msgctxt "Languages::commerceml.step_1_title"
+msgid "Step 1: Connect your CRM"
+msgstr "Krok 1: Połącz swój CRM"
+
+msgctxt "Languages::commerceml.step_1_instruction.marketplace"
+msgid "<p>Make sure that your CRM sends files to the marketplace. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the marketplace receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Upewnij się, że Twój CRM wysyła pliki do marketplace'u. Możesz połączyć 1C lub dowolny inny CRM obsługujący CommerceML.</p><p>Zaznaczymy to pole wyboru, gdy marketplace otrzyma i przetworzy pierwszy plik z Twojego CRM. Oto instrukcje, jak połączyć CRM:</p>"
+
+msgctxt "Languages::commerceml.step_1_instruction.store"
+msgid "<p>Make sure that your CRM sends files to the store. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the store receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Upewnij się, że Twój CRM wysyła pliki do sklepu. Możesz połączyć 1C lub dowolny inny CRM obsługujący CommerceML.</p><p>Zaznaczymy to pole wyboru, gdy sklep otrzyma i przetworzy pierwszy plik z Twojego CRM. Oto instrukcje, jak połączyć CRM:</p>"
+
+msgctxt "Languages::commerceml.step_1_links"
+msgid "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Trade Management</a>"
+msgstr "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">Zarządzanie handlem 1C</a>"
+
+msgctxt "Languages::commerceml.step_2_title"
+msgid "Step 2: Set the data exchange rules"
+msgstr "Krok 2: Ustaw reguły wymiany danych"
+
+msgctxt "Languages::commerceml.step_2_instruction.marketplace"
+msgid "<p>Before importing anything, the marketplace checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the marketplace, you'll be able to import it.</p>"
+msgstr "<p>Przed zaimportowaniem danych platforma sprawdza zawartość pliku CRM. Ty decydujesz, jakie dane i jak wykorzystać. Po ustawieniu reguł dopasowywania danych z pliku do danych w platformie będziesz mógł je zaimportować.</p>"
+
+msgctxt "Languages::commerceml.step_2_instruction.store"
+msgid "<p>Before importing anything, the store checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the store, you'll be able to import it.</p>"
+msgstr "<p>Przed zaimportowaniem czegokolwiek sklep sprawdza zawartość pliku CRM. Ty decydujesz, jakie dane i jak wykorzystać. Po ustawieniu reguł dopasowywania danych z pliku do danych w sklepie będziesz mógł je zaimportować.</p>"
+
+msgctxt "Languages::commerceml.step_2_specify_matches"
+msgid "Please specify the matches for:"
+msgstr "Proszę podać pasujące wyniki dla:"
+
+msgctxt "Languages::commerceml.step_3_title"
+msgid "Step 3: Synchronize the data"
+msgstr "Krok 3: Synchronizuj dane"
+
+msgctxt "Languages::commerceml.step_3_instruction.marketplace"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the marketplace successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Po ustawieniu reguł można zaimportować dane. Rozpocznij import z CRM. Zaznaczymy to pole wyboru po pomyślnym odebraniu danych przez platformę. W przypadku jakichkolwiek problemów powiadomimy Cię tutaj.</p>"
+
+msgctxt "Languages::commerceml.step_3_instruction.store"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the store successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Po ustawieniu reguł można zaimportować dane. Rozpocznij import z CRM. Zaznaczymy to pole wyboru po pomyślnym otrzymaniu danych przez sklep. W przypadku jakichkolwiek problemów powiadomimy Cię tutaj.</p>"
+
+msgctxt "Languages::commerceml.last_successful_sync"
+msgid "Last successful sync"
+msgstr "Ostatnia pomyślna synchronizacja"
+
+msgctxt "Languages::commerceml.view_log"
+msgid "View log"
+msgstr "Wyświetl dziennik"
+
+msgctxt "Languages::commerceml.no_match"
+msgid "No match specified yet!"
+msgstr "Nie określono jeszcze żadnego dopasowania!"
+
+msgctxt "Languages::commerceml.done"
+msgid "Done!"
+msgstr "Zrobione!"
+
+msgctxt "Languages::commerceml.marketplace"
+msgid "marketplace"
+msgstr "rynek"
+
+msgctxt "Languages::commerceml.store"
+msgid "store"
+msgstr "sklep"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee"
+msgid "Export shipping fee"
+msgstr "Opłata za wysyłkę eksportową"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee.tooltip"
+msgid "Orders will have shipping fee as a separate product"
+msgstr "Zamówienia będą miały opłatę za wysyłkę jako osobny produkt"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options"
+msgid "Export product options"
+msgstr "Opcje eksportu produktu"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options.tooltip"
+msgid "Export order with product options"
+msgstr "Eksport zamówienia z opcjami produktu"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses.tooltip"
+msgid "Export order statuses in CommerceML format"
+msgstr "Eksportuj statusy zamówień w formacie CommerceML"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id"
+msgid "Start export from Order #"
+msgstr "Rozpocznij eksport od numeru zamówienia"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id.tooltip"
+msgid "Leave empty to export all orders"
+msgstr "Pozostaw puste, aby wyeksportować wszystkie zamówienia"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses"
+msgid "Export order statuses"
+msgstr "Statusy zamówień eksportowych"
+
+msgctxt "Languages::commerceml.cml_order_statuses_filter"
+msgid "Order statuses"
+msgstr "Statusy zamówień"
+
+msgctxt "Languages::commerceml.cml_orders_import_changes"
+msgid "Import changes to orders"
+msgstr "Importuj zmiany w zamówieniach"
+
+msgctxt "Languages::commerceml.map.entity_name"
+msgid "External name"
+msgstr "Nazwa zewnętrzna"
+
+msgctxt "Languages::commerceml.map.entity_id"
+msgid "External ID"
+msgstr "Identyfikator zewnętrzny"
+
+msgctxt "Languages::commerceml.map.local_id"
+msgid "Local ID"
+msgstr "Lokalny identyfikator"
+
+msgctxt "Languages::commerceml.tab.currency"
+msgid "Currencies"
+msgstr "Waluty"
+
+msgctxt "Languages::commerceml.tab.general"
+msgid "General"
+msgstr "Ogólny"
+
+msgctxt "Languages::commerceml.tab.catalog"
+msgid "Catalog"
+msgstr "Katalog"
+
+msgctxt "Languages::commerceml.tab.products"
+msgid "Products"
+msgstr "Produkty"
+
+msgctxt "Languages::commerceml.tab.orders"
+msgid "Orders"
+msgstr "Święcenia"
+
+msgctxt "Languages::commerceml.tab.price_type"
+msgid "Prices"
+msgstr "Ceny"
+
+msgctxt "Languages::commerceml.tab.tax"
+msgid "Taxes"
+msgstr "Podatki"
+
+msgctxt "Languages::commerceml.tab.category"
+msgid "Categories"
+msgstr "Kategorie"
+
+msgctxt "Languages::commerceml.tab.product_feature"
+msgid "Product features"
+msgstr "Cechy produktu"
+
+msgctxt "Languages::commerceml.variation_default_product_feature_name"
+msgid "Variant"
+msgstr "Wariant"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "Cena podstawowa"
+
+msgctxt "Languages::commerceml.import.error.product_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only new products are imported"
+msgstr "Pomijanie produktu [id]; powód: importowane są tylko nowe produkty"
+
+msgctxt "Languages::commerceml.import.error.product_not_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only the changes to existing products are imported"
+msgstr "Pomijanie produktu [id]; powód: importowane są tylko zmiany w istniejących produktach"
+
+msgctxt "Languages::commerceml.import.error.product.caregory_not_found"
+msgid "Couldn't find category [id]"
+msgstr "Nie znaleziono kategorii [id]"
+
+msgctxt "Languages::commerceml.import.message.product.default_category_used"
+msgid "Couldn't find category [id]; default category [local_id] used instead"
+msgstr "Nie znaleziono kategorii [id]; zamiast niej użyto kategorii domyślnej [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.no_categories_default_category_used"
+msgid "Product [product_id] does not have categories; default category [local_id] used instead"
+msgstr "Produkt [product_id] nie ma kategorii; zamiast tego użyto kategorii domyślnej [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.created"
+msgid "Product [id] created; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Produkt [id] został utworzony; ID lokalne: [local_id], cena: [price], ilość: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.updated"
+msgid "Product [id] updated; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Produkt [id] zaktualizowany; ID lokalne: [local_id], cena: [price], ilość: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.deleted"
+msgid "Product [id] deleted; local ID: [local_id]"
+msgstr "Produkt [id] został usunięty; ID lokalne: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.not_import_deleted"
+msgid "Couldn't import product [id]; reason: product marked as deleted"
+msgstr "Nie można zaimportować produktu [id]; powód: produkt oznaczono jako usunięty"
+
+msgctxt "Languages::commerceml.import.message.product.marked_as_removed"
+msgid "Couldn't import product [id]; reason: product was deleted earlier"
+msgstr "Nie udało się zaimportować produktu [id]; powód: produkt został wcześniej usunięty"
+
+msgctxt "Languages::commerceml.import.message.product.is_not_creatable"
+msgid "Couldn't import product [id]; reason: not enough data to create a product"
+msgstr "Nie można zaimportować produktu [id]; powód: za mało danych do utworzenia produktu"
+
+msgctxt "Languages::commerceml.import.message.product.found_by_product_code"
+msgid "Couldn't find product [id] by product code [product_code]; local ID: [local_id]"
+msgstr "Nie można znaleźć produktu [id] według kodu produktu [product_code]; identyfikator lokalny: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.local_id_exists_but_product_not_found"
+msgid "Couldn't find local ID [local_id] for product [id] in the database"
+msgstr "Nie znaleziono lokalnego identyfikatora [local_id] dla produktu [id] w bazie danych"
+
+msgctxt "Languages::commerceml.import.message.category.found_by_name"
+msgid "Category [id] was matched by name: [name]; local ID: [local_id]"
+msgstr "Kategoria [id] została dopasowana według nazwy: [name]; identyfikator lokalny: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_found"
+msgid "Couldn't find parent category [parent_id] for category [id]"
+msgstr "Nie można znaleźć kategorii nadrzędnej [parent_id] dla kategorii [id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_imported"
+msgid "Couldn't import parent category [parent_id] for category [id]"
+msgstr "Nie można zaimportować kategorii nadrzędnej [parent_id] dla kategorii [id]"
+
+msgctxt "Languages::commerceml.import.message.category.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "Kategoria [id] utworzona; ID lokalne: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.created"
+msgid "Product feature [id] created; local ID: [local_id]"
+msgstr "Funkcja produktu [id] została utworzona; identyfikator lokalny: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped"
+msgid "Skipping product feature [id]; reason: import this product feature is disabled in the mapping settings"
+msgstr "Pomijanie funkcji produktu [id]; powód: funkcja importowania tego produktu jest wyłączona w ustawieniach mapowania"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_skipped"
+msgid "Skipping product feature variant [id]; reason: import this product feature variant is disabled in the mapping settings"
+msgstr "Pomijanie wariantu funkcji produktu [id]; powód: importowanie tego wariantu funkcji produktu jest wyłączone w ustawieniach mapowania"
+
+msgctxt "Languages::commerceml.import.message.category.skipped"
+msgid "Skipping product category [id]; reason: import this product category is disabled in the mapping settings"
+msgstr "Pomijanie kategorii produktów [id]; powód: importowanie tej kategorii produktów jest wyłączone w ustawieniach mapowania"
+
+msgctxt "Languages::commerceml.import.error.product_feature.not_found"
+msgid "Couldn't find product feature [id]"
+msgstr "Nie znaleziono funkcji produktu [id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped_by_settings"
+msgid "Couldn't import product feature [id]; reason: import of product features is disabled in the settings"
+msgstr "Nie można zaimportować funkcji produktu [id]; powód: importowanie funkcji produktu jest wyłączone w ustawieniach"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_created"
+msgid "Variant [id] of product feature [feature_id] created; local ID: [local_id]"
+msgstr "Utworzono wariant [id] funkcji produktu [feature_id]; identyfikator lokalny: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.variation_not_deleted"
+msgid "Couldn't delete product variation [id]; local ID: [local_id]"
+msgstr "Nie można usunąć wariantu produktu [id]; identyfikator lokalny: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.parent_product_not_found"
+msgid "Couldn't find parent product for variation [id]"
+msgstr "Nie można znaleźć produktu nadrzędnego dla wariantu [id]"
+
+msgctxt "Languages::commerceml.import.error.product.parent_product_removed"
+msgid "Couldn't import product [id]; reason: its parent product [parent_id] was deleted"
+msgstr "Nie można zaimportować produktu [id]; powód: usunięto jego produkt nadrzędny [parent_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.invalid_features_count"
+msgid "The number of features doesn't match the number of features in variation group [group_code]"
+msgstr "Liczba funkcji nie odpowiada liczbie funkcji w grupie wariantów [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.feature_not_found_at_group"
+msgid "Couldn't find feature [feature_id] in variation group [group_code]"
+msgstr "Nie można znaleźć funkcji [feature_id] w grupie wariantów [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.same_variation_exists"
+msgid "Variation group [group_code] already has a variation with the same combination of feature values"
+msgstr "Grupa wariantów [kod_grupy] ma już wariant z taką samą kombinacją wartości cech"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation"
+msgid "Couldn't create product variation [id] in variation group [group_code]"
+msgstr "Nie można utworzyć wariantu produktu [id] w grupie wariantów [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation_group"
+msgid "Couldn't create variation group for product [id]"
+msgstr "Nie można utworzyć grupy wariantów dla produktu [id]"
+
+msgctxt "Languages::commerceml.import.message.start_import_product"
+msgid "Starting the import of product [id]"
+msgstr "Rozpoczęcie importu produktu [id]"
+
+msgctxt "Languages::commerceml.import.message.end_import_product"
+msgid "Finishing the import of product [id]"
+msgstr "Zakończenie importu produktu [id]"
+
+msgctxt "Languages::commerceml.controller.import_orders_is_disabled"
+msgid "Import changes to orders is disabled. Importing order was canceled."
+msgstr "Importowanie zmian w zamówieniach jest wyłączone. Importowanie zamówienia zostało anulowane."
+
+msgctxt "Languages::commerceml.controller.import_orders_no_permissions"
+msgid "Used administrator's account have no permissions to edit and create orders. Order import was canceled."
+msgstr "Konto administratora nie ma uprawnień do edycji i tworzenia zamówień. Import zamówienia został anulowany."
+
+msgctxt "Lnaguages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting the orders received"
+msgstr "Prośba o eksport otrzymanych zamówień"
+
+msgctxt "Lnaguages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting the orders processed"
+msgstr "Prośba o eksport zrealizowanych zamówień"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] received"
+msgstr "Otrzymano prośbę o pobranie pliku synchronizacji sprzedaży [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] processed"
+msgstr "Przetworzono prośbę o pobranie pliku synchronizacji sprzedaży [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_convert"
+msgid "Request for converting the sale synchronization file [filename] received"
+msgstr "Otrzymano prośbę o konwersję pliku synchronizacji sprzedaży [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Przetworzono prośbę o konwersję pliku synchronizacji katalogu [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] received"
+msgstr "Otrzymano prośbę o import danych z pliku synchronizacji sprzedaży [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] processed"
+msgstr "Przetworzono prośbę o import danych z pliku synchronizacji sprzedaży [nazwa pliku]"
+
+msgctxt "Languages::commerceml.import.message.start_update_order"
+msgid "Starting the import of order [id]"
+msgstr "Rozpoczęcie importu zamówienia [id]"
+
+msgctxt "Languages::commerceml.import.message.end_update_order"
+msgid "Finishing the import of order [id]"
+msgstr "Zakończenie importu zamówienia [id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_checkauth_request"
+msgid "Request for synchronization session received"
+msgstr "Otrzymano żądanie sesji synchronizacji"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_checkauth_request"
+msgid "Request for synchronization session processed. Session ID: [session_id]"
+msgstr "Żądanie sesji synchronizacji przetworzone. Identyfikator sesji: [session_id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_init"
+msgid "Request for synchronization parameters received"
+msgstr "Otrzymano żądanie parametrów synchronizacji"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_init"
+msgid "Request for synchronization parameters processed. File size limit: [limit]. ZIP support: [zip]"
+msgstr "Żądanie parametrów synchronizacji przetworzone. Limit rozmiaru pliku: [limit]. Obsługa ZIP: [zip]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] received"
+msgstr "Otrzymano prośbę o pobranie pliku synchronizacyjnego [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] processed"
+msgstr "Żądanie pobrania pliku synchronizacji [nazwa pliku] zostało przetworzone"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] received"
+msgstr "Otrzymano prośbę o rozpakowanie pliku synchronizacji [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] processed"
+msgstr "Prośba o rozpakowanie pliku synchronizacji [nazwa pliku] została przetworzona"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] received"
+msgstr "Otrzymano prośbę o konwersję pliku synchronizacji katalogu [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Przetworzono prośbę o konwersję pliku synchronizacji katalogu [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] received"
+msgstr "Otrzymano prośbę o analizę pliku synchronizacji katalogu [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] processed"
+msgstr "Przetworzono prośbę o analizę pliku synchronizacji katalogu [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] received"
+msgstr "Otrzymano żądanie importu danych z pliku synchronizacji katalogu [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] processed"
+msgstr "Przetworzono prośbę o import danych z pliku synchronizacji katalogu [nazwa pliku]"
+
+msgctxt "Languages::commerceml.controller.end_handle_request"
+msgid "Finishing the processing of the [mode] request"
+msgstr "Zakończenie przetwarzania żądania [tryb]"
+
+msgctxt "Languages::commerceml.controller.upload_directory_cleaned"
+msgid "Directory [dir] cleared of old synchronization files"
+msgstr "Katalog [dir] oczyszczony ze starych plików synchronizacji"
+
+msgctxt "Languages::commerceml.controller.convert_import_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: the import works in the 'Do not import' mode"
+msgstr "Pomijanie pliku [nazwa pliku]; powód: import działa w trybie „Nie importuj”"
+
+msgctxt "Languages::commerceml.controller.convert_offers_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: settings forbid the import of offers"
+msgstr "Pomijanie pliku [nazwa pliku]; powód: ustawienia uniemożliwiają importowanie ofert"
+
+msgctxt "Languages::commerceml.controller.error"
+msgid "Error: [message]"
+msgstr "Błąd: [wiadomość]"
+
+msgctxt "Languages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting orders received"
+msgstr "Prośba o eksport otrzymanych zamówień"
+
+msgctxt "Languages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting orders processed"
+msgstr "Prośba o eksport zamówień przetworzona"
+
+msgctxt "Languages::commerceml.brand_manufacturer_default_product_feature_name"
+msgid "Manufacturer"
+msgstr "Producent"
+
+msgctxt "Languages::commerceml.sync_data_name"
+msgid "CommerceML Integration"
+msgstr "Integracja CommerceML"
+
+msgctxt "Languages::commerceml.map.entity_type.category"
+msgid "Categories"
+msgstr "Kategorie"
+
+msgctxt "Languages::commerceml.map.entity_type.tax"
+msgid "Taxes"
+msgstr "Podatki"
+
+msgctxt "Languages::commerceml.map.entity_type.price_type"
+msgid "Price types"
+msgstr "Typy cen"
+
+msgctxt "Languages::commerceml.map.entity_type.currency"
+msgid "Currencies"
+msgstr "Waluty"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature"
+msgid "Product features"
+msgstr "Cechy produktu"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature_variant"
+msgid "Product features variants"
+msgstr "Warianty funkcji produktu"
+
+msgctxt "Languages::commerceml.general_information.marketplace"
+msgid "To sync your CRM with the marketplace, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Aby zsynchronizować CRM z platformą handlową, skonfiguruj nowy węzeł synchronizacji (węzeł Exchange) ze stroną internetową. Podczas tworzenia węzła Exchange użyj następujących ustawień:<ul><li>Adres strony internetowej: <a href=\"[http_location]\">[lokalizacja http]</a></li><li>Nazwa użytkownika: Adres e-mail administratora</li><li>Hasło: Hasło administratora</li></ul>Zalecamy dodanie nowego administratora z uprawnieniem „CommerceML”."
+
+msgctxt "Languages::commerceml.general_information.store"
+msgid "To sync your CRM with the store, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Aby zsynchronizować CRM ze sklepem, skonfiguruj nowy węzeł synchronizacji (węzeł Exchange) ze stroną internetową. Podczas tworzenia węzła Exchange użyj następujących ustawień:<ul><li>Adres strony internetowej: <a href=\"[http_location]\">[lokalizacja_http]</a></li><li>Nazwa użytkownika: Adres e-mail administratora</li><li>Hasło: Hasło administratora</li></ul>Zalecamy dodanie nowego administratora z uprawnieniem „CommerceML”."
+
+msgctxt "Languages::commerceml.map.category.create"
+msgid "Create category on next sync"
+msgstr "Utwórz kategorię podczas następnej synchronizacji"
+
+msgctxt "Languages::commerceml.map.category.use_default"
+msgid "Use default category"
+msgstr "Użyj domyślnej kategorii"
+
+msgctxt "Languages::commerceml.map.product_feature.create"
+msgid "Create product feature on next sync"
+msgstr "Utwórz funkcję produktu podczas następnej synchronizacji"
+
+msgctxt "Languages::commerceml.map.product_feature.skip"
+msgid "Don't import"
+msgstr "Nie importuj"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.create"
+msgid "Create product feature variant on next sync"
+msgstr "Utwórz wariant funkcji produktu podczas następnej synchronizacji"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.skip"
+msgid "Don't import"
+msgstr "Nie importuj"
+
+msgctxt "Languages::commerceml.n_items_will_be_created_automatically"
+msgid "[n] item will be created automatically|[n] items will be created automatically"
+msgstr "[n] element zostanie utworzony automatycznie|[n] elementów zostanie utworzonych automatycznie"
+
+msgctxt "Languages::commerceml.n_items_will_be_skipped"
+msgid "[n] item not matched and will be skipped|[n] item not matched and will be skipped"
+msgstr "[n] element nie pasuje i zostanie pominięty|[n] element nie pasuje i zostanie pominięty"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation"
+msgid "Product feature creation"
+msgstr "Tworzenie funkcji produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.y"
+msgid "Create new features and variants from CRM automatically"
+msgstr "Twórz nowe funkcje i warianty automatycznie z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Nie twórz funkcji i wariantów z CRM, dopóki ich nie sprawdzę"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation"
+msgid "Category creation"
+msgstr "Tworzenie kategorii"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.y"
+msgid "Create new categories from CRM automatically"
+msgstr "Twórz nowe kategorie automatycznie z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Nie twórz funkcji i wariantów z CRM, dopóki ich nie sprawdzę"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy"
+msgid "If the category of a product changes in CRM"
+msgstr "Jeżeli kategoria produktu ulegnie zmianie w CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.append"
+msgid "Add the new category alongside the existing ones"
+msgstr "Dodaj nową kategorię obok istniejących"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.replace_main"
+msgid "Change the main category of the product"
+msgstr "Zmień główną kategorię produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.ignore"
+msgid "Ignore the change; assign a category only to new products"
+msgstr "Zignoruj zmianę; przypisz kategorię tylko nowym produktom"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy"
+msgid "If the image of a product changes in CRM"
+msgstr "Jeśli obraz produktu ulegnie zmianie w CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.append"
+msgid "Add the new image alongside the existing ones"
+msgstr "Dodaj nowy obraz obok istniejących"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.replace"
+msgid "Replace all images of the product"
+msgstr "Zastąp wszystkie zdjęcia produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.ignore"
+msgid "Ignore the change; assign an image only to new products"
+msgstr "Zignoruj zmianę i przypisz obraz tylko do nowych produktów"
+
+msgctxt "Languages::commerceml.additional_settings_title"
+msgid "Additional settings"
+msgstr "Dodatkowe ustawienia"
+
+msgctxt "Languages::commerceml.field_import_only_for_new_products"
+msgid "Import only for new products"
+msgstr "Import tylko nowych produktów"
+
+msgctxt "Languages::commerceml.dont_import"
+msgid "Don't import"
+msgstr "Nie importuj"
+
+msgctxt "Languages::commerceml.import.message.order.updated"
+msgid "Order [local_id] was updated: Products id: [products];"
+msgstr "Zamówienie [local_id] zostało zaktualizowane: Identyfikator produktu: [products];"
+
+msgctxt "Languages::commerceml.import.message.order.status_updated"
+msgid "Status for order [local_id] was updated: Old status: [old_status]; New status: [new_status];"
+msgstr "Status zamówienia [local_id] został zaktualizowany: Stary status: [old_status]; Nowy status: [new_status];"
+
+msgctxt "Languages::commerceml.import.error.order.local_order_not_found"
+msgid "Local order was not found"
+msgstr "Nie znaleziono zamówienia lokalnego"
+
+msgctxt "Languages::commerceml.import.error.order.local_product_not_found"
+msgid "Was not found local equivalent of products"
+msgstr "Nie znaleziono lokalnego odpowiednika produktów"
+
+msgctxt "Languages::commerceml.products_were_disabled_after_addon_was_activated"
+msgid "We detected some duplicate entities (products, features, etc.) loaded from your CRM. They were created by mistake when the old CommerceML add-on was replaced with the new one. For your convenience, we've changed the status of the duplicates to \"Disabled\". For example, <a href=\"[href]\">here is the list of duplicate products which you can safely delete.</a>"
+msgstr "Wykryliśmy kilka zduplikowanych encji (produktów, funkcji itp.) załadowanych z Twojego CRM. Zostały one utworzone przez pomyłkę podczas wymiany starego dodatku CommerceML na nowy. Dla Twojej wygody zmieniliśmy status duplikatów na „Wyłączone”. Na przykład, <a href=\"[href]\">to lista zduplikowanych produktów, które możesz bezpiecznie usunąć.</a>"
+
+msgctxt "Languages::commerceml.export_field_via_commerceml"
+msgid "Export via CommerceML"
+msgstr "Eksport przez CommerceML"
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml"
+msgid "Field export in the orders file in CommerceML format"
+msgstr "Eksport pól w pliku zamówień w formacie CommerceML"
+
+msgctxt "Languages::commerceml.import.order.shipment_date_status"
+msgid "Order status upon acquisition of shipment date"
+msgstr "Status zamówienia po otrzymaniu daty wysyłki"
+
+msgctxt "Languages::commerceml.import.order.payment_date_status"
+msgid "Order status upon acquisition of payment date"
+msgstr "Status zamówienia po otrzymaniu daty płatności"
+
+msgctxt "Languages::commerceml.import.order.status_mapping_information"
+msgid "By default, the order status is taken from the <b>Статус заказа</b> attribute. If it is not there, the statuses will be determined by the date of payment and shipment. If both dates exist, shipment date will have higher priority."
+msgstr "Domyślnie status zamówienia jest pobierany z atrybutu <b>Статус заказа</b> . W przeciwnym razie statusy będą ustalane na podstawie daty płatności i wysyłki. Jeśli obie daty są spełnione, data wysyłki będzie miała wyższy priorytet."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_bs"
+msgid "This is a standard field. It is always exported via CommerceML. Fields from the shipping address have priority over fields from the billing address."
+msgstr "To standardowe pole. Jest zawsze eksportowane przez CommerceML. Pola z adresu wysyłki mają pierwszeństwo przed polami z adresu rozliczeniowego."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_bs"
+msgid "Export this field via CommerceML. If you export the same field from the billing and shipping address, then shipping address takes priority."
+msgstr "Wyeksportuj to pole przez CommerceML. Jeśli eksportujesz to samo pole z adresu rozliczeniowego i adresu wysyłki, adres wysyłki ma priorytet."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_contact_info"
+msgid "This is a standard field. It is always exported via CommerceML."
+msgstr "To standardowe pole. Jest zawsze eksportowane za pomocą CommerceML."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_contact_info"
+msgid "Export this field via CommerceML."
+msgstr "Eksportuj to pole przez CommerceML."
+
+msgctxt "Languages::commerceml.connection_instructions.mve"
+msgid "<p>Here is the page where your vendors can connect their CRMs to your marketplace via CommerceML. Copy the link and share with your vendors.</p>"
+msgstr "<p>Oto strona, na której Twoi dostawcy mogą połączyć swoje systemy CRM z Twoim rynkiem za pośrednictwem CommerceML. Skopiuj link i udostępnij go swoim dostawcom.</p>"
+
+msgctxt "Languages::commerceml.connection_instructions.ult"
+msgid "To connect your CRMs to CS-Cart, go to <b>Administration → <a href=\"[href]\">Sync data</a></b> and choose <b>CommerceML Integration.</b>"
+msgstr "Aby połączyć CRM-y z CS-Cart, przejdź do <b>Administracja → <a href=\"[href]\">Synchronizuj dane</a></b> i wybierz <b>Integracja CommerceML.</b>"
+
+msgctxt "Languages::commerceml.the_file_does_not_exist"
+msgid "The file [file] does not exist."
+msgstr "Plik [plik] nie istnieje."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names"
+msgid "Names of product features"
+msgstr "Nazwy cech produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal"
+msgid "Use names from CRM in CS-Cart admin panel"
+msgstr "Użyj nazw z CRM w panelu administracyjnym CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal.tooltip"
+msgid "Internal feature names in CS-Cart will always change match those in your CRM. You can safely edit display names for the storefront."
+msgstr "Nazwy funkcji wewnętrznych w CS-Cart zawsze będą się zmieniać, dopasowując się do tych w Twoim CRM. Możesz bezpiecznie edytować nazwy wyświetlane w witrynie sklepowej."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both"
+msgid "Use names from CRM everywhere in CS-Cart"
+msgstr "Używaj nazw z CRM wszędzie w CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both.tooltip"
+msgid "Feature names in CS-Cart will change to match the names in your CRM. Any changes to feature names on the CS-Cart end will be lost."
+msgstr "Nazwy funkcji w CS-Cart zostaną zmienione, aby odpowiadały nazwom w Twoim CRM. Wszelkie zmiany nazw funkcji w CS-Cart zostaną utracone."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no"
+msgid "Do not use names from CRM"
+msgstr "Nie używaj nazw z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no.tooltip"
+msgid "Feature names will come from CRM only on first import. Subsequent changes in the CRM won't affect existing feature names in CS-Cart."
+msgstr "Nazwy funkcji będą pochodzić z CRM tylko podczas pierwszego importu. Późniejsze zmiany w CRM nie wpłyną na istniejące nazwy funkcji w CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names"
+msgid "Names of feature variants"
+msgstr "Nazwy wariantów cech"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes"
+msgid "Use names from CRM"
+msgstr "Użyj nazw z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes.tooltip"
+msgid "Feature variant names will always be updated from the CRM. Your edits will be lost on import."
+msgstr "Nazwy wariantów funkcji będą zawsze aktualizowane z CRM. Twoje zmiany zostaną utracone podczas importu."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no"
+msgid "Do not use names from CRM"
+msgstr "Nie używaj nazw z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no.tooltip"
+msgid "Feature variant names will come from CRM only on first import. Useful if you plan to change their names in CS-Cart."
+msgstr "Nazwy wariantów funkcji będą pochodzić z CRM tylko podczas pierwszego importu. Przydatne, jeśli planujesz zmienić ich nazwy w CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature.vendor_notice"
+msgid "The settings about the names of product features and their variants only affect the product features that belong to you, not to the marketplace."
+msgstr "Ustawienia dotyczące nazw cech produktu i ich wariantów dotyczą wyłącznie cech produktu, które należą do Ciebie, a nie do rynku."
+

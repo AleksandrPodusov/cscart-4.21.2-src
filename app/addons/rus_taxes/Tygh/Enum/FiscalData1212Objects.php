@@ -1,0 +1,82 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+namespace Tygh\Enum;
+
+use ReflectionClass;
+
+/**
+ * FiscalData1212Objects contains possible values for fiscal data tag 1212 objects.
+ *
+ * @package Tygh\Addons\RusTaxes\Enum
+ */
+class FiscalData1212Objects
+{
+    const COMMODITY = 1;
+    const EXCISE = 2;
+    const JOB = 3;
+    const SERVICE = 4;
+    const PAYMENT = 10;
+    const AGENT_COMMISSION = 11;
+    const PAYOUT = 12;
+    const OTHER = 13;
+    const EXCISABLE_WITH_MARKING_CODE = 31;
+    const WITH_MARKING_CODE = 33;
+
+    /**
+     * Gets list of product payment subjects tag 1212 that define marked products.
+     *
+     * @return array<int>
+     */
+    public static function getMarkedObjects()
+    {
+        return [
+            self::EXCISABLE_WITH_MARKING_CODE,
+            self::WITH_MARKING_CODE
+        ];
+    }
+
+    /**
+     * Checks whether payment subject tag 1212 is one of defining marked products.
+     *
+     * @param int|string $fiscal_data_1212 Product payment subject tag 1212
+     *
+     * @return bool
+     */
+    public static function isMarkedObject($fiscal_data_1212)
+    {
+        return in_array((int) $fiscal_data_1212, [self::EXCISABLE_WITH_MARKING_CODE, self::WITH_MARKING_CODE]);
+    }
+
+    /**
+     * Returns all possible values.
+     *
+     * @return int[]
+     */
+    public static function getAll(): array
+    {
+        $refl = new ReflectionClass(FiscalData1212Objects::class);
+        return $refl->getConstants();
+    }
+
+    /**
+     * Checks if a value exists.
+     *
+     * @param int $value Check value
+     */
+    public static function isExists(int $value): bool
+    {
+        return in_array($value, self::getAll());
+    }
+}

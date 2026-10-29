@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: /release-4.21.2/addons/full_page_cache.po\n"
+"X-Crowdin-File-ID: 10710\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::full_page_cache"
+msgid "Performance Booster"
+msgstr "성능 향상제"
+
+msgctxt "Addons::description::full_page_cache"
+msgid "Set up full-page cache powered by Varnish to speed up your site under heavy workload."
+msgstr "Varnish 기반의 전체 페이지 캐시를 설정하여 사이트 부하가 많을 때 속도를 향상시키세요."
+
+msgctxt "Languages::full_page_cache.unable_to_enable_full_page_caching"
+msgid "Unable to enable full-page caching."
+msgstr "전체 페이지 캐싱을 활성화할 수 없습니다."
+
+msgctxt "Languages::full_page_cache.unable_to_connect_to_varhish"
+msgid "Unable to connect to Varnish server. Please make sure that Varnish service is running and check the entered address and port."
+msgstr "Varnish 서버에 연결할 수 없습니다. Varnish 서비스가 실행 중인지 확인하고 입력한 주소와 포트를 확인하십시오."
+
+msgctxt "Languages::full_page_cache.error_session_auto_start_enabled"
+msgid "The \"session.auto_start\" PHP configuration option is enabled. Please, disable this option by setting \"session.auto_start = 0\" in your php.ini file."
+msgstr "PHP 설정 옵션 \"session.auto_start\"가 활성화되어 있습니다. php.ini 파일에서 \"session.auto_start = 0\"으로 설정하여 이 옵션을 비활성화하십시오."
+
+msgctxt "Languages::full_page_cache.notice_caching_was_enabled"
+msgid "Full-page caching have been successfully enabled, started and running."
+msgstr "전체 페이지 캐싱이 성공적으로 활성화, 시작 및 실행 중입니다."
+
+msgctxt "Languages::full_page_cache.warning_root_dir_not_writable"
+msgid "<strong>Performance Booster:</strong> Root directory of your site isn't writable. Couldn't create symlink to esi.php in the root directory. Please make the directory writable and activate the add-on. Alternatively, create the symlink from the root directory to app/addons/full_page_cache/esi.php manually."
+msgstr "<strong>성능 향상:</strong> 사이트의 루트 디렉토리에 쓰기 권한이 없습니다. 루트 디렉토리에 esi.php에 대한 심볼릭 링크를 생성할 수 없습니다. 디렉토리에 쓰기 권한을 부여하고 애드온을 활성화하십시오. 또는 루트 디렉토리에서 app/addons/full_page_cache/esi.php로 심볼릭 링크를 수동으로 생성하십시오."
+
+msgctxt "Languages::full_page_cache.failed_to_create_symlink"
+msgid "Failed to create symlink [file]"
+msgstr "심볼릭 링크 [파일]을 생성하는 데 실패했습니다."
+
+msgctxt "Languages::full_page_cache.notice_configure_addon"
+msgid "Before you can activate Performance Booster, you'll need to <a href=\"[url]\">configure the server and the add-on.</a>"
+msgstr ""
+
+msgctxt "Languages::full_page_cache.text_settings_general"
+msgid "This add-on will only work after proper server configuration. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Learn more about how to configure caching on your server</a>."
+msgstr "이 추가 기능은 서버 구성이 올바르게 완료된 후에만 작동합니다. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">서버에서 캐싱을 구성하는 방법에 대해 자세히 알아보세요.</a>"
+
+msgctxt "SettingsOptions::full_page_cache::varnish"
+msgid "Varnish"
+msgstr "광택"
+
+msgctxt "SettingsOptions::full_page_cache::varnish_host"
+msgid "Host"
+msgstr "주인"
+
+msgctxt "SettingsOptions::full_page_cache::common"
+msgid "Common"
+msgstr "흔한"
+

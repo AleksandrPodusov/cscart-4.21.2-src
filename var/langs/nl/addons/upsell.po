@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /release-4.21.2/addons/upsell.po\n"
+"X-Crowdin-File-ID: 10830\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::upsell"
+msgid "Upsell"
+msgstr "Upselling"
+
+msgctxt "Addons::description::upsell"
+msgid "Upsell"
+msgstr "Upselling"
+
+msgctxt "Languages::upsell.learn_more"
+msgid "Learn more ⟶"
+msgstr "Meer informatie ⟶"
+
+msgctxt "Languages::upsell.unlock"
+msgid "Unlock"
+msgstr "Ontgrendelen"
+
+msgctxt "Languages::upsell.how_to_unlock_notice"
+msgid "<b>How to unlock:</b> This feature is in another plan. To unlock it, we’ll contact the license owner through Help Desk and by email. We may also contact you at [email]."
+msgstr "<b>Hoe te ontgrendelen:</b> Deze functie is onderdeel van een ander abonnement. Om deze te ontgrendelen, nemen we contact op met de licentiehouder via de Helpdesk en per e-mail. We kunnen ook contact met u opnemen via [email]."
+
+msgctxt "Languages::upsell.message_sent"
+msgid "Message sent"
+msgstr "Bericht verzonden"
+
+msgctxt "Languages::upsell.message_sent_success"
+msgid "We’ll contact you through Help Desk and by the email of the license owner. We may also contact you by the email associated with this admin account."
+msgstr "We nemen contact met u op via de helpdesk en via het e-mailadres van de licentiehouder. Mogelijk nemen we ook contact met u op via het e-mailadres dat aan dit beheerdersaccount is gekoppeld."
+
+msgctxt "Languages::upsell.message_already_sent"
+msgid "We're already on it"
+msgstr "We zijn er al mee bezig."
+
+msgctxt "Languages::upsell.message_already_sent.notice"
+msgid "An administrator of this site has recently requested consultation about additional features. The request is already logged in the Help Desk account associated with this license. But you’re welcome to send us an email at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr ""
+
+msgctxt "Languages::upsell.message_couldnt_send"
+msgid "Couldn’t send the message"
+msgstr "Het bericht kon niet worden verzonden."
+
+msgctxt "Languages::upsell.message_couldnt_send.notice"
+msgid "Sorry, we couldn’t send your request for consultation due to some technical issues. Please try again later. If the issue persists, tell us by email what functionality you’re interested in: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "Sorry, we konden uw consultatieverzoek niet verzenden vanwege technische problemen. Probeer het later opnieuw. Als het probleem aanhoudt, kunt u ons per e-mail laten weten in welke functionaliteit u geïnteresseerd bent: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::upsell.product_videos.popup_title"
+msgid "Product videos"
+msgstr "Productvideo's"
+
+msgctxt "Languages::upsell.product_videos.popup_text"
+msgid "Enticing product videos can draw customers’ attention, make them study the product longer, and improve their general impression of your site. CS-Cart allows you to link videos from YouTube (and from other platforms) to products."
+msgstr "Aantrekkelijke productvideo's kunnen de aandacht van klanten trekken, ervoor zorgen dat ze het product langer bekijken en hun algemene indruk van uw website verbeteren. Met CS-Cart kunt u video's van YouTube (en andere platforms) aan producten koppelen."
+
+msgctxt "Languages::upsell.product_videos.product_page"
+msgid "Link videos from YouTube and other platforms to your products."
+msgstr "Koppel video's van YouTube en andere platforms aan uw producten."
+
+msgctxt "Languages::upsell.product_videos.settings"
+msgid "Affects the videos that you add to the product image gallery."
+msgstr "Dit heeft invloed op de video's die je toevoegt aan de productafbeeldingengalerij."
+
+msgctxt "Languages::upsell.warehouses.popup_title"
+msgid "Warehouses"
+msgstr "Magazijnen"
+
+msgctxt "Languages::upsell.warehouses.popup_text"
+msgid "Warehouses allow you to track inventory at multiple locations, show your customers where and when they can pick their orders, and set product availability by city, region, or country."
+msgstr "Met magazijnen kunt u de voorraad op meerdere locaties bijhouden, uw klanten laten zien waar en wanneer ze hun bestellingen kunnen afhalen en de productbeschikbaarheid instellen per stad, regio of land."
+
+msgctxt "Languages::upsell.warehouses.product_page"
+msgid "Track inventory at multiple locations with the \"Warehouses\" add-on."
+msgstr "Beheer de voorraad op meerdere locaties met de add-on \"Magazijnen\"."
+
+msgctxt "Languages::upsell.warehouses.store_locator"
+msgid "You can track inventory at this location with the \"Warehouses\" add-on."
+msgstr "Met de add-on \"Magazijnen\" kunt u de voorraad op deze locatie bijhouden."
+
+msgctxt "Languages::upsell.add_storefront.popup_title"
+msgid "Storefronts"
+msgstr "Winkelpanden"
+
+msgctxt "Languages::upsell.add_storefront.popup_text"
+msgid "Storefronts allow you to have a site that spans multiple domains. Use that to set up branches of your site for specific product groups, locations, or audiences."
+msgstr "Met Storefronts kunt u een website hebben die meerdere domeinen omvat. Gebruik dit om subdomeinen van uw website op te zetten voor specifieke productgroepen, locaties of doelgroepen."
+
+msgctxt "Languages::upsell.pwa.popup_title"
+msgid "PWA mobile app"
+msgstr "PWA mobiele app"
+
+msgctxt "Languages::upsell.pwa.popup_text"
+msgid "Give your customers a mobile app that looks and works just like your site. No development or publishing in app stores required—customers will install the app straight from your site. Even third-party add-ons and themes are supported."
+msgstr "Geef uw klanten een mobiele app die er precies hetzelfde uitziet en werkt als uw website. Ontwikkeling of publicatie in appwinkels is niet nodig: klanten installeren de app rechtstreeks vanaf uw website. Zelfs add-ons en thema's van derden worden ondersteund."
+
+msgctxt "Languages::upsell.full_page_cache.popup_title"
+msgid "Performance booster"
+msgstr "Prestatieverhoger"
+
+msgctxt "Languages::upsell.full_page_cache.popup_text"
+msgid "Make the site work faster under heavy load. Varnish full-page caching provides smoother performance when you have a large number of products, filters, and simultaneous visitors."
+msgstr "Zorg ervoor dat de website sneller werkt, zelfs onder zware belasting. Varnish full-page caching zorgt voor soepelere prestaties wanneer u een groot aantal producten, filters en gelijktijdige bezoekers hebt."
+
+msgctxt "Languages::upsell.master_products.popup_title"
+msgid "Common products for vendors"
+msgstr "Gangbare producten voor leveranciers"
+
+msgctxt "Languages::upsell.master_products.popup_text"
+msgid "Set up your product catalog—with images, descriptions, etc.—in advance. Let vendors choose which of the products they sell. Show offers from different vendors on the product page."
+msgstr "Stel uw productcatalogus vooraf samen, inclusief afbeeldingen, beschrijvingen, enz. Laat leveranciers zelf kiezen welke producten ze verkopen. Toon aanbiedingen van verschillende leveranciers op de productpagina."
+
+msgctxt "Languages::upsell.master_products.product_page"
+msgid "You can let different sellers offer this product with the \"Common products for vendors\" add-on."
+msgstr "Met de add-on \"Gemeenschappelijke producten voor verkopers\" kunt u verschillende verkopers toestaan dit product aan te bieden."
+
+msgctxt "Languages::upsell.vendor_rating.popup_title"
+msgid "Vendor rating"
+msgstr "Leveranciersbeoordeling"
+
+msgctxt "Languages::upsell.vendor_rating.popup_text"
+msgid "Incentivize the sellers in your marketplace to act in a certain way. Divide them into tiers, have them sorted by rating, and set custom rules for how that rating is calculated."
+msgstr "Stimuleer verkopers op je marktplaats om zich op een bepaalde manier te gedragen. Verdeel ze in categorieën, sorteer ze op beoordeling en stel aangepaste regels in voor hoe die beoordeling wordt berekend."
+
+msgctxt "Languages::upsell.vendor_rating.vendor_page"
+msgid "You can sort sellers by rating and set custom rating rules with the \"Vendor rating\" add-on."
+msgstr "Met de add-on \"Verkopersbeoordeling\" kunt u verkopers sorteren op beoordeling en aangepaste beoordelingsregels instellen."
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_title"
+msgid "Vendor plans: Commissions by category"
+msgstr "Leveranciersplannen: Commissies per categorie"
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_text"
+msgid "Set different transaction fees (%) that depend on a product’s main category. Encourage sellers to offer certain types of products by giving them better terms. Earn more on the categories that make the most sales."
+msgstr "Stel verschillende transactiekosten (%) in, afhankelijk van de hoofdcategorie van een product. Stimuleer verkopers om bepaalde producttypen aan te bieden door betere voorwaarden te bieden. Verdien meer aan de categorieën met de hoogste omzet."
+
+msgctxt "Languages::upsell.vendor_categories_fee.vendor_plans"
+msgid "Set a different % for each category with the \"Vendor plans: Commissions by category\" add-on."
+msgstr "Stel voor elke categorie een ander percentage in met de add-on \"Leveranciersplannen: Commissies per categorie\"."
+
+msgctxt "Languages::upsell.vendor_privileges.popup_title"
+msgid "Vendor privileges"
+msgstr "Leveranciersrechten"
+
+msgctxt "Languages::upsell.vendor_privileges.popup_text"
+msgid "Grant sellers different levels of access to their control panel, depending on their plan. Make specific functionality available in more advanced plans, or simplify sellers' control panel by removing the functionality they don't need."
+msgstr "Geef verkopers verschillende toegangsniveaus tot hun controlepaneel, afhankelijk van hun abonnement. Maak specifieke functionaliteit beschikbaar in geavanceerdere abonnementen, of vereenvoudig het controlepaneel door functionaliteit te verwijderen die verkopers niet nodig hebben."
+
+msgctxt "Languages::upsell.vendor_privileges.vendor_plans"
+msgid "You can grant sellers different levels of access to their control panel depending on their plan."
+msgstr "Afhankelijk van het gekozen abonnement kunt u verkopers verschillende toegangsniveaus tot hun controlepaneel toekennen."
+
+msgctxt "Languages::upsell.direct_payments.popup_title"
+msgid "Direct customer-to-vendor payments"
+msgstr "Directe betalingen van klant aan leverancier"
+
+msgctxt "Languages::upsell.direct_payments.popup_text"
+msgid "Save time and effort on distributing money between vendors. Let your customers pay directly to vendors. It then becomes a vendor’s responsibility to pay the marketplace. This also allows vendors to run their own promotions."
+msgstr "Bespaar tijd en moeite bij het verdelen van geld tussen verkopers. Laat uw klanten rechtstreeks aan de verkopers betalen. Het is dan de verantwoordelijkheid van de verkoper om de marktplaats te betalen. Dit geeft verkopers ook de mogelijkheid om hun eigen promoties te organiseren."
+
+msgctxt "Languages::upsell.direct_payments.payment_methods"
+msgid "Let sellers set up their own payment methods with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Laat verkopers hun eigen betaalmethoden instellen met de add-on \"Directe betalingen van klant naar verkoper\"."
+
+msgctxt "Languages::upsell.direct_payments.promotions"
+msgid "Let sellers run their own promotions with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Laat verkopers hun eigen promoties uitvoeren met de add-on \"Directe betalingen van klant aan verkoper\"."
+
+msgctxt "Languages::upsell.order_fulfillment.popup_title"
+msgid "Order fulfillment by marketplace"
+msgstr "Orderafhandeling via marktplaats"
+
+msgctxt "Languages::upsell.order_fulfillment.popup_text"
+msgid "Let customers select a single shipping method and charge them for shipping only once, even if multiple sellers are involved."
+msgstr "Laat klanten één verzendmethode kiezen en breng de verzendkosten slechts één keer in rekening, zelfs als er meerdere verkopers bij betrokken zijn."
+
+msgctxt "Languages::upsell.order_fulfillment.shipping_methods"
+msgid "Charge for shipping from multiple sellers just once with the \"Order fulfillment by marketplace\" add-on."
+msgstr "Bereken de verzendkosten voor meerdere verkopers slechts één keer met de add-on \"Order fulfillment by marketplace\"."
+
+msgctxt "Languages::upsell.payments_by_country.popup_title"
+msgid "Payments by country"
+msgstr "Betalingen per land"
+
+msgctxt "Languages::upsell.payments_by_country.popup_text"
+msgid "Get more control as you scale your business. Make a payment method exclusive to a certain country, or hide it in one or a few specific countries with the \"Payments by country\" add-on."
+msgstr "Krijg meer controle naarmate uw bedrijf groeit. Maak een betaalmethode exclusief voor een bepaald land, of verberg deze in één of enkele specifieke landen met de add-on \"Betalingen per land\"."
+
+msgctxt "Languages::upsell.payments_by_country.payment_methods"
+msgid "Configure payment method availability in certain countries with the \"Payments by country\" add-on."
+msgstr "Configureer de beschikbaarheid van betaalmethoden in bepaalde landen met de add-on \"Betalingen per land\"."
+
+msgctxt "Languages::upsell.llms.promo_text"
+msgid "Tell AI assistants like ChatGPT what's most important on your website. The llms.txt file helps you get more accurate and relevant summaries in AI-powered search, driving better-informed traffic to your store and its key products."
+msgstr "Vertel AI-assistenten zoals ChatGPT wat het belangrijkst is op je website. Het bestand llms.txt helpt je om nauwkeurigere en relevantere samenvattingen te krijgen in AI-gestuurde zoekresultaten, waardoor je beter geïnformeerde bezoekers naar je webwinkel en de belangrijkste producten trekt."
+

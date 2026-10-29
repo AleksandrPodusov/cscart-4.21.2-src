@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: /release-4.21.2/addons/upsell.po\n"
+"X-Crowdin-File-ID: 10830\n"
+"PO-Revision-Date: 2026-09-21 11:54\n"
+
+msgctxt "Addons::name::upsell"
+msgid "Upsell"
+msgstr "Vânzare suplimentară"
+
+msgctxt "Addons::description::upsell"
+msgid "Upsell"
+msgstr "Vânzare suplimentară"
+
+msgctxt "Languages::upsell.learn_more"
+msgid "Learn more ⟶"
+msgstr "Află mai multe ⟶"
+
+msgctxt "Languages::upsell.unlock"
+msgid "Unlock"
+msgstr "Deblocare"
+
+msgctxt "Languages::upsell.how_to_unlock_notice"
+msgid "<b>How to unlock:</b> This feature is in another plan. To unlock it, we’ll contact the license owner through Help Desk and by email. We may also contact you at [email]."
+msgstr "<b>Cum se deblochează:</b> Această funcție este inclusă într-un alt plan. Pentru a o debloca, vom contacta proprietarul licenței prin intermediul serviciului de asistență și prin e-mail. De asemenea, vă putem contacta la adresa [email]."
+
+msgctxt "Languages::upsell.message_sent"
+msgid "Message sent"
+msgstr "Mesaj trimis"
+
+msgctxt "Languages::upsell.message_sent_success"
+msgid "We’ll contact you through Help Desk and by the email of the license owner. We may also contact you by the email associated with this admin account."
+msgstr "Vă vom contacta prin intermediul Biroului de asistență și prin adresa de e-mail a proprietarului licenței. De asemenea, vă putem contacta prin adresa de e-mail asociată acestui cont de administrator."
+
+msgctxt "Languages::upsell.message_already_sent"
+msgid "We're already on it"
+msgstr "Suntem deja pe drumul ăsta"
+
+msgctxt "Languages::upsell.message_already_sent.notice"
+msgid "An administrator of this site has recently requested consultation about additional features. The request is already logged in the Help Desk account associated with this license. But you’re welcome to send us an email at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "Un administrator al acestui site a solicitat recent o consultație despre funcții suplimentare. Cererea este deja înregistrată în contul de asistență asociat acestei licențe. Vă rugăm să ne trimiteți un e-mail la adresa <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::upsell.message_couldnt_send"
+msgid "Couldn’t send the message"
+msgstr "Nu s-a putut trimite mesajul"
+
+msgctxt "Languages::upsell.message_couldnt_send.notice"
+msgid "Sorry, we couldn’t send your request for consultation due to some technical issues. Please try again later. If the issue persists, tell us by email what functionality you’re interested in: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "Ne pare rău, dar nu am putut trimite solicitarea dvs. de consultanță din cauza unor probleme tehnice. Vă rugăm să încercați din nou mai târziu. Dacă problema persistă, spuneți-ne prin e-mail ce funcționalitate vă interesează: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::upsell.product_videos.popup_title"
+msgid "Product videos"
+msgstr "Videoclipuri despre produse"
+
+msgctxt "Languages::upsell.product_videos.popup_text"
+msgid "Enticing product videos can draw customers’ attention, make them study the product longer, and improve their general impression of your site. CS-Cart allows you to link videos from YouTube (and from other platforms) to products."
+msgstr "Videoclipurile atrăgătoare cu produse pot atrage atenția clienților, îi pot face să studieze produsul mai mult timp și le pot îmbunătăți impresia generală despre site-ul dvs. CS-Cart vă permite să conectați videoclipuri de pe YouTube (și de pe alte platforme) la produse."
+
+msgctxt "Languages::upsell.product_videos.product_page"
+msgid "Link videos from YouTube and other platforms to your products."
+msgstr "Conectați videoclipuri de pe YouTube și alte platforme la produsele dvs."
+
+msgctxt "Languages::upsell.product_videos.settings"
+msgid "Affects the videos that you add to the product image gallery."
+msgstr "Afectează videoclipurile pe care le adăugați la galeria de imagini cu produse."
+
+msgctxt "Languages::upsell.warehouses.popup_title"
+msgid "Warehouses"
+msgstr "Depozite"
+
+msgctxt "Languages::upsell.warehouses.popup_text"
+msgid "Warehouses allow you to track inventory at multiple locations, show your customers where and when they can pick their orders, and set product availability by city, region, or country."
+msgstr "Depozitele vă permit să urmăriți stocurile în mai multe locații, să le arătați clienților unde și când își pot ridica comenzile și să setați disponibilitatea produselor în funcție de oraș, regiune sau țară."
+
+msgctxt "Languages::upsell.warehouses.product_page"
+msgid "Track inventory at multiple locations with the \"Warehouses\" add-on."
+msgstr "Urmăriți inventarul din mai multe locații cu ajutorul extensiei „Depozite”."
+
+msgctxt "Languages::upsell.warehouses.store_locator"
+msgid "You can track inventory at this location with the \"Warehouses\" add-on."
+msgstr "Puteți urmări stocul din această locație cu ajutorul extensiei „Depozite”."
+
+msgctxt "Languages::upsell.add_storefront.popup_title"
+msgid "Storefronts"
+msgstr "Vitrine"
+
+msgctxt "Languages::upsell.add_storefront.popup_text"
+msgid "Storefronts allow you to have a site that spans multiple domains. Use that to set up branches of your site for specific product groups, locations, or audiences."
+msgstr "Vitrinele virtuale vă permit să aveți un site care se întinde pe mai multe domenii. Folosiți-le pentru a configura ramificații ale site-ului dvs. pentru anumite grupuri de produse, locații sau audiențe."
+
+msgctxt "Languages::upsell.pwa.popup_title"
+msgid "PWA mobile app"
+msgstr "Aplicația mobilă PWA"
+
+msgctxt "Languages::upsell.pwa.popup_text"
+msgid "Give your customers a mobile app that looks and works just like your site. No development or publishing in app stores required—customers will install the app straight from your site. Even third-party add-ons and themes are supported."
+msgstr "Oferiți-le clienților dvs. o aplicație mobilă care arată și funcționează exact ca site-ul dvs. Nu este necesară dezvoltarea sau publicarea în magazinele de aplicații - clienții vor instala aplicația direct de pe site-ul dvs. Sunt acceptate chiar și suplimente și teme de la terți."
+
+msgctxt "Languages::upsell.full_page_cache.popup_title"
+msgid "Performance booster"
+msgstr "Stimulent de performanță"
+
+msgctxt "Languages::upsell.full_page_cache.popup_text"
+msgid "Make the site work faster under heavy load. Varnish full-page caching provides smoother performance when you have a large number of products, filters, and simultaneous visitors."
+msgstr "Faceți site-ul să funcționeze mai rapid sub sarcină intensă. Cache-ul complet al paginii Varnish oferă performanțe mai fluide atunci când aveți un număr mare de produse, filtre și vizitatori simultani."
+
+msgctxt "Languages::upsell.master_products.popup_title"
+msgid "Common products for vendors"
+msgstr "Produse comune pentru furnizori"
+
+msgctxt "Languages::upsell.master_products.popup_text"
+msgid "Set up your product catalog—with images, descriptions, etc.—in advance. Let vendors choose which of the products they sell. Show offers from different vendors on the product page."
+msgstr "Configurați-vă catalogul de produse - cu imagini, descrieri etc. - în avans. Lăsați vânzătorii să aleagă produsele pe care le vând. Afișați oferte de la diferiți vânzători pe pagina produsului."
+
+msgctxt "Languages::upsell.master_products.product_page"
+msgid "You can let different sellers offer this product with the \"Common products for vendors\" add-on."
+msgstr "Puteți permite diferiților vânzători să ofere acest produs cu ajutorul extensiei „Produse comune pentru vânzători”."
+
+msgctxt "Languages::upsell.vendor_rating.popup_title"
+msgid "Vendor rating"
+msgstr "Evaluarea furnizorului"
+
+msgctxt "Languages::upsell.vendor_rating.popup_text"
+msgid "Incentivize the sellers in your marketplace to act in a certain way. Divide them into tiers, have them sorted by rating, and set custom rules for how that rating is calculated."
+msgstr "Incentivați vânzătorii din piața dvs. să acționeze într-un anumit fel. Împărțiți-i în niveluri, sortați-i după rating și setați reguli personalizate pentru modul în care este calculat ratingul respectiv."
+
+msgctxt "Languages::upsell.vendor_rating.vendor_page"
+msgid "You can sort sellers by rating and set custom rating rules with the \"Vendor rating\" add-on."
+msgstr "Puteți sorta vânzătorii după evaluare și puteți seta reguli de evaluare personalizate cu ajutorul extensiei „Evaluare furnizor”."
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_title"
+msgid "Vendor plans: Commissions by category"
+msgstr "Planuri pentru furnizori: Comisioane pe categorii"
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_text"
+msgid "Set different transaction fees (%) that depend on a product’s main category. Encourage sellers to offer certain types of products by giving them better terms. Earn more on the categories that make the most sales."
+msgstr "Setați diferite comisioane de tranzacție (%) care depind de categoria principală a unui produs. Încurajați vânzătorii să ofere anumite tipuri de produse oferindu-le condiții mai avantajoase. Câștigați mai mult din categoriile care generează cele mai multe vânzări."
+
+msgctxt "Languages::upsell.vendor_categories_fee.vendor_plans"
+msgid "Set a different % for each category with the \"Vendor plans: Commissions by category\" add-on."
+msgstr "Setați un procent diferit pentru fiecare categorie cu ajutorul extensiei „Planuri furnizor: Comisioane pe categorie”."
+
+msgctxt "Languages::upsell.vendor_privileges.popup_title"
+msgid "Vendor privileges"
+msgstr "Privilegii furnizorului"
+
+msgctxt "Languages::upsell.vendor_privileges.popup_text"
+msgid "Grant sellers different levels of access to their control panel, depending on their plan. Make specific functionality available in more advanced plans, or simplify sellers' control panel by removing the functionality they don't need."
+msgstr "Acordați vânzătorilor diferite niveluri de acces la panoul lor de control, în funcție de abonamentul lor. Faceți disponibile anumite funcționalități în abonamente mai avansate sau simplificați panoul de control al vânzătorilor eliminând funcționalitățile de care nu au nevoie."
+
+msgctxt "Languages::upsell.vendor_privileges.vendor_plans"
+msgid "You can grant sellers different levels of access to their control panel depending on their plan."
+msgstr "Puteți acorda vânzătorilor diferite niveluri de acces la panoul lor de control, în funcție de abonamentul lor."
+
+msgctxt "Languages::upsell.direct_payments.popup_title"
+msgid "Direct customer-to-vendor payments"
+msgstr "Plăți directe de la client la furnizor"
+
+msgctxt "Languages::upsell.direct_payments.popup_text"
+msgid "Save time and effort on distributing money between vendors. Let your customers pay directly to vendors. It then becomes a vendor’s responsibility to pay the marketplace. This also allows vendors to run their own promotions."
+msgstr "Economisiți timp și efort la distribuirea banilor între furnizori. Permiteți clienților dvs. să plătească direct furnizorilor. Apoi, devine responsabilitatea furnizorului să plătească piața online. Acest lucru permite, de asemenea, furnizorilor să își organizeze propriile promoții."
+
+msgctxt "Languages::upsell.direct_payments.payment_methods"
+msgid "Let sellers set up their own payment methods with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Permiteți vânzătorilor să își configureze propriile metode de plată cu ajutorul extensiei „Plăți directe de la client la furnizor”."
+
+msgctxt "Languages::upsell.direct_payments.promotions"
+msgid "Let sellers run their own promotions with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Permiteți vânzătorilor să își organizeze propriile promoții cu ajutorul extensiei „Plăți directe de la client la furnizor”."
+
+msgctxt "Languages::upsell.order_fulfillment.popup_title"
+msgid "Order fulfillment by marketplace"
+msgstr "Executarea comenzilor prin intermediul marketplace-ului"
+
+msgctxt "Languages::upsell.order_fulfillment.popup_text"
+msgid "Let customers select a single shipping method and charge them for shipping only once, even if multiple sellers are involved."
+msgstr "Permiteți clienților să selecteze o singură metodă de livrare și să le facturați costul transportului o singură dată, chiar dacă sunt implicați mai mulți vânzători."
+
+msgctxt "Languages::upsell.order_fulfillment.shipping_methods"
+msgid "Charge for shipping from multiple sellers just once with the \"Order fulfillment by marketplace\" add-on."
+msgstr "Facturați o singură dată pentru livrarea de la mai mulți vânzători cu ajutorul extensiei „Onorarea comenzii de către marketplace”."
+
+msgctxt "Languages::upsell.payments_by_country.popup_title"
+msgid "Payments by country"
+msgstr "Plăți pe țări"
+
+msgctxt "Languages::upsell.payments_by_country.popup_text"
+msgid "Get more control as you scale your business. Make a payment method exclusive to a certain country, or hide it in one or a few specific countries with the \"Payments by country\" add-on."
+msgstr "Obțineți mai mult control pe măsură ce vă extindeți afacerea. Faceți o metodă de plată exclusivă pentru o anumită țară sau ascundeți-o într-una sau câteva țări specifice cu ajutorul extensiei „Plăți în funcție de țară”."
+
+msgctxt "Languages::upsell.payments_by_country.payment_methods"
+msgid "Configure payment method availability in certain countries with the \"Payments by country\" add-on."
+msgstr "Configurați disponibilitatea metodei de plată în anumite țări cu ajutorul extensiei „Plăți în funcție de țară”."
+
+msgctxt "Languages::upsell.llms.promo_text"
+msgid "Tell AI assistants like ChatGPT what's most important on your website. The llms.txt file helps you get more accurate and relevant summaries in AI-powered search, driving better-informed traffic to your store and its key products."
+msgstr "Spune-le asistenților inteligenți artificiali, precum ChatGPT, ce este cel mai important pe site-ul tău web. Fișierul llms.txt te ajută să obții rezumate mai precise și mai relevante în căutarea bazată pe inteligență artificială, direcționând trafic mai bine informat către magazinul tău și produsele sale cheie."
+

@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /release-4.21.2/addons/commerceml.po\n"
+"X-Crowdin-File-ID: 10688\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::commerceml"
+msgid "CommerceML Integration"
+msgstr "Integrace CommerceML"
+
+msgctxt "Addons::description::commerceml"
+msgid "Allows you to import products from and export orders to CRMs that support CommerceML."
+msgstr "Umožňuje importovat produkty a exportovat objednávky do CRM systémů, které podporují CommerceML."
+
+msgctxt "Languages::commerceml.map.no_available_data.marketplace"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the marketplace."
+msgstr "Nejsou k dispozici žádná data. Obvykle se zde zobrazí po úspěšném propojení CRM s online trhem."
+
+msgctxt "Languages::commerceml.map.no_available_data.store"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the store."
+msgstr "Nejsou k dispozici žádná data. Obvykle se zde zobrazí po úspěšném propojení CRM s obchodem."
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode"
+msgid "Import strategy"
+msgstr "Strategie importu"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.all"
+msgid "Import all products"
+msgstr "Importovat všechny produkty"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_new"
+msgid "Create new products only"
+msgstr "Vytvářejte pouze nové produkty"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_existing"
+msgid "Update existing products only"
+msgstr "Aktualizovat pouze stávající produkty"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.none"
+msgid "Don't import anything"
+msgstr "Nic neimportovat"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_offers"
+msgid "Import product offers"
+msgstr "Nabídky importovaných produktů"
+
+msgctxt "Languages::commerceml.cml_catalog_hide_out_of_stock_products"
+msgid "Hide out-of-stock products"
+msgstr "Skrýt produkty, které nejsou skladem"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_categories"
+msgid "Import categories"
+msgstr "Importovat kategorie"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_features"
+msgid "Import features"
+msgstr "Import funkcí"
+
+msgctxt "Languages::commerceml.cml_catalog_import_images_as_additional"
+msgid "Import images as additional ones"
+msgstr "Importovat obrázky jako další"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status"
+msgid "Status for new products"
+msgstr "Stav nových produktů"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.a"
+msgid "Active"
+msgstr "Aktivní"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.h"
+msgid "Hidden"
+msgstr "Skrytý"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.d"
+msgid "Disabled"
+msgstr "Zakázáno"
+
+msgctxt "Languages::commerceml.cml_default_lang"
+msgid "Content language in CRM"
+msgstr "Jazyk obsahu v CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id"
+msgid "Default category"
+msgstr "Výchozí kategorie"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id.tooltip"
+msgid "Products that don't have any other category will be imported here."
+msgstr "Produkty, které nemají žádnou jinou kategorii, budou importovány sem."
+
+msgctxt "Languages::commerceml.cml_catalog_use_taxes"
+msgid "Add tax to products"
+msgstr "Přidat daň k produktům"
+
+msgctxt "Languages::commerceml.main_information"
+msgid "Main information"
+msgstr "Hlavní informace"
+
+msgctxt "Languages::commerceml.field_in_marketplace"
+msgid "Field in the marketplace"
+msgstr "Pole na tržišti"
+
+msgctxt "Languages::commerceml.field_in_store"
+msgid "Field in the store"
+msgstr "Pole v obchodě"
+
+msgctxt "Languages::commerceml.field_in_crm"
+msgid "Field in CRM"
+msgstr "Pole v CRM"
+
+msgctxt "Languages::commerceml.fields_in_crm"
+msgid "Field(s) in CRM"
+msgstr "Pole(a) v CRM"
+
+msgctxt "Languages::commerceml.custom_field_name"
+msgid "Custom field name"
+msgstr "Název vlastního pole"
+
+msgctxt "Languages::commerceml.show_as_product_feature"
+msgid "Show as a product feature"
+msgstr "Zobrazit jako funkci produktu"
+
+msgctxt "Languages::commerceml.automatic_matching_title"
+msgid "Automatic matching"
+msgstr "Automatické přiřazování"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_category_by_name"
+msgid "Match categories by name"
+msgstr "Přiřazování kategorií podle názvu"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_product_by_product_code"
+msgid "Match products by product code"
+msgstr "Přiřaďte produkty podle kódu produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source"
+msgid "Product name"
+msgstr "Název produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.name"
+msgid "Name"
+msgstr "Jméno"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.full_name"
+msgid "Full name"
+msgstr "Celé jméno"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source"
+msgid "Product code"
+msgstr "Kód produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.article"
+msgid "SKU"
+msgstr "SKU"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.code"
+msgid "Item number"
+msgstr "Číslo položky"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.bar"
+msgid "Bar code"
+msgstr "Čárový kód"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source"
+msgid "Full description"
+msgstr "Úplný popis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.none"
+msgid "Do not import"
+msgstr "Neimportovat"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.description"
+msgid "Description"
+msgstr "Popis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.html_description"
+msgid "File description"
+msgstr "Popis souboru"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.full_name"
+msgid "Full name"
+msgstr "Celé jméno"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source"
+msgid "Short description"
+msgstr "Stručný popis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.none"
+msgid "Do not import"
+msgstr "Neimportovat"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.description"
+msgid "Description"
+msgstr "Popis"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.html_description"
+msgid "File description"
+msgstr "Popis souboru"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.full_name"
+msgid "Full name"
+msgstr "Celé jméno"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from"
+msgid "Names of product variations"
+msgstr "Názvy variant produktů"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.tooltip"
+msgid "Determines where product variations will get their names during import. After the import, you'll be able to edit their names in CS-Cart as you see fit."
+msgstr "Určuje, kde budou varianty produktů během importu pojmenovány. Po importu budete moci jejich názvy v CS-Cartu upravit dle libosti."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically"
+msgid "Choose automatically"
+msgstr "Vybrat automaticky"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically.tooltip"
+msgid "If any of a product's variations are \"separate products\", then all variations of that product will use unique names from offers.xml"
+msgstr "Pokud jsou některé z variant produktu „samostatnými produkty“, pak všechny varianty daného produktu budou používat jedinečné názvy ze souboru offers.xml."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import"
+msgid "Use catalog names"
+msgstr "Používejte názvy katalogů"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import.tooltip"
+msgid "All variations of a product will use their common catalog name from import.xml"
+msgstr "Všechny varianty produktu budou používat svůj společný katalogový název ze souboru import.xml."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers"
+msgid "Use offer names"
+msgstr "Používejte názvy nabídek"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers.tooltip"
+msgid "All variations of a product will use their unique offer names from offers.xml"
+msgstr "Všechny varianty produktu budou používat své jedinečné názvy nabídek ze souboru offers.xml."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source"
+msgid "Page title (SEO)"
+msgstr "Název stránky (SEO)"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.none"
+msgid "Do not import"
+msgstr "Neimportovat"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.name"
+msgid "Name"
+msgstr "Jméno"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.full_name"
+msgid "Full name"
+msgstr "Celé jméno"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source.custom_field"
+msgid "Custom field"
+msgstr "Vlastní pole"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source"
+msgid "Promo text (field in CRM)"
+msgstr "Propagační text (pole v CRM)"
+
+msgctxt "Languages::commerceml.shipping_information"
+msgid "Shipping information"
+msgstr "Informace o dopravě"
+
+msgctxt "Languages::commerceml.shipping_information_info_block"
+msgid "If your CRM has fields with the same information as product shipping properties in the store, then you can import values from those fields. You can enter multiple fields (each in new line). In that case, the value of the latest found field will be used."
+msgstr "Pokud váš CRM obsahuje pole se stejnými informacemi jako vlastnosti dopravy produktu v obchodě, můžete importovat hodnoty z těchto polí. Můžete zadat více polí (každé na nový řádek). V takovém případě bude použita hodnota posledního nalezeného pole."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_weight_property_source_list"
+msgid "Weight"
+msgstr "Hmotnost"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list"
+msgid "Free shipping"
+msgstr "Doprava zdarma"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list.tooltip"
+msgid "Value of the field in CRM must be \"true\" or \"false\""
+msgstr "Hodnota pole v CRM musí být „true“ nebo „false“."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_shipping_cost_property_source_list"
+msgid "Shipping cost"
+msgstr "Náklady na dopravu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_number_of_items_property_source_list"
+msgid "Items in a box"
+msgstr "Položky v krabici"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_length_property_source_list"
+msgid "Box length"
+msgstr "Délka krabice"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_width_property_source_list"
+msgid "Box width"
+msgstr "Šířka krabice"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_height_property_source_list"
+msgid "Box height"
+msgstr "Výška krabice"
+
+msgctxt "Languages::commerceml.orders_export"
+msgid "Orders export"
+msgstr "Export objednávek"
+
+msgctxt "Languages::commerceml.orders_import"
+msgid "Orders import"
+msgstr "Import objednávek"
+
+msgctxt "Languages::commerceml.cml_order_export_strategy"
+msgid "Export strategy"
+msgstr "Exportní strategie"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.a"
+msgid "Export all orders"
+msgstr "Exportovat všechny objednávky"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.n"
+msgid "Export new orders and changes to existing orders only"
+msgstr "Exportovat pouze nové objednávky a změny stávajících objednávek"
+
+msgctxt "Languages::commerceml.product_features"
+msgid "Product features"
+msgstr "Vlastnosti produktu"
+
+msgctxt "Languages::commerceml.product_features_info_block"
+msgid "Write each CRM field in a new line."
+msgstr "Každé pole CRM pište na nový řádek."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_blocklist"
+msgid "Don't import these CRM fields as product features"
+msgstr "Neimportujte tato pole CRM jako funkce produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_allowlist"
+msgid "Import only these CRM fields as product features"
+msgstr "Importovat pouze tato pole CRM jako funkce produktu"
+
+msgctxt "Languages::commerceml.never"
+msgid "Never"
+msgstr "Nikdy"
+
+msgctxt "Languages::commerceml.last_status.X"
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgctxt "Languages::commerceml.last_status.S"
+msgid "Success"
+msgstr "Úspěch"
+
+msgctxt "Languages::commerceml.last_status.P"
+msgid "In progress"
+msgstr "Probíhá"
+
+msgctxt "Languages::commerceml.last_status.F"
+msgid "Failure"
+msgstr "Selhání"
+
+msgctxt "Languages::commerceml.last_status.N"
+msgid "New"
+msgstr "Nový"
+
+msgctxt "Languages::privilege_groups.commerceml"
+msgid "CommerceML"
+msgstr "CommerceML"
+
+msgctxt "Languages::commerceml.step_1_title"
+msgid "Step 1: Connect your CRM"
+msgstr "Krok 1: Propojte svůj CRM"
+
+msgctxt "Languages::commerceml.step_1_instruction.marketplace"
+msgid "<p>Make sure that your CRM sends files to the marketplace. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the marketplace receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Ujistěte se, že váš CRM odesílá soubory na tržiště. Můžete se připojit k 1C nebo jakémukoli jinému CRM, které podporuje CommerceML.</p><p>Toto políčko zaškrtneme, jakmile tržiště obdrží a zpracuje první soubor z vašeho CRM. Zde jsou pokyny, jak můžete připojit svůj CRM:</p>"
+
+msgctxt "Languages::commerceml.step_1_instruction.store"
+msgid "<p>Make sure that your CRM sends files to the store. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the store receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Ujistěte se, že váš CRM odesílá soubory do obchodu. Můžete se připojit k 1C nebo jakémukoli jinému CRM, které podporuje CommerceML.</p><p>Toto políčko zaškrtneme, jakmile obchod obdrží a zpracuje první soubor z vašeho CRM. Zde jsou pokyny, jak můžete připojit svůj CRM:</p>"
+
+msgctxt "Languages::commerceml.step_1_links"
+msgid "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Trade Management</a>"
+msgstr "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Řízení obchodu</a>"
+
+msgctxt "Languages::commerceml.step_2_title"
+msgid "Step 2: Set the data exchange rules"
+msgstr "Krok 2: Nastavení pravidel pro výměnu dat"
+
+msgctxt "Languages::commerceml.step_2_instruction.marketplace"
+msgid "<p>Before importing anything, the marketplace checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the marketplace, you'll be able to import it.</p>"
+msgstr "<p>Před importem čehokoli tržiště zkontroluje obsah vašeho CRM souboru. Vy se rozhodnete, jaká data použijete a jak je použijete. Jakmile nastavíte pravidla pro porovnávání dat z vašeho souboru s daty na tržišti, budete je moci importovat.</p>"
+
+msgctxt "Languages::commerceml.step_2_instruction.store"
+msgid "<p>Before importing anything, the store checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the store, you'll be able to import it.</p>"
+msgstr "<p>Před importem čehokoli obchod zkontroluje obsah vašeho CRM souboru. Vy se rozhodnete, jaká data použijete a jak je použijete. Jakmile nastavíte pravidla pro porovnávání dat z vašeho souboru s daty v obchodě, budete je moci importovat.</p>"
+
+msgctxt "Languages::commerceml.step_2_specify_matches"
+msgid "Please specify the matches for:"
+msgstr "Prosím, uveďte shody pro:"
+
+msgctxt "Languages::commerceml.step_3_title"
+msgid "Step 3: Synchronize the data"
+msgstr "Krok 3: Synchronizace dat"
+
+msgctxt "Languages::commerceml.step_3_instruction.marketplace"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the marketplace successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Jakmile nastavíte pravidla, lze data importovat. Spusťte import z vašeho CRM. Toto políčko zaškrtneme, jakmile tržiště úspěšně obdrží data. Pokud se vyskytnou nějaké problémy, upozorníme vás zde.</p>"
+
+msgctxt "Languages::commerceml.step_3_instruction.store"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the store successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Jakmile nastavíte pravidla, lze data importovat. Spusťte import z vašeho CRM. Toto políčko zaškrtneme, jakmile obchod úspěšně přijme data. Pokud se vyskytnou nějaké problémy, upozorníme vás zde.</p>"
+
+msgctxt "Languages::commerceml.last_successful_sync"
+msgid "Last successful sync"
+msgstr "Poslední úspěšná synchronizace"
+
+msgctxt "Languages::commerceml.view_log"
+msgid "View log"
+msgstr "Zobrazit protokol"
+
+msgctxt "Languages::commerceml.no_match"
+msgid "No match specified yet!"
+msgstr "Zatím nebyla zadána žádná shoda!"
+
+msgctxt "Languages::commerceml.done"
+msgid "Done!"
+msgstr "Hotovo!"
+
+msgctxt "Languages::commerceml.marketplace"
+msgid "marketplace"
+msgstr "tržiště"
+
+msgctxt "Languages::commerceml.store"
+msgid "store"
+msgstr "obchod"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee"
+msgid "Export shipping fee"
+msgstr "Poplatek za exportní dopravu"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee.tooltip"
+msgid "Orders will have shipping fee as a separate product"
+msgstr "Poštovné u objednávek bude účtováno jako samostatný produkt."
+
+msgctxt "Languages::commerceml.cml_order_export_product_options"
+msgid "Export product options"
+msgstr "Možnosti exportu produktů"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options.tooltip"
+msgid "Export order with product options"
+msgstr "Exportní objednávka s možnostmi produktu"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses.tooltip"
+msgid "Export order statuses in CommerceML format"
+msgstr "Export stavů objednávek ve formátu CommerceML"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id"
+msgid "Start export from Order #"
+msgstr "Zahájit export od objednávky č."
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id.tooltip"
+msgid "Leave empty to export all orders"
+msgstr "Pro export všech objednávek nechte prázdné"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses"
+msgid "Export order statuses"
+msgstr "Stavy exportních objednávek"
+
+msgctxt "Languages::commerceml.cml_order_statuses_filter"
+msgid "Order statuses"
+msgstr "Stavy objednávek"
+
+msgctxt "Languages::commerceml.cml_orders_import_changes"
+msgid "Import changes to orders"
+msgstr "Importovat změny do objednávek"
+
+msgctxt "Languages::commerceml.map.entity_name"
+msgid "External name"
+msgstr "Externí název"
+
+msgctxt "Languages::commerceml.map.entity_id"
+msgid "External ID"
+msgstr "Externí ID"
+
+msgctxt "Languages::commerceml.map.local_id"
+msgid "Local ID"
+msgstr "Místní identifikační číslo"
+
+msgctxt "Languages::commerceml.tab.currency"
+msgid "Currencies"
+msgstr "Měny"
+
+msgctxt "Languages::commerceml.tab.general"
+msgid "General"
+msgstr "Generál"
+
+msgctxt "Languages::commerceml.tab.catalog"
+msgid "Catalog"
+msgstr "Katalog"
+
+msgctxt "Languages::commerceml.tab.products"
+msgid "Products"
+msgstr "Produkty"
+
+msgctxt "Languages::commerceml.tab.orders"
+msgid "Orders"
+msgstr "Objednávky"
+
+msgctxt "Languages::commerceml.tab.price_type"
+msgid "Prices"
+msgstr "Ceny"
+
+msgctxt "Languages::commerceml.tab.tax"
+msgid "Taxes"
+msgstr "Daně"
+
+msgctxt "Languages::commerceml.tab.category"
+msgid "Categories"
+msgstr "Kategorie"
+
+msgctxt "Languages::commerceml.tab.product_feature"
+msgid "Product features"
+msgstr "Vlastnosti produktu"
+
+msgctxt "Languages::commerceml.variation_default_product_feature_name"
+msgid "Variant"
+msgstr "Varianta"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "Základní cena"
+
+msgctxt "Languages::commerceml.import.error.product_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only new products are imported"
+msgstr "Přeskakování produktu [id]; důvod: importují se pouze nové produkty"
+
+msgctxt "Languages::commerceml.import.error.product_not_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only the changes to existing products are imported"
+msgstr "Přeskakování produktu [id]; důvod: importují se pouze změny existujících produktů"
+
+msgctxt "Languages::commerceml.import.error.product.caregory_not_found"
+msgid "Couldn't find category [id]"
+msgstr "Nepodařilo se najít kategorii [id]"
+
+msgctxt "Languages::commerceml.import.message.product.default_category_used"
+msgid "Couldn't find category [id]; default category [local_id] used instead"
+msgstr "Nepodařilo se najít kategorii [id]; místo ní byla použita výchozí kategorie [local_id]."
+
+msgctxt "Languages::commerceml.import.message.product.no_categories_default_category_used"
+msgid "Product [product_id] does not have categories; default category [local_id] used instead"
+msgstr "Produkt [product_id] nemá kategorie; místo nich je použita výchozí kategorie [local_id]."
+
+msgctxt "Languages::commerceml.import.message.product.created"
+msgid "Product [id] created; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Produkt [id] vytvořen; lokální ID: [local_id], cena: [price], množství: [money]"
+
+msgctxt "Languages::commerceml.import.message.product.updated"
+msgid "Product [id] updated; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Produkt [id] aktualizován; lokální ID: [local_id], cena: [price], množství: [mount]"
+
+msgctxt "Languages::commerceml.import.message.product.deleted"
+msgid "Product [id] deleted; local ID: [local_id]"
+msgstr "Produkt [id] smazán; lokální ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.not_import_deleted"
+msgid "Couldn't import product [id]; reason: product marked as deleted"
+msgstr "Nepodařilo se importovat produkt [id]; důvod: produkt označen jako smazaný"
+
+msgctxt "Languages::commerceml.import.message.product.marked_as_removed"
+msgid "Couldn't import product [id]; reason: product was deleted earlier"
+msgstr "Nepodařilo se importovat produkt [id]; důvod: produkt byl dříve smazán."
+
+msgctxt "Languages::commerceml.import.message.product.is_not_creatable"
+msgid "Couldn't import product [id]; reason: not enough data to create a product"
+msgstr "Nepodařilo se importovat produkt [id]; důvod: nedostatek dat k vytvoření produktu"
+
+msgctxt "Languages::commerceml.import.message.product.found_by_product_code"
+msgid "Couldn't find product [id] by product code [product_code]; local ID: [local_id]"
+msgstr "Nepodařilo se najít produkt [id] podle kódu produktu [product_code]; lokální ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.local_id_exists_but_product_not_found"
+msgid "Couldn't find local ID [local_id] for product [id] in the database"
+msgstr "V databázi se nepodařilo najít lokální ID [local_id] pro produkt [id]."
+
+msgctxt "Languages::commerceml.import.message.category.found_by_name"
+msgid "Category [id] was matched by name: [name]; local ID: [local_id]"
+msgstr "Kategorie [id] byla nalezena ve shodě s názvem: [name]; lokální ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_found"
+msgid "Couldn't find parent category [parent_id] for category [id]"
+msgstr "Nepodařilo se najít nadřazenou kategorii [parent_id] pro kategorii [id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_imported"
+msgid "Couldn't import parent category [parent_id] for category [id]"
+msgstr "Nepodařilo se importovat nadřazenou kategorii [parent_id] pro kategorii [id]"
+
+msgctxt "Languages::commerceml.import.message.category.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "Kategorie [id] vytvořena; lokální ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.created"
+msgid "Product feature [id] created; local ID: [local_id]"
+msgstr "Funkce produktu [id] vytvořena; lokální ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped"
+msgid "Skipping product feature [id]; reason: import this product feature is disabled in the mapping settings"
+msgstr "Přeskakování funkce produktu [id]; důvod: import této funkce produktu je v nastavení mapování zakázán."
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_skipped"
+msgid "Skipping product feature variant [id]; reason: import this product feature variant is disabled in the mapping settings"
+msgstr "Přeskakování varianty vlastnosti produktu [id]; důvod: import této varianty vlastnosti produktu je v nastavení mapování zakázán."
+
+msgctxt "Languages::commerceml.import.message.category.skipped"
+msgid "Skipping product category [id]; reason: import this product category is disabled in the mapping settings"
+msgstr "Přeskakování kategorie produktu [id]; důvod: import této kategorie produktu je v nastavení mapování zakázán."
+
+msgctxt "Languages::commerceml.import.error.product_feature.not_found"
+msgid "Couldn't find product feature [id]"
+msgstr "Nepodařilo se najít funkci produktu [id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped_by_settings"
+msgid "Couldn't import product feature [id]; reason: import of product features is disabled in the settings"
+msgstr "Nepodařilo se importovat funkci produktu [id]; důvod: import funkcí produktu je v nastavení zakázán."
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_created"
+msgid "Variant [id] of product feature [feature_id] created; local ID: [local_id]"
+msgstr "Varianta [id] funkce produktu [feature_id] byla vytvořena; lokální ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.variation_not_deleted"
+msgid "Couldn't delete product variation [id]; local ID: [local_id]"
+msgstr "Nepodařilo se smazat variantu produktu [id]; lokální ID: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.parent_product_not_found"
+msgid "Couldn't find parent product for variation [id]"
+msgstr "Nepodařilo se najít nadřazený produkt pro variantu [id]"
+
+msgctxt "Languages::commerceml.import.error.product.parent_product_removed"
+msgid "Couldn't import product [id]; reason: its parent product [parent_id] was deleted"
+msgstr "Nepodařilo se importovat produkt [id]; důvod: jeho nadřazený produkt [parent_id] byl smazán."
+
+msgctxt "Languages::commerceml.import.error.product_variation.invalid_features_count"
+msgid "The number of features doesn't match the number of features in variation group [group_code]"
+msgstr "Počet prvků neodpovídá počtu prvků ve skupině variant [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.feature_not_found_at_group"
+msgid "Couldn't find feature [feature_id] in variation group [group_code]"
+msgstr "Nelze najít prvek [feature_id] ve skupině variant [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.same_variation_exists"
+msgid "Variation group [group_code] already has a variation with the same combination of feature values"
+msgstr "Skupina variant [group_code] již má variantu se stejnou kombinací hodnot prvků."
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation"
+msgid "Couldn't create product variation [id] in variation group [group_code]"
+msgstr "Nepodařilo se vytvořit variantu produktu [id] ve skupině variant [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation_group"
+msgid "Couldn't create variation group for product [id]"
+msgstr "Nepodařilo se vytvořit skupinu variant pro produkt [id]"
+
+msgctxt "Languages::commerceml.import.message.start_import_product"
+msgid "Starting the import of product [id]"
+msgstr "Zahájení importu produktu [id]"
+
+msgctxt "Languages::commerceml.import.message.end_import_product"
+msgid "Finishing the import of product [id]"
+msgstr "Dokončování importu produktu [id]"
+
+msgctxt "Languages::commerceml.controller.import_orders_is_disabled"
+msgid "Import changes to orders is disabled. Importing order was canceled."
+msgstr "Import změn objednávek je zakázán. Import objednávky byl zrušen."
+
+msgctxt "Languages::commerceml.controller.import_orders_no_permissions"
+msgid "Used administrator's account have no permissions to edit and create orders. Order import was canceled."
+msgstr "Použitý administrátorský účet nemá oprávnění k úpravě a vytváření objednávek. Import objednávek byl zrušen."
+
+msgctxt "Lnaguages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting the orders received"
+msgstr "Žádost o export přijatých objednávek"
+
+msgctxt "Lnaguages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting the orders processed"
+msgstr "Žádost o export zpracovaných objednávek"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] received"
+msgstr "Žádost o stažení souboru synchronizace prodeje [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] processed"
+msgstr "Žádost o stažení souboru synchronizace prodeje [název souboru] zpracována"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_convert"
+msgid "Request for converting the sale synchronization file [filename] received"
+msgstr "Žádost o převod souboru synchronizace prodeje [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Zpracován požadavek na převod souboru synchronizace katalogu [název souboru]"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] received"
+msgstr "Žádost o import dat ze souboru synchronizace prodeje [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] processed"
+msgstr "Zpracován požadavek na import dat ze souboru synchronizace prodeje [název souboru]"
+
+msgctxt "Languages::commerceml.import.message.start_update_order"
+msgid "Starting the import of order [id]"
+msgstr "Zahájení importu objednávky [id]"
+
+msgctxt "Languages::commerceml.import.message.end_update_order"
+msgid "Finishing the import of order [id]"
+msgstr "Dokončování importu objednávky [id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_checkauth_request"
+msgid "Request for synchronization session received"
+msgstr "Žádost o synchronizační relaci přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_checkauth_request"
+msgid "Request for synchronization session processed. Session ID: [session_id]"
+msgstr "Požadavek na synchronizaci relace zpracován. ID relace: [session_id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_init"
+msgid "Request for synchronization parameters received"
+msgstr "Žádost o synchronizační parametry přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_init"
+msgid "Request for synchronization parameters processed. File size limit: [limit]. ZIP support: [zip]"
+msgstr "Zpracován požadavek na parametry synchronizace. Limit velikosti souboru: [limit]. Podpora ZIP: [zip]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] received"
+msgstr "Žádost o stažení synchronizačního souboru [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] processed"
+msgstr "Žádost o stažení synchronizačního souboru [název souboru] zpracována"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] received"
+msgstr "Žádost o rozbalení synchronizačního souboru [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] processed"
+msgstr "Zpracován požadavek na rozbalení synchronizačního souboru [název souboru]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] received"
+msgstr "Žádost o převod souboru synchronizace katalogu [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Zpracován požadavek na převod souboru synchronizace katalogu [název souboru]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] received"
+msgstr "Žádost o analýzu souboru synchronizace katalogu [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] processed"
+msgstr "Zpracován požadavek na analýzu souboru synchronizace katalogu [název souboru]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] received"
+msgstr "Žádost o import dat ze souboru synchronizace katalogu [název souboru] přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] processed"
+msgstr "Zpracován požadavek na import dat ze souboru synchronizace katalogu [název souboru]"
+
+msgctxt "Languages::commerceml.controller.end_handle_request"
+msgid "Finishing the processing of the [mode] request"
+msgstr "Dokončení zpracování požadavku [mode]"
+
+msgctxt "Languages::commerceml.controller.upload_directory_cleaned"
+msgid "Directory [dir] cleared of old synchronization files"
+msgstr "Adresář [dir] vyčištěn ze starých synchronizačních souborů"
+
+msgctxt "Languages::commerceml.controller.convert_import_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: the import works in the 'Do not import' mode"
+msgstr "Přeskakování souboru [název_souboru]; důvod: import funguje v režimu „Neimportovat“"
+
+msgctxt "Languages::commerceml.controller.convert_offers_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: settings forbid the import of offers"
+msgstr "Přeskakování souboru [název souboru]; důvod: nastavení zakazuje import nabídek"
+
+msgctxt "Languages::commerceml.controller.error"
+msgid "Error: [message]"
+msgstr "Chyba: [zpráva]"
+
+msgctxt "Languages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting orders received"
+msgstr "Žádost o export objednávek přijata"
+
+msgctxt "Languages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting orders processed"
+msgstr "Žádost o export objednávek zpracována"
+
+msgctxt "Languages::commerceml.brand_manufacturer_default_product_feature_name"
+msgid "Manufacturer"
+msgstr "Výrobce"
+
+msgctxt "Languages::commerceml.sync_data_name"
+msgid "CommerceML Integration"
+msgstr "Integrace CommerceML"
+
+msgctxt "Languages::commerceml.map.entity_type.category"
+msgid "Categories"
+msgstr "Kategorie"
+
+msgctxt "Languages::commerceml.map.entity_type.tax"
+msgid "Taxes"
+msgstr "Daně"
+
+msgctxt "Languages::commerceml.map.entity_type.price_type"
+msgid "Price types"
+msgstr "Typy cen"
+
+msgctxt "Languages::commerceml.map.entity_type.currency"
+msgid "Currencies"
+msgstr "Měny"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature"
+msgid "Product features"
+msgstr "Vlastnosti produktu"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature_variant"
+msgid "Product features variants"
+msgstr "Varianty vlastností produktu"
+
+msgctxt "Languages::commerceml.general_information.marketplace"
+msgid "To sync your CRM with the marketplace, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Chcete-li synchronizovat CRM s tržišti, nastavte novou synchronizaci (uzel výměny) s webovou stránkou. Při vytváření uzlu výměny použijte následující nastavení:<ul><li>Adresa webu: <a href=\"[http_location]\">[http_location]</a></li><li>Uživatelské jméno: E-mailová adresa správce</li><li>Heslo: Heslo správce</li></ul>Doporučujeme přidat nového správce s oprávněním „CommerceML“."
+
+msgctxt "Languages::commerceml.general_information.store"
+msgid "To sync your CRM with the store, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Chcete-li synchronizovat CRM s obchodem, nastavte novou synchronizaci (výměnný uzel) s webovou stránkou. Při vytváření výměnného uzlu použijte následující nastavení:<ul><li>Adresa webu: <a href=\"[http_location]\">[http_location]</a></li><li>Uživatelské jméno: E-mailová adresa správce</li><li>Heslo: Heslo správce</li></ul>Doporučujeme přidat nového správce s oprávněním „CommerceML“."
+
+msgctxt "Languages::commerceml.map.category.create"
+msgid "Create category on next sync"
+msgstr "Vytvořit kategorii při příští synchronizaci"
+
+msgctxt "Languages::commerceml.map.category.use_default"
+msgid "Use default category"
+msgstr "Použít výchozí kategorii"
+
+msgctxt "Languages::commerceml.map.product_feature.create"
+msgid "Create product feature on next sync"
+msgstr "Vytvořit funkci produktu při příští synchronizaci"
+
+msgctxt "Languages::commerceml.map.product_feature.skip"
+msgid "Don't import"
+msgstr "Neimportovat"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.create"
+msgid "Create product feature variant on next sync"
+msgstr "Vytvořit variantu funkce produktu při příští synchronizaci"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.skip"
+msgid "Don't import"
+msgstr "Neimportovat"
+
+msgctxt "Languages::commerceml.n_items_will_be_created_automatically"
+msgid "[n] item will be created automatically|[n] items will be created automatically"
+msgstr "[n] položka bude vytvořena automaticky|[n] položek bude vytvořeno automaticky"
+
+msgctxt "Languages::commerceml.n_items_will_be_skipped"
+msgid "[n] item not matched and will be skipped|[n] item not matched and will be skipped"
+msgstr "[n] položka se neshoduje a bude přeskočena|[n] položka se neshoduje a bude přeskočena"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation"
+msgid "Product feature creation"
+msgstr "Tvorba funkcí produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.y"
+msgid "Create new features and variants from CRM automatically"
+msgstr "Automatické vytváření nových funkcí a variant z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Nevytvářet funkce a varianty z CRM, dokud je nezkontroluji"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation"
+msgid "Category creation"
+msgstr "Vytvoření kategorie"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.y"
+msgid "Create new categories from CRM automatically"
+msgstr "Automatické vytváření nových kategorií z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Nevytvářet funkce a varianty z CRM, dokud je nezkontroluji"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy"
+msgid "If the category of a product changes in CRM"
+msgstr "Pokud se kategorie produktu v CRM změní"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.append"
+msgid "Add the new category alongside the existing ones"
+msgstr "Přidejte novou kategorii vedle stávajících"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.replace_main"
+msgid "Change the main category of the product"
+msgstr "Změňte hlavní kategorii produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.ignore"
+msgid "Ignore the change; assign a category only to new products"
+msgstr "Ignorovat změnu; přiřadit kategorii pouze novým produktům"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy"
+msgid "If the image of a product changes in CRM"
+msgstr "Pokud se v CRM změní image produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.append"
+msgid "Add the new image alongside the existing ones"
+msgstr "Přidejte nový obrázek vedle stávajících"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.replace"
+msgid "Replace all images of the product"
+msgstr "Nahradit všechny obrázky produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.ignore"
+msgid "Ignore the change; assign an image only to new products"
+msgstr "Ignorovat změnu; přiřadit obrázek pouze novým produktům"
+
+msgctxt "Languages::commerceml.additional_settings_title"
+msgid "Additional settings"
+msgstr "Další nastavení"
+
+msgctxt "Languages::commerceml.field_import_only_for_new_products"
+msgid "Import only for new products"
+msgstr "Dovoz pouze pro nové produkty"
+
+msgctxt "Languages::commerceml.dont_import"
+msgid "Don't import"
+msgstr "Neimportovat"
+
+msgctxt "Languages::commerceml.import.message.order.updated"
+msgid "Order [local_id] was updated: Products id: [products];"
+msgstr "Objednávka [local_id] byla aktualizována: ID produktů: [products];"
+
+msgctxt "Languages::commerceml.import.message.order.status_updated"
+msgid "Status for order [local_id] was updated: Old status: [old_status]; New status: [new_status];"
+msgstr "Stav objednávky [local_id] byl aktualizován: Starý stav: [old_status]; Nový stav: [new_status];"
+
+msgctxt "Languages::commerceml.import.error.order.local_order_not_found"
+msgid "Local order was not found"
+msgstr "Místní objednávka nebyla nalezena"
+
+msgctxt "Languages::commerceml.import.error.order.local_product_not_found"
+msgid "Was not found local equivalent of products"
+msgstr "Nebyl nalezen lokální ekvivalent produktů"
+
+msgctxt "Languages::commerceml.products_were_disabled_after_addon_was_activated"
+msgid "We detected some duplicate entities (products, features, etc.) loaded from your CRM. They were created by mistake when the old CommerceML add-on was replaced with the new one. For your convenience, we've changed the status of the duplicates to \"Disabled\". For example, <a href=\"[href]\">here is the list of duplicate products which you can safely delete.</a>"
+msgstr "Z vašeho CRM jsme zjistili duplicitní entity (produkty, funkce atd.). Vznikly omylem při nahrazování starého doplňku CommerceML novým. Pro vaše pohodlí jsme stav duplikátů změnili na „Zakázáno“. Například <a href=\"[href]\">zde je seznam duplicitních produktů, které můžete bezpečně smazat.</a>"
+
+msgctxt "Languages::commerceml.export_field_via_commerceml"
+msgid "Export via CommerceML"
+msgstr "Export přes CommerceML"
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml"
+msgid "Field export in the orders file in CommerceML format"
+msgstr "Export polí v souboru objednávek ve formátu CommerceML"
+
+msgctxt "Languages::commerceml.import.order.shipment_date_status"
+msgid "Order status upon acquisition of shipment date"
+msgstr "Stav objednávky při získání data odeslání"
+
+msgctxt "Languages::commerceml.import.order.payment_date_status"
+msgid "Order status upon acquisition of payment date"
+msgstr "Stav objednávky při získání data platby"
+
+msgctxt "Languages::commerceml.import.order.status_mapping_information"
+msgid "By default, the order status is taken from the <b>Статус заказа</b> attribute. If it is not there, the statuses will be determined by the date of payment and shipment. If both dates exist, shipment date will have higher priority."
+msgstr "Ve výchozím nastavení je stav objednávky převzat z atributu <b>Stav objednávky</b> . Pokud zde není uveden, budou stavy určeny datem platby a odeslání. Pokud existují obě data, bude mít datum odeslání vyšší prioritu."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_bs"
+msgid "This is a standard field. It is always exported via CommerceML. Fields from the shipping address have priority over fields from the billing address."
+msgstr "Toto je standardní pole. Vždy se exportuje přes CommerceML. Pole z dodací adresy mají přednost před poli z fakturační adresy."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_bs"
+msgid "Export this field via CommerceML. If you export the same field from the billing and shipping address, then shipping address takes priority."
+msgstr "Exportujte toto pole přes CommerceML. Pokud exportujete stejné pole z fakturační a dodací adresy, bude mít dodací adresa přednost."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_contact_info"
+msgid "This is a standard field. It is always exported via CommerceML."
+msgstr "Toto je standardní pole. Vždy se exportuje přes CommerceML."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_contact_info"
+msgid "Export this field via CommerceML."
+msgstr "Exportujte toto pole pomocí CommerceML."
+
+msgctxt "Languages::commerceml.connection_instructions.mve"
+msgid "<p>Here is the page where your vendors can connect their CRMs to your marketplace via CommerceML. Copy the link and share with your vendors.</p>"
+msgstr "<p>Zde je stránka, kde si vaši dodavatelé mohou propojit své CRM systémy s vaším tržišti prostřednictvím CommerceML. Zkopírujte odkaz a sdílejte jej se svými dodavateli.</p>"
+
+msgctxt "Languages::commerceml.connection_instructions.ult"
+msgid "To connect your CRMs to CS-Cart, go to <b>Administration → <a href=\"[href]\">Sync data</a></b> and choose <b>CommerceML Integration.</b>"
+msgstr "Chcete-li propojit své CRM systémy s CS-Cart, přejděte do sekce <b>Administrace → <a href=\"[href]\">Synchronizace dat</a></b> a zvolte <b>Integrace s CommerceML.</b>"
+
+msgctxt "Languages::commerceml.the_file_does_not_exist"
+msgid "The file [file] does not exist."
+msgstr "Soubor [file] neexistuje."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names"
+msgid "Names of product features"
+msgstr "Názvy vlastností produktu"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal"
+msgid "Use names from CRM in CS-Cart admin panel"
+msgstr "Používejte názvy z CRM v administračním panelu CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal.tooltip"
+msgid "Internal feature names in CS-Cart will always change match those in your CRM. You can safely edit display names for the storefront."
+msgstr "Interní názvy funkcí v CS-Cart se vždy změní tak, aby odpovídaly názvům ve vašem CRM. Zobrazované názvy pro výlohu můžete bezpečně upravovat."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both"
+msgid "Use names from CRM everywhere in CS-Cart"
+msgstr "Používejte názvy z CRM všude v CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both.tooltip"
+msgid "Feature names in CS-Cart will change to match the names in your CRM. Any changes to feature names on the CS-Cart end will be lost."
+msgstr "Názvy funkcí v CS-Cart se změní tak, aby odpovídaly názvům ve vašem CRM. Veškeré změny názvů funkcí na straně CS-Cart budou ztraceny."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no"
+msgid "Do not use names from CRM"
+msgstr "Nepoužívejte jména z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no.tooltip"
+msgid "Feature names will come from CRM only on first import. Subsequent changes in the CRM won't affect existing feature names in CS-Cart."
+msgstr "Názvy funkcí budou z CRM převzaty pouze při prvním importu. Následné změny v CRM neovlivní stávající názvy funkcí v CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names"
+msgid "Names of feature variants"
+msgstr "Názvy variant funkcí"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes"
+msgid "Use names from CRM"
+msgstr "Používejte jména z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes.tooltip"
+msgid "Feature variant names will always be updated from the CRM. Your edits will be lost on import."
+msgstr "Názvy variant funkcí budou vždy aktualizovány z CRM. Vaše úpravy budou při importu ztraceny."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no"
+msgid "Do not use names from CRM"
+msgstr "Nepoužívejte jména z CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no.tooltip"
+msgid "Feature variant names will come from CRM only on first import. Useful if you plan to change their names in CS-Cart."
+msgstr "Názvy variant funkcí budou z CRM převzaty pouze při prvním importu. To je užitečné, pokud plánujete změnit jejich názvy v CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature.vendor_notice"
+msgid "The settings about the names of product features and their variants only affect the product features that belong to you, not to the marketplace."
+msgstr "Nastavení názvů funkcí produktu a jejich variant ovlivňuje pouze funkce produktu, které patří vám, nikoli tržišti."
+

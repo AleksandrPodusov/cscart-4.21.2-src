@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /release-4.21.2/addons/pwa.po\n"
+"X-Crowdin-File-ID: 10788\n"
+"PO-Revision-Date: 2026-09-21 11:55\n"
+
+msgctxt "Addons::name::pwa"
+msgid "Mobile application (PWA)"
+msgstr "Mobil uygulama (PWA)"
+
+msgctxt "Addons::description::pwa"
+msgid "Quickly set up a progressive web app for each of your storefronts. No publishing in app stores required. The app will closely match the look and functionality of your site."
+msgstr "Her bir mağazanız için hızlıca bir aşamalı web uygulaması kurun. Uygulama mağazalarında yayınlamanıza gerek yok. Uygulama, sitenizin görünümüne ve işlevselliğine çok benzeyecektir."
+
+msgctxt "Languages::pwa.title"
+msgid "Mobile application (PWA)"
+msgstr "Mobil uygulama (PWA)"
+
+msgctxt "Languages::pwa.warning_relative_storefronts_with_no_active_apps"
+msgid "Domain <u>[main_domain]</u> has multiple storefronts:<br><ul>[items]</ul><b>Problem:</b> A domain can support only one PWA app without issues. For example, an app for <i>[current_name]</i> (<u>[current_url]</u>) will override the icons and content—and may even prevent installation—of the other apps listed above.<br><br><b>Solution:</b> If you're planning to use all these apps, move storefronts to subdomains (like <u>[subfolder].[main_domain]</u>) or to different domains. For help with that, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contact us via Help Desk.</a>"
+msgstr "<u>[main_domain]</u> alan adının birden fazla mağazası var:<br><ul>[items]</ul><b>Sorun:</b> Bir alan adı, sorunsuz bir şekilde yalnızca bir PWA uygulamasını destekleyebilir. Örneğin, <i>[current_name]</i> (<u>[current_url]</u>) için bir uygulama, yukarıda listelenen diğer uygulamaların simgelerini ve içeriğini geçersiz kılacak ve hatta kurulumlarını engelleyebilir.<br><br><b>Çözüm:</b> Tüm bu uygulamaları kullanmayı planlıyorsanız, mağaza ön yüzlerini alt alan adlarına (örneğin <u>[altklasör].[ana_alan_adı]</u>) veya farklı alan adlarına taşıyın. Bununla ilgili yardım için <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">Yardım Masası aracılığıyla bizimle iletişime geçin.</a>"
+
+msgctxt "Languages::pwa.warning_relative_storefront_has_active_app"
+msgid "Domain <u>[main_domain]</u> already has a PWA for storefront <b>[active_name]</b> (<u>[active_url]</u>).<br><br><b>Problem:</b> Going live with an app for <i>[current_name]</i> (<u>[current_url]</u>) can lead to technical issues with other apps on this domain.<br><br><b>Solution:</b> If you need a separate app for <b>[current_name]</b>, move the storefront to a subdomain (like <u>[subfolder].[main_domain]</u>) or to a different domain. For help with that, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contact us via Help Desk.</a>"
+msgstr "<u>[main_domain]</u> domaininin, <b>[active_name]</b> (<u>[active_url]</u>) mağazası için zaten bir PWA'sı var.<br><br><b>Sorun:</b> <i>[current_name]</i> (<u>[current_url]</u>) için bir uygulamayı yayına almak, bu alandaki diğer uygulamalarla ilgili teknik sorunlara yol açabilir.<br><br><b>Çözüm:</b> <b>[current_name]</b>için ayrı bir uygulamaya ihtiyacınız varsa, mağazayı bir alt alana (örneğin <u>[subfolder].[main_domain]</u>) veya farklı bir alana taşıyın. Bununla ilgili yardım için <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">Yardım Masası aracılığıyla bizimle iletişime geçin.</a>"
+
+msgctxt "Languages::pwa.manifest_status"
+msgid "Go live"
+msgstr "Canlı yayına geç"
+
+msgctxt "Languages::pwa.manifest_status_tooltip"
+msgid "When the app is live, site visitors can install it. Any changes to the settings on this page WON'T AFFECT any installed apps."
+msgstr "Uygulama yayına girdiğinde, site ziyaretçileri uygulamayı yükleyebilirler. Bu sayfadaki ayarlarda yapılacak herhangi bir değişiklik, yüklü uygulamaları ETKİLEMEZ."
+
+msgctxt "Languages::pwa.manifest_status_confirm_on_warning"
+msgid "Once the app goes live and a customer installs it, you won't be able to change the app settings for that customer (unless they reinstall the app)."
+msgstr "Uygulama kullanıma sunulduktan ve bir müşteri uygulamayı yükledikten sonra, o müşteri için uygulama ayarlarını değiştiremeyeceksiniz (müşteri uygulamayı yeniden yüklemediği sürece)."
+
+msgctxt "Languages::pwa.manifest_status_confirm_off_warning"
+msgid "This change will only prevent new installations of the app. Any apps that are already installed will continue to work."
+msgstr "Bu değişiklik yalnızca uygulamanın yeni kurulumlarını engelleyecektir. Halihazırda yüklü olan uygulamalar çalışmaya devam edecektir."
+
+msgctxt "Languages::pwa.manifest_status_confirm_warning_first_app_for_domain"
+msgid "Your app is about to go live. To avoid technical issues in the future, it must remain the only one for domain [main_domain]. Are you sure you want to proceed?"
+msgstr "Uygulamanız yakında yayına girecek. Gelecekte teknik sorunlardan kaçınmak için, [main_domain] alan adı için tek uygulama olarak kalması gerekiyor. Devam etmek istediğinizden emin misiniz?"
+
+msgctxt "Languages::pwa.manifest_icon_cannot_be_uploaded"
+msgid "Couldn't load new icon for PWA. It must be a 512x512 image with non-transparent background."
+msgstr "PWA için yeni simge yüklenemedi. Şeffaf olmayan arka plana sahip 512x512 boyutunda bir resim olmalıdır."
+
+msgctxt "Languages::pwa.manifest_app_name"
+msgid "App name"
+msgstr "Uygulama adı"
+
+msgctxt "Languages::pwa.manifest_app_name_tooltip"
+msgid "The name of your app as customers will see it on their devices. Ideally, keep it under 12 symbols."
+msgstr "Müşterilerinizin cihazlarında göreceği şekilde uygulamanızın adı. İdeal olarak, 12 karakterden az tutun."
+
+msgctxt "Languages::pwa.manifest_icon"
+msgid "App icon"
+msgstr "Uygulama simgesi"
+
+msgctxt "Languages::pwa.manifest_icon_tooltip"
+msgid "Appears on user devices when the app is installed. Ideally, use a square non-transparent icon 512x512 pixels."
+msgstr "Uygulama yüklendiğinde kullanıcı cihazlarında görünür. İdeal olarak, 512x512 piksel boyutlarında, kare ve şeffaf olmayan bir simge kullanın."
+
+msgctxt "Languages::pwa.nav_back"
+msgid "Show the previous page"
+msgstr "Önceki sayfayı göster"
+
+msgctxt "Languages::pwa.offline.window_title"
+msgid "You are offline"
+msgstr "Çevrimdışısınız."
+
+msgctxt "Languages::pwa.offline.page_title"
+msgid "You are offline"
+msgstr "Çevrimdışısınız."
+
+msgctxt "Languages::pwa.offline.page_description"
+msgid "Click the button below to try reloading."
+msgstr "Yeniden yüklemeyi denemek için aşağıdaki düğmeye tıklayın."
+
+msgctxt "Languages::pwa.offline.reload_button"
+msgid "Reload"
+msgstr "Yeniden yükle"
+

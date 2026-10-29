@@ -1,0 +1,86 @@
+// The alert brings its own bottom margin, and the control group around it adds another one on top.
+.yandex-delivery-note {
+    margin-bottom: 0;
+}
+
+.yandex-delivery-dimensions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+// Below the tablet breakpoint a mini input takes half the row, which three of them plus the separators
+// and the unit cannot share. Here they split the row evenly instead of overflowing it.
+@media (max-width: 767px) {
+    .yandex-delivery-dimensions {
+        .input-mini,
+        .input-group.input-append {
+            flex: 1 1 0;
+            width: auto;
+            min-width: 0;
+        }
+
+        .add-on {
+            flex-shrink: 0;
+        }
+    }
+}
+
+// Sorting centres and pickup points accept different parcels, so the type must be visible in the list,
+// in the chosen value and in the note under the field.
+.yandex-delivery-station-type {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    &--warehouse {
+        color: #2f5d7c;
+        background: #e6f0f7;
+    }
+
+    &--pickup-point {
+        color: #9a6807;
+        background: #fff8e9;
+    }
+}
+
+.yandex-delivery-station {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    min-width: 0;
+}
+
+.yandex-delivery-station__body {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.yandex-delivery-station__name {
+    display: block;
+}
+
+.yandex-delivery-station__address {
+    display: block;
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+.yandex-delivery-station-types {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4px 8px;
+    margin: 8px 0 0;
+    color: #8f8f8f;
+    font-size: 12px;
+
+    dd {
+        margin: 0;
+    }
+}

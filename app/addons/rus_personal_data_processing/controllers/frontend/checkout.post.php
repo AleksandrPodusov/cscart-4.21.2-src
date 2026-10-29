@@ -1,0 +1,30 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+use Tygh\Registry;
+
+if (!defined('BOOTSTRAP')) { die('Access denied'); }
+
+$cart = &Tygh::$app['session']['cart'];
+$edit_step = !empty($cart['edit_step']) ? $cart['edit_step'] : '';
+
+if ($mode == 'checkout') {
+    if (!empty($cart['guest_checkout']) && $edit_step == 'step_two') {
+        $policy_description = __('addons.rus_personal_data_processing.policy_description', array('[name_button]' => __('continue'), '[link]' => fn_url('personal_data.manage')));
+    } else {
+        $policy_description = __('addons.rus_personal_data_processing.policy_description', array('[name_button]' => __('register'), '[link]' => fn_url('personal_data.manage')));
+    }
+
+    Tygh::$app['view']->assign('policy_description', $policy_description);
+}

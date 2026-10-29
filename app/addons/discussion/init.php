@@ -1,0 +1,53 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+if (!defined('BOOTSTRAP')) { die('Access denied'); }
+
+fn_define('DISCUSSION_REVIEW_COMMUNICATION_AND_RATING', 'B');
+fn_define('DISCUSSION_REVIEW_RATING', 'R');
+fn_define('DISCUSSION_OBJECT_TYPE_PRODUCT', 'P');
+fn_define('DISCUSSION_OBJECT_TYPE_PAGE', 'A');
+fn_define('DISCUSSION_POST_STATUS_ACTIVE', 'A');
+fn_define('DISCUSSION_OBJECT_TYPE_COMPANY', 'M');
+
+fn_register_hooks(
+    'update_product_post',
+    'delete_product_post',
+    'update_category_post',
+    'delete_category_after',
+    'delete_order',
+    'update_page_post',
+    'delete_page',
+    'update_event',
+    'delete_event',
+    'clone_product',
+    'get_product_data',
+    'get_products',
+    'load_products_extra_data',
+    'get_categories',
+    'get_pages',
+    'get_companies',
+    'get_company_data',
+    'get_company_data_post',
+    'delete_company',
+    'companies_sorting',
+    'get_predefined_statuses',
+    'update_company',
+    'settings_variants_image_verification_use_for',
+    'load_products_extra_data_post',
+    'get_companies_post',
+    ['add_discussion_post_post', '', 'gdpr'],
+    'check_and_update_product_sharing',
+    'seo_get_schema_org_markup_items_post'
+);

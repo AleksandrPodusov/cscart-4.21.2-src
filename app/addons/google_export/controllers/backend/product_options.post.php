@@ -1,0 +1,39 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+use Tygh\Registry;
+
+if (!defined('BOOTSTRAP')) { die('Access denied'); }
+
+if ($mode == 'manage') {
+    $field_options = array();
+    $google_export_options = fn_get_schema('exim_data_feeds', 'google_export_options');
+
+    foreach ($google_export_options as $_option => $_export_option) {
+        $field_options[] = $_option;
+    }
+
+    Tygh::$app['view']->assign('field_options', $field_options);
+}
+
+if ($mode == 'update') {
+    $field_options = array();
+    $google_export_options = fn_get_schema('exim_data_feeds', 'google_export_options');
+
+    foreach ($google_export_options as $_option => $_export_option) {
+        $field_options[] = $_option;
+    }
+
+    Tygh::$app['view']->assign('field_options', $field_options);
+}

@@ -1,0 +1,1 @@
+<th width="10%">{__("cities,code_sdek")}</th>

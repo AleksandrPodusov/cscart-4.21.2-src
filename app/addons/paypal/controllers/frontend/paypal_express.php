@@ -1,0 +1,84 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+if (!defined('BOOTSTRAP')) {
+    require './../../../../payments/init_payment.php';
+}
+
+if ($mode == 'express_return') {
+
+    $token = $_REQUEST['token'];
+    $payment_id = $_REQUEST['payment_id'];
+
+    $processor_data = fn_get_payment_method_data($payment_id);
+    $paypal_checkout_details = fn_paypal_get_express_checkout_details($processor_data, $token);
+
+    if (fn_paypal_ack_success($paypal_checkout_details)) {
+        fn_paypal_user_login($paypal_checkout_details);
+
+        $paypal_express_details = array(
+            'token' => $token,
+            'payment_id' => $payment_id
+        );
+        Tygh::$app['session']['pp_express_details'] = $paypal_express_details;
+        Tygh::$app['session']['cart']['payment_id'] = $payment_id;
+
+        unset(Tygh::$app['session']['cart']['edit_step']);
+    } else {
+        fn_paypal_get_error($paypal_checkout_details);
+    }
+
+    fn_order_placement_routines('checkout_redirect');
+
+} elseif ($mode == 'express') {
+
+    Tygh::$app['session']['cart'] = empty(Tygh::$app['session']['cart']) ? array() : Tygh::$app['session']['cart'];
+    $cart = &Tygh::$app['session']['cart'];
+
+    if (!empty($_REQUEST['payment_id'])) {
+        $cart = fn_checkout_update_payment($cart, $auth, $_REQUEST['payment_id']);
+    }
+
+    if (!empty($cart['payment_surcharge'])) {
+        $cart['total'] += $cart['payment_surcharge'];
+    }
+
+    $payment_id = $cart['payment_id'];
+
+    $result = fn_paypal_set_express_checkout($payment_id, 0, array(), $cart, AREA);
+    $useraction = 'continue';
+
+    $processor_data = fn_get_payment_method_data($payment_id);
+    $in_context_checkout = ($processor_data['processor_params']['in_context'] == 'Y');
+
+    if (fn_paypal_ack_success($result) && !empty($result['TOKEN'])) {
+
+        if ($in_context_checkout && isset($_REQUEST['in_context'])) {
+            Tygh::$app['ajax']->assign('token', $result['TOKEN']);
+            exit;
+        } else {
+            fn_paypal_payment_form($processor_data, $result['TOKEN']);
+        }
+    } else {
+        // create notification
+        fn_paypal_get_error($result);
+
+        if ($in_context_checkout && isset($_REQUEST['in_context'])) {
+            Tygh::$app['ajax']->assign('error', true);
+            exit;
+        } else {
+            fn_order_placement_routines('checkout.cart');
+        }
+    }
+}

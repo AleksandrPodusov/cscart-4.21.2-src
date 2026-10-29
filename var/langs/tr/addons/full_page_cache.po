@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /release-4.21.2/addons/full_page_cache.po\n"
+"X-Crowdin-File-ID: 10710\n"
+"PO-Revision-Date: 2026-09-21 11:55\n"
+
+msgctxt "Addons::name::full_page_cache"
+msgid "Performance Booster"
+msgstr "Performans Artırıcı"
+
+msgctxt "Addons::description::full_page_cache"
+msgid "Set up full-page cache powered by Varnish to speed up your site under heavy workload."
+msgstr "Yoğun iş yükü altında sitenizi hızlandırmak için Varnish destekli tam sayfa önbellekleme özelliğini kurun."
+
+msgctxt "Languages::full_page_cache.unable_to_enable_full_page_caching"
+msgid "Unable to enable full-page caching."
+msgstr "Tam sayfa önbellekleme etkinleştirilemedi."
+
+msgctxt "Languages::full_page_cache.unable_to_connect_to_varhish"
+msgid "Unable to connect to Varnish server. Please make sure that Varnish service is running and check the entered address and port."
+msgstr "Varnish sunucusuna bağlanılamadı. Lütfen Varnish servisinin çalıştığından emin olun ve girilen adres ve bağlantı noktasını kontrol edin."
+
+msgctxt "Languages::full_page_cache.error_session_auto_start_enabled"
+msgid "The \"session.auto_start\" PHP configuration option is enabled. Please, disable this option by setting \"session.auto_start = 0\" in your php.ini file."
+msgstr "\"session.auto_start\" PHP yapılandırma seçeneği etkinleştirilmiş durumda. Lütfen php.ini dosyanızda \"session.auto_start = 0\" ayarını yaparak bu seçeneği devre dışı bırakın."
+
+msgctxt "Languages::full_page_cache.notice_caching_was_enabled"
+msgid "Full-page caching have been successfully enabled, started and running."
+msgstr "Tam sayfa önbellekleme başarıyla etkinleştirildi, başlatıldı ve çalışıyor."
+
+msgctxt "Languages::full_page_cache.warning_root_dir_not_writable"
+msgid "<strong>Performance Booster:</strong> Root directory of your site isn't writable. Couldn't create symlink to esi.php in the root directory. Please make the directory writable and activate the add-on. Alternatively, create the symlink from the root directory to app/addons/full_page_cache/esi.php manually."
+msgstr "<strong>Performans Artırıcı:</strong> Sitenizin kök dizini yazılabilir değil. Kök dizinde esi.php'ye sembolik bağlantı oluşturulamadı. Lütfen dizini yazılabilir hale getirin ve eklentiyi etkinleştirin. Alternatif olarak, kök dizinden app/addons/full_page_cache/esi.php'ye sembolik bağlantıyı manuel olarak oluşturun."
+
+msgctxt "Languages::full_page_cache.failed_to_create_symlink"
+msgid "Failed to create symlink [file]"
+msgstr "[dosya] sembolik bağlantısı oluşturulamadı."
+
+msgctxt "Languages::full_page_cache.notice_configure_addon"
+msgid "Before you can activate Performance Booster, you'll need to <a href=\"[url]\">configure the server and the add-on.</a>"
+msgstr ""
+
+msgctxt "Languages::full_page_cache.text_settings_general"
+msgid "This add-on will only work after proper server configuration. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Learn more about how to configure caching on your server</a>."
+msgstr "Bu eklenti yalnızca sunucu doğru şekilde yapılandırıldıktan sonra çalışacaktır. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Sunucunuzda önbellekleme nasıl yapılandırılır hakkında daha fazla bilgi edinin</a>."
+
+msgctxt "SettingsOptions::full_page_cache::varnish"
+msgid "Varnish"
+msgstr "Vernik"
+
+msgctxt "SettingsOptions::full_page_cache::varnish_host"
+msgid "Host"
+msgstr "Ev sahibi"
+
+msgctxt "SettingsOptions::full_page_cache::common"
+msgid "Common"
+msgstr "Yaygın"
+

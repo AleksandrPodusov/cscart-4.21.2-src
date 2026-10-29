@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>yandex_delivery</id>
+    <version>1.0.0</version>
+    <priority>4700</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+
+    <autoload>
+        <psr4 prefix="Tygh\Addons\YandexDelivery\">src</psr4>
+        <psr4 prefix="Tygh\Shippings\Services\">src/Shippings/Services</psr4>
+        <psr4 prefix="Tygh\Addons\YandexDelivery\Tests\Unit\">tests</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\YandexDelivery\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\YandexDelivery\Installer</installer>
+
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS ?:yandex_delivery_requests</item>
+        <item for="install">
+            CREATE TABLE ?:yandex_delivery_requests (
+                yandex_delivery_request_id int(11) unsigned NOT NULL AUTO_INCREMENT,
+                shipment_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                order_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                shipping_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                request_id varchar(128) NOT NULL DEFAULT '',
+                operator_request_id varchar(128) NOT NULL DEFAULT '',
+                status varchar(64) NOT NULL DEFAULT '',
+                status_description varchar(255) NOT NULL DEFAULT '',
+                sharing_url varchar(255) NOT NULL DEFAULT '',
+                last_error text,
+                created_at int(11) unsigned NOT NULL DEFAULT '0',
+                updated_at int(11) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (yandex_delivery_request_id),
+                UNIQUE KEY shipment_id (shipment_id),
+                KEY order_id (order_id, shipment_id),
+                KEY request_id (request_id)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:yandex_delivery_requests</item>
+    </queries>
+</addon>

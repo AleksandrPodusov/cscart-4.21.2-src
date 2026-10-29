@@ -1,0 +1,30 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+if (!defined('BOOTSTRAP')) { die('Access denied'); }
+
+use Tygh\Settings;
+
+if ($mode == 'manage') {
+    if (fn_allowed_for('ULTIMATE')) {
+        $settings_single_url = Settings::instance()->getAllVendorsValues('single_url', 'seo');
+    } else {
+        $setting_single_url = Settings::instance()->getValue('single_url', 'seo');
+        $settings_single_url = array($setting_single_url);
+    }
+
+    if (in_array('Y', $settings_single_url)) {
+        Tygh::$app['view']->assign('seo_single_url_enable', true);
+    }
+}

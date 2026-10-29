@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: /release-4.21.2/addons/upsell.po\n"
+"X-Crowdin-File-ID: 10830\n"
+"PO-Revision-Date: 2026-09-21 11:54\n"
+
+msgctxt "Addons::name::upsell"
+msgid "Upsell"
+msgstr "Venda adicional"
+
+msgctxt "Addons::description::upsell"
+msgid "Upsell"
+msgstr "Venda adicional"
+
+msgctxt "Languages::upsell.learn_more"
+msgid "Learn more ⟶"
+msgstr "Saiba mais ⟶"
+
+msgctxt "Languages::upsell.unlock"
+msgid "Unlock"
+msgstr "Desbloquear"
+
+msgctxt "Languages::upsell.how_to_unlock_notice"
+msgid "<b>How to unlock:</b> This feature is in another plan. To unlock it, we’ll contact the license owner through Help Desk and by email. We may also contact you at [email]."
+msgstr "<b>Como desbloquear:</b> Esta funcionalidade está disponível noutro plano. Para o desbloquear, entraremos em contacto com o proprietário da licença através da Central de Ajuda e por e-mail. Também podemos contactá-lo pelo endereço [email]."
+
+msgctxt "Languages::upsell.message_sent"
+msgid "Message sent"
+msgstr "Mensagem enviada"
+
+msgctxt "Languages::upsell.message_sent_success"
+msgid "We’ll contact you through Help Desk and by the email of the license owner. We may also contact you by the email associated with this admin account."
+msgstr "Entraremos em contacto consigo através da Central de Ajuda e pelo e-mail do titular da licença. Poderemos também entrar em contacto consigo pelo e-mail associado a esta conta de administrador."
+
+msgctxt "Languages::upsell.message_already_sent"
+msgid "We're already on it"
+msgstr "Já estamos a trabalhar nisso."
+
+msgctxt "Languages::upsell.message_already_sent.notice"
+msgid "An administrator of this site has recently requested consultation about additional features. The request is already logged in the Help Desk account associated with this license. But you’re welcome to send us an email at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "Um administrador deste site solicitou recentemente uma consulta sobre recursos adicionais. O pedido já foi registado na conta do Help Desk associada a esta licença. Mas pode enviar-nos um e-mail para <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::upsell.message_couldnt_send"
+msgid "Couldn’t send the message"
+msgstr "Não foi possível enviar a mensagem."
+
+msgctxt "Languages::upsell.message_couldnt_send.notice"
+msgid "Sorry, we couldn’t send your request for consultation due to some technical issues. Please try again later. If the issue persists, tell us by email what functionality you’re interested in: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "Lamentamos, não foi possível enviar o seu pedido de consulta devido a alguns problemas técnicos. Tente novamente mais tarde. Se o problema persistir, informe-nos por e-mail qual a funcionalidade que lhe interessa: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::upsell.product_videos.popup_title"
+msgid "Product videos"
+msgstr "Vídeos de produtos"
+
+msgctxt "Languages::upsell.product_videos.popup_text"
+msgid "Enticing product videos can draw customers’ attention, make them study the product longer, and improve their general impression of your site. CS-Cart allows you to link videos from YouTube (and from other platforms) to products."
+msgstr "Os vídeos de produtos apelativos podem chamar a atenção dos clientes, fazê-los estudar o produto durante mais tempo e melhorar a impressão geral que têm do seu website. O CS-Cart permite ligar vídeos do YouTube (e de outras plataformas) aos produtos."
+
+msgctxt "Languages::upsell.product_videos.product_page"
+msgid "Link videos from YouTube and other platforms to your products."
+msgstr "Inclua links para vídeos do YouTube e de outras plataformas nos seus produtos."
+
+msgctxt "Languages::upsell.product_videos.settings"
+msgid "Affects the videos that you add to the product image gallery."
+msgstr "Afeta os vídeos que adiciona à galeria de imagens do produto."
+
+msgctxt "Languages::upsell.warehouses.popup_title"
+msgid "Warehouses"
+msgstr "Armazéns"
+
+msgctxt "Languages::upsell.warehouses.popup_text"
+msgid "Warehouses allow you to track inventory at multiple locations, show your customers where and when they can pick their orders, and set product availability by city, region, or country."
+msgstr "Os armazéns permitem acompanhar o stock em vários locais, mostrar aos clientes onde e quando podem recolher os seus pedidos e definir a disponibilidade do produto por cidade, região ou país."
+
+msgctxt "Languages::upsell.warehouses.product_page"
+msgid "Track inventory at multiple locations with the \"Warehouses\" add-on."
+msgstr "Monitorize o stock em vários locais com o complemento \"Armazéns\"."
+
+msgctxt "Languages::upsell.warehouses.store_locator"
+msgid "You can track inventory at this location with the \"Warehouses\" add-on."
+msgstr "Pode acompanhar o stock neste local com o complemento \"Armazéns\"."
+
+msgctxt "Languages::upsell.add_storefront.popup_title"
+msgid "Storefronts"
+msgstr "Vitrines"
+
+msgctxt "Languages::upsell.add_storefront.popup_text"
+msgid "Storefronts allow you to have a site that spans multiple domains. Use that to set up branches of your site for specific product groups, locations, or audiences."
+msgstr "As lojas virtuais permitem ter um site que abrange vários domínios. Utilize isto para configurar filiais do seu website para grupos de produtos, locais ou públicos específicos."
+
+msgctxt "Languages::upsell.pwa.popup_title"
+msgid "PWA mobile app"
+msgstr "Aplicação móvel PWA"
+
+msgctxt "Languages::upsell.pwa.popup_text"
+msgid "Give your customers a mobile app that looks and works just like your site. No development or publishing in app stores required—customers will install the app straight from your site. Even third-party add-ons and themes are supported."
+msgstr "Ofereça aos seus clientes uma aplicação móvel com a mesma aparência e funcionalidade do seu website. Sem necessidade de desenvolvimento ou publicação em lojas de aplicações — os clientes instalarão a aplicação diretamente a partir do seu website. Até mesmo os add-ons e temas de terceiros são compatíveis."
+
+msgctxt "Languages::upsell.full_page_cache.popup_title"
+msgid "Performance booster"
+msgstr "Aumentador de desempenho"
+
+msgctxt "Languages::upsell.full_page_cache.popup_text"
+msgid "Make the site work faster under heavy load. Varnish full-page caching provides smoother performance when you have a large number of products, filters, and simultaneous visitors."
+msgstr "Faça com que o site carregue mais rápido sob alta carga. A cache de página inteira do Varnish proporciona um desempenho mais fluido quando tem um grande número de produtos, filtros e visitantes simultâneos."
+
+msgctxt "Languages::upsell.master_products.popup_title"
+msgid "Common products for vendors"
+msgstr "Produtos comuns para fornecedores"
+
+msgctxt "Languages::upsell.master_products.popup_text"
+msgid "Set up your product catalog—with images, descriptions, etc.—in advance. Let vendors choose which of the products they sell. Show offers from different vendors on the product page."
+msgstr "Configure o seu catálogo de produtos com antecedência, incluindo imagens, descrições, etc. Deixe que sejam os fornecedores a escolher quais os produtos a vender. Apresente ofertas de diferentes fornecedores na página do produto."
+
+msgctxt "Languages::upsell.master_products.product_page"
+msgid "You can let different sellers offer this product with the \"Common products for vendors\" add-on."
+msgstr "Pode permitir que diferentes vendedores ofereçam este produto com o complemento \"Produtos comuns para vendedores\"."
+
+msgctxt "Languages::upsell.vendor_rating.popup_title"
+msgid "Vendor rating"
+msgstr "Avaliação do fornecedor"
+
+msgctxt "Languages::upsell.vendor_rating.popup_text"
+msgid "Incentivize the sellers in your marketplace to act in a certain way. Divide them into tiers, have them sorted by rating, and set custom rules for how that rating is calculated."
+msgstr "Incentive os vendedores do seu marketplace a agir de determinada forma. Divida-os em níveis, classifique-os por avaliação e defina regras personalizadas para o cálculo dessa avaliação."
+
+msgctxt "Languages::upsell.vendor_rating.vendor_page"
+msgid "You can sort sellers by rating and set custom rating rules with the \"Vendor rating\" add-on."
+msgstr "Com o complemento \"Avaliação do vendedor\", pode classificar os vendedores por classificação e definir regras de classificação personalizadas."
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_title"
+msgid "Vendor plans: Commissions by category"
+msgstr "Planos do fornecedor: Comissões por categoria"
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_text"
+msgid "Set different transaction fees (%) that depend on a product’s main category. Encourage sellers to offer certain types of products by giving them better terms. Earn more on the categories that make the most sales."
+msgstr "Defina taxas de transação diferentes (%) que dependam da categoria principal do produto. Incentive os vendedores a oferecerem determinados tipos de produtos, oferecendo-lhes melhores condições. Ganhe mais nas categorias que geram mais vendas."
+
+msgctxt "Languages::upsell.vendor_categories_fee.vendor_plans"
+msgid "Set a different % for each category with the \"Vendor plans: Commissions by category\" add-on."
+msgstr "Defina uma percentagem diferente para cada categoria com o complemento \"Planos do fornecedor: Comissões por categoria\"."
+
+msgctxt "Languages::upsell.vendor_privileges.popup_title"
+msgid "Vendor privileges"
+msgstr "Privilégios do fornecedor"
+
+msgctxt "Languages::upsell.vendor_privileges.popup_text"
+msgid "Grant sellers different levels of access to their control panel, depending on their plan. Make specific functionality available in more advanced plans, or simplify sellers' control panel by removing the functionality they don't need."
+msgstr "Conceda aos vendedores diferentes níveis de acesso ao painel de controlo, dependendo do plano contratado. Disponibilize funcionalidades específicas em planos mais avançados ou simplifique o painel de controlo removendo as funcionalidades desnecessárias."
+
+msgctxt "Languages::upsell.vendor_privileges.vendor_plans"
+msgid "You can grant sellers different levels of access to their control panel depending on their plan."
+msgstr "Pode conceder aos vendedores diferentes níveis de acesso ao painel de controlo, dependendo do plano escolhido."
+
+msgctxt "Languages::upsell.direct_payments.popup_title"
+msgid "Direct customer-to-vendor payments"
+msgstr "Pagamentos diretos de clientes a fornecedores"
+
+msgctxt "Languages::upsell.direct_payments.popup_text"
+msgid "Save time and effort on distributing money between vendors. Let your customers pay directly to vendors. It then becomes a vendor’s responsibility to pay the marketplace. This also allows vendors to run their own promotions."
+msgstr "Poupe tempo e esforço na distribuição de dinheiro entre vendedores. Permita que os seus clientes paguem diretamente aos vendedores. Assim, a responsabilidade de pagar a plataforma passa a ser do vendedor. Isto também permite que os vendedores realizem as suas próprias promoções."
+
+msgctxt "Languages::upsell.direct_payments.payment_methods"
+msgid "Let sellers set up their own payment methods with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Permita que os vendedores configurem os seus próprios métodos de pagamento com o complemento \"Pagamentos diretos de clientes a fornecedores\"."
+
+msgctxt "Languages::upsell.direct_payments.promotions"
+msgid "Let sellers run their own promotions with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Permita que os vendedores criem as suas próprias promoções com o complemento \"Pagamentos diretos do cliente ao fornecedor\"."
+
+msgctxt "Languages::upsell.order_fulfillment.popup_title"
+msgid "Order fulfillment by marketplace"
+msgstr "Processamento de encomendas pelo marketplace"
+
+msgctxt "Languages::upsell.order_fulfillment.popup_text"
+msgid "Let customers select a single shipping method and charge them for shipping only once, even if multiple sellers are involved."
+msgstr "Permita que os clientes selecionem um único método de envio e cobre o envio apenas uma vez, mesmo que haja vários vendedores envolvidos."
+
+msgctxt "Languages::upsell.order_fulfillment.shipping_methods"
+msgid "Charge for shipping from multiple sellers just once with the \"Order fulfillment by marketplace\" add-on."
+msgstr "Com o complemento \"Entrega de encomendas através do marketplace\", cobre apenas uma vez pelo envio de compras de vários vendedores."
+
+msgctxt "Languages::upsell.payments_by_country.popup_title"
+msgid "Payments by country"
+msgstr "Pagamentos por país"
+
+msgctxt "Languages::upsell.payments_by_country.popup_text"
+msgid "Get more control as you scale your business. Make a payment method exclusive to a certain country, or hide it in one or a few specific countries with the \"Payments by country\" add-on."
+msgstr "Obtenha mais controlo à medida que o seu negócio cresce. Crie um método de pagamento exclusivo para um determinado país ou oculte-o num ou em alguns países específicos com o complemento \"Pagamentos por país\"."
+
+msgctxt "Languages::upsell.payments_by_country.payment_methods"
+msgid "Configure payment method availability in certain countries with the \"Payments by country\" add-on."
+msgstr "Configure a disponibilidade dos métodos de pagamento em determinados países com o complemento \"Pagamentos por país\"."
+
+msgctxt "Languages::upsell.llms.promo_text"
+msgid "Tell AI assistants like ChatGPT what's most important on your website. The llms.txt file helps you get more accurate and relevant summaries in AI-powered search, driving better-informed traffic to your store and its key products."
+msgstr "Informe os assistentes de IA, como o ChatGPT, do que é mais importante no seu website. O ficheiro llms.txt ajuda-o a obter resumos mais precisos e relevantes nas pesquisas com IA, direcionando tráfego mais qualificado para a sua loja e para os seus principais produtos."
+

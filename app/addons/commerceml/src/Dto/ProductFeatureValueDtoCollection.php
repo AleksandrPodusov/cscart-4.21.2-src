@@ -1,0 +1,132 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+
+namespace Tygh\Addons\CommerceML\Dto;
+
+
+use ArrayIterator;
+use IteratorAggregate;
+use Countable;
+use Traversable;
+
+/**
+ * Class ProductFeatureValueDtoCollection
+ *
+ * @package Tygh\Addons\CommerceML\Dto
+ *
+ * phpcs:disable SlevomatCodingStandard.TypeHints.DisallowMixedTypeHint
+ */
+class ProductFeatureValueDtoCollection implements IteratorAggregate, Countable
+{
+    /**
+     * @var array<\Tygh\Addons\CommerceML\Dto\ProductFeatureValueDto>
+     */
+    private $collections = [];
+
+    /**
+     * Adds product feature value to collection
+     *
+     * @param \Tygh\Addons\CommerceML\Dto\ProductFeatureValueDto $feature_value Product feature value instance
+     */
+    public function add(ProductFeatureValueDto $feature_value)
+    {
+        $this->collections[$feature_value->feature_id->getId()] = $feature_value;
+    }
+
+    /**
+     * Checks if collection has the product feature value object
+     *
+     * @param string $feature_id External or local feature ID
+     *
+     * @return bool
+     */
+    public function has($feature_id)
+    {
+        $feature_id = (string) $feature_id;
+
+        return isset($this->collections[$feature_id]);
+    }
+
+    /**
+     * Removes product feature value object from collection
+     *
+     * @param string $feature_id External or local feature ID
+     */
+    public function remove($feature_id)
+    {
+        $feature_id = (string) $feature_id;
+
+        unset($this->collections[$feature_id]);
+    }
+
+    /**
+     * Gets product feature value object from collection
+     *
+     * @param string      $feature_id    External or local feature ID
+     * @param string|null $default_value If collection has not property, then method will return new PropertyDto where $default_value used as value on new object
+     *
+     * @return \Tygh\Addons\CommerceML\Dto\ProductFeatureValueDto
+     */
+    public function get($feature_id, $default_value = null)
+    {
+        $feature_id = (string) $feature_id;
+
+        if (!$this->has($feature_id)) {
+            $selected_values_coll = new ProductFeatureSelectedValueDtoCollection();
+            $selected_values_coll->add(ProductFeatureSelectedValueDto::create($default_value));
+            return ProductFeatureValueDto::create(IdDto::createByExternalId($feature_id), $selected_values_coll);
+        }
+
+        return $this->collections[$feature_id];
+    }
+
+    /**
+     * Gets all product features
+     *
+     * @return array<\Tygh\Addons\CommerceML\Dto\ProductFeatureValueDto>
+     */
+    public function getAll()
+    {
+        return $this->collections;
+    }
+
+    /**
+     * Merges current collection with $collection
+     *
+     * @param \Tygh\Addons\CommerceML\Dto\ProductFeatureValueDtoCollection $collection Product feature collection instance
+     */
+    public function mergeWith(ProductFeatureValueDtoCollection $collection)
+    {
+        foreach ($collection as $item) {
+            $this->add($item);
+        }
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function getIterator(): Traversable
+    {
+        return new ArrayIterator($this->collections);
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function count(): int
+    {
+        return count($this->collections);
+    }
+}

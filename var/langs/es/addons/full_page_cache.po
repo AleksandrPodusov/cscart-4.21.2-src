@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /release-4.21.2/addons/full_page_cache.po\n"
+"X-Crowdin-File-ID: 10710\n"
+"PO-Revision-Date: 2026-09-21 11:54\n"
+
+msgctxt "Addons::name::full_page_cache"
+msgid "Performance Booster"
+msgstr "Potenciador del rendimiento"
+
+msgctxt "Addons::description::full_page_cache"
+msgid "Set up full-page cache powered by Varnish to speed up your site under heavy workload."
+msgstr "Configura el almacenamiento en caché de página completa con tecnología Varnish para acelerar tu sitio web bajo una carga de trabajo intensa."
+
+msgctxt "Languages::full_page_cache.unable_to_enable_full_page_caching"
+msgid "Unable to enable full-page caching."
+msgstr "No se puede habilitar el almacenamiento en caché de página completa."
+
+msgctxt "Languages::full_page_cache.unable_to_connect_to_varhish"
+msgid "Unable to connect to Varnish server. Please make sure that Varnish service is running and check the entered address and port."
+msgstr "No se pudo conectar con el servidor Varnish. Asegúrese de que el servicio Varnish esté en funcionamiento y verifique la dirección y el puerto introducidos."
+
+msgctxt "Languages::full_page_cache.error_session_auto_start_enabled"
+msgid "The \"session.auto_start\" PHP configuration option is enabled. Please, disable this option by setting \"session.auto_start = 0\" in your php.ini file."
+msgstr "La opción de configuración PHP \"session.auto_start\" está habilitada. Desactive esta opción estableciendo \"session.auto_start = 0\" en su archivo php.ini."
+
+msgctxt "Languages::full_page_cache.notice_caching_was_enabled"
+msgid "Full-page caching have been successfully enabled, started and running."
+msgstr "El almacenamiento en caché de página completa se ha habilitado, iniciado y está en funcionamiento correctamente."
+
+msgctxt "Languages::full_page_cache.warning_root_dir_not_writable"
+msgid "<strong>Performance Booster:</strong> Root directory of your site isn't writable. Couldn't create symlink to esi.php in the root directory. Please make the directory writable and activate the add-on. Alternatively, create the symlink from the root directory to app/addons/full_page_cache/esi.php manually."
+msgstr "<strong>Optimizador de rendimiento:</strong> El directorio raíz de su sitio no tiene permisos de escritura. No se pudo crear el enlace simbólico a esi.php en el directorio raíz. Por favor, haga que el directorio tenga permisos de escritura y active el complemento. Como alternativa, cree manualmente el enlace simbólico desde el directorio raíz a app/addons/full_page_cache/esi.php."
+
+msgctxt "Languages::full_page_cache.failed_to_create_symlink"
+msgid "Failed to create symlink [file]"
+msgstr "No se pudo crear el enlace simbólico [archivo]"
+
+msgctxt "Languages::full_page_cache.notice_configure_addon"
+msgid "Before you can activate Performance Booster, you'll need to <a href=\"[url]\">configure the server and the add-on.</a>"
+msgstr "Antes de poder activar Performance Booster, deberá <a href=\"[url]\">configurar el servidor y el complemento.</a>"
+
+msgctxt "Languages::full_page_cache.text_settings_general"
+msgid "This add-on will only work after proper server configuration. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Learn more about how to configure caching on your server</a>."
+msgstr "Este complemento solo funcionará después de la configuración adecuada del servidor. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Obtenga más información sobre cómo configurar el almacenamiento en caché en su servidor</a>."
+
+msgctxt "SettingsOptions::full_page_cache::varnish"
+msgid "Varnish"
+msgstr "Barniz"
+
+msgctxt "SettingsOptions::full_page_cache::varnish_host"
+msgid "Host"
+msgstr "Anfitrión"
+
+msgctxt "SettingsOptions::full_page_cache::common"
+msgid "Common"
+msgstr "Común"
+

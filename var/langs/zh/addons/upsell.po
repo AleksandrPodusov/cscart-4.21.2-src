@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /release-4.21.2/addons/upsell.po\n"
+"X-Crowdin-File-ID: 10830\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::upsell"
+msgid "Upsell"
+msgstr "追加销售"
+
+msgctxt "Addons::description::upsell"
+msgid "Upsell"
+msgstr "追加销售"
+
+msgctxt "Languages::upsell.learn_more"
+msgid "Learn more ⟶"
+msgstr "了解更多 ⟶"
+
+msgctxt "Languages::upsell.unlock"
+msgid "Unlock"
+msgstr "开锁"
+
+msgctxt "Languages::upsell.how_to_unlock_notice"
+msgid "<b>How to unlock:</b> This feature is in another plan. To unlock it, we’ll contact the license owner through Help Desk and by email. We may also contact you at [email]."
+msgstr "<b>如何解锁：</b> 此功能属于其他套餐。要解锁此功能，我们将通过帮助中心和电子邮件联系许可证持有者。我们可能还会通过 [email] 联系您。"
+
+msgctxt "Languages::upsell.message_sent"
+msgid "Message sent"
+msgstr "消息已发送"
+
+msgctxt "Languages::upsell.message_sent_success"
+msgid "We’ll contact you through Help Desk and by the email of the license owner. We may also contact you by the email associated with this admin account."
+msgstr "我们将通过帮助中心和许可证所有者的邮箱与您联系。我们也可能通过与此管理员帐户关联的邮箱与您联系。"
+
+msgctxt "Languages::upsell.message_already_sent"
+msgid "We're already on it"
+msgstr "我们已经开始着手做了。"
+
+msgctxt "Languages::upsell.message_already_sent.notice"
+msgid "An administrator of this site has recently requested consultation about additional features. The request is already logged in the Help Desk account associated with this license. But you’re welcome to send us an email at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr ""
+
+msgctxt "Languages::upsell.message_couldnt_send"
+msgid "Couldn’t send the message"
+msgstr "无法发送消息"
+
+msgctxt "Languages::upsell.message_couldnt_send.notice"
+msgid "Sorry, we couldn’t send your request for consultation due to some technical issues. Please try again later. If the issue persists, tell us by email what functionality you’re interested in: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr ""
+
+msgctxt "Languages::upsell.product_videos.popup_title"
+msgid "Product videos"
+msgstr "产品视频"
+
+msgctxt "Languages::upsell.product_videos.popup_text"
+msgid "Enticing product videos can draw customers’ attention, make them study the product longer, and improve their general impression of your site. CS-Cart allows you to link videos from YouTube (and from other platforms) to products."
+msgstr "引人入胜的产品视频可以吸引顾客的注意力，让他们花更多时间了解产品，并提升他们对您网站的整体印象。CS-Cart 允许您将来自 YouTube（以及其他平台）的视频链接到产品页面。"
+
+msgctxt "Languages::upsell.product_videos.product_page"
+msgid "Link videos from YouTube and other platforms to your products."
+msgstr "将 YouTube 和其他平台上的视频链接到您的产品。"
+
+msgctxt "Languages::upsell.product_videos.settings"
+msgid "Affects the videos that you add to the product image gallery."
+msgstr "影响您添加到产品图片库中的视频。"
+
+msgctxt "Languages::upsell.warehouses.popup_title"
+msgid "Warehouses"
+msgstr "仓库"
+
+msgctxt "Languages::upsell.warehouses.popup_text"
+msgid "Warehouses allow you to track inventory at multiple locations, show your customers where and when they can pick their orders, and set product availability by city, region, or country."
+msgstr "仓库功能允许您跟踪多个地点的库存，向您的客户展示他们可以在哪里以及何时取货，并按城市、地区或国家/地区设置产品可用性。"
+
+msgctxt "Languages::upsell.warehouses.product_page"
+msgid "Track inventory at multiple locations with the \"Warehouses\" add-on."
+msgstr "使用“仓库”插件跟踪多个地点的库存。"
+
+msgctxt "Languages::upsell.warehouses.store_locator"
+msgid "You can track inventory at this location with the \"Warehouses\" add-on."
+msgstr "您可以使用“仓库”插件跟踪此位置的库存。"
+
+msgctxt "Languages::upsell.add_storefront.popup_title"
+msgid "Storefronts"
+msgstr "店面"
+
+msgctxt "Languages::upsell.add_storefront.popup_text"
+msgid "Storefronts allow you to have a site that spans multiple domains. Use that to set up branches of your site for specific product groups, locations, or audiences."
+msgstr "店铺功能允许您拥有一个跨多个域名的网站。您可以利用此功能为特定的产品组、地点或受众群体设置网站分支。"
+
+msgctxt "Languages::upsell.pwa.popup_title"
+msgid "PWA mobile app"
+msgstr "PWA 移动应用"
+
+msgctxt "Languages::upsell.pwa.popup_text"
+msgid "Give your customers a mobile app that looks and works just like your site. No development or publishing in app stores required—customers will install the app straight from your site. Even third-party add-ons and themes are supported."
+msgstr "为您的客户提供一款外观和功能与您的网站完全相同的移动应用。无需开发或发布到应用商店——客户可以直接从您的网站安装应用。甚至还支持第三方插件和主题。"
+
+msgctxt "Languages::upsell.full_page_cache.popup_title"
+msgid "Performance booster"
+msgstr "性能增强剂"
+
+msgctxt "Languages::upsell.full_page_cache.popup_text"
+msgid "Make the site work faster under heavy load. Varnish full-page caching provides smoother performance when you have a large number of products, filters, and simultaneous visitors."
+msgstr "在高负载情况下，Varnish 全页面缓存能够提升网站运行速度。当网站拥有大量产品、筛选条件和并发访客时，Varnish 全页面缓存可提供更流畅的性能。"
+
+msgctxt "Languages::upsell.master_products.popup_title"
+msgid "Common products for vendors"
+msgstr "供应商的常用产品"
+
+msgctxt "Languages::upsell.master_products.popup_text"
+msgid "Set up your product catalog—with images, descriptions, etc.—in advance. Let vendors choose which of the products they sell. Show offers from different vendors on the product page."
+msgstr "提前准备好产品目录，包括图片、描述等。让供应商自行选择销售哪些产品。在产品页面上展示不同供应商的报价。"
+
+msgctxt "Languages::upsell.master_products.product_page"
+msgid "You can let different sellers offer this product with the \"Common products for vendors\" add-on."
+msgstr "你可以通过“供应商通用产品”插件，让不同的卖家提供此产品。"
+
+msgctxt "Languages::upsell.vendor_rating.popup_title"
+msgid "Vendor rating"
+msgstr "供应商评级"
+
+msgctxt "Languages::upsell.vendor_rating.popup_text"
+msgid "Incentivize the sellers in your marketplace to act in a certain way. Divide them into tiers, have them sorted by rating, and set custom rules for how that rating is calculated."
+msgstr "激励您平台上的卖家以特定方式行事。将他们分成不同的等级，按评分排序，并设置自定义规则来计算评分。"
+
+msgctxt "Languages::upsell.vendor_rating.vendor_page"
+msgid "You can sort sellers by rating and set custom rating rules with the \"Vendor rating\" add-on."
+msgstr "您可以使用“卖家评分”插件按评分对卖家进行排序，并设置自定义评分规则。"
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_title"
+msgid "Vendor plans: Commissions by category"
+msgstr "供应商方案：按类别划分的佣金"
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_text"
+msgid "Set different transaction fees (%) that depend on a product’s main category. Encourage sellers to offer certain types of products by giving them better terms. Earn more on the categories that make the most sales."
+msgstr "根据产品主类别设置不同的交易手续费（%）。通过提供更优惠的条款鼓励卖家销售特定类型的产品。在销量最高的类别上赚取更多利润。"
+
+msgctxt "Languages::upsell.vendor_categories_fee.vendor_plans"
+msgid "Set a different % for each category with the \"Vendor plans: Commissions by category\" add-on."
+msgstr "使用“供应商计划：按类别计算佣金”插件，为每个类别设置不同的百分比。"
+
+msgctxt "Languages::upsell.vendor_privileges.popup_title"
+msgid "Vendor privileges"
+msgstr "供应商特权"
+
+msgctxt "Languages::upsell.vendor_privileges.popup_text"
+msgid "Grant sellers different levels of access to their control panel, depending on their plan. Make specific functionality available in more advanced plans, or simplify sellers' control panel by removing the functionality they don't need."
+msgstr "根据卖家的套餐，授予他们不同级别的控制面板访问权限。在更高级的套餐中提供特定功能，或者通过移除卖家不需要的功能来简化控制面板。"
+
+msgctxt "Languages::upsell.vendor_privileges.vendor_plans"
+msgid "You can grant sellers different levels of access to their control panel depending on their plan."
+msgstr "您可以根据卖家的套餐，授予他们不同级别的控制面板访问权限。"
+
+msgctxt "Languages::upsell.direct_payments.popup_title"
+msgid "Direct customer-to-vendor payments"
+msgstr "客户直接向供应商付款"
+
+msgctxt "Languages::upsell.direct_payments.popup_text"
+msgid "Save time and effort on distributing money between vendors. Let your customers pay directly to vendors. It then becomes a vendor’s responsibility to pay the marketplace. This also allows vendors to run their own promotions."
+msgstr "节省在商家之间分配资金的时间和精力。让您的客户直接向商家付款。这样一来，商家就有责任向平台支付费用。这也使得商家可以自主开展促销活动。"
+
+msgctxt "Languages::upsell.direct_payments.payment_methods"
+msgid "Let sellers set up their own payment methods with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "允许卖家使用“客户直接向供应商付款”插件设置自己的付款方式。"
+
+msgctxt "Languages::upsell.direct_payments.promotions"
+msgid "Let sellers run their own promotions with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "使用“客户直接向供应商付款”插件，让卖家可以自行开展促销活动。"
+
+msgctxt "Languages::upsell.order_fulfillment.popup_title"
+msgid "Order fulfillment by marketplace"
+msgstr "市场履行订单"
+
+msgctxt "Languages::upsell.order_fulfillment.popup_text"
+msgid "Let customers select a single shipping method and charge them for shipping only once, even if multiple sellers are involved."
+msgstr "即使涉及多个卖家，也允许客户选择一种运输方式，并只收取一次运费。"
+
+msgctxt "Languages::upsell.order_fulfillment.shipping_methods"
+msgid "Charge for shipping from multiple sellers just once with the \"Order fulfillment by marketplace\" add-on."
+msgstr "使用“市场订单履行”插件，只需收取一次来自多个卖家的运费。"
+
+msgctxt "Languages::upsell.payments_by_country.popup_title"
+msgid "Payments by country"
+msgstr "按国家/地区支付"
+
+msgctxt "Languages::upsell.payments_by_country.popup_text"
+msgid "Get more control as you scale your business. Make a payment method exclusive to a certain country, or hide it in one or a few specific countries with the \"Payments by country\" add-on."
+msgstr "随着业务规模的扩大，您可以获得更多控制权。使用“按国家/地区付款”插件，您可以将付款方式限定于特定国家/地区，或者在一个或多个特定国家/地区隐藏该付款方式。"
+
+msgctxt "Languages::upsell.payments_by_country.payment_methods"
+msgid "Configure payment method availability in certain countries with the \"Payments by country\" add-on."
+msgstr "使用“按国家/地区付款”插件，配置某些国家/地区的付款方式可用性。"
+
+msgctxt "Languages::upsell.llms.promo_text"
+msgid "Tell AI assistants like ChatGPT what's most important on your website. The llms.txt file helps you get more accurate and relevant summaries in AI-powered search, driving better-informed traffic to your store and its key products."
+msgstr "告诉 ChatGPT 等 AI 助手您网站上最重要的内容。llms.txt 文件可帮助您在 AI 搜索中获得更准确、更相关的摘要，从而为您的商店及其核心产品吸引更多目标流量。"
+

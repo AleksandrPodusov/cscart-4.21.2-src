@@ -1,0 +1,232 @@
+// # Add to cart button and Main
+.ty-btn__add-to-cart--stepper,
+.ty-btn__add-to-cart--in-cart-with-quantity,
+.ty-add-to-cart-stepper {
+    --ty-add-to-cart-stepper-success-text-color: #fff;
+    --ty-add-to-cart-stepper-success-text-color-hover: #fff;
+    --ty-add-to-cart-stepper-success-background-color: #8bc045;
+    --ty-add-to-cart-stepper-success-background-color-hover: #638a2f; // darken(@add_to_cart_stepper_success_background_color, 15%)
+    --ty-add-to-cart-stepper-border-width: 1px;
+    --ty-add-to-cart-stepper-decrease-increase-padding: 0px;
+    --ty-add-to-cart-stepper-input-quantity-padding: 4px;
+    --ty-add-to-cart-stepper-cart-padding: 6px;
+    --ty-add-to-cart-stepper-icon-size: 20px; // font-size * line-height (14px * 1.428571429)
+    --ty-add-to-cart-stepper-input-quantity-width: 50px;
+    --ty-add-to-cart-stepper-input-quantity-height: 32px;
+    --ty-add-to-cart-stepper-quantity-width: ~"calc(var(--ty-add-to-cart-stepper-border-width) * 2 + (2 * (var(--ty-add-to-cart-stepper-decrease-increase-padding) * 2 + var(--ty-add-to-cart-stepper-icon-size)) + var(--ty-add-to-cart-stepper-input-quantity-width)))";
+    --ty-add-to-cart-stepper-gap: 8px;
+    --ty-add-to-cart-stepper-cart-size: ~"calc(var(--ty-add-to-cart-stepper-border-width) * 2 + (var(--ty-add-to-cart-stepper-cart-padding) * 2 + var(--ty-add-to-cart-stepper-icon-size)))";
+    --ty-add-to-cart-stepper-cart-icon-refresh-rotating-from: rotate(0deg);
+    --ty-add-to-cart-stepper-cart-icon-refresh-rotating-to: rotate(360deg);
+}
+
+@media (min-width: 375px) {
+    .ty-btn__add-to-cart--stepper,
+    .ty-btn__add-to-cart--in-cart-with-quantity,
+    .ty-add-to-cart-stepper {
+        --ty-add-to-cart-stepper-decrease-increase-padding: 6px;
+    }
+}
+
+// # Add to cart button
+.ty-btn__add-to-cart--stepper {
+    box-sizing: border-box;
+    width: ~"calc(var(--ty-add-to-cart-stepper-quantity-width) + var(--ty-add-to-cart-stepper-gap) + var(--ty-add-to-cart-stepper-cart-size))";
+    padding-left: 8px;
+    padding-right: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+// # In cart with quantity button
+.ty-btn__add-to-cart--in-cart-with-quantity {
+    box-sizing: border-box;
+    min-width: var(--ty-add-to-cart-stepper-quantity-width);
+    padding-left: 8px;
+    padding-right: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: @tertiary_button;
+    color: @btnTertiaryColor;
+    border: var(--ty-add-to-cart-stepper-border-width) solid @inputBorder; // border: 1px solid darken(@base, 15%);
+}
+
+.ty-btn__add-to-cart--in-cart-with-quantity:hover {
+    background: @tertiary_button_hover; // background: lighten(@tertiary_button, 10%);
+    color: @btnTertiaryColorHighlight; // color: #fff;
+    border-color: @tertiary_button_hover; // background: lighten(@tertiary_button, 10%);
+}
+
+// products_list.tpl (picker_contents.tpl, products.tpl, products_without_options.tpl)
+.ty-product-list__control .ty-btn.ty-btn__add-to-cart--in-cart-with-quantity {
+    margin-right: 0;
+}
+
+// # Main
+.ty-add-to-cart-stepper {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+// For compact_list.tpl
+.ty-compact-list__controls .ty-add-to-cart-stepper {
+    margin-left: 10px;
+}
+
+// # Quantity
+.ty-add-to-cart-stepper__quantity {
+    display: inline-block;
+    margin-right: var(--ty-add-to-cart-stepper-gap);
+    vertical-align: middle;
+    border: var(--ty-add-to-cart-stepper-border-width) solid @inputBorder; // border: 1px solid darken(@base, 15%);
+    overflow: hidden;
+    .rounded_corners(@baseBorderRadius);
+}
+
+// For products_list.tpl (picker_contents.tpl, products.tpl, products_without_options.tpl)
+.ty-product-list__control .ty-add-to-cart-stepper__quantity {
+    margin-bottom: 10px;
+}
+
+// For default_template.tpl, bigpicture_template.tpl, and quick_view.tpl
+.ty-product-block__button .ty-add-to-cart-stepper__quantity {
+    margin-bottom: 10px;
+}
+
+// compact_list.tpl
+.ty-compact-list__controls .ty-add-to-cart-stepper__quantity {
+    margin-right: var(--ty-add-to-cart-stepper-gap);
+}
+
+// For small_items.tpl (feature_comparison.tpl, products_small_items.tpl)
+.ty-template-small__item-description .ty-add-to-cart-stepper__quantity {
+    margin-right: var(--ty-add-to-cart-stepper-gap);
+}
+
+// For simple_list.tpl (one_product.tpl, compare.tpl, products_scroller.tpl)
+.ty-simple-list__buttons .ty-add-to-cart-stepper__quantity {
+    margin-right: var(--ty-add-to-cart-stepper-gap);
+}
+
+// grid_list.tpl
+.ty-grid-list__control .ty-add-to-cart-stepper__quantity {
+    margin-bottom: 10px;
+    margin-right: var(--ty-add-to-cart-stepper-gap);
+}
+
+// # Decrease and increase buttons
+.ty-add-to-cart-stepper__decrease,
+.ty-add-to-cart-stepper__increase {
+    min-width: var(--ty-add-to-cart-stepper-icon-size);
+    padding-left: var(--ty-add-to-cart-stepper-decrease-increase-padding);
+    padding-right: var(--ty-add-to-cart-stepper-decrease-increase-padding);
+}
+
+.ty-btn.ty-add-to-cart-stepper__decrease,
+.ty-btn.ty-add-to-cart-stepper__increase {
+    border-width: 0;
+}
+
+.ty-btn + .ty-btn.ty-add-to-cart-stepper__decrease,
+.ty-btn + .ty-btn.ty-add-to-cart-stepper__increase {
+    margin-left: 0;
+}
+
+// grid_list.tpl
+.ty-grid-list__control .ty-btn.ty-add-to-cart-stepper__decrease,
+.ty-grid-list__control .ty-btn.ty-add-to-cart-stepper__increase {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+// products_list.tpl (picker_contents.tpl, products.tpl, products_without_options.tpl)
+.ty-product-list__control .ty-btn.ty-add-to-cart-stepper__decrease,
+.ty-product-list__control .ty-btn.ty-add-to-cart-stepper__increase {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+// For default_template.tpl, bigpicture_template.tpl, quick_view.tpl
+.ty-product-block__button .ty-btn.ty-add-to-cart-stepper__decrease,
+.ty-product-block__button .ty-btn.ty-add-to-cart-stepper__increase {
+    width: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.ty-product-block__button .ty-btn ~ .ty-btn.ty-add-to-cart-stepper__increase {
+    margin-left: 0;
+}
+
+// # Decrease and increase icons
+.ty-btn .ty-icon.ty-add-to-cart-stepper__decrease-icon,
+.ty-btn .ty-icon.ty-add-to-cart-stepper__increase-icon {
+    margin-right: 0;
+}
+
+// # Input quantity
+.ty-add-to-cart-stepper__input-quantity {
+    width: var(--ty-add-to-cart-stepper-input-quantity-width);
+    min-width: 0;
+    text-align: center;
+}
+
+input[type="text"].ty-add-to-cart-stepper__input-quantity {
+    height: var(--ty-add-to-cart-stepper-input-quantity-height);
+    padding-left: var(--ty-add-to-cart-stepper-input-quantity-padding);
+    padding-right: var(--ty-add-to-cart-stepper-input-quantity-padding);
+    vertical-align: middle;
+    border-width: 0;
+}
+
+.ty-add-to-cart-stepper__input-quantity--edp {
+    display: none;
+}
+
+// For grid_list.tpl and simple_list.tpl (one_product.tpl, compare.tpl, products_scroller.tpl)
+.ty-grid-list__control input[type="text"].ty-add-to-cart-stepper__input-quantity,
+.ty-simple-list__buttons input[type="text"].ty-add-to-cart-stepper__input-quantity {
+    --ty-add-to-cart-stepper-input-quantity-padding: 0;
+}
+
+@media (min-width: 768px) {
+    .ty-grid-list__control input[type="text"].ty-add-to-cart-stepper__input-quantity,
+    .ty-simple-list__buttons input[type="text"].ty-add-to-cart-stepper__input-quantity {
+        --ty-add-to-cart-stepper-input-quantity-padding: 4px;
+    }
+}
+
+// # In cart button
+.ty-add-to-cart-stepper__cart {
+    min-width: var(--ty-add-to-cart-stepper-icon-size);
+    padding-left: var(--ty-add-to-cart-stepper-cart-padding);
+    padding-right: var(--ty-add-to-cart-stepper-cart-padding);
+    color: var(--ty-add-to-cart-stepper-success-text-color);
+    background: var(--ty-add-to-cart-stepper-success-background-color);
+    white-space: nowrap;
+}
+
+.ty-add-to-cart-stepper__cart:hover {
+    color: var(--ty-add-to-cart-stepper-success-text-color-hover);
+    background: var(--ty-add-to-cart-stepper-success-background-color-hover);
+}
+
+// # In cart button icon
+.ty-btn .ty-icon.ty-add-to-cart-stepper__cart-icon {
+    margin-right: 0;
+}
+
+@keyframes ty-add-to-cart-stepper-cart-icon-refresh-rotating {
+    from {
+        transform: var(--ty-add-to-cart-stepper-cart-icon-refresh-rotating-from);
+    }
+    to {
+        transform: var(--ty-add-to-cart-stepper-cart-icon-refresh-rotating-to);
+    }
+}
+
+.ty-add-to-cart-stepper__cart-icon--loading {
+    animation: ty-add-to-cart-stepper-cart-icon-refresh-rotating 2s linear infinite;
+}

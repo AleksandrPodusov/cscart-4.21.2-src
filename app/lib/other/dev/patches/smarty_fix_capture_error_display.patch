@@ -1,0 +1,91 @@
+diff --git a/src/Template.php b/src/Template.php
+--- a/src/Template.php
++++ b/src/Template.php
+@@ -150,41 +150,52 @@
+ 	 * @throws \Exception
+ 	 * @throws \Smarty\Exception
+ 	 */
+-	private function render($no_output_filter = true, $display = null) {
+-		if ($this->smarty->debugging) {
+-			$this->smarty->getDebug()->start_template($this, $display);
+-		}
+-		// checks if template exists
+-		if ($this->compile_check && !$this->getSource()->exists) {
+-			throw new Exception(
+-				"Unable to load '{$this->getSource()->type}:{$this->getSource()->name}'" .
+-				($this->_isSubTpl() ? " in '{$this->parent->template_resource}'" : '')
+-			);
+-		}
+-
+-		// disable caching for evaluated code
+-		if ($this->getSource()->handler->recompiled) {
+-			$this->caching = \Smarty\Smarty::CACHING_OFF;
+-		}
+-
+-		foreach ($this->startRenderCallbacks as $callback) {
+-			call_user_func($callback, $this);
+-		}
+-
+-		try {
+-
+-			// read from cache or render
+-			if ($this->caching === \Smarty\Smarty::CACHING_LIFETIME_CURRENT || $this->caching === \Smarty\Smarty::CACHING_LIFETIME_SAVED) {
+-				$this->getCached()->render($this, $no_output_filter);
+-			} else {
+-				$this->getCompiled()->render($this);
+-			}
+-
+-		} finally {
+-			foreach ($this->endRenderCallbacks as $callback) {
+-				call_user_func($callback, $this);
+-			}
+-		}
++	private function render($no_output_filter = true, $display = null)
++    {
++        if ($this->smarty->debugging) {
++            $this->smarty->getDebug()->start_template($this, $display);
++        }
++        // checks if template exists
++        if ($this->compile_check && !$this->getSource()->exists) {
++            throw new Exception(
++                "Unable to load '{$this->getSource()->type}:{$this->getSource()->name}'" .
++                ($this->_isSubTpl() ? " in '{$this->parent->template_resource}'" : '')
++            );
++        }
++
++        // disable caching for evaluated code
++        if ($this->getSource()->handler->recompiled) {
++            $this->caching = \Smarty\Smarty::CACHING_OFF;
++        }
++
++        foreach ($this->startRenderCallbacks as $callback) {
++            call_user_func($callback, $this);
++        }
++
++        $renderException = null;
++        try {
++
++            // read from cache or render
++            if ($this->caching === \Smarty\Smarty::CACHING_LIFETIME_CURRENT || $this->caching === \Smarty\Smarty::CACHING_LIFETIME_SAVED) {
++                $this->getCached()->render($this, $no_output_filter);
++            } else {
++                $this->getCompiled()->render($this);
++            }
++
++        } catch (\Throwable $e) {
++            $renderException = $e;
++            throw $renderException;
++        } finally {
++            try {
++                foreach ($this->endRenderCallbacks as $callback) {
++                    call_user_func($callback, $this);
++                }
++            } catch (\Throwable $callbackException) {
++                if ($renderException === null) {
++                    throw $callbackException;
++                }
++            }
++        }
+ 
+ 		// display or fetch
+ 		if ($display) {

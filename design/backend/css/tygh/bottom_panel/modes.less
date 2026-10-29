@@ -1,0 +1,127 @@
+.bp-modes {
+    display: none;
+    grid-area: modes;
+
+    &__item {
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        opacity: 0.6;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        border: 0;
+        color: #fff;
+        background: none;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+
+        &:hover,
+        &:focus,
+        &--active {
+            outline: 0;
+            opacity: 1;
+            color: #fff;
+        }
+
+        &--active {
+            border-top-color: #fff;
+        }
+
+        &:hover &-icon {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        &--active&--preview {
+            border-top-color: var(--bp-preview-color);
+        }
+
+        &--active&--build {
+            border-top-color: var(--bp-build-color);
+        }
+
+        &--active&--text {
+            border-top-color: var(--bp-text-color);
+        }
+
+        &--active&--theme {
+            border-top-color: var(--bp-theme-color);
+        }
+
+        &:hover&--preview,
+        &:focus&--preview,
+        &--active&--preview {
+            color: var(--bp-preview-color);
+        }
+
+        &:hover&--build,
+        &:focus&--build,
+        &--active&--build {
+            color: var(--bp-build-color);
+        }
+
+        &:hover&--text,
+        &:focus&--text,
+        &--active&--text {
+            color: var(--bp-text-color);
+        }
+
+        &:hover&--theme,
+        &:focus&--theme,
+        &--active&--theme {
+            color: var(--bp-theme-color);
+        }
+
+        &--disabled &-icon {
+            opacity: 0.1;
+        }
+
+        &--disabled&:hover {
+            color: #fff;
+            cursor: auto;
+        }
+
+        &--disabled&:hover &-icon {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+    &__item-icon {
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+}
+
+@media (min-width: 768px) {
+    .bp-modes {
+        display: -ms-grid;
+        display: grid;
+        position: relative;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        -ms-grid-columns:
+            minmax(48px, 64px)
+            minmax(48px, 64px)
+            minmax(48px, 64px)
+            minmax(48px, 64px);
+        grid-template-columns:
+            minmax(48px, 64px)
+            minmax(48px, 64px)
+            minmax(48px, 64px)
+            minmax(48px, 64px);
+    }
+}

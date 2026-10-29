@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /release-4.21.2/addons/commerceml.po\n"
+"X-Crowdin-File-ID: 10688\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::commerceml"
+msgid "CommerceML Integration"
+msgstr "تكامل CommerceML"
+
+msgctxt "Addons::description::commerceml"
+msgid "Allows you to import products from and export orders to CRMs that support CommerceML."
+msgstr "يتيح لك استيراد المنتجات من أنظمة إدارة علاقات العملاء (CRM) التي تدعم CommerceML وتصدير الطلبات إليها."
+
+msgctxt "Languages::commerceml.map.no_available_data.marketplace"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the marketplace."
+msgstr "لا تتوفر بيانات. عادةً ما تظهر هنا بعد ربط نظام إدارة علاقات العملاء (CRM) الخاص بك بالسوق بنجاح."
+
+msgctxt "Languages::commerceml.map.no_available_data.store"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the store."
+msgstr "لا تتوفر بيانات. عادةً ما تظهر هنا بعد ربط نظام إدارة علاقات العملاء (CRM) الخاص بك بالمتجر بنجاح."
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode"
+msgid "Import strategy"
+msgstr "استراتيجية الاستيراد"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.all"
+msgid "Import all products"
+msgstr "استيراد جميع المنتجات"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_new"
+msgid "Create new products only"
+msgstr "إنشاء منتجات جديدة فقط"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_existing"
+msgid "Update existing products only"
+msgstr "تحديث المنتجات الحالية فقط"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.none"
+msgid "Don't import anything"
+msgstr "لا تستورد أي شيء"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_offers"
+msgid "Import product offers"
+msgstr "عروض المنتجات المستوردة"
+
+msgctxt "Languages::commerceml.cml_catalog_hide_out_of_stock_products"
+msgid "Hide out-of-stock products"
+msgstr "إخفاء المنتجات غير المتوفرة"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_categories"
+msgid "Import categories"
+msgstr "فئات الاستيراد"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_features"
+msgid "Import features"
+msgstr "ميزات الاستيراد"
+
+msgctxt "Languages::commerceml.cml_catalog_import_images_as_additional"
+msgid "Import images as additional ones"
+msgstr "استورد الصور كملفات إضافية"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status"
+msgid "Status for new products"
+msgstr "حالة المنتجات الجديدة"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.a"
+msgid "Active"
+msgstr "نشيط"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.h"
+msgid "Hidden"
+msgstr "مختفي"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.d"
+msgid "Disabled"
+msgstr "عاجز"
+
+msgctxt "Languages::commerceml.cml_default_lang"
+msgid "Content language in CRM"
+msgstr "لغة المحتوى في إدارة علاقات العملاء"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id"
+msgid "Default category"
+msgstr "الفئة الافتراضية"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id.tooltip"
+msgid "Products that don't have any other category will be imported here."
+msgstr "سيتم استيراد المنتجات التي لا تندرج تحت أي فئة أخرى إلى هنا."
+
+msgctxt "Languages::commerceml.cml_catalog_use_taxes"
+msgid "Add tax to products"
+msgstr "أضف الضريبة إلى المنتجات"
+
+msgctxt "Languages::commerceml.main_information"
+msgid "Main information"
+msgstr "المعلومات الرئيسية"
+
+msgctxt "Languages::commerceml.field_in_marketplace"
+msgid "Field in the marketplace"
+msgstr "المجال في السوق"
+
+msgctxt "Languages::commerceml.field_in_store"
+msgid "Field in the store"
+msgstr "الحقل في المتجر"
+
+msgctxt "Languages::commerceml.field_in_crm"
+msgid "Field in CRM"
+msgstr "حقل في نظام إدارة علاقات العملاء (CRM)"
+
+msgctxt "Languages::commerceml.fields_in_crm"
+msgid "Field(s) in CRM"
+msgstr "الحقول في نظام إدارة علاقات العملاء"
+
+msgctxt "Languages::commerceml.custom_field_name"
+msgid "Custom field name"
+msgstr "اسم الحقل المخصص"
+
+msgctxt "Languages::commerceml.show_as_product_feature"
+msgid "Show as a product feature"
+msgstr "عرض كميزة منتج"
+
+msgctxt "Languages::commerceml.automatic_matching_title"
+msgid "Automatic matching"
+msgstr "المطابقة التلقائية"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_category_by_name"
+msgid "Match categories by name"
+msgstr "طابق الفئات حسب الاسم"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_product_by_product_code"
+msgid "Match products by product code"
+msgstr "قم بمطابقة المنتجات حسب رمز المنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source"
+msgid "Product name"
+msgstr "اسم المنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.name"
+msgid "Name"
+msgstr "اسم"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.full_name"
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source"
+msgid "Product code"
+msgstr "رمز المنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.article"
+msgid "SKU"
+msgstr "رمز المنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.code"
+msgid "Item number"
+msgstr "رقم الصنف"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.bar"
+msgid "Bar code"
+msgstr "الرمز الشريطي"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source"
+msgid "Full description"
+msgstr "الوصف الكامل"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.none"
+msgid "Do not import"
+msgstr "لا تستورد"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.description"
+msgid "Description"
+msgstr "وصف"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.html_description"
+msgid "File description"
+msgstr "وصف الملف"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.full_name"
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source"
+msgid "Short description"
+msgstr "وصف مختصر"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.none"
+msgid "Do not import"
+msgstr "لا تستورد"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.description"
+msgid "Description"
+msgstr "وصف"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.html_description"
+msgid "File description"
+msgstr "وصف الملف"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.full_name"
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from"
+msgid "Names of product variations"
+msgstr "أسماء أنواع المنتجات المختلفة"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.tooltip"
+msgid "Determines where product variations will get their names during import. After the import, you'll be able to edit their names in CS-Cart as you see fit."
+msgstr "يُحدد هذا الخيار أسماءَ مُختلف مُنتجات CS-Cart أثناء عملية الاستيراد. بعد الاستيراد، يُمكنك تعديل هذه الأسماء في CS-Cart حسب رغبتك."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically"
+msgid "Choose automatically"
+msgstr "يتم الاختيار تلقائيًا"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically.tooltip"
+msgid "If any of a product's variations are \"separate products\", then all variations of that product will use unique names from offers.xml"
+msgstr "إذا كانت أي من اختلافات المنتج \"منتجات منفصلة\"، فستستخدم جميع اختلافات ذلك المنتج أسماءً فريدة من ملف offers.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import"
+msgid "Use catalog names"
+msgstr "استخدم أسماء الكتالوج"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import.tooltip"
+msgid "All variations of a product will use their common catalog name from import.xml"
+msgstr "ستستخدم جميع أنواع المنتج اسم الكتالوج المشترك الخاص بها من ملف import.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers"
+msgid "Use offer names"
+msgstr "استخدم أسماء العروض"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers.tooltip"
+msgid "All variations of a product will use their unique offer names from offers.xml"
+msgstr "ستستخدم جميع أنواع المنتج أسماء عروضها الفريدة من ملف offers.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source"
+msgid "Page title (SEO)"
+msgstr "عنوان الصفحة (تحسين محركات البحث)"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.none"
+msgid "Do not import"
+msgstr "لا تستورد"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.name"
+msgid "Name"
+msgstr "اسم"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.full_name"
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source.custom_field"
+msgid "Custom field"
+msgstr "حقل مخصص"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source"
+msgid "Promo text (field in CRM)"
+msgstr "نص ترويجي (حقل في نظام إدارة علاقات العملاء)"
+
+msgctxt "Languages::commerceml.shipping_information"
+msgid "Shipping information"
+msgstr "معلومات الشحن"
+
+msgctxt "Languages::commerceml.shipping_information_info_block"
+msgid "If your CRM has fields with the same information as product shipping properties in the store, then you can import values from those fields. You can enter multiple fields (each in new line). In that case, the value of the latest found field will be used."
+msgstr "إذا كان نظام إدارة علاقات العملاء (CRM) الخاص بك يحتوي على حقول تتضمن نفس معلومات خصائص شحن المنتجات في المتجر، فيمكنك استيراد القيم من تلك الحقول. يمكنك إدخال عدة حقول (كل حقل في سطر جديد). في هذه الحالة، سيتم استخدام قيمة آخر حقل تم العثور عليه."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_weight_property_source_list"
+msgid "Weight"
+msgstr "وزن"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list"
+msgid "Free shipping"
+msgstr "ًالشحن مجانا"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list.tooltip"
+msgid "Value of the field in CRM must be \"true\" or \"false\""
+msgstr "يجب أن تكون قيمة الحقل في نظام إدارة علاقات العملاء \"صحيح\" أو \"خطأ\"."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_shipping_cost_property_source_list"
+msgid "Shipping cost"
+msgstr "تكلفة الشحن"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_number_of_items_property_source_list"
+msgid "Items in a box"
+msgstr "محتويات الصندوق"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_length_property_source_list"
+msgid "Box length"
+msgstr "طول الصندوق"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_width_property_source_list"
+msgid "Box width"
+msgstr "عرض الصندوق"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_height_property_source_list"
+msgid "Box height"
+msgstr "ارتفاع الصندوق"
+
+msgctxt "Languages::commerceml.orders_export"
+msgid "Orders export"
+msgstr "تصدير الطلبات"
+
+msgctxt "Languages::commerceml.orders_import"
+msgid "Orders import"
+msgstr "استيراد الطلبات"
+
+msgctxt "Languages::commerceml.cml_order_export_strategy"
+msgid "Export strategy"
+msgstr "استراتيجية التصدير"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.a"
+msgid "Export all orders"
+msgstr "تصدير جميع الطلبات"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.n"
+msgid "Export new orders and changes to existing orders only"
+msgstr "تصدير الطلبات الجديدة والتغييرات على الطلبات الحالية فقط"
+
+msgctxt "Languages::commerceml.product_features"
+msgid "Product features"
+msgstr "ميزات المنتج"
+
+msgctxt "Languages::commerceml.product_features_info_block"
+msgid "Write each CRM field in a new line."
+msgstr "اكتب كل حقل من حقول نظام إدارة علاقات العملاء في سطر جديد."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_blocklist"
+msgid "Don't import these CRM fields as product features"
+msgstr "لا تقم باستيراد حقول إدارة علاقات العملاء هذه كميزات للمنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_allowlist"
+msgid "Import only these CRM fields as product features"
+msgstr "استورد فقط حقول إدارة علاقات العملاء هذه كميزات للمنتج"
+
+msgctxt "Languages::commerceml.never"
+msgid "Never"
+msgstr "أبداً"
+
+msgctxt "Languages::commerceml.last_status.X"
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgctxt "Languages::commerceml.last_status.S"
+msgid "Success"
+msgstr "نجاح"
+
+msgctxt "Languages::commerceml.last_status.P"
+msgid "In progress"
+msgstr "في تَقَدم"
+
+msgctxt "Languages::commerceml.last_status.F"
+msgid "Failure"
+msgstr "فشل"
+
+msgctxt "Languages::commerceml.last_status.N"
+msgid "New"
+msgstr "جديد"
+
+msgctxt "Languages::privilege_groups.commerceml"
+msgid "CommerceML"
+msgstr "كوميرس إم إل"
+
+msgctxt "Languages::commerceml.step_1_title"
+msgid "Step 1: Connect your CRM"
+msgstr "الخطوة 1: ربط نظام إدارة علاقات العملاء (CRM) الخاص بك"
+
+msgctxt "Languages::commerceml.step_1_instruction.marketplace"
+msgid "<p>Make sure that your CRM sends files to the marketplace. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the marketplace receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr ""
+
+msgctxt "Languages::commerceml.step_1_instruction.store"
+msgid "<p>Make sure that your CRM sends files to the store. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the store receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>تأكد من أن نظام إدارة علاقات العملاء (CRM) الخاص بك يرسل الملفات إلى المتجر. يمكنك ربط 1C أو أي نظام CRM آخر يدعم CommerceML.</p><p>سنحدد هذا المربع بمجرد أن يستلم المتجر الملف الأول من نظام CRM الخاص بك ويعالجه. إليك تعليمات ربط نظام CRM الخاص بك:</p>"
+
+msgctxt "Languages::commerceml.step_1_links"
+msgid "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Trade Management</a>"
+msgstr "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">إدارة التجارة 1C</a>"
+
+msgctxt "Languages::commerceml.step_2_title"
+msgid "Step 2: Set the data exchange rules"
+msgstr "الخطوة الثانية: تحديد قواعد تبادل البيانات"
+
+msgctxt "Languages::commerceml.step_2_instruction.marketplace"
+msgid "<p>Before importing anything, the marketplace checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the marketplace, you'll be able to import it.</p>"
+msgstr ""
+
+msgctxt "Languages::commerceml.step_2_instruction.store"
+msgid "<p>Before importing anything, the store checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the store, you'll be able to import it.</p>"
+msgstr ""
+
+msgctxt "Languages::commerceml.step_2_specify_matches"
+msgid "Please specify the matches for:"
+msgstr "يرجى تحديد التطابقات لـ:"
+
+msgctxt "Languages::commerceml.step_3_title"
+msgid "Step 3: Synchronize the data"
+msgstr "الخطوة 3: مزامنة البيانات"
+
+msgctxt "Languages::commerceml.step_3_instruction.marketplace"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the marketplace successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>بمجرد تحديد القواعد، يُمكن استيراد البيانات. ابدأ الاستيراد من نظام إدارة علاقات العملاء (CRM). سنُفعّل هذا المربع بعد استلام السوق للبيانات بنجاح. في حال وجود أي مشاكل، سنُعلمك هنا.</p>"
+
+msgctxt "Languages::commerceml.step_3_instruction.store"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the store successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>بمجرد تحديد القواعد، يُمكن استيراد البيانات. ابدأ الاستيراد من نظام إدارة علاقات العملاء (CRM). سنُفعّل هذا المربع بعد استلام المتجر للبيانات بنجاح. في حال وجود أي مشاكل، سنُعلمك بها هنا.</p>"
+
+msgctxt "Languages::commerceml.last_successful_sync"
+msgid "Last successful sync"
+msgstr "آخر مزامنة ناجحة"
+
+msgctxt "Languages::commerceml.view_log"
+msgid "View log"
+msgstr "عرض السجل"
+
+msgctxt "Languages::commerceml.no_match"
+msgid "No match specified yet!"
+msgstr "لم يتم تحديد أي تطابق حتى الآن!"
+
+msgctxt "Languages::commerceml.done"
+msgid "Done!"
+msgstr "منتهي!"
+
+msgctxt "Languages::commerceml.marketplace"
+msgid "marketplace"
+msgstr "سوق إلكتروني"
+
+msgctxt "Languages::commerceml.store"
+msgid "store"
+msgstr "محل"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee"
+msgid "Export shipping fee"
+msgstr "رسوم الشحن للتصدير"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee.tooltip"
+msgid "Orders will have shipping fee as a separate product"
+msgstr "ستُضاف رسوم الشحن إلى الطلبات كمنتج منفصل."
+
+msgctxt "Languages::commerceml.cml_order_export_product_options"
+msgid "Export product options"
+msgstr "خيارات تصدير المنتج"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options.tooltip"
+msgid "Export order with product options"
+msgstr "طلب تصدير مع خيارات المنتج"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses.tooltip"
+msgid "Export order statuses in CommerceML format"
+msgstr "تصدير حالات الطلبات بتنسيق CommerceML"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id"
+msgid "Start export from Order #"
+msgstr "ابدأ التصدير من رقم الطلب"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id.tooltip"
+msgid "Leave empty to export all orders"
+msgstr "اترك هذا الحقل فارغًا لتصدير جميع الطلبات"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses"
+msgid "Export order statuses"
+msgstr "حالة طلبات التصدير"
+
+msgctxt "Languages::commerceml.cml_order_statuses_filter"
+msgid "Order statuses"
+msgstr "حالة الطلبات"
+
+msgctxt "Languages::commerceml.cml_orders_import_changes"
+msgid "Import changes to orders"
+msgstr "استيراد التغييرات على الطلبات"
+
+msgctxt "Languages::commerceml.map.entity_name"
+msgid "External name"
+msgstr "الاسم الخارجي"
+
+msgctxt "Languages::commerceml.map.entity_id"
+msgid "External ID"
+msgstr "معرف خارجي"
+
+msgctxt "Languages::commerceml.map.local_id"
+msgid "Local ID"
+msgstr "الهوية المحلية"
+
+msgctxt "Languages::commerceml.tab.currency"
+msgid "Currencies"
+msgstr "العملات"
+
+msgctxt "Languages::commerceml.tab.general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "Languages::commerceml.tab.catalog"
+msgid "Catalog"
+msgstr "الكتالوج"
+
+msgctxt "Languages::commerceml.tab.products"
+msgid "Products"
+msgstr "منتجات"
+
+msgctxt "Languages::commerceml.tab.orders"
+msgid "Orders"
+msgstr "طلبات"
+
+msgctxt "Languages::commerceml.tab.price_type"
+msgid "Prices"
+msgstr "الأسعار"
+
+msgctxt "Languages::commerceml.tab.tax"
+msgid "Taxes"
+msgstr "الضرائب"
+
+msgctxt "Languages::commerceml.tab.category"
+msgid "Categories"
+msgstr "فئات"
+
+msgctxt "Languages::commerceml.tab.product_feature"
+msgid "Product features"
+msgstr "ميزات المنتج"
+
+msgctxt "Languages::commerceml.variation_default_product_feature_name"
+msgid "Variant"
+msgstr "متغير"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "السعر الأساسي"
+
+msgctxt "Languages::commerceml.import.error.product_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only new products are imported"
+msgstr "تم تخطي المنتج [id]؛ السبب: يتم استيراد المنتجات الجديدة فقط"
+
+msgctxt "Languages::commerceml.import.error.product_not_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only the changes to existing products are imported"
+msgstr "تم تخطي المنتج [id]؛ السبب: يتم استيراد التغييرات التي طرأت على المنتجات الموجودة فقط."
+
+msgctxt "Languages::commerceml.import.error.product.caregory_not_found"
+msgid "Couldn't find category [id]"
+msgstr "لم يتم العثور على الفئة [id]"
+
+msgctxt "Languages::commerceml.import.message.product.default_category_used"
+msgid "Couldn't find category [id]; default category [local_id] used instead"
+msgstr "تعذر العثور على الفئة [id]؛ تم استخدام الفئة الافتراضية [local_id] بدلاً منها"
+
+msgctxt "Languages::commerceml.import.message.product.no_categories_default_category_used"
+msgid "Product [product_id] does not have categories; default category [local_id] used instead"
+msgstr "المنتج [product_id] لا يحتوي على تصنيفات؛ تم استخدام التصنيف الافتراضي [local_id] بدلاً من ذلك."
+
+msgctxt "Languages::commerceml.import.message.product.created"
+msgid "Product [id] created; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "تم إنشاء المنتج [id]؛ المعرف المحلي: [local_id]، السعر: [price]، الكمية: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.updated"
+msgid "Product [id] updated; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "تم تحديث المنتج [id]؛ المعرف المحلي: [local_id]، السعر: [price]، الكمية: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.deleted"
+msgid "Product [id] deleted; local ID: [local_id]"
+msgstr "تم حذف المنتج [id]؛ المعرّف المحلي: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.not_import_deleted"
+msgid "Couldn't import product [id]; reason: product marked as deleted"
+msgstr "تعذر استيراد المنتج [id]؛ السبب: تم وضع علامة \"محذوف\" على المنتج."
+
+msgctxt "Languages::commerceml.import.message.product.marked_as_removed"
+msgid "Couldn't import product [id]; reason: product was deleted earlier"
+msgstr "تعذر استيراد المنتج [id]؛ السبب: تم حذف المنتج مسبقًا"
+
+msgctxt "Languages::commerceml.import.message.product.is_not_creatable"
+msgid "Couldn't import product [id]; reason: not enough data to create a product"
+msgstr "تعذر استيراد المنتج [id]؛ السبب: لا توجد بيانات كافية لإنشاء منتج"
+
+msgctxt "Languages::commerceml.import.message.product.found_by_product_code"
+msgid "Couldn't find product [id] by product code [product_code]; local ID: [local_id]"
+msgstr "تعذر العثور على المنتج [id] بواسطة رمز المنتج [product_code]؛ المعرف المحلي: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.local_id_exists_but_product_not_found"
+msgid "Couldn't find local ID [local_id] for product [id] in the database"
+msgstr "تعذر العثور على المعرّف المحلي [local_id] للمنتج [id] في قاعدة البيانات"
+
+msgctxt "Languages::commerceml.import.message.category.found_by_name"
+msgid "Category [id] was matched by name: [name]; local ID: [local_id]"
+msgstr "تمت مطابقة الفئة [id] بالاسم: [name]؛ المعرف المحلي: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_found"
+msgid "Couldn't find parent category [parent_id] for category [id]"
+msgstr "تعذر العثور على الفئة الأصلية [parent_id] للفئة [id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_imported"
+msgid "Couldn't import parent category [parent_id] for category [id]"
+msgstr "تعذر استيراد الفئة الأصلية [parent_id] للفئة [id]"
+
+msgctxt "Languages::commerceml.import.message.category.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "تم إنشاء الفئة [id]؛ المعرّف المحلي: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.created"
+msgid "Product feature [id] created; local ID: [local_id]"
+msgstr "تم إنشاء ميزة المنتج [id]؛ المعرف المحلي: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped"
+msgid "Skipping product feature [id]; reason: import this product feature is disabled in the mapping settings"
+msgstr "تم تخطي ميزة المنتج [id]؛ السبب: تم تعطيل استيراد ميزة المنتج هذه في إعدادات الربط."
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_skipped"
+msgid "Skipping product feature variant [id]; reason: import this product feature variant is disabled in the mapping settings"
+msgstr "تم تخطي متغير ميزة المنتج [id]؛ السبب: تم تعطيل استيراد متغير ميزة المنتج هذا في إعدادات الربط."
+
+msgctxt "Languages::commerceml.import.message.category.skipped"
+msgid "Skipping product category [id]; reason: import this product category is disabled in the mapping settings"
+msgstr "تم تخطي فئة المنتج [id]؛ السبب: تم تعطيل استيراد فئة المنتج هذه في إعدادات الربط."
+
+msgctxt "Languages::commerceml.import.error.product_feature.not_found"
+msgid "Couldn't find product feature [id]"
+msgstr "لم يتم العثور على ميزة المنتج [id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped_by_settings"
+msgid "Couldn't import product feature [id]; reason: import of product features is disabled in the settings"
+msgstr "تعذر استيراد ميزة المنتج [id]؛ السبب: تم تعطيل استيراد ميزات المنتج في الإعدادات"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_created"
+msgid "Variant [id] of product feature [feature_id] created; local ID: [local_id]"
+msgstr "تم إنشاء نسخة [id] من ميزة المنتج [feature_id]؛ المعرف المحلي: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.variation_not_deleted"
+msgid "Couldn't delete product variation [id]; local ID: [local_id]"
+msgstr "تعذر حذف تنويع المنتج [id]؛ المعرف المحلي: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.parent_product_not_found"
+msgid "Couldn't find parent product for variation [id]"
+msgstr "لم يتم العثور على المنتج الأصلي للنوع [id]"
+
+msgctxt "Languages::commerceml.import.error.product.parent_product_removed"
+msgid "Couldn't import product [id]; reason: its parent product [parent_id] was deleted"
+msgstr "تعذر استيراد المنتج [id]؛ السبب: تم حذف المنتج الأصل [parent_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.invalid_features_count"
+msgid "The number of features doesn't match the number of features in variation group [group_code]"
+msgstr "عدد الميزات لا يتطابق مع عدد الميزات في مجموعة التباين [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.feature_not_found_at_group"
+msgid "Couldn't find feature [feature_id] in variation group [group_code]"
+msgstr "تعذر العثور على الميزة [feature_id] في مجموعة التباين [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.same_variation_exists"
+msgid "Variation group [group_code] already has a variation with the same combination of feature values"
+msgstr "تحتوي مجموعة المتغيرات [group_code] بالفعل على متغير بنفس مجموعة قيم الميزات"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation"
+msgid "Couldn't create product variation [id] in variation group [group_code]"
+msgstr "تعذر إنشاء متغير المنتج [id] في مجموعة المتغيرات [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation_group"
+msgid "Couldn't create variation group for product [id]"
+msgstr "تعذر إنشاء مجموعة متغيرات للمنتج [id]"
+
+msgctxt "Languages::commerceml.import.message.start_import_product"
+msgid "Starting the import of product [id]"
+msgstr "بدء استيراد المنتج [id]"
+
+msgctxt "Languages::commerceml.import.message.end_import_product"
+msgid "Finishing the import of product [id]"
+msgstr "جارٍ الانتهاء من استيراد المنتج [id]"
+
+msgctxt "Languages::commerceml.controller.import_orders_is_disabled"
+msgid "Import changes to orders is disabled. Importing order was canceled."
+msgstr "تم تعطيل استيراد التغييرات على الطلبات. تم إلغاء استيراد الطلب."
+
+msgctxt "Languages::commerceml.controller.import_orders_no_permissions"
+msgid "Used administrator's account have no permissions to edit and create orders. Order import was canceled."
+msgstr "لا يملك حساب المسؤول المستخدم صلاحيات تعديل أو إنشاء الطلبات. تم إلغاء استيراد الطلب."
+
+msgctxt "Lnaguages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting the orders received"
+msgstr "طلب تصدير الطلبات المستلمة"
+
+msgctxt "Lnaguages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting the orders processed"
+msgstr "طلب تصدير الطلبات التي تمت معالجتها"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] received"
+msgstr "تم استلام طلب تنزيل ملف مزامنة المبيعات [اسم الملف]"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] processed"
+msgstr "تمت معالجة طلب تنزيل ملف مزامنة المبيعات [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_convert"
+msgid "Request for converting the sale synchronization file [filename] received"
+msgstr "تم استلام طلب لتحويل ملف مزامنة المبيعات [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "تمت معالجة طلب تحويل ملف مزامنة الكتالوج [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] received"
+msgstr "تم استلام طلب استيراد البيانات من ملف مزامنة المبيعات [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] processed"
+msgstr "تمت معالجة طلب استيراد البيانات من ملف مزامنة المبيعات [اسم الملف]."
+
+msgctxt "Languages::commerceml.import.message.start_update_order"
+msgid "Starting the import of order [id]"
+msgstr "بدء استيراد الطلب [id]"
+
+msgctxt "Languages::commerceml.import.message.end_update_order"
+msgid "Finishing the import of order [id]"
+msgstr "جارٍ الانتهاء من استيراد الطلب [id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_checkauth_request"
+msgid "Request for synchronization session received"
+msgstr "تم استلام طلب جلسة مزامنة"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_checkauth_request"
+msgid "Request for synchronization session processed. Session ID: [session_id]"
+msgstr "تمت معالجة طلب جلسة المزامنة. معرّف الجلسة: [session_id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_init"
+msgid "Request for synchronization parameters received"
+msgstr "تم استلام طلب معلمات المزامنة"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_init"
+msgid "Request for synchronization parameters processed. File size limit: [limit]. ZIP support: [zip]"
+msgstr "تمت معالجة طلب معلمات المزامنة. الحد الأقصى لحجم الملف: [limit]. دعم ملفات ZIP: [zip]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] received"
+msgstr "تم استلام طلب تنزيل ملف المزامنة [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] processed"
+msgstr "تمت معالجة طلب تنزيل ملف المزامنة [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] received"
+msgstr "تم استلام طلب فك ضغط ملف المزامنة [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] processed"
+msgstr "تمت معالجة طلب فك ضغط ملف المزامنة [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] received"
+msgstr "تم استلام طلب تحويل ملف مزامنة الكتالوج [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "تمت معالجة طلب تحويل ملف مزامنة الكتالوج [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] received"
+msgstr "تم استلام طلب لتحليل ملف مزامنة الكتالوج [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] processed"
+msgstr "تمت معالجة طلب تحليل ملف مزامنة الكتالوج [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] received"
+msgstr "تم استلام طلب استيراد البيانات من ملف مزامنة الكتالوج [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] processed"
+msgstr "تمت معالجة طلب استيراد البيانات من ملف مزامنة الكتالوج [اسم الملف]."
+
+msgctxt "Languages::commerceml.controller.end_handle_request"
+msgid "Finishing the processing of the [mode] request"
+msgstr "إنهاء معالجة طلب [الوضع]"
+
+msgctxt "Languages::commerceml.controller.upload_directory_cleaned"
+msgid "Directory [dir] cleared of old synchronization files"
+msgstr "تم مسح المجلد [dir] من ملفات المزامنة القديمة"
+
+msgctxt "Languages::commerceml.controller.convert_import_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: the import works in the 'Do not import' mode"
+msgstr "تم تخطي الملف [اسم الملف]؛ السبب: عملية الاستيراد تعمل في وضع \"عدم الاستيراد\"."
+
+msgctxt "Languages::commerceml.controller.convert_offers_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: settings forbid the import of offers"
+msgstr "تم تخطي الملف [اسم الملف]؛ السبب: الإعدادات تمنع استيراد العروض"
+
+msgctxt "Languages::commerceml.controller.error"
+msgid "Error: [message]"
+msgstr "خطأ: [رسالة]"
+
+msgctxt "Languages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting orders received"
+msgstr "طلب تصدير الطلبات المستلمة"
+
+msgctxt "Languages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting orders processed"
+msgstr "تمت معالجة طلبات تصدير الطلبات"
+
+msgctxt "Languages::commerceml.brand_manufacturer_default_product_feature_name"
+msgid "Manufacturer"
+msgstr "الشركة المصنعة"
+
+msgctxt "Languages::commerceml.sync_data_name"
+msgid "CommerceML Integration"
+msgstr "تكامل CommerceML"
+
+msgctxt "Languages::commerceml.map.entity_type.category"
+msgid "Categories"
+msgstr "فئات"
+
+msgctxt "Languages::commerceml.map.entity_type.tax"
+msgid "Taxes"
+msgstr "الضرائب"
+
+msgctxt "Languages::commerceml.map.entity_type.price_type"
+msgid "Price types"
+msgstr "أنواع الأسعار"
+
+msgctxt "Languages::commerceml.map.entity_type.currency"
+msgid "Currencies"
+msgstr "العملات"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature"
+msgid "Product features"
+msgstr "ميزات المنتج"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature_variant"
+msgid "Product features variants"
+msgstr "ميزات المنتج المتنوعة"
+
+msgctxt "Languages::commerceml.general_information.marketplace"
+msgid "To sync your CRM with the marketplace, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "لمزامنة نظام إدارة علاقات العملاء الخاص بك مع السوق، قم بإعداد مزامنة جديدة (عقدة تبادل) مع الموقع الإلكتروني. استخدم الإعدادات التالية عند إنشاء عقدة تبادل:<ul><li>عنوان الموقع الإلكتروني: <a href=\"[http_location]\">[http_location]</a></li><li>اسم المستخدم: عنوان البريد الإلكتروني للمسؤول</li><li>كلمة المرور: كلمة مرور المسؤول</li></ul>نوصي بإضافة مسؤول جديد يتمتع بصلاحية \"CommerceML\"."
+
+msgctxt "Languages::commerceml.general_information.store"
+msgid "To sync your CRM with the store, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "لمزامنة نظام إدارة علاقات العملاء (CRM) الخاص بك مع المتجر، قم بإعداد عملية مزامنة جديدة (عقدة تبادل) مع الموقع الإلكتروني. استخدم الإعدادات التالية عند إنشاء عقدة تبادل:<ul><li>عنوان الموقع الإلكتروني: <a href=\"[http_location]\">[http_location]</a></li><li>اسم المستخدم: عنوان البريد الإلكتروني للمسؤول</li><li>كلمة المرور: كلمة مرور المسؤول</li></ul>نوصي بإضافة مسؤول جديد يتمتع بصلاحية \"CommerceML\"."
+
+msgctxt "Languages::commerceml.map.category.create"
+msgid "Create category on next sync"
+msgstr "إنشاء فئة في المزامنة التالية"
+
+msgctxt "Languages::commerceml.map.category.use_default"
+msgid "Use default category"
+msgstr "استخدم الفئة الافتراضية"
+
+msgctxt "Languages::commerceml.map.product_feature.create"
+msgid "Create product feature on next sync"
+msgstr "إنشاء ميزة المنتج في المزامنة التالية"
+
+msgctxt "Languages::commerceml.map.product_feature.skip"
+msgid "Don't import"
+msgstr "لا تستورد"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.create"
+msgid "Create product feature variant on next sync"
+msgstr "إنشاء متغير ميزة المنتج في المزامنة التالية"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.skip"
+msgid "Don't import"
+msgstr "لا تستورد"
+
+msgctxt "Languages::commerceml.n_items_will_be_created_automatically"
+msgid "[n] item will be created automatically|[n] items will be created automatically"
+msgstr "سيتم إنشاء العنصر [n] تلقائيًا | سيتم إنشاء العناصر [n] تلقائيًا"
+
+msgctxt "Languages::commerceml.n_items_will_be_skipped"
+msgid "[n] item not matched and will be skipped|[n] item not matched and will be skipped"
+msgstr "[n] العنصر غير مطابق وسيتم تخطيه|[n] العنصر غير مطابق وسيتم تخطيه"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation"
+msgid "Product feature creation"
+msgstr "إنشاء ميزات المنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.y"
+msgid "Create new features and variants from CRM automatically"
+msgstr "إنشاء ميزات وأنواع جديدة من نظام إدارة علاقات العملاء (CRM) تلقائيًا"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "لا تقم بإنشاء ميزات أو متغيرات من نظام إدارة علاقات العملاء (CRM) حتى أقوم بمراجعتها."
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation"
+msgid "Category creation"
+msgstr "إنشاء فئة"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.y"
+msgid "Create new categories from CRM automatically"
+msgstr "إنشاء فئات جديدة من نظام إدارة علاقات العملاء (CRM) تلقائيًا"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "لا تقم بإنشاء ميزات أو متغيرات من نظام إدارة علاقات العملاء (CRM) حتى أقوم بمراجعتها."
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy"
+msgid "If the category of a product changes in CRM"
+msgstr "إذا تغيرت فئة المنتج في نظام إدارة علاقات العملاء (CRM)"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.append"
+msgid "Add the new category alongside the existing ones"
+msgstr "أضف الفئة الجديدة إلى جانب الفئات الموجودة"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.replace_main"
+msgid "Change the main category of the product"
+msgstr "غيّر الفئة الرئيسية للمنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.ignore"
+msgid "Ignore the change; assign a category only to new products"
+msgstr "تجاهل التغيير؛ قم بتعيين فئة للمنتجات الجديدة فقط"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy"
+msgid "If the image of a product changes in CRM"
+msgstr "إذا تغيرت صورة المنتج في نظام إدارة علاقات العملاء (CRM)"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.append"
+msgid "Add the new image alongside the existing ones"
+msgstr "أضف الصورة الجديدة بجانب الصور الموجودة"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.replace"
+msgid "Replace all images of the product"
+msgstr "استبدل جميع صور المنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.ignore"
+msgid "Ignore the change; assign an image only to new products"
+msgstr "تجاهل التغيير؛ قم بتعيين صورة للمنتجات الجديدة فقط"
+
+msgctxt "Languages::commerceml.additional_settings_title"
+msgid "Additional settings"
+msgstr "إعدادات إضافية"
+
+msgctxt "Languages::commerceml.field_import_only_for_new_products"
+msgid "Import only for new products"
+msgstr "الاستيراد مخصص للمنتجات الجديدة فقط"
+
+msgctxt "Languages::commerceml.dont_import"
+msgid "Don't import"
+msgstr "لا تستورد"
+
+msgctxt "Languages::commerceml.import.message.order.updated"
+msgid "Order [local_id] was updated: Products id: [products];"
+msgstr "تم تحديث الطلب [local_id]: معرف المنتجات: [products]؛"
+
+msgctxt "Languages::commerceml.import.message.order.status_updated"
+msgid "Status for order [local_id] was updated: Old status: [old_status]; New status: [new_status];"
+msgstr "تم تحديث حالة الطلب [local_id]: الحالة القديمة: [old_status]؛ الحالة الجديدة: [new_status]؛"
+
+msgctxt "Languages::commerceml.import.error.order.local_order_not_found"
+msgid "Local order was not found"
+msgstr "لم يتم العثور على نظام محلي"
+
+msgctxt "Languages::commerceml.import.error.order.local_product_not_found"
+msgid "Was not found local equivalent of products"
+msgstr "لم يتم العثور على منتجات مماثلة محلياً"
+
+msgctxt "Languages::commerceml.products_were_disabled_after_addon_was_activated"
+msgid "We detected some duplicate entities (products, features, etc.) loaded from your CRM. They were created by mistake when the old CommerceML add-on was replaced with the new one. For your convenience, we've changed the status of the duplicates to \"Disabled\". For example, <a href=\"[href]\">here is the list of duplicate products which you can safely delete.</a>"
+msgstr "لقد رصدنا بعض الكيانات المكررة (منتجات، ميزات، إلخ) المحملة من نظام إدارة علاقات العملاء (CRM) الخاص بك. تم إنشاؤها عن طريق الخطأ عند استبدال إضافة CommerceML القديمة بالجديدة. لتسهيل الأمر عليك، قمنا بتغيير حالة العناصر المكررة إلى \"معطل\". على سبيل المثال، إليك قائمة بالمنتجات المكررة التي يمكنك حذفها بأمان: <a href=\"[href]\"></a>"
+
+msgctxt "Languages::commerceml.export_field_via_commerceml"
+msgid "Export via CommerceML"
+msgstr "التصدير عبر CommerceML"
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml"
+msgid "Field export in the orders file in CommerceML format"
+msgstr "تصدير الحقول في ملف الطلبات بتنسيق CommerceML"
+
+msgctxt "Languages::commerceml.import.order.shipment_date_status"
+msgid "Order status upon acquisition of shipment date"
+msgstr "حالة الطلب عند الحصول على تاريخ الشحن"
+
+msgctxt "Languages::commerceml.import.order.payment_date_status"
+msgid "Order status upon acquisition of payment date"
+msgstr "حالة الطلب عند تاريخ استلام الدفع"
+
+msgctxt "Languages::commerceml.import.order.status_mapping_information"
+msgid "By default, the order status is taken from the <b>Статус заказа</b> attribute. If it is not there, the statuses will be determined by the date of payment and shipment. If both dates exist, shipment date will have higher priority."
+msgstr "يُستقى وضع الطلب افتراضيًا من السمة <b>Статус заказа</b> . في حال عدم وجودها، يُحدد الوضع بناءً على تاريخي الدفع والشحن. إذا كان كلا التاريخين موجودين، يُعطى تاريخ الشحن الأولوية."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_bs"
+msgid "This is a standard field. It is always exported via CommerceML. Fields from the shipping address have priority over fields from the billing address."
+msgstr "هذا حقل قياسي. يتم تصديره دائمًا عبر CommerceML. للحقول الواردة في عنوان الشحن الأولوية على الحقول الواردة في عنوان الفوترة."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_bs"
+msgid "Export this field via CommerceML. If you export the same field from the billing and shipping address, then shipping address takes priority."
+msgstr "قم بتصدير هذا الحقل عبر CommerceML. إذا قمت بتصدير نفس الحقل من عنوان الفوترة وعنوان الشحن، فسيكون لعنوان الشحن الأولوية."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_contact_info"
+msgid "This is a standard field. It is always exported via CommerceML."
+msgstr "هذا حقل قياسي. يتم تصديره دائمًا عبر CommerceML."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_contact_info"
+msgid "Export this field via CommerceML."
+msgstr "قم بتصدير هذا الحقل عبر CommerceML."
+
+msgctxt "Languages::commerceml.connection_instructions.mve"
+msgid "<p>Here is the page where your vendors can connect their CRMs to your marketplace via CommerceML. Copy the link and share with your vendors.</p>"
+msgstr "<p>هذه هي الصفحة التي يمكن لمورديك من خلالها ربط أنظمة إدارة علاقات العملاء (CRM) الخاصة بهم بسوقك الإلكتروني عبر CommerceML. انسخ الرابط وشاركه مع مورديك.</p>"
+
+msgctxt "Languages::commerceml.connection_instructions.ult"
+msgid "To connect your CRMs to CS-Cart, go to <b>Administration → <a href=\"[href]\">Sync data</a></b> and choose <b>CommerceML Integration.</b>"
+msgstr "لربط أنظمة إدارة علاقات العملاء (CRM) الخاصة بك بـ CS-Cart، انتقل إلى <b>الإدارة ← <a href=\"[href]\">مزامنة البيانات</a></b> واختر <b>تكامل CommerceML.</b>"
+
+msgctxt "Languages::commerceml.the_file_does_not_exist"
+msgid "The file [file] does not exist."
+msgstr "الملف [file] غير موجود."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names"
+msgid "Names of product features"
+msgstr "أسماء ميزات المنتج"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal"
+msgid "Use names from CRM in CS-Cart admin panel"
+msgstr "استخدم الأسماء من نظام إدارة علاقات العملاء (CRM) في لوحة تحكم CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal.tooltip"
+msgid "Internal feature names in CS-Cart will always change match those in your CRM. You can safely edit display names for the storefront."
+msgstr "ستتغير أسماء الميزات الداخلية في CS-Cart دائمًا لتتوافق مع تلك الموجودة في نظام إدارة علاقات العملاء (CRM). يمكنك تعديل أسماء العرض لواجهة المتجر بأمان."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both"
+msgid "Use names from CRM everywhere in CS-Cart"
+msgstr "استخدم الأسماء من نظام إدارة علاقات العملاء (CRM) في كل مكان في CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both.tooltip"
+msgid "Feature names in CS-Cart will change to match the names in your CRM. Any changes to feature names on the CS-Cart end will be lost."
+msgstr "ستتغير أسماء الميزات في CS-Cart لتتوافق مع الأسماء في نظام إدارة علاقات العملاء (CRM). وسيتم فقدان أي تغييرات تُجرى على أسماء الميزات في CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no"
+msgid "Do not use names from CRM"
+msgstr "لا تستخدم أسماء من نظام إدارة علاقات العملاء (CRM)"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no.tooltip"
+msgid "Feature names will come from CRM only on first import. Subsequent changes in the CRM won't affect existing feature names in CS-Cart."
+msgstr "ستُستورد أسماء الميزات من نظام إدارة علاقات العملاء (CRM) فقط عند الاستيراد الأول. ولن تؤثر التغييرات اللاحقة في نظام إدارة علاقات العملاء على أسماء الميزات الموجودة في CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names"
+msgid "Names of feature variants"
+msgstr "أسماء متغيرات الميزات"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes"
+msgid "Use names from CRM"
+msgstr "استخدم الأسماء من نظام إدارة علاقات العملاء (CRM)."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes.tooltip"
+msgid "Feature variant names will always be updated from the CRM. Your edits will be lost on import."
+msgstr "سيتم تحديث أسماء متغيرات الميزات دائمًا من نظام إدارة علاقات العملاء (CRM). ستفقد تعديلاتك عند الاستيراد."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no"
+msgid "Do not use names from CRM"
+msgstr "لا تستخدم أسماء من نظام إدارة علاقات العملاء (CRM)"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no.tooltip"
+msgid "Feature variant names will come from CRM only on first import. Useful if you plan to change their names in CS-Cart."
+msgstr "ستُستورد أسماء متغيرات الميزات من نظام إدارة علاقات العملاء (CRM) فقط عند الاستيراد الأول. وهذا مفيد إذا كنت تخطط لتغيير أسمائها في CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature.vendor_notice"
+msgid "The settings about the names of product features and their variants only affect the product features that belong to you, not to the marketplace."
+msgstr "لا تؤثر الإعدادات المتعلقة بأسماء ميزات المنتج ومتغيراتها إلا على ميزات المنتج التي تخصك أنت، وليس على ميزات المنتج التي تخص السوق."
+

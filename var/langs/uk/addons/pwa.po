@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /release-4.21.2/addons/pwa.po\n"
+"X-Crowdin-File-ID: 10788\n"
+"PO-Revision-Date: 2026-09-21 11:55\n"
+
+msgctxt "Addons::name::pwa"
+msgid "Mobile application (PWA)"
+msgstr "Мобільний додаток (PWA)"
+
+msgctxt "Addons::description::pwa"
+msgid "Quickly set up a progressive web app for each of your storefronts. No publishing in app stores required. The app will closely match the look and functionality of your site."
+msgstr "Швидко налаштуйте прогресивний веб-застосунок для кожного з ваших магазинів. Публікація в магазинах додатків не потрібна. Застосунок буде максимально точно відповідати зовнішньому вигляду та функціональності вашого сайту."
+
+msgctxt "Languages::pwa.title"
+msgid "Mobile application (PWA)"
+msgstr "Мобільний додаток (PWA)"
+
+msgctxt "Languages::pwa.warning_relative_storefronts_with_no_active_apps"
+msgid "Domain <u>[main_domain]</u> has multiple storefronts:<br><ul>[items]</ul><b>Problem:</b> A domain can support only one PWA app without issues. For example, an app for <i>[current_name]</i> (<u>[current_url]</u>) will override the icons and content—and may even prevent installation—of the other apps listed above.<br><br><b>Solution:</b> If you're planning to use all these apps, move storefronts to subdomains (like <u>[subfolder].[main_domain]</u>) or to different domains. For help with that, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contact us via Help Desk.</a>"
+msgstr "Домен <u>[main_domain]</u> має кілька вітрин:<br><ul>[items]</ul><b>Проблема:</b> Домен може підтримувати лише один PWA-застосунок без проблем. Наприклад, програма для <i>[current_name]</i> (<u>[current_url]</u>) замінить значки та вміст інших програм, перелічених вище, і може навіть запобігти їх встановленню.<br><br><b>Рішення:</b> Якщо ви плануєте використовувати всі ці програми, перемістіть вітрини магазинів на піддомени (наприклад, <u>[підпапка].[головний_домен]</u>) або на інші домени. Щоб отримати допомогу з цим, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">зв’яжіться з нами через службу підтримки.</a>"
+
+msgctxt "Languages::pwa.warning_relative_storefront_has_active_app"
+msgid "Domain <u>[main_domain]</u> already has a PWA for storefront <b>[active_name]</b> (<u>[active_url]</u>).<br><br><b>Problem:</b> Going live with an app for <i>[current_name]</i> (<u>[current_url]</u>) can lead to technical issues with other apps on this domain.<br><br><b>Solution:</b> If you need a separate app for <b>[current_name]</b>, move the storefront to a subdomain (like <u>[subfolder].[main_domain]</u>) or to a different domain. For help with that, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">contact us via Help Desk.</a>"
+msgstr "Домен <u>[main_domain]</u> вже має PWA для вітрини <b>[active_name]</b> (<u>[active_url]</u>).<br><br><b>Проблема:</b> Запуск застосунку для <i>[current_name]</i> (<u>[current_url]</u>) може призвести до технічних проблем з іншими застосунками на цьому домені.<br><br><b>Рішення:</b> Якщо вам потрібен окремий додаток для <b>[current_name]</b>, перемістіть вітрину магазину на піддомен (наприклад, <u>[subfolder].[main_domain]</u>) або на інший домен. Щоб отримати допомогу з цим, <a href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\" target=\"_blank\">зв’яжіться з нами через службу підтримки.</a>"
+
+msgctxt "Languages::pwa.manifest_status"
+msgid "Go live"
+msgstr "Вихід в ефір"
+
+msgctxt "Languages::pwa.manifest_status_tooltip"
+msgid "When the app is live, site visitors can install it. Any changes to the settings on this page WON'T AFFECT any installed apps."
+msgstr "Коли додаток опубліковано, відвідувачі сайту можуть його встановити. Будь-які зміни налаштувань на цій сторінці НЕ ВПЛИВАЮТЬ НА встановлені додатки."
+
+msgctxt "Languages::pwa.manifest_status_confirm_on_warning"
+msgid "Once the app goes live and a customer installs it, you won't be able to change the app settings for that customer (unless they reinstall the app)."
+msgstr "Після того, як додаток буде опубліковано та клієнт його встановить, ви не зможете змінити налаштування додатка для цього клієнта (якщо він не перевстановить додаток)."
+
+msgctxt "Languages::pwa.manifest_status_confirm_off_warning"
+msgid "This change will only prevent new installations of the app. Any apps that are already installed will continue to work."
+msgstr "Ця зміна лише заборонить нові встановлення програми. Будь-які вже встановлені програми продовжуватимуть працювати."
+
+msgctxt "Languages::pwa.manifest_status_confirm_warning_first_app_for_domain"
+msgid "Your app is about to go live. To avoid technical issues in the future, it must remain the only one for domain [main_domain]. Are you sure you want to proceed?"
+msgstr "Ваш додаток незабаром буде опубліковано. Щоб уникнути технічних проблем у майбутньому, він має залишатися єдиним для домену [main_domain]. Ви впевнені, що хочете продовжити?"
+
+msgctxt "Languages::pwa.manifest_icon_cannot_be_uploaded"
+msgid "Couldn't load new icon for PWA. It must be a 512x512 image with non-transparent background."
+msgstr "Не вдалося завантажити нову іконку для PWA. Це має бути зображення розміром 512x512 з непрозорим фоном."
+
+msgctxt "Languages::pwa.manifest_app_name"
+msgid "App name"
+msgstr "Назва програми"
+
+msgctxt "Languages::pwa.manifest_app_name_tooltip"
+msgid "The name of your app as customers will see it on their devices. Ideally, keep it under 12 symbols."
+msgstr "Назва вашого додатка, яку бачитимуть клієнти на своїх пристроях. В ідеалі, вона має містити менше 12 символів."
+
+msgctxt "Languages::pwa.manifest_icon"
+msgid "App icon"
+msgstr "Значок програми"
+
+msgctxt "Languages::pwa.manifest_icon_tooltip"
+msgid "Appears on user devices when the app is installed. Ideally, use a square non-transparent icon 512x512 pixels."
+msgstr "З’являється на пристроях користувачів після встановлення програми. В ідеалі використовуйте квадратну непрозору піктограму розміром 512x512 пікселів."
+
+msgctxt "Languages::pwa.nav_back"
+msgid "Show the previous page"
+msgstr "Показати попередню сторінку"
+
+msgctxt "Languages::pwa.offline.window_title"
+msgid "You are offline"
+msgstr "Ви офлайн"
+
+msgctxt "Languages::pwa.offline.page_title"
+msgid "You are offline"
+msgstr "Ви офлайн"
+
+msgctxt "Languages::pwa.offline.page_description"
+msgid "Click the button below to try reloading."
+msgstr "Натисніть кнопку нижче, щоб спробувати перезавантажити."
+
+msgctxt "Languages::pwa.offline.reload_button"
+msgid "Reload"
+msgstr "Перезавантажити"
+

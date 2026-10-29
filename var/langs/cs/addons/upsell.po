@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /release-4.21.2/addons/upsell.po\n"
+"X-Crowdin-File-ID: 10830\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::upsell"
+msgid "Upsell"
+msgstr "Dodatečný prodej"
+
+msgctxt "Addons::description::upsell"
+msgid "Upsell"
+msgstr "Dodatečný prodej"
+
+msgctxt "Languages::upsell.learn_more"
+msgid "Learn more ⟶"
+msgstr "Zjistěte více ⟶"
+
+msgctxt "Languages::upsell.unlock"
+msgid "Unlock"
+msgstr "Odemknout"
+
+msgctxt "Languages::upsell.how_to_unlock_notice"
+msgid "<b>How to unlock:</b> This feature is in another plan. To unlock it, we’ll contact the license owner through Help Desk and by email. We may also contact you at [email]."
+msgstr "<b>Jak odemknout:</b> Tato funkce je součástí jiného plánu. Pro její odemknutí budeme kontaktovat vlastníka licence prostřednictvím Help Desku a e-mailem. Můžeme vás také kontaktovat na adrese [email]."
+
+msgctxt "Languages::upsell.message_sent"
+msgid "Message sent"
+msgstr "Zpráva odeslána"
+
+msgctxt "Languages::upsell.message_sent_success"
+msgid "We’ll contact you through Help Desk and by the email of the license owner. We may also contact you by the email associated with this admin account."
+msgstr "Budeme vás kontaktovat prostřednictvím helpdesku a e-mailem vlastníka licence. Můžeme vás také kontaktovat prostřednictvím e-mailu spojeného s tímto administrátorským účtem."
+
+msgctxt "Languages::upsell.message_already_sent"
+msgid "We're already on it"
+msgstr "Už na tom pracujeme"
+
+msgctxt "Languages::upsell.message_already_sent.notice"
+msgid "An administrator of this site has recently requested consultation about additional features. The request is already logged in the Help Desk account associated with this license. But you’re welcome to send us an email at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "Správce tohoto webu nedávno požádal o konzultaci ohledně dalších funkcí. Žádost je již zaznamenána v účtu Help Desk spojeném s touto licencí. Můžete nám však poslat e-mail na adresu <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::upsell.message_couldnt_send"
+msgid "Couldn’t send the message"
+msgstr "Zprávu se nepodařilo odeslat"
+
+msgctxt "Languages::upsell.message_couldnt_send.notice"
+msgid "Sorry, we couldn’t send your request for consultation due to some technical issues. Please try again later. If the issue persists, tell us by email what functionality you’re interested in: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "Omlouváme se, ale z důvodu technických problémů se nám nepodařilo odeslat vaši žádost o konzultaci. Zkuste to prosím znovu později. Pokud problém přetrvává, sdělte nám e-mailem, o jakou funkci máte zájem: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+
+msgctxt "Languages::upsell.product_videos.popup_title"
+msgid "Product videos"
+msgstr "Videa o produktech"
+
+msgctxt "Languages::upsell.product_videos.popup_text"
+msgid "Enticing product videos can draw customers’ attention, make them study the product longer, and improve their general impression of your site. CS-Cart allows you to link videos from YouTube (and from other platforms) to products."
+msgstr "Lákavá produktová videa mohou upoutat pozornost zákazníků, přimět je, aby si produkt prostudovali déle, a zlepšit jejich celkový dojem z vašeho webu. CS-Cart vám umožňuje propojit videa z YouTube (a dalších platforem) s produkty."
+
+msgctxt "Languages::upsell.product_videos.product_page"
+msgid "Link videos from YouTube and other platforms to your products."
+msgstr "Propojte videa z YouTube a dalších platforem s vašimi produkty."
+
+msgctxt "Languages::upsell.product_videos.settings"
+msgid "Affects the videos that you add to the product image gallery."
+msgstr "Ovlivňuje videa, která přidáte do galerie obrázků produktů."
+
+msgctxt "Languages::upsell.warehouses.popup_title"
+msgid "Warehouses"
+msgstr "Sklady"
+
+msgctxt "Languages::upsell.warehouses.popup_text"
+msgid "Warehouses allow you to track inventory at multiple locations, show your customers where and when they can pick their orders, and set product availability by city, region, or country."
+msgstr "Sklady vám umožňují sledovat zásoby na více místech, ukázat zákazníkům, kde a kdy si mohou vyzvednout své objednávky, a nastavit dostupnost produktů podle města, regionu nebo země."
+
+msgctxt "Languages::upsell.warehouses.product_page"
+msgid "Track inventory at multiple locations with the \"Warehouses\" add-on."
+msgstr "Sledujte zásoby na více místech pomocí doplňku „Sklady“."
+
+msgctxt "Languages::upsell.warehouses.store_locator"
+msgid "You can track inventory at this location with the \"Warehouses\" add-on."
+msgstr "Sklady v tomto místě můžete sledovat pomocí doplňku „Sklady“."
+
+msgctxt "Languages::upsell.add_storefront.popup_title"
+msgid "Storefronts"
+msgstr "Výlohy"
+
+msgctxt "Languages::upsell.add_storefront.popup_text"
+msgid "Storefronts allow you to have a site that spans multiple domains. Use that to set up branches of your site for specific product groups, locations, or audiences."
+msgstr "Výkladní skříně vám umožňují mít web, který se rozprostírá na více doménách. Využijte to k nastavení poboček vašeho webu pro konkrétní skupiny produktů, lokality nebo cílové skupiny."
+
+msgctxt "Languages::upsell.pwa.popup_title"
+msgid "PWA mobile app"
+msgstr "Mobilní aplikace PWA"
+
+msgctxt "Languages::upsell.pwa.popup_text"
+msgid "Give your customers a mobile app that looks and works just like your site. No development or publishing in app stores required—customers will install the app straight from your site. Even third-party add-ons and themes are supported."
+msgstr "Nabídněte svým zákazníkům mobilní aplikaci, která vypadá a funguje stejně jako váš web. Není potřeba žádný vývoj ani publikování v obchodech s aplikacemi – zákazníci si aplikaci nainstalují přímo z vašeho webu. Podporovány jsou i doplňky a šablony třetích stran."
+
+msgctxt "Languages::upsell.full_page_cache.popup_title"
+msgid "Performance booster"
+msgstr "Posilovač výkonu"
+
+msgctxt "Languages::upsell.full_page_cache.popup_text"
+msgid "Make the site work faster under heavy load. Varnish full-page caching provides smoother performance when you have a large number of products, filters, and simultaneous visitors."
+msgstr "Zrychlete fungování webu i při velkém zatížení. Varnish full-page caching poskytuje plynulejší výkon, když máte velké množství produktů, filtrů a současných návštěvníků."
+
+msgctxt "Languages::upsell.master_products.popup_title"
+msgid "Common products for vendors"
+msgstr "Běžné produkty pro dodavatele"
+
+msgctxt "Languages::upsell.master_products.popup_text"
+msgid "Set up your product catalog—with images, descriptions, etc.—in advance. Let vendors choose which of the products they sell. Show offers from different vendors on the product page."
+msgstr "Předem si připravte katalog produktů – s obrázky, popisy atd. Nechte prodejce, aby si vybrali, které produkty budou prodávat. Na stránce produktu zobrazte nabídky od různých prodejců."
+
+msgctxt "Languages::upsell.master_products.product_page"
+msgid "You can let different sellers offer this product with the \"Common products for vendors\" add-on."
+msgstr "Pomocí doplňku „Společné produkty pro dodavatele“ můžete nechat tento produkt nabízet různým prodejcům."
+
+msgctxt "Languages::upsell.vendor_rating.popup_title"
+msgid "Vendor rating"
+msgstr "Hodnocení dodavatele"
+
+msgctxt "Languages::upsell.vendor_rating.popup_text"
+msgid "Incentivize the sellers in your marketplace to act in a certain way. Divide them into tiers, have them sorted by rating, and set custom rules for how that rating is calculated."
+msgstr "Motivujte prodejce na vašem tržišti k určitému chování. Rozdělte je do úrovní, seřaďte je podle hodnocení a nastavte vlastní pravidla pro výpočet tohoto hodnocení."
+
+msgctxt "Languages::upsell.vendor_rating.vendor_page"
+msgid "You can sort sellers by rating and set custom rating rules with the \"Vendor rating\" add-on."
+msgstr "Prodejce můžete třídit podle hodnocení a nastavit si vlastní pravidla hodnocení pomocí doplňku „Hodnocení prodejce“."
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_title"
+msgid "Vendor plans: Commissions by category"
+msgstr "Plány dodavatelů: Provize podle kategorie"
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_text"
+msgid "Set different transaction fees (%) that depend on a product’s main category. Encourage sellers to offer certain types of products by giving them better terms. Earn more on the categories that make the most sales."
+msgstr "Nastavte různé transakční poplatky (%), které závisí na hlavní kategorii produktu. Povzbuďte prodejce k nabídce určitých typů produktů tím, že jim nabídnete lepší podmínky. Vydělávejte více na kategoriích, které generují nejvíce prodejů."
+
+msgctxt "Languages::upsell.vendor_categories_fee.vendor_plans"
+msgid "Set a different % for each category with the \"Vendor plans: Commissions by category\" add-on."
+msgstr "Nastavte pro každou kategorii jiné % pomocí doplňku „Plány dodavatelů: Provize podle kategorie“."
+
+msgctxt "Languages::upsell.vendor_privileges.popup_title"
+msgid "Vendor privileges"
+msgstr "Výsady dodavatele"
+
+msgctxt "Languages::upsell.vendor_privileges.popup_text"
+msgid "Grant sellers different levels of access to their control panel, depending on their plan. Make specific functionality available in more advanced plans, or simplify sellers' control panel by removing the functionality they don't need."
+msgstr "Udělte prodejcům různé úrovně přístupu k jejich ovládacímu panelu v závislosti na jejich tarifu. Zpřístupněte specifické funkce v pokročilejších tarifech nebo zjednodušte ovládací panel prodejců odstraněním funkcí, které nepotřebují."
+
+msgctxt "Languages::upsell.vendor_privileges.vendor_plans"
+msgid "You can grant sellers different levels of access to their control panel depending on their plan."
+msgstr "Prodejcům můžete udělit různé úrovně přístupu k jejich ovládacímu panelu v závislosti na jejich tarifu."
+
+msgctxt "Languages::upsell.direct_payments.popup_title"
+msgid "Direct customer-to-vendor payments"
+msgstr "Přímé platby od zákazníka k dodavateli"
+
+msgctxt "Languages::upsell.direct_payments.popup_text"
+msgid "Save time and effort on distributing money between vendors. Let your customers pay directly to vendors. It then becomes a vendor’s responsibility to pay the marketplace. This also allows vendors to run their own promotions."
+msgstr "Ušetřete čas a úsilí při rozdělování peněz mezi dodavatele. Nechte své zákazníky platit přímo dodavatelům. Platba tržišti se pak stává odpovědností dodavatele. To také umožňuje dodavatelům provozovat vlastní propagační akce."
+
+msgctxt "Languages::upsell.direct_payments.payment_methods"
+msgid "Let sellers set up their own payment methods with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Umožněte prodejcům nastavit si vlastní platební metody s doplňkem „Přímé platby od zákazníka k dodavateli“."
+
+msgctxt "Languages::upsell.direct_payments.promotions"
+msgid "Let sellers run their own promotions with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "Umožněte prodejcům spouštět vlastní propagační akce s doplňkem „Přímé platby od zákazníka k prodejci“."
+
+msgctxt "Languages::upsell.order_fulfillment.popup_title"
+msgid "Order fulfillment by marketplace"
+msgstr "Vyřizování objednávek prostřednictvím tržiště"
+
+msgctxt "Languages::upsell.order_fulfillment.popup_text"
+msgid "Let customers select a single shipping method and charge them for shipping only once, even if multiple sellers are involved."
+msgstr "Umožněte zákazníkům vybrat si jeden způsob dopravy a účtovat jim poštovné pouze jednou, i když je zapojeno více prodejců."
+
+msgctxt "Languages::upsell.order_fulfillment.shipping_methods"
+msgid "Charge for shipping from multiple sellers just once with the \"Order fulfillment by marketplace\" add-on."
+msgstr "Účtujte si dopravu od více prodejců pouze jednou s doplňkem „Vyřízení objednávky prostřednictvím tržiště“."
+
+msgctxt "Languages::upsell.payments_by_country.popup_title"
+msgid "Payments by country"
+msgstr "Platby podle země"
+
+msgctxt "Languages::upsell.payments_by_country.popup_text"
+msgid "Get more control as you scale your business. Make a payment method exclusive to a certain country, or hide it in one or a few specific countries with the \"Payments by country\" add-on."
+msgstr "Získejte větší kontrolu nad rozšiřováním svého podnikání. Nastavte platební metodu exkluzivně pro určitou zemi nebo ji skryjte v jedné či několika konkrétních zemích pomocí doplňku „Platby podle země“."
+
+msgctxt "Languages::upsell.payments_by_country.payment_methods"
+msgid "Configure payment method availability in certain countries with the \"Payments by country\" add-on."
+msgstr "Nakonfigurujte dostupnost platebních metod v určitých zemích pomocí doplňku „Platby podle země“."
+
+msgctxt "Languages::upsell.llms.promo_text"
+msgid "Tell AI assistants like ChatGPT what's most important on your website. The llms.txt file helps you get more accurate and relevant summaries in AI-powered search, driving better-informed traffic to your store and its key products."
+msgstr "Řekněte asistentům s umělou inteligencí, jako je ChatGPT, co je na vašem webu nejdůležitější. Soubor llms.txt vám pomůže získat přesnější a relevantnější souhrny ve vyhledávání s využitím umělé inteligence, což vám pomůže přivést informovanější návštěvníky do vašeho obchodu a k jeho klíčovým produktům."
+

@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /release-4.21.2/addons/full_page_cache.po\n"
+"X-Crowdin-File-ID: 10710\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::full_page_cache"
+msgid "Performance Booster"
+msgstr "Potenziatore di prestazioni"
+
+msgctxt "Addons::description::full_page_cache"
+msgid "Set up full-page cache powered by Varnish to speed up your site under heavy workload."
+msgstr "Configura la cache full-page basata su Varnish per velocizzare il tuo sito in caso di carico elevato."
+
+msgctxt "Languages::full_page_cache.unable_to_enable_full_page_caching"
+msgid "Unable to enable full-page caching."
+msgstr "Impossibile abilitare la memorizzazione nella cache dell'intera pagina."
+
+msgctxt "Languages::full_page_cache.unable_to_connect_to_varhish"
+msgid "Unable to connect to Varnish server. Please make sure that Varnish service is running and check the entered address and port."
+msgstr "Impossibile connettersi al server Varnish. Assicurarsi che il servizio Varnish sia in esecuzione e verificare l'indirizzo e la porta inseriti."
+
+msgctxt "Languages::full_page_cache.error_session_auto_start_enabled"
+msgid "The \"session.auto_start\" PHP configuration option is enabled. Please, disable this option by setting \"session.auto_start = 0\" in your php.ini file."
+msgstr "L'opzione di configurazione PHP \"session.auto_start\" è abilitata. Si prega di disabilitarla impostando \"session.auto_start = 0\" nel file php.ini."
+
+msgctxt "Languages::full_page_cache.notice_caching_was_enabled"
+msgid "Full-page caching have been successfully enabled, started and running."
+msgstr "La memorizzazione nella cache dell'intera pagina è stata abilitata, avviata e risulta in esecuzione con successo."
+
+msgctxt "Languages::full_page_cache.warning_root_dir_not_writable"
+msgid "<strong>Performance Booster:</strong> Root directory of your site isn't writable. Couldn't create symlink to esi.php in the root directory. Please make the directory writable and activate the add-on. Alternatively, create the symlink from the root directory to app/addons/full_page_cache/esi.php manually."
+msgstr "<strong>Ottimizzazione delle prestazioni:</strong> La directory principale del tuo sito non è scrivibile. Impossibile creare il collegamento simbolico a esi.php nella directory principale. Rendi la directory scrivibile e attiva il componente aggiuntivo. In alternativa, crea manualmente il collegamento simbolico dalla directory principale a app/addons/full_page_cache/esi.php."
+
+msgctxt "Languages::full_page_cache.failed_to_create_symlink"
+msgid "Failed to create symlink [file]"
+msgstr "Impossibile creare il collegamento simbolico [file]"
+
+msgctxt "Languages::full_page_cache.notice_configure_addon"
+msgid "Before you can activate Performance Booster, you'll need to <a href=\"[url]\">configure the server and the add-on.</a>"
+msgstr "Prima di poter attivare Performance Booster, dovrai <a href=\"[url]\">configurare il server e il componente aggiuntivo.</a>"
+
+msgctxt "Languages::full_page_cache.text_settings_general"
+msgid "This add-on will only work after proper server configuration. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Learn more about how to configure caching on your server</a>."
+msgstr "Questo componente aggiuntivo funzionerà solo dopo una corretta configurazione del server. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Scopri di più su come configurare la cache sul tuo server</a>."
+
+msgctxt "SettingsOptions::full_page_cache::varnish"
+msgid "Varnish"
+msgstr "Vernice"
+
+msgctxt "SettingsOptions::full_page_cache::varnish_host"
+msgid "Host"
+msgstr "Ospite"
+
+msgctxt "SettingsOptions::full_page_cache::common"
+msgid "Common"
+msgstr "Comune"
+

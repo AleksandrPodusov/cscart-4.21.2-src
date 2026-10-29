@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==2 ? 1 : 2);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: he\n"
+"X-Crowdin-File: /release-4.21.2/addons/commerceml.po\n"
+"X-Crowdin-File-ID: 10688\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::commerceml"
+msgid "CommerceML Integration"
+msgstr "אינטגרציה של CommerceML"
+
+msgctxt "Addons::description::commerceml"
+msgid "Allows you to import products from and export orders to CRMs that support CommerceML."
+msgstr "מאפשר לך לייבא מוצרים ולייצא הזמנות למערכות CRM התומכות ב-CommerceML."
+
+msgctxt "Languages::commerceml.map.no_available_data.marketplace"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the marketplace."
+msgstr "אין נתונים זמינים. בדרך כלל הם מופיעים כאן לאחר חיבור מוצלח של מערכת ה-CRM שלך לשוק."
+
+msgctxt "Languages::commerceml.map.no_available_data.store"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the store."
+msgstr "אין נתונים זמינים. בדרך כלל הם מופיעים כאן לאחר חיבור מוצלח של מערכת ה-CRM שלך לחנות."
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode"
+msgid "Import strategy"
+msgstr "אסטרטגיית ייבוא"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.all"
+msgid "Import all products"
+msgstr "ייבוא כל המוצרים"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_new"
+msgid "Create new products only"
+msgstr "צור מוצרים חדשים בלבד"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_existing"
+msgid "Update existing products only"
+msgstr "עדכון מוצרים קיימים בלבד"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.none"
+msgid "Don't import anything"
+msgstr "אל תייבא כלום"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_offers"
+msgid "Import product offers"
+msgstr "ייבוא הצעות מוצרים"
+
+msgctxt "Languages::commerceml.cml_catalog_hide_out_of_stock_products"
+msgid "Hide out-of-stock products"
+msgstr "הסתר מוצרים שאינם במלאי"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_categories"
+msgid "Import categories"
+msgstr "ייבוא קטגוריות"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_features"
+msgid "Import features"
+msgstr "תכונות ייבוא"
+
+msgctxt "Languages::commerceml.cml_catalog_import_images_as_additional"
+msgid "Import images as additional ones"
+msgstr "ייבוא תמונות כתמונות נוספות"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status"
+msgid "Status for new products"
+msgstr "סטטוס של מוצרים חדשים"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.a"
+msgid "Active"
+msgstr "פָּעִיל"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.h"
+msgid "Hidden"
+msgstr "מוּסתָר"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.d"
+msgid "Disabled"
+msgstr "נָכֶה"
+
+msgctxt "Languages::commerceml.cml_default_lang"
+msgid "Content language in CRM"
+msgstr "שפת תוכן ב-CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id"
+msgid "Default category"
+msgstr "קטגוריית ברירת מחדל"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id.tooltip"
+msgid "Products that don't have any other category will be imported here."
+msgstr "מוצרים שאין להם קטגוריה אחרת ייובאו לכאן."
+
+msgctxt "Languages::commerceml.cml_catalog_use_taxes"
+msgid "Add tax to products"
+msgstr "הוספת מס למוצרים"
+
+msgctxt "Languages::commerceml.main_information"
+msgid "Main information"
+msgstr "מידע עיקרי"
+
+msgctxt "Languages::commerceml.field_in_marketplace"
+msgid "Field in the marketplace"
+msgstr "שדה בשוק"
+
+msgctxt "Languages::commerceml.field_in_store"
+msgid "Field in the store"
+msgstr "שדה בחנות"
+
+msgctxt "Languages::commerceml.field_in_crm"
+msgid "Field in CRM"
+msgstr "שדה ב-CRM"
+
+msgctxt "Languages::commerceml.fields_in_crm"
+msgid "Field(s) in CRM"
+msgstr "שדה/ים ב-CRM"
+
+msgctxt "Languages::commerceml.custom_field_name"
+msgid "Custom field name"
+msgstr "שם שדה מותאם אישית"
+
+msgctxt "Languages::commerceml.show_as_product_feature"
+msgid "Show as a product feature"
+msgstr "הצג כתכונת מוצר"
+
+msgctxt "Languages::commerceml.automatic_matching_title"
+msgid "Automatic matching"
+msgstr "התאמה אוטומטית"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_category_by_name"
+msgid "Match categories by name"
+msgstr "התאמת קטגוריות לפי שם"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_product_by_product_code"
+msgid "Match products by product code"
+msgstr "התאמת מוצרים לפי קוד מוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source"
+msgid "Product name"
+msgstr "שם המוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.name"
+msgid "Name"
+msgstr "שֵׁם"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.full_name"
+msgid "Full name"
+msgstr "שם מלא"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source"
+msgid "Product code"
+msgstr "קוד מוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.article"
+msgid "SKU"
+msgstr "מק\"ט"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.code"
+msgid "Item number"
+msgstr "מספר פריט"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.bar"
+msgid "Bar code"
+msgstr "ברקוד"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source"
+msgid "Full description"
+msgstr "תיאור מלא"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.none"
+msgid "Do not import"
+msgstr "אל תייבא"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.description"
+msgid "Description"
+msgstr "תֵאוּר"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.html_description"
+msgid "File description"
+msgstr "תיאור הקובץ"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.full_name"
+msgid "Full name"
+msgstr "שם מלא"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source"
+msgid "Short description"
+msgstr "תיאור קצר"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.none"
+msgid "Do not import"
+msgstr "אל תייבא"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.description"
+msgid "Description"
+msgstr "תֵאוּר"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.html_description"
+msgid "File description"
+msgstr "תיאור הקובץ"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.full_name"
+msgid "Full name"
+msgstr "שם מלא"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from"
+msgid "Names of product variations"
+msgstr "שמות של וריאציות מוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.tooltip"
+msgid "Determines where product variations will get their names during import. After the import, you'll be able to edit their names in CS-Cart as you see fit."
+msgstr "קובע היכן יקבלו וריאציות מוצר את שמן במהלך הייבוא. לאחר הייבוא, תוכלו לערוך את שמן ב-CS-Cart כראות עיניכם."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically"
+msgid "Choose automatically"
+msgstr "בחירה אוטומטית"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically.tooltip"
+msgid "If any of a product's variations are \"separate products\", then all variations of that product will use unique names from offers.xml"
+msgstr "אם אחת מהווריאציות של מוצר היא \"מוצרים נפרדים\", אז כל הווריאציות של מוצר זה ישתמשו בשמות ייחודיים מקובץ offers.xml."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import"
+msgid "Use catalog names"
+msgstr "השתמש בשמות קטלוגים"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import.tooltip"
+msgid "All variations of a product will use their common catalog name from import.xml"
+msgstr "כל הווריאציות של מוצר ישתמשו בשם הקטלוג המשותף שלהן מ- import.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers"
+msgid "Use offer names"
+msgstr "השתמש בשמות של מבצעים"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers.tooltip"
+msgid "All variations of a product will use their unique offer names from offers.xml"
+msgstr "כל הווריאציות של מוצר ישתמשו בשמות המבצעים הייחודיים שלהן מ- offers.xml"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source"
+msgid "Page title (SEO)"
+msgstr "כותרת עמוד (SEO)"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.none"
+msgid "Do not import"
+msgstr "אל תייבא"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.name"
+msgid "Name"
+msgstr "שֵׁם"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.full_name"
+msgid "Full name"
+msgstr "שם מלא"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source.custom_field"
+msgid "Custom field"
+msgstr "שדה מותאם אישית"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source"
+msgid "Promo text (field in CRM)"
+msgstr "טקסט קידום מכירות (שדה ב-CRM)"
+
+msgctxt "Languages::commerceml.shipping_information"
+msgid "Shipping information"
+msgstr "מידע על משלוח"
+
+msgctxt "Languages::commerceml.shipping_information_info_block"
+msgid "If your CRM has fields with the same information as product shipping properties in the store, then you can import values from those fields. You can enter multiple fields (each in new line). In that case, the value of the latest found field will be used."
+msgstr "אם מערכת ה-CRM שלך מכילה שדות עם אותו מידע כמו מאפייני משלוח המוצר בחנות, תוכל לייבא ערכים משדות אלה. תוכל להזין מספר שדות (כל אחד בשורה חדשה). במקרה זה, ייעשה שימוש בערך של השדה האחרון שנמצא."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_weight_property_source_list"
+msgid "Weight"
+msgstr "מִשׁקָל"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list"
+msgid "Free shipping"
+msgstr "משלוח חינם"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list.tooltip"
+msgid "Value of the field in CRM must be \"true\" or \"false\""
+msgstr "ערך השדה ב-CRM חייב להיות \"true\" או \"false\""
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_shipping_cost_property_source_list"
+msgid "Shipping cost"
+msgstr "עלות משלוח"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_number_of_items_property_source_list"
+msgid "Items in a box"
+msgstr "פריטים בקופסה"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_length_property_source_list"
+msgid "Box length"
+msgstr "אורך הקופסה"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_width_property_source_list"
+msgid "Box width"
+msgstr "רוחב הקופסה"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_height_property_source_list"
+msgid "Box height"
+msgstr "גובה הקופסה"
+
+msgctxt "Languages::commerceml.orders_export"
+msgid "Orders export"
+msgstr "ייצוא הזמנות"
+
+msgctxt "Languages::commerceml.orders_import"
+msgid "Orders import"
+msgstr "ייבוא הזמנות"
+
+msgctxt "Languages::commerceml.cml_order_export_strategy"
+msgid "Export strategy"
+msgstr "אסטרטגיית ייצוא"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.a"
+msgid "Export all orders"
+msgstr "ייצוא כל ההזמנות"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.n"
+msgid "Export new orders and changes to existing orders only"
+msgstr "ייצוא הזמנות חדשות ושינויים בהזמנות קיימות בלבד"
+
+msgctxt "Languages::commerceml.product_features"
+msgid "Product features"
+msgstr "תכונות המוצר"
+
+msgctxt "Languages::commerceml.product_features_info_block"
+msgid "Write each CRM field in a new line."
+msgstr "כתוב כל שדה CRM בשורה חדשה."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_blocklist"
+msgid "Don't import these CRM fields as product features"
+msgstr "אל תייבא את שדות ה-CRM האלה כתכונות מוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_allowlist"
+msgid "Import only these CRM fields as product features"
+msgstr "ייבא רק שדות CRM אלה כתכונות מוצר"
+
+msgctxt "Languages::commerceml.never"
+msgid "Never"
+msgstr "לְעוֹלָם לֹא"
+
+msgctxt "Languages::commerceml.last_status.X"
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgctxt "Languages::commerceml.last_status.S"
+msgid "Success"
+msgstr "הַצלָחָה"
+
+msgctxt "Languages::commerceml.last_status.P"
+msgid "In progress"
+msgstr "בתהליך"
+
+msgctxt "Languages::commerceml.last_status.F"
+msgid "Failure"
+msgstr "כֶּשֶׁל"
+
+msgctxt "Languages::commerceml.last_status.N"
+msgid "New"
+msgstr "חָדָשׁ"
+
+msgctxt "Languages::privilege_groups.commerceml"
+msgid "CommerceML"
+msgstr "CommerceML"
+
+msgctxt "Languages::commerceml.step_1_title"
+msgid "Step 1: Connect your CRM"
+msgstr "שלב 1: חיבור מערכת ה-CRM שלך"
+
+msgctxt "Languages::commerceml.step_1_instruction.marketplace"
+msgid "<p>Make sure that your CRM sends files to the marketplace. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the marketplace receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>ודא שמערכת ה-CRM שלך שולחת קבצים לזירת המסחר. ניתן לחבר את 1C או כל מערכת CRM אחרת שתומכת ב-CommerceML.</p><p>נסמן את תיבת הסימון הזו לאחר שהזירת המסחר מקבלת ויעבדה את הקובץ הראשון מה-CRM שלך. להלן ההוראות כיצד לחבר את מערכת ה-CRM שלך:</p>"
+
+msgctxt "Languages::commerceml.step_1_instruction.store"
+msgid "<p>Make sure that your CRM sends files to the store. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the store receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>ודא שמערכת ה-CRM שלך שולחת קבצים לחנות. ניתן לחבר את 1C או כל מערכת CRM אחרת שתומכת ב-CommerceML.</p><p>נסמן תיבת סימון זו לאחר שהחנות תקבל ותעבד את הקובץ הראשון ממערכת ה-CRM שלך. להלן ההוראות כיצד לחבר את מערכת ה-CRM שלך:</p>"
+
+msgctxt "Languages::commerceml.step_1_links"
+msgid "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Trade Management</a>"
+msgstr "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C ניהול סחר</a>"
+
+msgctxt "Languages::commerceml.step_2_title"
+msgid "Step 2: Set the data exchange rules"
+msgstr "שלב 2: הגדרת כללי חילופי נתונים"
+
+msgctxt "Languages::commerceml.step_2_instruction.marketplace"
+msgid "<p>Before importing anything, the marketplace checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the marketplace, you'll be able to import it.</p>"
+msgstr "<p>לפני ייבוא כל דבר, השוק בודק את תוכן קובץ ה-CRM שלך. אתה מחליט אילו נתונים להשתמש וכיצד להשתמש בהם. לאחר שתגדיר את הכללים להתאמת הנתונים מהקובץ שלך לנתונים בשוק, תוכל לייבא אותם.</p>"
+
+msgctxt "Languages::commerceml.step_2_instruction.store"
+msgid "<p>Before importing anything, the store checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the store, you'll be able to import it.</p>"
+msgstr "<p>לפני ייבוא כל דבר, החנות בודקת את תוכן קובץ ה-CRM שלך. אתה מחליט אילו נתונים להשתמש וכיצד להשתמש בהם. לאחר שתגדיר את הכללים להתאמת הנתונים מהקובץ שלך לנתונים בחנות, תוכל לייבא אותם.</p>"
+
+msgctxt "Languages::commerceml.step_2_specify_matches"
+msgid "Please specify the matches for:"
+msgstr "אנא ציינו את ההתאמות עבור:"
+
+msgctxt "Languages::commerceml.step_3_title"
+msgid "Step 3: Synchronize the data"
+msgstr "שלב 3: סנכרון הנתונים"
+
+msgctxt "Languages::commerceml.step_3_instruction.marketplace"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the marketplace successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>לאחר שתגדיר את הכללים, ניתן יהיה לייבא נתונים. התחל את הייבוא ממערכת ה-CRM שלך. נסמן תיבת סימון זו לאחר שהשוק יקבל בהצלחה את הנתונים. אם יהיו בעיות, נודיע לך כאן.</p>"
+
+msgctxt "Languages::commerceml.step_3_instruction.store"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the store successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>לאחר שתגדיר את הכללים, ניתן יהיה לייבא את הנתונים. התחל את הייבוא ממערכת ניהול קשרי הלקוחות (CRM). נסמן תיבת סימון זו לאחר שהחנות תקבל את הנתונים בהצלחה. אם יהיו בעיות, נודיע לך כאן.</p>"
+
+msgctxt "Languages::commerceml.last_successful_sync"
+msgid "Last successful sync"
+msgstr "הסנכרון האחרון שהצליח"
+
+msgctxt "Languages::commerceml.view_log"
+msgid "View log"
+msgstr "הצג יומן"
+
+msgctxt "Languages::commerceml.no_match"
+msgid "No match specified yet!"
+msgstr "עדיין לא צוין התאמה!"
+
+msgctxt "Languages::commerceml.done"
+msgid "Done!"
+msgstr "נַעֲשָׂה!"
+
+msgctxt "Languages::commerceml.marketplace"
+msgid "marketplace"
+msgstr "שוק"
+
+msgctxt "Languages::commerceml.store"
+msgid "store"
+msgstr "חנות"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee"
+msgid "Export shipping fee"
+msgstr "דמי משלוח לייצוא"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee.tooltip"
+msgid "Orders will have shipping fee as a separate product"
+msgstr "הזמנות יחויבו בדמי משלוח כמוצר נפרד."
+
+msgctxt "Languages::commerceml.cml_order_export_product_options"
+msgid "Export product options"
+msgstr "אפשרויות מוצר ייצוא"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options.tooltip"
+msgid "Export order with product options"
+msgstr "הזמנה לייצוא עם אפשרויות מוצר"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses.tooltip"
+msgid "Export order statuses in CommerceML format"
+msgstr "ייצוא סטטוסי הזמנות בפורמט CommerceML"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id"
+msgid "Start export from Order #"
+msgstr "התחל ייצוא ממספר הזמנה"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id.tooltip"
+msgid "Leave empty to export all orders"
+msgstr "השאר ריק כדי לייצא את כל ההזמנות"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses"
+msgid "Export order statuses"
+msgstr "סטטוסי הזמנות ייצוא"
+
+msgctxt "Languages::commerceml.cml_order_statuses_filter"
+msgid "Order statuses"
+msgstr "סטטוסי הזמנות"
+
+msgctxt "Languages::commerceml.cml_orders_import_changes"
+msgid "Import changes to orders"
+msgstr "ייבוא שינויים בהזמנות"
+
+msgctxt "Languages::commerceml.map.entity_name"
+msgid "External name"
+msgstr "שם חיצוני"
+
+msgctxt "Languages::commerceml.map.entity_id"
+msgid "External ID"
+msgstr "מזהה חיצוני"
+
+msgctxt "Languages::commerceml.map.local_id"
+msgid "Local ID"
+msgstr "תעודת זהות מקומית"
+
+msgctxt "Languages::commerceml.tab.currency"
+msgid "Currencies"
+msgstr "מטבעות"
+
+msgctxt "Languages::commerceml.tab.general"
+msgid "General"
+msgstr "כְּלָלִי"
+
+msgctxt "Languages::commerceml.tab.catalog"
+msgid "Catalog"
+msgstr "קָטָלוֹג"
+
+msgctxt "Languages::commerceml.tab.products"
+msgid "Products"
+msgstr "מוצרים"
+
+msgctxt "Languages::commerceml.tab.orders"
+msgid "Orders"
+msgstr "הזמנות"
+
+msgctxt "Languages::commerceml.tab.price_type"
+msgid "Prices"
+msgstr "מחירים"
+
+msgctxt "Languages::commerceml.tab.tax"
+msgid "Taxes"
+msgstr "מיסים"
+
+msgctxt "Languages::commerceml.tab.category"
+msgid "Categories"
+msgstr "קטגוריות"
+
+msgctxt "Languages::commerceml.tab.product_feature"
+msgid "Product features"
+msgstr "תכונות המוצר"
+
+msgctxt "Languages::commerceml.variation_default_product_feature_name"
+msgid "Variant"
+msgstr "גִרְסָה אַחֶרֶת"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "מחיר בסיס"
+
+msgctxt "Languages::commerceml.import.error.product_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only new products are imported"
+msgstr "דילוג על מוצר [id]; סיבה: רק מוצרים חדשים מיובאים"
+
+msgctxt "Languages::commerceml.import.error.product_not_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only the changes to existing products are imported"
+msgstr "דילוג על מוצר [id]; סיבה: רק השינויים במוצרים קיימים מיובאים"
+
+msgctxt "Languages::commerceml.import.error.product.caregory_not_found"
+msgid "Couldn't find category [id]"
+msgstr "לא ניתן למצוא את הקטגוריה [id]"
+
+msgctxt "Languages::commerceml.import.message.product.default_category_used"
+msgid "Couldn't find category [id]; default category [local_id] used instead"
+msgstr "לא ניתן למצוא את הקטגוריה [id]; נעשה שימוש בקטגוריית ברירת המחדל [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.no_categories_default_category_used"
+msgid "Product [product_id] does not have categories; default category [local_id] used instead"
+msgstr "למוצר [product_id] אין קטגוריות; במקום זאת נעשה שימוש בקטגוריית ברירת המחדל [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.created"
+msgid "Product [id] created; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "מוצר [id] נוצר; מזהה מקומי: [local_id], מחיר: [price], כמות: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.updated"
+msgid "Product [id] updated; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "מוצר [id] עודכן; מזהה מקומי: [local_id], מחיר: [price], כמות: [amount]"
+
+msgctxt "Languages::commerceml.import.message.product.deleted"
+msgid "Product [id] deleted; local ID: [local_id]"
+msgstr "מוצר [id] נמחק; מזהה מקומי: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.not_import_deleted"
+msgid "Couldn't import product [id]; reason: product marked as deleted"
+msgstr "לא ניתן היה לייבא את המוצר [id]; סיבה: המוצר סומן כמחוק"
+
+msgctxt "Languages::commerceml.import.message.product.marked_as_removed"
+msgid "Couldn't import product [id]; reason: product was deleted earlier"
+msgstr "לא ניתן היה לייבא את המוצר [id]; סיבה: המוצר נמחק קודם לכן"
+
+msgctxt "Languages::commerceml.import.message.product.is_not_creatable"
+msgid "Couldn't import product [id]; reason: not enough data to create a product"
+msgstr "לא ניתן היה לייבא את המוצר [id]; סיבה: אין מספיק נתונים ליצירת מוצר"
+
+msgctxt "Languages::commerceml.import.message.product.found_by_product_code"
+msgid "Couldn't find product [id] by product code [product_code]; local ID: [local_id]"
+msgstr "לא ניתן למצוא את המוצר [id] לפי קוד המוצר [product_code]; מזהה מקומי: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.local_id_exists_but_product_not_found"
+msgid "Couldn't find local ID [local_id] for product [id] in the database"
+msgstr "לא ניתן למצוא את המזהה המקומי [local_id] עבור המוצר [id] במסד הנתונים."
+
+msgctxt "Languages::commerceml.import.message.category.found_by_name"
+msgid "Category [id] was matched by name: [name]; local ID: [local_id]"
+msgstr "קטגוריה [id] נמצאה תואמת לפי השם: [name]; מזהה מקומי: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_found"
+msgid "Couldn't find parent category [parent_id] for category [id]"
+msgstr "לא ניתן למצוא את קטגוריית האב [parent_id] עבור קטגוריה [id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_imported"
+msgid "Couldn't import parent category [parent_id] for category [id]"
+msgstr "לא ניתן היה לייבא את קטגוריית האב [parent_id] עבור קטגוריה [id]"
+
+msgctxt "Languages::commerceml.import.message.category.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "קטגוריה [id] נוצרה; מזהה מקומי: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.created"
+msgid "Product feature [id] created; local ID: [local_id]"
+msgstr "תכונת מוצר [id] נוצרה; מזהה מקומי: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped"
+msgid "Skipping product feature [id]; reason: import this product feature is disabled in the mapping settings"
+msgstr "דילוג על מאפיין מוצר [id]; סיבה: ייבוא מאפיין מוצר זה מושבת בהגדרות המיפוי"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_skipped"
+msgid "Skipping product feature variant [id]; reason: import this product feature variant is disabled in the mapping settings"
+msgstr "דילוג על גרסת מאפיין מוצר [id]; סיבה: ייבוא גרסת מאפיין מוצר זו מושבת בהגדרות המיפוי"
+
+msgctxt "Languages::commerceml.import.message.category.skipped"
+msgid "Skipping product category [id]; reason: import this product category is disabled in the mapping settings"
+msgstr "דילוג על קטגוריית מוצר [id]; סיבה: ייבוא קטגוריית מוצר זו מושבת בהגדרות המיפוי"
+
+msgctxt "Languages::commerceml.import.error.product_feature.not_found"
+msgid "Couldn't find product feature [id]"
+msgstr "לא ניתן למצוא את מאפיין המוצר [id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped_by_settings"
+msgid "Couldn't import product feature [id]; reason: import of product features is disabled in the settings"
+msgstr "לא ניתן היה לייבא את מאפיין המוצר [id]; סיבה: ייבוא תכונות המוצר מושבת בהגדרות"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_created"
+msgid "Variant [id] of product feature [feature_id] created; local ID: [local_id]"
+msgstr "נוצרה גרסה [id] של מאפיין המוצר [feature_id]; מזהה מקומי: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.variation_not_deleted"
+msgid "Couldn't delete product variation [id]; local ID: [local_id]"
+msgstr "לא ניתן היה למחוק את וריאציית המוצר [id]; מזהה מקומי: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.parent_product_not_found"
+msgid "Couldn't find parent product for variation [id]"
+msgstr "לא ניתן למצוא את מוצר האב עבור וריאציה [id]"
+
+msgctxt "Languages::commerceml.import.error.product.parent_product_removed"
+msgid "Couldn't import product [id]; reason: its parent product [parent_id] was deleted"
+msgstr "לא ניתן היה לייבא את המוצר [id]; סיבה: מוצר האב שלו [parent_id] נמחק"
+
+msgctxt "Languages::commerceml.import.error.product_variation.invalid_features_count"
+msgid "The number of features doesn't match the number of features in variation group [group_code]"
+msgstr "מספר התכונות אינו תואם למספר התכונות בקבוצת הווריאציות [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.feature_not_found_at_group"
+msgid "Couldn't find feature [feature_id] in variation group [group_code]"
+msgstr "לא ניתן למצוא את המאפיין [feature_id] בקבוצת הווריאציות [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.same_variation_exists"
+msgid "Variation group [group_code] already has a variation with the same combination of feature values"
+msgstr "לקבוצת הווריאציות [group_code] כבר יש וריאציה עם אותו שילוב של ערכי מאפיינים"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation"
+msgid "Couldn't create product variation [id] in variation group [group_code]"
+msgstr "לא ניתן היה ליצור וריאציית מוצר [id] בקבוצת וריאציות [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation_group"
+msgid "Couldn't create variation group for product [id]"
+msgstr "לא ניתן היה ליצור קבוצת וריאציות עבור מוצר [id]"
+
+msgctxt "Languages::commerceml.import.message.start_import_product"
+msgid "Starting the import of product [id]"
+msgstr "התחלת ייבוא המוצר [id]"
+
+msgctxt "Languages::commerceml.import.message.end_import_product"
+msgid "Finishing the import of product [id]"
+msgstr "סיום ייבוא המוצר [id]"
+
+msgctxt "Languages::commerceml.controller.import_orders_is_disabled"
+msgid "Import changes to orders is disabled. Importing order was canceled."
+msgstr "ייבוא שינויים בהזמנות מושבת. ייבוא ההזמנה בוטל."
+
+msgctxt "Languages::commerceml.controller.import_orders_no_permissions"
+msgid "Used administrator's account have no permissions to edit and create orders. Order import was canceled."
+msgstr "לחשבון מנהל המערכת שבוצע אין הרשאות לערוך וליצור הזמנות. ייבוא ההזמנה בוטל."
+
+msgctxt "Lnaguages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting the orders received"
+msgstr "בקשה לייצוא ההזמנות שהתקבלו"
+
+msgctxt "Lnaguages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting the orders processed"
+msgstr "בקשה לייצוא ההזמנות שעובדו"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] received"
+msgstr "התקבלה בקשה להורדת קובץ סנכרון המכירה [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] processed"
+msgstr "הבקשה להורדת קובץ סנכרון המכירות [filename] עובדה"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_convert"
+msgid "Request for converting the sale synchronization file [filename] received"
+msgstr "התקבלה בקשה להמרת קובץ סנכרון המכירות [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "הבקשה להמרת קובץ סנכרון הקטלוג [filename] עובדה"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] received"
+msgstr "התקבלה בקשה לייבוא נתונים מקובץ סנכרון המכירות [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] processed"
+msgstr "בקשה לייבוא נתונים מקובץ סנכרון המכירות [filename] עובדה"
+
+msgctxt "Languages::commerceml.import.message.start_update_order"
+msgid "Starting the import of order [id]"
+msgstr "התחלת ייבוא ההזמנה [id]"
+
+msgctxt "Languages::commerceml.import.message.end_update_order"
+msgid "Finishing the import of order [id]"
+msgstr "סיום ייבוא ההזמנה [id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_checkauth_request"
+msgid "Request for synchronization session received"
+msgstr "התקבלה בקשה לסשן סנכרון"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_checkauth_request"
+msgid "Request for synchronization session processed. Session ID: [session_id]"
+msgstr "בקשה לסשן סנכרון עובדה. מזהה סשן: [session_id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_init"
+msgid "Request for synchronization parameters received"
+msgstr "התקבלה בקשה לפרמטרים של סנכרון"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_init"
+msgid "Request for synchronization parameters processed. File size limit: [limit]. ZIP support: [zip]"
+msgstr "בקשה לפרמטרים של סנכרון עובדה. מגבלת גודל קובץ: [limit]. תמיכה בקובץ ZIP: [zip]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] received"
+msgstr "התקבלה בקשה להורדת קובץ הסנכרון [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] processed"
+msgstr "הבקשה להורדת קובץ הסנכרון [filename] עובדה"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] received"
+msgstr "התקבלה בקשה לפריקת קובץ הסנכרון [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] processed"
+msgstr "בקשה לפריקת קובץ הסנכרון [filename] עובדה"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] received"
+msgstr "התקבלה בקשה להמרת קובץ סנכרון הקטלוג [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "הבקשה להמרת קובץ סנכרון הקטלוג [filename] עובדה"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] received"
+msgstr "התקבלה בקשה לניתוח קובץ סנכרון הקטלוג [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] processed"
+msgstr "הבקשה לניתוח קובץ סנכרון הקטלוג [filename] עובדה"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] received"
+msgstr "התקבלה בקשה לייבוא נתונים מקובץ סנכרון הקטלוג [filename]"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] processed"
+msgstr "הבקשה לייבוא נתונים מקובץ סנכרון הקטלוג [filename] עובדה"
+
+msgctxt "Languages::commerceml.controller.end_handle_request"
+msgid "Finishing the processing of the [mode] request"
+msgstr "סיום עיבוד בקשת [mode]"
+
+msgctxt "Languages::commerceml.controller.upload_directory_cleaned"
+msgid "Directory [dir] cleared of old synchronization files"
+msgstr "ספרייה [dir] נוקתה מקבצי סנכרון ישנים"
+
+msgctxt "Languages::commerceml.controller.convert_import_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: the import works in the 'Do not import' mode"
+msgstr "דילוג על קובץ [שם קובץ]; סיבה: הייבוא פועל במצב 'אל תייבא'"
+
+msgctxt "Languages::commerceml.controller.convert_offers_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: settings forbid the import of offers"
+msgstr "דילוג על קובץ [שם קובץ]; סיבה: ההגדרות אוסרות ייבוא של הצעות"
+
+msgctxt "Languages::commerceml.controller.error"
+msgid "Error: [message]"
+msgstr "שגיאה: [הודעה]"
+
+msgctxt "Languages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting orders received"
+msgstr "בקשה לייצוא הזמנות שהתקבלה"
+
+msgctxt "Languages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting orders processed"
+msgstr "בקשה לייצוא הזמנות מטופלת"
+
+msgctxt "Languages::commerceml.brand_manufacturer_default_product_feature_name"
+msgid "Manufacturer"
+msgstr "יַצרָן"
+
+msgctxt "Languages::commerceml.sync_data_name"
+msgid "CommerceML Integration"
+msgstr "אינטגרציה של CommerceML"
+
+msgctxt "Languages::commerceml.map.entity_type.category"
+msgid "Categories"
+msgstr "קטגוריות"
+
+msgctxt "Languages::commerceml.map.entity_type.tax"
+msgid "Taxes"
+msgstr "מיסים"
+
+msgctxt "Languages::commerceml.map.entity_type.price_type"
+msgid "Price types"
+msgstr "סוגי מחירים"
+
+msgctxt "Languages::commerceml.map.entity_type.currency"
+msgid "Currencies"
+msgstr "מטבעות"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature"
+msgid "Product features"
+msgstr "תכונות המוצר"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature_variant"
+msgid "Product features variants"
+msgstr "גרסאות של תכונות המוצר"
+
+msgctxt "Languages::commerceml.general_information.marketplace"
+msgid "To sync your CRM with the marketplace, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "כדי לסנכרן את מערכת ה-CRM שלך עם השוק, הגדר סנכרון חדש (צומת exchange) עם אתר האינטרנט. השתמש בהגדרות הבאות בעת יצירת צומת exchange:<ul><li>כתובת אתר אינטרנט: <a href=\"[http_location]\">[http_location]</a></li><li>שם משתמש: כתובת דוא\"ל של מנהל מערכת</li><li>סיסמה: סיסמת מנהל מערכת</li></ul>אנו ממליצים להוסיף מנהל מערכת חדש עם הרשאת \"CommerceML\"."
+
+msgctxt "Languages::commerceml.general_information.store"
+msgid "To sync your CRM with the store, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "כדי לסנכרן את מערכת ה-CRM שלך עם החנות, הגדר סנכרון חדש (צומת exchange) עם אתר האינטרנט. השתמש בהגדרות הבאות בעת יצירת צומת exchange:<ul><li>כתובת אתר אינטרנט: <a href=\"[http_location]\">[http_location]</a></li><li>שם משתמש: כתובת דוא\"ל של מנהל מערכת</li><li>סיסמה: סיסמת מנהל מערכת</li></ul>אנו ממליצים להוסיף מנהל מערכת חדש עם הרשאת \"CommerceML\"."
+
+msgctxt "Languages::commerceml.map.category.create"
+msgid "Create category on next sync"
+msgstr "צור קטגוריה בסנכרון הבא"
+
+msgctxt "Languages::commerceml.map.category.use_default"
+msgid "Use default category"
+msgstr "השתמש בקטגוריה ברירת מחדל"
+
+msgctxt "Languages::commerceml.map.product_feature.create"
+msgid "Create product feature on next sync"
+msgstr "צור תכונת מוצר בסנכרון הבא"
+
+msgctxt "Languages::commerceml.map.product_feature.skip"
+msgid "Don't import"
+msgstr "אל תייבא"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.create"
+msgid "Create product feature variant on next sync"
+msgstr "צור וריאנט של תכונת מוצר בסנכרון הבא"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.skip"
+msgid "Don't import"
+msgstr "אל תייבא"
+
+msgctxt "Languages::commerceml.n_items_will_be_created_automatically"
+msgid "[n] item will be created automatically|[n] items will be created automatically"
+msgstr "פריט [n] ייווצר אוטומטית|פריטים [n] ייווצרו אוטומטית"
+
+msgctxt "Languages::commerceml.n_items_will_be_skipped"
+msgid "[n] item not matched and will be skipped|[n] item not matched and will be skipped"
+msgstr "פריט [n] לא תואם וידולג|פריט [n] לא תואם וידולג"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation"
+msgid "Product feature creation"
+msgstr "יצירת תכונות מוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.y"
+msgid "Create new features and variants from CRM automatically"
+msgstr "צור תכונות ווריאציות חדשות מ-CRM באופן אוטומטי"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "אל תיצור תכונות ווריאציות מ-CRM עד שאבדוק אותן"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation"
+msgid "Category creation"
+msgstr "יצירת קטגוריה"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.y"
+msgid "Create new categories from CRM automatically"
+msgstr "צור קטגוריות חדשות מ-CRM באופן אוטומטי"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "אל תיצור תכונות ווריאציות מ-CRM עד שאבדוק אותן"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy"
+msgid "If the category of a product changes in CRM"
+msgstr "אם קטגוריית המוצר משתנה ב-CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.append"
+msgid "Add the new category alongside the existing ones"
+msgstr "הוסף את הקטגוריה החדשה לצד הקיימות"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.replace_main"
+msgid "Change the main category of the product"
+msgstr "שנה את הקטגוריה העיקרית של המוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.ignore"
+msgid "Ignore the change; assign a category only to new products"
+msgstr "התעלם מהשינוי; הקצה קטגוריה רק למוצרים חדשים"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy"
+msgid "If the image of a product changes in CRM"
+msgstr "אם תמונת המוצר משתנה ב-CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.append"
+msgid "Add the new image alongside the existing ones"
+msgstr "הוסף את התמונה החדשה לצד הקיימות"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.replace"
+msgid "Replace all images of the product"
+msgstr "החלף את כל התמונות של המוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.ignore"
+msgid "Ignore the change; assign an image only to new products"
+msgstr "התעלם מהשינוי; הקצה תמונה רק למוצרים חדשים"
+
+msgctxt "Languages::commerceml.additional_settings_title"
+msgid "Additional settings"
+msgstr "הגדרות נוספות"
+
+msgctxt "Languages::commerceml.field_import_only_for_new_products"
+msgid "Import only for new products"
+msgstr "ייבוא מוצרים חדשים בלבד"
+
+msgctxt "Languages::commerceml.dont_import"
+msgid "Don't import"
+msgstr "אל תייבא"
+
+msgctxt "Languages::commerceml.import.message.order.updated"
+msgid "Order [local_id] was updated: Products id: [products];"
+msgstr "הזמנה [local_id] עודכנה: מזהה מוצרים: [products];"
+
+msgctxt "Languages::commerceml.import.message.order.status_updated"
+msgid "Status for order [local_id] was updated: Old status: [old_status]; New status: [new_status];"
+msgstr "סטטוס ההזמנה [local_id] עודכן: סטטוס ישן: [old_status]; סטטוס חדש: [new_status];"
+
+msgctxt "Languages::commerceml.import.error.order.local_order_not_found"
+msgid "Local order was not found"
+msgstr "לא נמצאה הזמנה מקומית"
+
+msgctxt "Languages::commerceml.import.error.order.local_product_not_found"
+msgid "Was not found local equivalent of products"
+msgstr "לא נמצאה מקבילה מקומית למוצרים"
+
+msgctxt "Languages::commerceml.products_were_disabled_after_addon_was_activated"
+msgid "We detected some duplicate entities (products, features, etc.) loaded from your CRM. They were created by mistake when the old CommerceML add-on was replaced with the new one. For your convenience, we've changed the status of the duplicates to \"Disabled\". For example, <a href=\"[href]\">here is the list of duplicate products which you can safely delete.</a>"
+msgstr "זיהינו כמה ישויות כפולות (מוצרים, תכונות וכו') שהועלו ממערכת ה-CRM שלך. הן נוצרו בטעות כאשר התוסף הישן של CommerceML הוחלף בתוסף החדש. לנוחיותך, שינינו את סטטוס הכפילויות ל\"מושבת\". לדוגמה, <a href=\"[href]\">הנה רשימת המוצרים הכפולים שתוכל למחוק בבטחה.</a>"
+
+msgctxt "Languages::commerceml.export_field_via_commerceml"
+msgid "Export via CommerceML"
+msgstr "ייצוא דרך CommerceML"
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml"
+msgid "Field export in the orders file in CommerceML format"
+msgstr "ייצוא שדות בקובץ ההזמנות בפורמט CommerceML"
+
+msgctxt "Languages::commerceml.import.order.shipment_date_status"
+msgid "Order status upon acquisition of shipment date"
+msgstr "סטטוס ההזמנה בעת קבלת תאריך המשלוח"
+
+msgctxt "Languages::commerceml.import.order.payment_date_status"
+msgid "Order status upon acquisition of payment date"
+msgstr "סטטוס ההזמנה בעת קבלת תאריך התשלום"
+
+msgctxt "Languages::commerceml.import.order.status_mapping_information"
+msgid "By default, the order status is taken from the <b>Статус заказа</b> attribute. If it is not there, the statuses will be determined by the date of payment and shipment. If both dates exist, shipment date will have higher priority."
+msgstr "כברירת מחדל, סטטוס ההזמנה נלקח מהתכונה <b>Статус заказа</b> . אם היא לא מופיעה, הסטטוסים ייקבעו לפי תאריך התשלום והמשלוח. אם שני התאריכים קיימים, לתאריך המשלוח תהיה עדיפות גבוהה יותר."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_bs"
+msgid "This is a standard field. It is always exported via CommerceML. Fields from the shipping address have priority over fields from the billing address."
+msgstr "זהו שדה סטנדרטי. הוא תמיד מיוצא דרך CommerceML. לשדות מכתובת המשלוח יש עדיפות על פני שדות מכתובת החיוב."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_bs"
+msgid "Export this field via CommerceML. If you export the same field from the billing and shipping address, then shipping address takes priority."
+msgstr "ייצא שדה זה דרך CommerceML. אם אתה מייצא את אותו שדה מכתובת החיוב ומכתובת המשלוח, כתובת המשלוח מקבלת עדיפות."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_contact_info"
+msgid "This is a standard field. It is always exported via CommerceML."
+msgstr "זהו שדה סטנדרטי. הוא תמיד מיוצא דרך CommerceML."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_contact_info"
+msgid "Export this field via CommerceML."
+msgstr "ייצוא שדה זה דרך CommerceML."
+
+msgctxt "Languages::commerceml.connection_instructions.mve"
+msgid "<p>Here is the page where your vendors can connect their CRMs to your marketplace via CommerceML. Copy the link and share with your vendors.</p>"
+msgstr "<p>זהו הדף שבו הספקים שלכם יכולים לחבר את מערכות ה-CRM שלהם לזירת המסחר שלכם דרך CommerceML. העתיקו את הקישור ושתפו אותו עם הספקים שלכם.</p>"
+
+msgctxt "Languages::commerceml.connection_instructions.ult"
+msgid "To connect your CRMs to CS-Cart, go to <b>Administration → <a href=\"[href]\">Sync data</a></b> and choose <b>CommerceML Integration.</b>"
+msgstr "כדי לחבר את מערכות ה-CRM שלכם ל-CS-Cart, גשו אל <b>ניהול → <a href=\"[href]\">סנכרון נתונים</a></b> ובחרו <b>אינטגרציית CommerceML.</b>"
+
+msgctxt "Languages::commerceml.the_file_does_not_exist"
+msgid "The file [file] does not exist."
+msgstr "הקובץ [file] אינו קיים."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names"
+msgid "Names of product features"
+msgstr "שמות של תכונות המוצר"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal"
+msgid "Use names from CRM in CS-Cart admin panel"
+msgstr "השתמש בשמות מ-CRM בפאנל הניהול של CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal.tooltip"
+msgid "Internal feature names in CS-Cart will always change match those in your CRM. You can safely edit display names for the storefront."
+msgstr "שמות התכונות הפנימיות ב-CS-Cart תמיד ישתנו בהתאם לאלה שבמערכת ניהול קשרי הלקוחות (CRM). ניתן לערוך בבטחה את שמות התצוגה של חנות החנות."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both"
+msgid "Use names from CRM everywhere in CS-Cart"
+msgstr "השתמש בשמות ממערכת CRM בכל מקום ב-CS-Cart"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both.tooltip"
+msgid "Feature names in CS-Cart will change to match the names in your CRM. Any changes to feature names on the CS-Cart end will be lost."
+msgstr "שמות התכונות ב-CS-Cart ישתנו כך שיתאימו לשמות במערכת ה-CRM שלך. כל שינוי בשמות התכונות בצד ה-CS-Cart יאבד."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no"
+msgid "Do not use names from CRM"
+msgstr "אין להשתמש בשמות ממערכת ניהול קשרי לקוחות (CRM)"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no.tooltip"
+msgid "Feature names will come from CRM only on first import. Subsequent changes in the CRM won't affect existing feature names in CS-Cart."
+msgstr "שמות התכונות יגיעו מ-CRM רק בייבוא הראשון. שינויים נוספים ב-CRM לא ישפיעו על שמות התכונות הקיימים ב-CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names"
+msgid "Names of feature variants"
+msgstr "שמות של גרסאות תכונה"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes"
+msgid "Use names from CRM"
+msgstr "השתמש בשמות מ-CRM"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes.tooltip"
+msgid "Feature variant names will always be updated from the CRM. Your edits will be lost on import."
+msgstr "שמות גרסאות התכונה יעודכנו תמיד ממערכת ה-CRM. העריכות שלך יאבדו בעת הייבוא."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no"
+msgid "Do not use names from CRM"
+msgstr "אין להשתמש בשמות ממערכת ניהול קשרי לקוחות (CRM)"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no.tooltip"
+msgid "Feature variant names will come from CRM only on first import. Useful if you plan to change their names in CS-Cart."
+msgstr "שמות גרסאות התכונה יגיעו מ-CRM רק בייבוא הראשון. שימושי אם אתם מתכננים לשנות את שמם ב-CS-Cart."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature.vendor_notice"
+msgid "The settings about the names of product features and their variants only affect the product features that belong to you, not to the marketplace."
+msgstr "ההגדרות לגבי שמות תכונות המוצר והווריאציות שלהן משפיעות רק על תכונות המוצר ששייכות לך, לא על השוק."
+

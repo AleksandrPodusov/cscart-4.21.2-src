@@ -1,0 +1,82 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+namespace Tygh\Providers;
+
+use Pimple\Container;
+use Pimple\ServiceProviderInterface;
+use Tygh\Application;
+use Tygh\Languages\Languages;
+use Tygh\Registry;
+use Tygh\SoftwareRestrictions;
+use Tygh\Tools\Formatter;
+use Tygh\Web\Antibot;
+use Tygh\Web\Antibot\NullDriver;
+
+/**
+ * The provider class that registers trivial generic components.
+ *
+ * @package Tygh\Providers
+ */
+class CommonProvider implements ServiceProviderInterface
+{
+    /**
+     * @inheritDoc
+     */
+    public function register(Container $app)
+    {
+        $app['languages'] = function ($app) {
+            return Languages::getAll();
+        };
+
+        $app['formatter'] = function ($app) {
+            return new Formatter(Registry::get('settings'));
+        };
+
+        $app['antibot'] = function (Application $app) {
+            $antibot = new Antibot($app['session'], Registry::get('settings.Image_verification'));
+
+            $antibot->setDriver($app['antibot.default_driver']);
+
+            if (Registry::get('config.tweaks.disable_captcha')) {
+                $antibot->disable();
+            } else {
+                $antibot->enable();
+            }
+
+            return $antibot;
+        };
+
+        $app['antibot.default_driver'] = function(Application $app) {
+            return new NullDriver();
+        };
+
+        $app['assets_cache_key'] = function($app) {
+            Registry::registerCache('assets_cache_key', SECONDS_IN_DAY * 365, Registry::cacheLevel('time'));
+            $assets_cache_key = Registry::get('assets_cache_key');
+            if (!$assets_cache_key) {
+                $assets_cache_key = TIME;
+                Registry::set('assets_cache_key', $assets_cache_key);
+            }
+
+            return $assets_cache_key;
+        };
+
+        $app['software_restrictions'] = static function ($app) {
+            $restrictions = unserialize(fn_get_storage_data('restrictions', ''));
+
+            return new SoftwareRestrictions($restrictions);
+        };
+    }
+}

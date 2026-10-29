@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /release-4.21.2/addons/commerceml.po\n"
+"X-Crowdin-File-ID: 10688\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::commerceml"
+msgid "CommerceML Integration"
+msgstr "CommerceML integráció"
+
+msgctxt "Addons::description::commerceml"
+msgid "Allows you to import products from and export orders to CRMs that support CommerceML."
+msgstr "Lehetővé teszi termékek importálását CommerceML-t támogató CRM-ekből és rendelések exportálását CommerceML-t támogató CRM-ekbe."
+
+msgctxt "Languages::commerceml.map.no_available_data.marketplace"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the marketplace."
+msgstr "Nincsenek elérhető adatok. Általában itt jelennek meg, miután sikeresen csatlakoztatta CRM-jét a piactérhez."
+
+msgctxt "Languages::commerceml.map.no_available_data.store"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the store."
+msgstr "Nincsenek elérhető adatok. Általában itt jelennek meg, miután sikeresen csatlakoztatta a CRM-et az üzlethez."
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode"
+msgid "Import strategy"
+msgstr "Importstratégia"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.all"
+msgid "Import all products"
+msgstr "Az összes termék importálása"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_new"
+msgid "Create new products only"
+msgstr "Csak új termékeket hoz létre"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_existing"
+msgid "Update existing products only"
+msgstr "Csak a meglévő termékeket frissíti"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.none"
+msgid "Don't import anything"
+msgstr "Ne importálj semmit"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_offers"
+msgid "Import product offers"
+msgstr "Termékajánlatok importja"
+
+msgctxt "Languages::commerceml.cml_catalog_hide_out_of_stock_products"
+msgid "Hide out-of-stock products"
+msgstr "Elrejti a készleten nem lévő termékeket"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_categories"
+msgid "Import categories"
+msgstr "Kategóriák importálása"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_features"
+msgid "Import features"
+msgstr "Jellemzők importálása"
+
+msgctxt "Languages::commerceml.cml_catalog_import_images_as_additional"
+msgid "Import images as additional ones"
+msgstr "Képek importálása továbbiként"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status"
+msgid "Status for new products"
+msgstr "Új termékek állapota"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.a"
+msgid "Active"
+msgstr "Aktív"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.h"
+msgid "Hidden"
+msgstr "Rejtett"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.d"
+msgid "Disabled"
+msgstr "Mozgáskorlátozott"
+
+msgctxt "Languages::commerceml.cml_default_lang"
+msgid "Content language in CRM"
+msgstr "Tartalom nyelvezete a CRM-ben"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id"
+msgid "Default category"
+msgstr "Alapértelmezett kategória"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id.tooltip"
+msgid "Products that don't have any other category will be imported here."
+msgstr "Azok a termékek lesznek ide importálva, amelyekhez nincs más kategória."
+
+msgctxt "Languages::commerceml.cml_catalog_use_taxes"
+msgid "Add tax to products"
+msgstr "Adó hozzáadása a termékekhez"
+
+msgctxt "Languages::commerceml.main_information"
+msgid "Main information"
+msgstr "Fő információk"
+
+msgctxt "Languages::commerceml.field_in_marketplace"
+msgid "Field in the marketplace"
+msgstr "Mező a piacon"
+
+msgctxt "Languages::commerceml.field_in_store"
+msgid "Field in the store"
+msgstr "Mező a boltban"
+
+msgctxt "Languages::commerceml.field_in_crm"
+msgid "Field in CRM"
+msgstr "Mező a CRM-ben"
+
+msgctxt "Languages::commerceml.fields_in_crm"
+msgid "Field(s) in CRM"
+msgstr "Mező(k) a CRM-ben"
+
+msgctxt "Languages::commerceml.custom_field_name"
+msgid "Custom field name"
+msgstr "Egyéni mezőnév"
+
+msgctxt "Languages::commerceml.show_as_product_feature"
+msgid "Show as a product feature"
+msgstr "Termékjellemzőként megjelenítés"
+
+msgctxt "Languages::commerceml.automatic_matching_title"
+msgid "Automatic matching"
+msgstr "Automatikus egyezés"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_category_by_name"
+msgid "Match categories by name"
+msgstr "Kategóriák egyeztetése név szerint"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_product_by_product_code"
+msgid "Match products by product code"
+msgstr "Termékek egyeztetése termékkód szerint"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source"
+msgid "Product name"
+msgstr "Termék neve"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.name"
+msgid "Name"
+msgstr "Név"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.full_name"
+msgid "Full name"
+msgstr "Teljes név"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source"
+msgid "Product code"
+msgstr "Termékkód"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.article"
+msgid "SKU"
+msgstr "Cikkszám"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.code"
+msgid "Item number"
+msgstr "Cikkszám"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.bar"
+msgid "Bar code"
+msgstr "Vonalkód"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source"
+msgid "Full description"
+msgstr "Teljes leírás"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.none"
+msgid "Do not import"
+msgstr "Ne importáljon"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.description"
+msgid "Description"
+msgstr "Leírás"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.html_description"
+msgid "File description"
+msgstr "Fájl leírása"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.full_name"
+msgid "Full name"
+msgstr "Teljes név"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source"
+msgid "Short description"
+msgstr "Rövid leírás"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.none"
+msgid "Do not import"
+msgstr "Ne importáljon"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.description"
+msgid "Description"
+msgstr "Leírás"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.html_description"
+msgid "File description"
+msgstr "Fájl leírása"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.full_name"
+msgid "Full name"
+msgstr "Teljes név"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from"
+msgid "Names of product variations"
+msgstr "Termékváltozatok nevei"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.tooltip"
+msgid "Determines where product variations will get their names during import. After the import, you'll be able to edit their names in CS-Cart as you see fit."
+msgstr "Meghatározza, hogy a termékváltozatok honnan kapják a nevüket az importálás során. Az importálás után a CS-Cartban tetszés szerint szerkesztheti a neveiket."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically"
+msgid "Choose automatically"
+msgstr "Automatikus választás"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically.tooltip"
+msgid "If any of a product's variations are \"separate products\", then all variations of that product will use unique names from offers.xml"
+msgstr "Ha egy termék bármelyik változata „különálló termék”, akkor az adott termék összes változata egyedi nevet fog használni az offers.xml fájlból."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import"
+msgid "Use catalog names"
+msgstr "Katalógusnevek használata"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import.tooltip"
+msgid "All variations of a product will use their common catalog name from import.xml"
+msgstr "Egy termék összes változata az import.xml fájlból származó közös katalógusnevet fogja használni."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers"
+msgid "Use offer names"
+msgstr "Ajánlatnevek használata"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers.tooltip"
+msgid "All variations of a product will use their unique offer names from offers.xml"
+msgstr "Egy termék összes változata az offers.xml-ből származó egyedi ajánlatneveket fogja használni."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source"
+msgid "Page title (SEO)"
+msgstr "Oldal címe (SEO)"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.none"
+msgid "Do not import"
+msgstr "Ne importáljon"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.name"
+msgid "Name"
+msgstr "Név"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.full_name"
+msgid "Full name"
+msgstr "Teljes név"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source.custom_field"
+msgid "Custom field"
+msgstr "Egyéni mező"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source"
+msgid "Promo text (field in CRM)"
+msgstr "Promóciós szöveg (mező a CRM-ben)"
+
+msgctxt "Languages::commerceml.shipping_information"
+msgid "Shipping information"
+msgstr "Szállítási információk"
+
+msgctxt "Languages::commerceml.shipping_information_info_block"
+msgid "If your CRM has fields with the same information as product shipping properties in the store, then you can import values from those fields. You can enter multiple fields (each in new line). In that case, the value of the latest found field will be used."
+msgstr "Ha a CRM-edben vannak olyan mezők, amelyek ugyanazokat az információkat tartalmazzák, mint az áruházban található termék szállítási tulajdonságai, akkor importálhatsz értékeket ezekből a mezőkből. Több mezőt is megadhatsz (mindegyiket új sorban). Ebben az esetben a legutóbb talált mező értéke lesz használva."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_weight_property_source_list"
+msgid "Weight"
+msgstr "Súly"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list"
+msgid "Free shipping"
+msgstr "Ingyenes szállítás"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list.tooltip"
+msgid "Value of the field in CRM must be \"true\" or \"false\""
+msgstr "A CRM-ben a mező értékének „igaz” vagy „hamis” értékűnek kell lennie."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_shipping_cost_property_source_list"
+msgid "Shipping cost"
+msgstr "Szállítási költség"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_number_of_items_property_source_list"
+msgid "Items in a box"
+msgstr "Tételek egy dobozban"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_length_property_source_list"
+msgid "Box length"
+msgstr "Doboz hossza"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_width_property_source_list"
+msgid "Box width"
+msgstr "Doboz szélessége"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_height_property_source_list"
+msgid "Box height"
+msgstr "Doboz magassága"
+
+msgctxt "Languages::commerceml.orders_export"
+msgid "Orders export"
+msgstr "Rendelések exportja"
+
+msgctxt "Languages::commerceml.orders_import"
+msgid "Orders import"
+msgstr "Rendelések importálása"
+
+msgctxt "Languages::commerceml.cml_order_export_strategy"
+msgid "Export strategy"
+msgstr "Exportstratégia"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.a"
+msgid "Export all orders"
+msgstr "Összes rendelés exportálása"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.n"
+msgid "Export new orders and changes to existing orders only"
+msgstr "Csak új rendelések és a meglévő rendelések módosításainak exportálása"
+
+msgctxt "Languages::commerceml.product_features"
+msgid "Product features"
+msgstr "Termékjellemzők"
+
+msgctxt "Languages::commerceml.product_features_info_block"
+msgid "Write each CRM field in a new line."
+msgstr "Minden CRM mezőt új sorba kell írni."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_blocklist"
+msgid "Don't import these CRM fields as product features"
+msgstr "Ne importálja ezeket a CRM-mezőket termékfunkcióként"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_allowlist"
+msgid "Import only these CRM fields as product features"
+msgstr "Csak ezeket a CRM-mezőket importálja termékfunkcióként"
+
+msgctxt "Languages::commerceml.never"
+msgid "Never"
+msgstr "Soha"
+
+msgctxt "Languages::commerceml.last_status.X"
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgctxt "Languages::commerceml.last_status.S"
+msgid "Success"
+msgstr "Siker"
+
+msgctxt "Languages::commerceml.last_status.P"
+msgid "In progress"
+msgstr "Folyamatban van"
+
+msgctxt "Languages::commerceml.last_status.F"
+msgid "Failure"
+msgstr "Hiba"
+
+msgctxt "Languages::commerceml.last_status.N"
+msgid "New"
+msgstr "Új"
+
+msgctxt "Languages::privilege_groups.commerceml"
+msgid "CommerceML"
+msgstr "CommerceML"
+
+msgctxt "Languages::commerceml.step_1_title"
+msgid "Step 1: Connect your CRM"
+msgstr "1. lépés: CRM-rendszer csatlakoztatása"
+
+msgctxt "Languages::commerceml.step_1_instruction.marketplace"
+msgid "<p>Make sure that your CRM sends files to the marketplace. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the marketplace receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Győződjön meg arról, hogy CRM-je fájlokat küld a piactérre. Csatlakoztathatja az 1C-t vagy bármilyen más CRM-et, amely támogatja a CommerceML-t.</p><p>Ezt a jelölőnégyzetet bejelöljük, amint a piactér megkapja és feldolgozza az első fájlt a CRM-jéből. Íme az utasítások a CRM csatlakoztatásához:</p>"
+
+msgctxt "Languages::commerceml.step_1_instruction.store"
+msgid "<p>Make sure that your CRM sends files to the store. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the store receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Győződjön meg arról, hogy a CRM-je fájlokat küld az áruházba. Csatlakoztathatja az 1C-t vagy bármilyen más CRM-et, amely támogatja a CommerceML-t.</p><p>Ezt a jelölőnégyzetet bejelöljük, amint az áruház megkapja és feldolgozza az első fájlt a CRM-jétől. Íme az utasítások a CRM csatlakoztatásához:</p>"
+
+msgctxt "Languages::commerceml.step_1_links"
+msgid "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Trade Management</a>"
+msgstr "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Kereskedéskezelés</a>"
+
+msgctxt "Languages::commerceml.step_2_title"
+msgid "Step 2: Set the data exchange rules"
+msgstr "2. lépés: Az adatcsere-szabályok beállítása"
+
+msgctxt "Languages::commerceml.step_2_instruction.marketplace"
+msgid "<p>Before importing anything, the marketplace checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the marketplace, you'll be able to import it.</p>"
+msgstr "<p>Mielőtt bármit importálna, a piactér ellenőrzi a CRM-fájl tartalmát. Ön dönti el, hogy milyen adatokat használ, és hogyan. Miután beállította a fájljában lévő adatok és a piactéren lévő adatok egyeztetésének szabályait, importálhatja azokat.</p>"
+
+msgctxt "Languages::commerceml.step_2_instruction.store"
+msgid "<p>Before importing anything, the store checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the store, you'll be able to import it.</p>"
+msgstr "<p>Importálás előtt az áruház ellenőrzi a CRM-fájl tartalmát. Ön dönti el, hogy milyen adatokat használ, és hogyan. Miután beállította a fájl adatainak az áruházban lévő adatokkal való egyeztetésének szabályait, importálhatja azokat.</p>"
+
+msgctxt "Languages::commerceml.step_2_specify_matches"
+msgid "Please specify the matches for:"
+msgstr "Kérjük, adja meg a találatokat a következőhöz:"
+
+msgctxt "Languages::commerceml.step_3_title"
+msgid "Step 3: Synchronize the data"
+msgstr "3. lépés: Az adatok szinkronizálása"
+
+msgctxt "Languages::commerceml.step_3_instruction.marketplace"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the marketplace successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Miután beállította a szabályokat, importálhatja az adatokat. Indítsa el az importálást a CRM-ből. Ezt a jelölőnégyzetet bejelöljük, miután a piactér sikeresen megkapta az adatokat. Ha bármilyen probléma merül fel, itt értesítjük.</p>"
+
+msgctxt "Languages::commerceml.step_3_instruction.store"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the store successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>A szabályok beállítása után importálhatók az adatok. Indítsa el az importálást a CRM-ből. Ezt a jelölőnégyzetet bejelöljük, miután az üzlet sikeresen megkapta az adatokat. Ha bármilyen probléma merül fel, itt értesítjük.</p>"
+
+msgctxt "Languages::commerceml.last_successful_sync"
+msgid "Last successful sync"
+msgstr "Utolsó sikeres szinkronizálás"
+
+msgctxt "Languages::commerceml.view_log"
+msgid "View log"
+msgstr "Napló megtekintése"
+
+msgctxt "Languages::commerceml.no_match"
+msgid "No match specified yet!"
+msgstr "Még nincs meghatározva egyezés!"
+
+msgctxt "Languages::commerceml.done"
+msgid "Done!"
+msgstr "Kész!"
+
+msgctxt "Languages::commerceml.marketplace"
+msgid "marketplace"
+msgstr "piactér"
+
+msgctxt "Languages::commerceml.store"
+msgid "store"
+msgstr "bolt"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee"
+msgid "Export shipping fee"
+msgstr "Export szállítási díj"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee.tooltip"
+msgid "Orders will have shipping fee as a separate product"
+msgstr "A rendelések szállítási díja külön termékként értendő."
+
+msgctxt "Languages::commerceml.cml_order_export_product_options"
+msgid "Export product options"
+msgstr "Termék exportálási opciói"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options.tooltip"
+msgid "Export order with product options"
+msgstr "Rendelés exportálása termékbeállításokkal"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses.tooltip"
+msgid "Export order statuses in CommerceML format"
+msgstr "Rendelési állapotok exportálása CommerceML formátumban"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id"
+msgid "Start export from Order #"
+msgstr "Exportálás indítása a rendelési számtól"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id.tooltip"
+msgid "Leave empty to export all orders"
+msgstr "Hagyja üresen az összes rendelés exportálásához"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses"
+msgid "Export order statuses"
+msgstr "Rendelési állapotok exportálása"
+
+msgctxt "Languages::commerceml.cml_order_statuses_filter"
+msgid "Order statuses"
+msgstr "Rendelési állapotok"
+
+msgctxt "Languages::commerceml.cml_orders_import_changes"
+msgid "Import changes to orders"
+msgstr "Rendelések módosításainak importálása"
+
+msgctxt "Languages::commerceml.map.entity_name"
+msgid "External name"
+msgstr "Külső név"
+
+msgctxt "Languages::commerceml.map.entity_id"
+msgid "External ID"
+msgstr "Külső azonosító"
+
+msgctxt "Languages::commerceml.map.local_id"
+msgid "Local ID"
+msgstr "Helyi azonosító"
+
+msgctxt "Languages::commerceml.tab.currency"
+msgid "Currencies"
+msgstr "Valuták"
+
+msgctxt "Languages::commerceml.tab.general"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "Languages::commerceml.tab.catalog"
+msgid "Catalog"
+msgstr "Katalógus"
+
+msgctxt "Languages::commerceml.tab.products"
+msgid "Products"
+msgstr "Termékek"
+
+msgctxt "Languages::commerceml.tab.orders"
+msgid "Orders"
+msgstr "Rendelések"
+
+msgctxt "Languages::commerceml.tab.price_type"
+msgid "Prices"
+msgstr "Árak"
+
+msgctxt "Languages::commerceml.tab.tax"
+msgid "Taxes"
+msgstr "Adók"
+
+msgctxt "Languages::commerceml.tab.category"
+msgid "Categories"
+msgstr "Kategóriák"
+
+msgctxt "Languages::commerceml.tab.product_feature"
+msgid "Product features"
+msgstr "Termékjellemzők"
+
+msgctxt "Languages::commerceml.variation_default_product_feature_name"
+msgid "Variant"
+msgstr "Változat"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "Alapár"
+
+msgctxt "Languages::commerceml.import.error.product_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only new products are imported"
+msgstr "Termék [id] kihagyása; ok: csak új termékek importálása"
+
+msgctxt "Languages::commerceml.import.error.product_not_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only the changes to existing products are imported"
+msgstr "Termék [id] kihagyása; ok: csak a meglévő termékek módosításai importálódnak"
+
+msgctxt "Languages::commerceml.import.error.product.caregory_not_found"
+msgid "Couldn't find category [id]"
+msgstr "Nem található a(z) [id] kategória"
+
+msgctxt "Languages::commerceml.import.message.product.default_category_used"
+msgid "Couldn't find category [id]; default category [local_id] used instead"
+msgstr "Nem található a(z) [id] kategória; helyette az alapértelmezett [local_id] kategória van használva."
+
+msgctxt "Languages::commerceml.import.message.product.no_categories_default_category_used"
+msgid "Product [product_id] does not have categories; default category [local_id] used instead"
+msgstr "A [product_id] terméknek nincsenek kategóriái; helyette az alapértelmezett [local_id] kategóriát használjuk."
+
+msgctxt "Languages::commerceml.import.message.product.created"
+msgid "Product [id] created; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Termék [id] létrehozva; helyi azonosító: [local_id], ár: [price], mennyiség: [mount]"
+
+msgctxt "Languages::commerceml.import.message.product.updated"
+msgid "Product [id] updated; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Termék [id] frissítve; helyi azonosító: [local_id], ár: [price], mennyiség: [mount]"
+
+msgctxt "Languages::commerceml.import.message.product.deleted"
+msgid "Product [id] deleted; local ID: [local_id]"
+msgstr "Termék [id] törölve; helyi azonosító: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.not_import_deleted"
+msgid "Couldn't import product [id]; reason: product marked as deleted"
+msgstr "A(z) [id] termék importálása sikertelen volt; ok: a termék töröltként van megjelölve."
+
+msgctxt "Languages::commerceml.import.message.product.marked_as_removed"
+msgid "Couldn't import product [id]; reason: product was deleted earlier"
+msgstr "A(z) [id] termék importálása sikertelen volt; ok: a terméket korábban törölték."
+
+msgctxt "Languages::commerceml.import.message.product.is_not_creatable"
+msgid "Couldn't import product [id]; reason: not enough data to create a product"
+msgstr "A(z) [id] termék importálása sikertelen volt; ok: nincs elég adat a termék létrehozásához."
+
+msgctxt "Languages::commerceml.import.message.product.found_by_product_code"
+msgid "Couldn't find product [id] by product code [product_code]; local ID: [local_id]"
+msgstr "Nem található a(z) [id] termék a(z) [product_code] termékkód alapján; helyi azonosító: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.local_id_exists_but_product_not_found"
+msgid "Couldn't find local ID [local_id] for product [id] in the database"
+msgstr "Nem található a(z) [id] termék helyi azonosítója [local_id] az adatbázisban."
+
+msgctxt "Languages::commerceml.import.message.category.found_by_name"
+msgid "Category [id] was matched by name: [name]; local ID: [local_id]"
+msgstr "A(z) [id] kategória a következő névvel egyezik: [name]; helyi azonosító: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_found"
+msgid "Couldn't find parent category [parent_id] for category [id]"
+msgstr "Nem található a(z) [parent_id] szülőkategória a(z) [id] kategóriához"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_imported"
+msgid "Couldn't import parent category [parent_id] for category [id]"
+msgstr "Nem sikerült importálni a szülőkategóriát [parent_id] a(z) [id] kategóriához"
+
+msgctxt "Languages::commerceml.import.message.category.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "[id] kategória létrehozva; helyi azonosító: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.created"
+msgid "Product feature [id] created; local ID: [local_id]"
+msgstr "Termékfunkció [id] létrehozva; helyi azonosító: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped"
+msgid "Skipping product feature [id]; reason: import this product feature is disabled in the mapping settings"
+msgstr "Termékfunkció [id] kihagyása; ok: ennek a termékfunkciónak az importálása le van tiltva a leképezési beállításokban"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_skipped"
+msgid "Skipping product feature variant [id]; reason: import this product feature variant is disabled in the mapping settings"
+msgstr "Termékjellemző-változat [id] kihagyása; ok: ennek a termékjellemző-változatnak az importálása le van tiltva a leképezési beállításokban."
+
+msgctxt "Languages::commerceml.import.message.category.skipped"
+msgid "Skipping product category [id]; reason: import this product category is disabled in the mapping settings"
+msgstr "Termékkategória [id] kihagyása; ok: ennek a termékkategóriának az importálása le van tiltva a leképezési beállításokban"
+
+msgctxt "Languages::commerceml.import.error.product_feature.not_found"
+msgid "Couldn't find product feature [id]"
+msgstr "Nem található a termékfunkció [id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped_by_settings"
+msgid "Couldn't import product feature [id]; reason: import of product features is disabled in the settings"
+msgstr "Nem sikerült importálni a(z) [id] termékfunkciót; ok: a termékfunkciók importálása le van tiltva a beállításokban."
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_created"
+msgid "Variant [id] of product feature [feature_id] created; local ID: [local_id]"
+msgstr "A [feature_id] termékfunkció [id] változata létrehozva; helyi azonosító: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.variation_not_deleted"
+msgid "Couldn't delete product variation [id]; local ID: [local_id]"
+msgstr "Nem sikerült törölni a(z) [id] termékváltozatot; helyi azonosító: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.parent_product_not_found"
+msgid "Couldn't find parent product for variation [id]"
+msgstr "Nem található szülőtermék a(z) [id] variációhoz"
+
+msgctxt "Languages::commerceml.import.error.product.parent_product_removed"
+msgid "Couldn't import product [id]; reason: its parent product [parent_id] was deleted"
+msgstr "A(z) [id] termék importálása sikertelen volt; ok: a szülőterméket ([parent_id]) törölték."
+
+msgctxt "Languages::commerceml.import.error.product_variation.invalid_features_count"
+msgid "The number of features doesn't match the number of features in variation group [group_code]"
+msgstr "A funkciók száma nem egyezik meg a [group_code] variációcsoportban található funkciók számával."
+
+msgctxt "Languages::commerceml.import.error.product_variation.feature_not_found_at_group"
+msgid "Couldn't find feature [feature_id] in variation group [group_code]"
+msgstr "A(z) [feature_id] funkció nem található a(z) [group_code] variációcsoportban."
+
+msgctxt "Languages::commerceml.import.error.product_variation.same_variation_exists"
+msgid "Variation group [group_code] already has a variation with the same combination of feature values"
+msgstr "A [group_code] variációcsoportnak már van egy variációja ugyanazzal a jellemzőérték-kombinációval."
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation"
+msgid "Couldn't create product variation [id] in variation group [group_code]"
+msgstr "Nem sikerült létrehozni a(z) [id] termékváltozatot a(z) [group_code] variációcsoportban."
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation_group"
+msgid "Couldn't create variation group for product [id]"
+msgstr "Nem sikerült variációcsoportot létrehozni a(z) [id] termékhez"
+
+msgctxt "Languages::commerceml.import.message.start_import_product"
+msgid "Starting the import of product [id]"
+msgstr "A(z) [id] termék importálásának indítása"
+
+msgctxt "Languages::commerceml.import.message.end_import_product"
+msgid "Finishing the import of product [id]"
+msgstr "A(z) [id] termék importálásának befejezése"
+
+msgctxt "Languages::commerceml.controller.import_orders_is_disabled"
+msgid "Import changes to orders is disabled. Importing order was canceled."
+msgstr "A rendelések módosításainak importálása le van tiltva. A rendelés importálása megszakítva."
+
+msgctxt "Languages::commerceml.controller.import_orders_no_permissions"
+msgid "Used administrator's account have no permissions to edit and create orders. Order import was canceled."
+msgstr "A használt rendszergazdai fióknak nincs jogosultsága a rendelések szerkesztésére és létrehozására. A rendelés importálása megszakítva."
+
+msgctxt "Lnaguages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting the orders received"
+msgstr "A beérkezett megrendelések exportjára vonatkozó kérelem"
+
+msgctxt "Lnaguages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting the orders processed"
+msgstr "A feldolgozott megrendelések exportálására vonatkozó kérelem"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] received"
+msgstr "Értékesítési szinkronizációs fájl [fájlnév] letöltésére vonatkozó kérés érkezett"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] processed"
+msgstr "A(z) [fájlnév] értékesítési szinkronizációs fájl letöltésére vonatkozó kérelem feldolgozva"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_convert"
+msgid "Request for converting the sale synchronization file [filename] received"
+msgstr "Értékesítési szinkronizációs fájl [fájlnév] konvertálására vonatkozó kérés érkezett"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "A katalógusszinkronizációs fájl [fájlnév] konvertálására vonatkozó kérelem feldolgozva"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] received"
+msgstr "Értékesítési szinkronizációs fájlból [fájlnév] származó adatok importálására vonatkozó kérelem érkezett"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] processed"
+msgstr "A(z) [fájlnév] értékesítési szinkronizációs fájlból származó adatok importálására vonatkozó kérelem feldolgozva"
+
+msgctxt "Languages::commerceml.import.message.start_update_order"
+msgid "Starting the import of order [id]"
+msgstr "A(z) [id] rendelés importálásának indítása"
+
+msgctxt "Languages::commerceml.import.message.end_update_order"
+msgid "Finishing the import of order [id]"
+msgstr "A(z) [id] rendelés importálásának befejezése"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_checkauth_request"
+msgid "Request for synchronization session received"
+msgstr "Szinkronizációs munkamenetre vonatkozó kérés érkezett"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_checkauth_request"
+msgid "Request for synchronization session processed. Session ID: [session_id]"
+msgstr "A szinkronizálási munkamenetre vonatkozó kérés feldolgozva. Munkamenet-azonosító: [session_id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_init"
+msgid "Request for synchronization parameters received"
+msgstr "Szinkronizációs paraméterekre vonatkozó kérés érkezett"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_init"
+msgid "Request for synchronization parameters processed. File size limit: [limit]. ZIP support: [zip]"
+msgstr "A szinkronizálási paraméterekre vonatkozó kérés feldolgozva. Fájlméret-korlát: [limit]. ZIP támogatás: [zip]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] received"
+msgstr "A szinkronizációs fájl [fájlnév] letöltésére vonatkozó kérés érkezett."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] processed"
+msgstr "A szinkronizációs fájl [fájlnév] letöltésére vonatkozó kérés feldolgozva"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] received"
+msgstr "A(z) [fájlnév] szinkronizációs fájl kicsomagolására vonatkozó kérés megérkezett."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] processed"
+msgstr "A(z) [fájlnév] szinkronizációs fájl kicsomagolására vonatkozó kérés feldolgozva."
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] received"
+msgstr "A katalógus szinkronizációs fájl [fájlnév] konvertálására vonatkozó kérés megérkezett."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "A katalógusszinkronizációs fájl [fájlnév] konvertálására vonatkozó kérelem feldolgozva"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] received"
+msgstr "A katalógus szinkronizációs fájl [fájlnév] elemzésére vonatkozó kérés érkezett."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] processed"
+msgstr "A katalógusszinkronizációs fájl [fájlnév] elemzésére vonatkozó kérelem feldolgozva"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] received"
+msgstr "A katalógus szinkronizációs fájlból ([fájlnév]) származó adatok importálására vonatkozó kérelem érkezett."
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] processed"
+msgstr "A katalógus szinkronizációs fájlból ([fájlnév]) származó adatok importálására vonatkozó kérelem feldolgozva"
+
+msgctxt "Languages::commerceml.controller.end_handle_request"
+msgid "Finishing the processing of the [mode] request"
+msgstr "A [mode] kérés feldolgozásának befejezése"
+
+msgctxt "Languages::commerceml.controller.upload_directory_cleaned"
+msgid "Directory [dir] cleared of old synchronization files"
+msgstr "A [dir] könyvtár törölve a régi szinkronizációs fájloktól"
+
+msgctxt "Languages::commerceml.controller.convert_import_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: the import works in the 'Do not import' mode"
+msgstr "A(z) [fájlnév] fájl kihagyása; ok: az importálás „Importálás mellőzése” módban működik."
+
+msgctxt "Languages::commerceml.controller.convert_offers_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: settings forbid the import of offers"
+msgstr "[fájlnév] fájl kihagyása; ok: a beállítások tiltják az ajánlatok importálását"
+
+msgctxt "Languages::commerceml.controller.error"
+msgid "Error: [message]"
+msgstr "Hiba: [üzenet]"
+
+msgctxt "Languages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting orders received"
+msgstr "Exportrendelések beérkezése iránti kérelem"
+
+msgctxt "Languages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting orders processed"
+msgstr "Exportrendelések iránti kérelem feldolgozva"
+
+msgctxt "Languages::commerceml.brand_manufacturer_default_product_feature_name"
+msgid "Manufacturer"
+msgstr "Gyártó"
+
+msgctxt "Languages::commerceml.sync_data_name"
+msgid "CommerceML Integration"
+msgstr "CommerceML integráció"
+
+msgctxt "Languages::commerceml.map.entity_type.category"
+msgid "Categories"
+msgstr "Kategóriák"
+
+msgctxt "Languages::commerceml.map.entity_type.tax"
+msgid "Taxes"
+msgstr "Adók"
+
+msgctxt "Languages::commerceml.map.entity_type.price_type"
+msgid "Price types"
+msgstr "Ártípusok"
+
+msgctxt "Languages::commerceml.map.entity_type.currency"
+msgid "Currencies"
+msgstr "Valuták"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature"
+msgid "Product features"
+msgstr "Termékjellemzők"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature_variant"
+msgid "Product features variants"
+msgstr "Termékjellemzők változatai"
+
+msgctxt "Languages::commerceml.general_information.marketplace"
+msgid "To sync your CRM with the marketplace, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "A CRM és a piactér szinkronizálásához állítson be egy új szinkronizációt (csere csomópontot) a weboldallal. Csere csomópont létrehozásakor a következő beállításokat használja:<ul><li>Weboldal címe: <a href=\"[http_location]\">[http_location]</a></li><li>Felhasználónév: Adminisztrátori e-mail cím</li><li>Jelszó: Adminisztrátori jelszó</li></ul>Javasoljuk egy új adminisztrátor hozzáadását \"CommerceML\" jogosultsággal."
+
+msgctxt "Languages::commerceml.general_information.store"
+msgid "To sync your CRM with the store, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "A CRM és az üzlet szinkronizálásához állítson be egy új szinkronizációt (exchange csomópontot) a weboldallal. Az exchange csomópont létrehozásakor a következő beállításokat használja:<ul><li>Weboldal címe: <a href=\"[http_location]\">[http_location]</a></li><li>Felhasználónév: Adminisztrátori e-mail cím</li><li>Jelszó: Adminisztrátori jelszó</li></ul>Javasoljuk egy új adminisztrátor hozzáadását \"CommerceML\" jogosultsággal."
+
+msgctxt "Languages::commerceml.map.category.create"
+msgid "Create category on next sync"
+msgstr "Kategória létrehozása a következő szinkronizáláskor"
+
+msgctxt "Languages::commerceml.map.category.use_default"
+msgid "Use default category"
+msgstr "Alapértelmezett kategória használata"
+
+msgctxt "Languages::commerceml.map.product_feature.create"
+msgid "Create product feature on next sync"
+msgstr "Termékfunkció létrehozása a következő szinkronizáláskor"
+
+msgctxt "Languages::commerceml.map.product_feature.skip"
+msgid "Don't import"
+msgstr "Ne importáljon"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.create"
+msgid "Create product feature variant on next sync"
+msgstr "Termékjellemző-változat létrehozása a következő szinkronizáláskor"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.skip"
+msgid "Don't import"
+msgstr "Ne importáljon"
+
+msgctxt "Languages::commerceml.n_items_will_be_created_automatically"
+msgid "[n] item will be created automatically|[n] items will be created automatically"
+msgstr "[n] elem automatikusan létrejön|[n] elem automatikusan létrejön"
+
+msgctxt "Languages::commerceml.n_items_will_be_skipped"
+msgid "[n] item not matched and will be skipped|[n] item not matched and will be skipped"
+msgstr "[n] elem nem egyezik, és kihagyásra kerül|[n] elem nem egyezik, és kihagyásra kerül"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation"
+msgid "Product feature creation"
+msgstr "Termékjellemzők létrehozása"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.y"
+msgid "Create new features and variants from CRM automatically"
+msgstr "Új funkciók és változatok automatikus létrehozása CRM-ből"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Ne hozzon létre funkciókat és változatokat a CRM-ből, amíg nem ellenőriztem őket"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation"
+msgid "Category creation"
+msgstr "Kategória létrehozása"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.y"
+msgid "Create new categories from CRM automatically"
+msgstr "Új kategóriák automatikus létrehozása CRM-ből"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Ne hozzon létre funkciókat és változatokat a CRM-ből, amíg nem ellenőriztem őket"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy"
+msgid "If the category of a product changes in CRM"
+msgstr "Ha egy termék kategóriája megváltozik a CRM-ben"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.append"
+msgid "Add the new category alongside the existing ones"
+msgstr "Adj hozzá egy új kategóriát a meglévők mellé"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.replace_main"
+msgid "Change the main category of the product"
+msgstr "A termék fő kategóriájának módosítása"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.ignore"
+msgid "Ignore the change; assign a category only to new products"
+msgstr "A módosítás figyelmen kívül hagyása; csak az új termékekhez rendeljen kategóriát"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy"
+msgid "If the image of a product changes in CRM"
+msgstr "Ha egy termék képe megváltozik a CRM-ben"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.append"
+msgid "Add the new image alongside the existing ones"
+msgstr "Új kép hozzáadása a meglévők mellé"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.replace"
+msgid "Replace all images of the product"
+msgstr "Cserélje ki a termék összes képét"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.ignore"
+msgid "Ignore the change; assign an image only to new products"
+msgstr "A módosítás figyelmen kívül hagyása; csak új termékekhez rendeljen képet"
+
+msgctxt "Languages::commerceml.additional_settings_title"
+msgid "Additional settings"
+msgstr "További beállítások"
+
+msgctxt "Languages::commerceml.field_import_only_for_new_products"
+msgid "Import only for new products"
+msgstr "Csak új termékek importálása"
+
+msgctxt "Languages::commerceml.dont_import"
+msgid "Don't import"
+msgstr "Ne importáljon"
+
+msgctxt "Languages::commerceml.import.message.order.updated"
+msgid "Order [local_id] was updated: Products id: [products];"
+msgstr "A(z) [local_id] rendelés frissítve lett: Termékazonosító: [products];"
+
+msgctxt "Languages::commerceml.import.message.order.status_updated"
+msgid "Status for order [local_id] was updated: Old status: [old_status]; New status: [new_status];"
+msgstr "A(z) [local_id] rendelés állapota frissült: Régi állapot: [old_status]; Új állapot: [new_status];"
+
+msgctxt "Languages::commerceml.import.error.order.local_order_not_found"
+msgid "Local order was not found"
+msgstr "Helyi rendelés nem található"
+
+msgctxt "Languages::commerceml.import.error.order.local_product_not_found"
+msgid "Was not found local equivalent of products"
+msgstr "Nem található a termékek helyi megfelelője"
+
+msgctxt "Languages::commerceml.products_were_disabled_after_addon_was_activated"
+msgid "We detected some duplicate entities (products, features, etc.) loaded from your CRM. They were created by mistake when the old CommerceML add-on was replaced with the new one. For your convenience, we've changed the status of the duplicates to \"Disabled\". For example, <a href=\"[href]\">here is the list of duplicate products which you can safely delete.</a>"
+msgstr "Néhány ismétlődő entitást (termékeket, funkciókat stb.) észleltünk a CRM-ből betöltéskor. Ezek véletlenül jöttek létre, amikor a régi CommerceML bővítményt az újra cserélték. Az Ön kényelme érdekében a duplikátumok állapotát „Letiltva”-ra módosítottuk. Például: <a href=\"[href]\">itt a listája azoknak a duplikált termékeknek, amelyeket biztonságosan törölhet.</a>"
+
+msgctxt "Languages::commerceml.export_field_via_commerceml"
+msgid "Export via CommerceML"
+msgstr "Exportálás CommerceML-en keresztül"
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml"
+msgid "Field export in the orders file in CommerceML format"
+msgstr "Mezőexportálás a CommerceML formátumú orders fájlba"
+
+msgctxt "Languages::commerceml.import.order.shipment_date_status"
+msgid "Order status upon acquisition of shipment date"
+msgstr "Rendelés állapota a szállítás dátumának beszerzésekor"
+
+msgctxt "Languages::commerceml.import.order.payment_date_status"
+msgid "Order status upon acquisition of payment date"
+msgstr "A rendelés állapota a fizetési dátum megszerzésekor"
+
+msgctxt "Languages::commerceml.import.order.status_mapping_information"
+msgid "By default, the order status is taken from the <b>Статус заказа</b> attribute. If it is not there, the statuses will be determined by the date of payment and shipment. If both dates exist, shipment date will have higher priority."
+msgstr "Alapértelmezés szerint a rendelés állapota a <b>Статус заказа</b> attribútumból származik. Ha ez nincs ott, akkor az állapotokat a fizetés és a szállítás dátuma határozza meg. Ha mindkét dátum létezik, a szállítás dátuma élvez magasabb prioritást."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_bs"
+msgid "This is a standard field. It is always exported via CommerceML. Fields from the shipping address have priority over fields from the billing address."
+msgstr "Ez egy szabványos mező. Mindig a CommerceML-en keresztül exportálódik. A szállítási cím mezői elsőbbséget élveznek a számlázási cím mezőivel szemben."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_bs"
+msgid "Export this field via CommerceML. If you export the same field from the billing and shipping address, then shipping address takes priority."
+msgstr "Exportáld ezt a mezőt a CommerceML-en keresztül. Ha ugyanazt a mezőt exportálod a számlázási és a szállítási címből, akkor a szállítási cím élvez elsőbbséget."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_contact_info"
+msgid "This is a standard field. It is always exported via CommerceML."
+msgstr "Ez egy szabványos mező. Mindig a CommerceML-en keresztül exportálódik."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_contact_info"
+msgid "Export this field via CommerceML."
+msgstr "Exportálja ezt a mezőt a CommerceML-en keresztül."
+
+msgctxt "Languages::commerceml.connection_instructions.mve"
+msgid "<p>Here is the page where your vendors can connect their CRMs to your marketplace via CommerceML. Copy the link and share with your vendors.</p>"
+msgstr "<p>Ezen az oldalon a szállítóid a CommerceML-en keresztül csatlakoztathatják CRM-rendszereiket a piacteredhez. Másold ki a linket, és oszd meg a szállítóiddal.</p>"
+
+msgctxt "Languages::commerceml.connection_instructions.ult"
+msgid "To connect your CRMs to CS-Cart, go to <b>Administration → <a href=\"[href]\">Sync data</a></b> and choose <b>CommerceML Integration.</b>"
+msgstr "A CRM-ek CS-Carthoz való csatlakoztatásához lépjen az <b>Adminisztráció → <a href=\"[href]\">Adatok szinkronizálása</a></b> menüpontra, és válassza a <b>CommerceML integráció lehetőséget.</b>"
+
+msgctxt "Languages::commerceml.the_file_does_not_exist"
+msgid "The file [file] does not exist."
+msgstr "A(z) [fájl] fájl nem létezik."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names"
+msgid "Names of product features"
+msgstr "A termék jellemzőinek nevei"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal"
+msgid "Use names from CRM in CS-Cart admin panel"
+msgstr "CRM-ből származó nevek használata a CS-Cart adminisztrációs paneljén"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal.tooltip"
+msgid "Internal feature names in CS-Cart will always change match those in your CRM. You can safely edit display names for the storefront."
+msgstr "A CS-Cart belső funkciónevei mindig megegyeznek a CRM-ben lévőkkel. A kirakat megjelenített neveit biztonságosan szerkesztheti."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both"
+msgid "Use names from CRM everywhere in CS-Cart"
+msgstr "Használjon CRM-ből származó neveket mindenhol a CS-Cartban"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both.tooltip"
+msgid "Feature names in CS-Cart will change to match the names in your CRM. Any changes to feature names on the CS-Cart end will be lost."
+msgstr "A CS-Cartban található funkciónevek a CRM-ben található neveknek megfelelően változnak. A CS-Cart oldalán a funkciónevek módosításai elvesznek."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no"
+msgid "Do not use names from CRM"
+msgstr "Ne használjon CRM-ből származó neveket"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no.tooltip"
+msgid "Feature names will come from CRM only on first import. Subsequent changes in the CRM won't affect existing feature names in CS-Cart."
+msgstr "A funkciónevek csak az első importáláskor fognak a CRM-ből származni. A CRM-ben végrehajtott későbbi módosítások nem befolyásolják a CS-Cartban már meglévő funkcióneveket."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names"
+msgid "Names of feature variants"
+msgstr "A funkcióváltozatok nevei"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes"
+msgid "Use names from CRM"
+msgstr "CRM-ből származó nevek használata"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes.tooltip"
+msgid "Feature variant names will always be updated from the CRM. Your edits will be lost on import."
+msgstr "A funkcióváltozatok nevei mindig frissülnek az CRM-ből. A módosítások importáláskor elvesznek."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no"
+msgid "Do not use names from CRM"
+msgstr "Ne használjon CRM-ből származó neveket"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no.tooltip"
+msgid "Feature variant names will come from CRM only on first import. Useful if you plan to change their names in CS-Cart."
+msgstr "A funkcióváltozatok nevei csak az első importáláskor jelennek meg a CRM-ből. Hasznos, ha a CS-Cartban tervezi módosítani a nevüket."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature.vendor_notice"
+msgid "The settings about the names of product features and their variants only affect the product features that belong to you, not to the marketplace."
+msgstr "A termékfunkciók és azok változatainak nevére vonatkozó beállítások csak az Önhöz tartozó termékfunkciókat érintik, a piactérhez nem."
+

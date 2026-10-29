@@ -1,0 +1,115 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+namespace Tygh\Backend\Cache;
+
+use Tygh\Exceptions\ClassNotFoundException;
+
+class Apc extends ABackend
+{
+    const CACHE_PREFIX = 'cs-cart:cache:';
+
+    protected $global_ttl = 0;
+
+    /**
+     * Apc constructor.
+     *
+     * @param array $config
+     *
+     * @throws \Tygh\Exceptions\ClassNotFoundException
+     */
+    public function __construct($config)
+    {
+        if (!function_exists('apc_store') || !class_exists('APCIterator')) {
+            throw new ClassNotFoundException('"APC" PHP extension is not installed.');
+        }
+
+        if (isset($config['cache_apc_global_ttl'])) {
+            $this->global_ttl = (int) $config['cache_apc_global_ttl'];
+        }
+
+        $this->_config = $config;
+
+        parent::__construct($config);
+    }
+
+    /** @inheritDoc */
+    public function set($name, $data, $condition, $cache_level = null, $ttl = null)
+    {
+        if (!empty($data) || !empty($condition['is_empty_allowed'])) {
+            apc_store(
+                $this->_mapTags($name) . '/' . $cache_level,
+                $data,
+                $this->getCacheTimeToLive($condition, $cache_level, $ttl ?: $this->global_ttl)
+            );
+        }
+    }
+
+    /** @inheritDoc */
+    public function get($name, $cache_level = null)
+    {
+        $key = $this->_mapTags($name) . '/' . $cache_level;
+
+        if (apc_exists($key)) {
+            return [apc_fetch($key)];
+        }
+
+        return false;
+    }
+
+    /** @inheritDoc */
+    public function clear($tags)
+    {
+        $tags = (array) $this->_mapTags($tags, 0);
+        $success = true;
+
+        foreach ($tags as $tag) {
+            $tag = preg_quote($tag, '/');
+            $to_be_deleted = new \APCIterator('user', "/^{$tag}/", APC_ITER_VALUE);
+            $success &= apc_delete($to_be_deleted);
+        }
+
+        return $success;
+    }
+
+    /** @inheritDoc */
+    public function cleanup()
+    {
+        $regexp = self::CACHE_PREFIX . (empty($this->_config['store_prefix']) ? '' : ($this->_config['store_prefix'] . ':'));
+        $regexp = preg_quote($regexp, '/');
+
+        $to_be_deleted = new \APCIterator('user', "/^{$regexp}/", APC_ITER_VALUE);
+
+        return apc_delete($to_be_deleted);
+    }
+
+    /**
+     * @param      $cache_keys
+     * @param null $company_id
+     *
+     * @return array|mixed
+     */
+    private function _mapTags($cache_keys, $company_id = null)
+    {
+        $cache_keys = (array) $cache_keys;
+        $company_id = is_null($company_id) ? $this->_company_id : $company_id;
+
+        foreach ($cache_keys as $i => $key_name) {
+            $cache_keys[$i] = self::CACHE_PREFIX . (empty($this->_config['store_prefix']) ? '' : ($this->_config['store_prefix'] . ':')) // For Merchium
+                . $key_name . (empty($company_id) ? '' : (':' . $company_id));
+        }
+
+        return sizeof($cache_keys) === 1 ? reset($cache_keys) : $cache_keys;
+    }
+}

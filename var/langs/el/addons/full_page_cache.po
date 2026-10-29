@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /release-4.21.2/addons/full_page_cache.po\n"
+"X-Crowdin-File-ID: 10710\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::full_page_cache"
+msgid "Performance Booster"
+msgstr "Ενισχυτής απόδοσης"
+
+msgctxt "Addons::description::full_page_cache"
+msgid "Set up full-page cache powered by Varnish to speed up your site under heavy workload."
+msgstr "Ρυθμίστε την προσωρινή μνήμη πλήρους σελίδας με την υποστήριξη του Varnish για να επιταχύνετε τον ιστότοπό σας υπό μεγάλο φόρτο εργασίας."
+
+msgctxt "Languages::full_page_cache.unable_to_enable_full_page_caching"
+msgid "Unable to enable full-page caching."
+msgstr "Δεν είναι δυνατή η ενεργοποίηση της προσωρινής αποθήκευσης πλήρους σελίδας."
+
+msgctxt "Languages::full_page_cache.unable_to_connect_to_varhish"
+msgid "Unable to connect to Varnish server. Please make sure that Varnish service is running and check the entered address and port."
+msgstr "Δεν είναι δυνατή η σύνδεση με τον διακομιστή Varnish. Βεβαιωθείτε ότι η υπηρεσία Varnish εκτελείται και ελέγξτε τη διεύθυνση και τη θύρα που εισαγάγατε."
+
+msgctxt "Languages::full_page_cache.error_session_auto_start_enabled"
+msgid "The \"session.auto_start\" PHP configuration option is enabled. Please, disable this option by setting \"session.auto_start = 0\" in your php.ini file."
+msgstr "Η επιλογή διαμόρφωσης PHP \"session.auto_start\" είναι ενεργοποιημένη. Απενεργοποιήστε αυτήν την επιλογή ορίζοντας την τιμή \"session.auto_start = 0\" στο αρχείο php.ini."
+
+msgctxt "Languages::full_page_cache.notice_caching_was_enabled"
+msgid "Full-page caching have been successfully enabled, started and running."
+msgstr "Η προσωρινή αποθήκευση πλήρους σελίδας ενεργοποιήθηκε, ξεκίνησε και λειτουργεί με επιτυχία."
+
+msgctxt "Languages::full_page_cache.warning_root_dir_not_writable"
+msgid "<strong>Performance Booster:</strong> Root directory of your site isn't writable. Couldn't create symlink to esi.php in the root directory. Please make the directory writable and activate the add-on. Alternatively, create the symlink from the root directory to app/addons/full_page_cache/esi.php manually."
+msgstr "<strong>Ενίσχυση απόδοσης:</strong> Ο ριζικός κατάλογος του ιστότοπού σας δεν είναι εγγράψιμος. Δεν ήταν δυνατή η δημιουργία συμβολικού συνδέσμου στο esi.php στον ριζικό κατάλογο. Κάντε τον κατάλογο εγγράψιμο και ενεργοποιήστε το πρόσθετο. Εναλλακτικά, δημιουργήστε τον συμβολικό σύνδεσμο από τον ριζικό κατάλογο στο app/addons/full_page_cache/esi.php χειροκίνητα."
+
+msgctxt "Languages::full_page_cache.failed_to_create_symlink"
+msgid "Failed to create symlink [file]"
+msgstr "Αποτυχία δημιουργίας συμβολικού συνδέσμου [αρχείο]"
+
+msgctxt "Languages::full_page_cache.notice_configure_addon"
+msgid "Before you can activate Performance Booster, you'll need to <a href=\"[url]\">configure the server and the add-on.</a>"
+msgstr "Πριν ενεργοποιήσετε το Performance Booster, θα πρέπει να <a href=\"[url]\">ρυθμίσετε τον διακομιστή και το πρόσθετο.</a>"
+
+msgctxt "Languages::full_page_cache.text_settings_general"
+msgid "This add-on will only work after proper server configuration. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Learn more about how to configure caching on your server</a>."
+msgstr "Αυτό το πρόσθετο θα λειτουργήσει μόνο μετά από σωστή ρύθμιση παραμέτρων διακομιστή. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Μάθετε περισσότερα σχετικά με τον τρόπο ρύθμισης παραμέτρων της προσωρινής αποθήκευσης στον διακομιστή σας</a>."
+
+msgctxt "SettingsOptions::full_page_cache::varnish"
+msgid "Varnish"
+msgstr "Βερνίκι"
+
+msgctxt "SettingsOptions::full_page_cache::varnish_host"
+msgid "Host"
+msgstr "Πλήθος"
+
+msgctxt "SettingsOptions::full_page_cache::common"
+msgid "Common"
+msgstr "Κοινός"
+

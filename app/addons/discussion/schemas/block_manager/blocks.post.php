@@ -1,0 +1,105 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+use Tygh\Enum\YesNo;
+
+$schema['testimonials'] = [
+    'templates' => [
+        'addons/discussion/blocks/testimonials.tpl' => [],
+    ],
+    'wrappers' => 'blocks/wrappers',
+    'settings' => [
+        'limit' => [
+            'type'          => 'input',
+            'default_value' => '10'
+        ],
+        'random' => [
+            'type'          => 'checkbox',
+            'default_value' => YesNo::NO
+        ],
+        'not_scroll_automatically' => [
+            'type' => 'checkbox',
+            'default_value' => YesNo::NO
+        ],
+        'speed' =>  [
+            'type'          => 'input',
+            'default_value' => 400,
+            'tooltip'       => __('tooltip_carousel_speed')
+        ],
+        'pause_delay' =>  [
+            'type'          => 'input',
+            'default_value' => 3
+        ],
+        'item_quantity' =>  [
+            'type'          => 'input',
+            'default_value' => 1
+        ],
+        'outside_navigation' => [
+            'type'          => 'checkbox',
+            'default_value' => YesNo::NO
+        ]
+    ],
+    'cache' => [
+        'update_handlers' => ['discussion', 'discussion_messages', 'discussion_posts', 'discussion_rating'],
+    ]
+];
+
+$schema['products']['content']['items']['fillings']['rating'] = [
+    'params' => [
+        'rating'  => true,
+        'sort_by' => 'rating'
+    ],
+];
+$schema['products']['cache']['update_handlers'][] = 'discussion_rating';
+
+$schema['categories']['content']['items']['fillings']['rating'] = [
+    'params' => [
+        'rating'  => true,
+        'sort_by' => 'rating'
+    ],
+];
+
+if (!empty($schema['categories']['cache']['update_handlers'])) {
+    $schema['categories']['cache']['update_handlers'][] = 'discussion_rating';
+}
+
+$schema['pages']['content']['items']['fillings']['rating'] = [
+    'params' => [
+        'rating'  => true,
+        'sort_by' => 'rating'
+    ],
+];
+
+if (!empty($schema['pages']['cache']['update_handlers'])) {
+    $schema['pages']['cache']['update_handlers'][] = 'discussion_rating';
+}
+
+if (!empty($schema['vendors']['cache']['update_handlers'])) {
+    $schema['vendors']['cache']['update_handlers'][] = 'discussion';
+    $schema['vendors']['cache']['update_handlers'][] = 'discussion_messages';
+    $schema['vendors']['cache']['update_handlers'][] = 'discussion_posts';
+    $schema['vendors']['cache']['update_handlers'][] = 'discussion_rating';
+}
+
+$schema['main']['cache_overrides_by_dispatch']['products.view']['update_handlers'][] = 'discussion';
+$schema['main']['cache_overrides_by_dispatch']['products.view']['update_handlers'][] = 'discussion_messages';
+$schema['main']['cache_overrides_by_dispatch']['products.view']['update_handlers'][] = 'discussion_posts';
+$schema['main']['cache_overrides_by_dispatch']['products.view']['update_handlers'][] = 'discussion_rating';
+
+$schema['main']['cache_overrides_by_dispatch']['categories.view']['update_handlers'][] = 'discussion';
+$schema['main']['cache_overrides_by_dispatch']['categories.view']['update_handlers'][] = 'discussion_messages';
+$schema['main']['cache_overrides_by_dispatch']['categories.view']['update_handlers'][] = 'discussion_posts';
+$schema['main']['cache_overrides_by_dispatch']['categories.view']['update_handlers'][] = 'discussion_rating';
+
+return $schema;

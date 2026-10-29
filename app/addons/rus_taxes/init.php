@@ -1,0 +1,33 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+use Tygh\Addons\RusTaxes\ServiceProvider;
+
+if (!defined('BOOTSTRAP')) { die('Access denied'); }
+
+Tygh::$app->register(new ServiceProvider());
+
+fn_register_hooks(
+    'add_to_cart_before_select_product_simple_data',
+    'add_to_cart',
+    'create_order_details',
+    'update_order',
+    'delete_order',
+    'change_order_status_pre',
+    'get_product_fields',
+    'get_products',
+    'update_product_pre',
+    'update_product_post',
+    'install_addon_post'
+);

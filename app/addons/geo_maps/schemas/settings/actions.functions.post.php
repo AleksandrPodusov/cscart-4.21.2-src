@@ -1,0 +1,29 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+/**
+ * @return string Notification text displayed at the add-on settings.
+ */
+function fn_geo_maps_settings_google_api_notice_handler()
+{
+    return __('geo_maps.text_settings_google_api_notice');
+}
+
+/**
+ * @return string Notification text displayed at the add-on settings.
+ */
+function fn_geo_maps_settings_yandex_api_notice_handler()
+{
+    return __('geo_maps.text_settings_yandex_api_notice');
+}

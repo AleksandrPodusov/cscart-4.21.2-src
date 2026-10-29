@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: /release-4.21.2/addons/upsell.po\n"
+"X-Crowdin-File-ID: 10830\n"
+"PO-Revision-Date: 2026-09-21 11:54\n"
+
+msgctxt "Addons::name::upsell"
+msgid "Upsell"
+msgstr "업셀링"
+
+msgctxt "Addons::description::upsell"
+msgid "Upsell"
+msgstr "업셀링"
+
+msgctxt "Languages::upsell.learn_more"
+msgid "Learn more ⟶"
+msgstr "더 알아보기 ⟶"
+
+msgctxt "Languages::upsell.unlock"
+msgid "Unlock"
+msgstr "터놓다"
+
+msgctxt "Languages::upsell.how_to_unlock_notice"
+msgid "<b>How to unlock:</b> This feature is in another plan. To unlock it, we’ll contact the license owner through Help Desk and by email. We may also contact you at [email]."
+msgstr "<b>잠금 해제 방법:</b> 이 기능은 다른 요금제에 포함되어 있습니다. 잠금 해제를 위해서는 헬프데스크 및 이메일을 통해 라이선스 소유자에게 연락드리겠습니다. 또한 [이메일]로 연락드릴 수도 있습니다."
+
+msgctxt "Languages::upsell.message_sent"
+msgid "Message sent"
+msgstr "메시지 전송됨"
+
+msgctxt "Languages::upsell.message_sent_success"
+msgid "We’ll contact you through Help Desk and by the email of the license owner. We may also contact you by the email associated with this admin account."
+msgstr "헬프데스크와 라이선스 소유자의 이메일 주소를 통해 연락드리겠습니다. 또한, 이 관리자 계정과 연결된 이메일 주소로도 연락드릴 수 있습니다."
+
+msgctxt "Languages::upsell.message_already_sent"
+msgid "We're already on it"
+msgstr "저희는 이미 그 일을 진행하고 있습니다."
+
+msgctxt "Languages::upsell.message_already_sent.notice"
+msgid "An administrator of this site has recently requested consultation about additional features. The request is already logged in the Help Desk account associated with this license. But you’re welcome to send us an email at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr "이 사이트의 관리자가 최근 추가 기능에 대한 상담을 요청했습니다. 해당 요청은 이미 이 라이선스와 연결된 헬프 데스크 계정에 기록되어 있습니다. 하지만 <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> 로 이메일을 보내주셔도 좋습니다."
+
+msgctxt "Languages::upsell.message_couldnt_send"
+msgid "Couldn’t send the message"
+msgstr "메시지를 보낼 수 없습니다"
+
+msgctxt "Languages::upsell.message_couldnt_send.notice"
+msgid "Sorry, we couldn’t send your request for consultation due to some technical issues. Please try again later. If the issue persists, tell us by email what functionality you’re interested in: <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a>."
+msgstr ""
+
+msgctxt "Languages::upsell.product_videos.popup_title"
+msgid "Product videos"
+msgstr "제품 영상"
+
+msgctxt "Languages::upsell.product_videos.popup_text"
+msgid "Enticing product videos can draw customers’ attention, make them study the product longer, and improve their general impression of your site. CS-Cart allows you to link videos from YouTube (and from other platforms) to products."
+msgstr "매력적인 제품 영상은 고객의 관심을 끌고, 제품을 더 오래 살펴보게 하며, 사이트에 대한 전반적인 인상을 향상시킬 수 있습니다. CS-Cart를 사용하면 YouTube(및 기타 플랫폼)의 영상을 제품에 연결할 수 있습니다."
+
+msgctxt "Languages::upsell.product_videos.product_page"
+msgid "Link videos from YouTube and other platforms to your products."
+msgstr "YouTube 및 기타 플랫폼의 동영상을 제품에 연결하세요."
+
+msgctxt "Languages::upsell.product_videos.settings"
+msgid "Affects the videos that you add to the product image gallery."
+msgstr "제품 이미지 갤러리에 추가하는 동영상에 영향을 미칩니다."
+
+msgctxt "Languages::upsell.warehouses.popup_title"
+msgid "Warehouses"
+msgstr "창고"
+
+msgctxt "Languages::upsell.warehouses.popup_text"
+msgid "Warehouses allow you to track inventory at multiple locations, show your customers where and when they can pick their orders, and set product availability by city, region, or country."
+msgstr "창고 기능을 사용하면 여러 위치의 재고를 추적하고, 고객에게 주문 상품을 언제 어디서 수령할 수 있는지 안내하고, 도시, 지역 또는 국가별로 제품 재고 현황을 설정할 수 있습니다."
+
+msgctxt "Languages::upsell.warehouses.product_page"
+msgid "Track inventory at multiple locations with the \"Warehouses\" add-on."
+msgstr "\"창고\" 추가 기능을 사용하여 여러 위치의 재고를 추적하세요."
+
+msgctxt "Languages::upsell.warehouses.store_locator"
+msgid "You can track inventory at this location with the \"Warehouses\" add-on."
+msgstr "\"창고\" 추가 기능을 사용하면 이 위치의 재고를 추적할 수 있습니다."
+
+msgctxt "Languages::upsell.add_storefront.popup_title"
+msgid "Storefronts"
+msgstr "상점가"
+
+msgctxt "Languages::upsell.add_storefront.popup_text"
+msgid "Storefronts allow you to have a site that spans multiple domains. Use that to set up branches of your site for specific product groups, locations, or audiences."
+msgstr "스토어프론트를 사용하면 여러 도메인에 걸쳐 사이트를 운영할 수 있습니다. 이를 활용하여 특정 제품군, 지역 또는 고객층에 맞춰 사이트의 지점을 설정할 수 있습니다."
+
+msgctxt "Languages::upsell.pwa.popup_title"
+msgid "PWA mobile app"
+msgstr "PWA 모바일 앱"
+
+msgctxt "Languages::upsell.pwa.popup_text"
+msgid "Give your customers a mobile app that looks and works just like your site. No development or publishing in app stores required—customers will install the app straight from your site. Even third-party add-ons and themes are supported."
+msgstr "웹사이트와 디자인 및 기능이 동일한 모바일 앱을 고객에게 제공하세요. 앱 개발이나 앱 스토어 등록이 필요 없으며, 고객은 웹사이트에서 바로 앱을 설치할 수 있습니다. 타사 추가 기능 및 테마도 지원합니다."
+
+msgctxt "Languages::upsell.full_page_cache.popup_title"
+msgid "Performance booster"
+msgstr "성능 향상제"
+
+msgctxt "Languages::upsell.full_page_cache.popup_text"
+msgid "Make the site work faster under heavy load. Varnish full-page caching provides smoother performance when you have a large number of products, filters, and simultaneous visitors."
+msgstr "사이트 부하가 높은 상황에서도 속도를 향상시키세요. Varnish 전체 페이지 캐싱은 제품, 필터, 동시 접속자가 많을 때 더욱 원활한 성능을 제공합니다."
+
+msgctxt "Languages::upsell.master_products.popup_title"
+msgid "Common products for vendors"
+msgstr "판매업체를 위한 일반 제품"
+
+msgctxt "Languages::upsell.master_products.popup_text"
+msgid "Set up your product catalog—with images, descriptions, etc.—in advance. Let vendors choose which of the products they sell. Show offers from different vendors on the product page."
+msgstr "이미지, 설명 등을 포함한 제품 카탈로그를 미리 설정하세요. 판매자들이 판매할 제품을 직접 선택할 수 있도록 하세요. 제품 페이지에는 다양한 판매자의 상품 정보를 함께 보여줄 수 있습니다."
+
+msgctxt "Languages::upsell.master_products.product_page"
+msgid "You can let different sellers offer this product with the \"Common products for vendors\" add-on."
+msgstr "\"판매자를 위한 공통 제품\" 추가 기능을 사용하면 여러 판매자가 이 제품을 판매할 수 있도록 허용할 수 있습니다."
+
+msgctxt "Languages::upsell.vendor_rating.popup_title"
+msgid "Vendor rating"
+msgstr "판매자 평가"
+
+msgctxt "Languages::upsell.vendor_rating.popup_text"
+msgid "Incentivize the sellers in your marketplace to act in a certain way. Divide them into tiers, have them sorted by rating, and set custom rules for how that rating is calculated."
+msgstr "마켓플레이스 판매자들이 특정 방식으로 행동하도록 유도하세요. 판매자들을 등급별로 나누고, 평점 순으로 정렬하고, 평점 계산 방식에 대한 맞춤 규칙을 설정할 수 있습니다."
+
+msgctxt "Languages::upsell.vendor_rating.vendor_page"
+msgid "You can sort sellers by rating and set custom rating rules with the \"Vendor rating\" add-on."
+msgstr "\"판매자 평점\" 추가 기능을 사용하면 평점별로 판매자를 정렬하고 사용자 지정 평점 규칙을 설정할 수 있습니다."
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_title"
+msgid "Vendor plans: Commissions by category"
+msgstr "판매자 계획: 카테고리별 수수료"
+
+msgctxt "Languages::upsell.vendor_categories_fee.popup_text"
+msgid "Set different transaction fees (%) that depend on a product’s main category. Encourage sellers to offer certain types of products by giving them better terms. Earn more on the categories that make the most sales."
+msgstr "제품의 주요 카테고리에 따라 서로 다른 거래 수수료(%)를 설정하세요. 판매자에게 더 나은 조건을 제공하여 특정 유형의 제품을 판매하도록 유도하세요. 매출이 가장 높은 카테고리에서 더 많은 수익을 올리세요."
+
+msgctxt "Languages::upsell.vendor_categories_fee.vendor_plans"
+msgid "Set a different % for each category with the \"Vendor plans: Commissions by category\" add-on."
+msgstr "\"벤더 플랜: 카테고리별 수수료\" 추가 기능을 사용하여 각 카테고리별로 다른 비율을 설정하세요."
+
+msgctxt "Languages::upsell.vendor_privileges.popup_title"
+msgid "Vendor privileges"
+msgstr "벤더 권한"
+
+msgctxt "Languages::upsell.vendor_privileges.popup_text"
+msgid "Grant sellers different levels of access to their control panel, depending on their plan. Make specific functionality available in more advanced plans, or simplify sellers' control panel by removing the functionality they don't need."
+msgstr "판매자에게 요금제에 따라 서로 다른 수준의 제어판 접근 권한을 부여하세요. 특정 기능은 고급 요금제에서만 제공하거나, 불필요한 기능을 제거하여 판매자의 제어판을 간소화할 수 있습니다."
+
+msgctxt "Languages::upsell.vendor_privileges.vendor_plans"
+msgid "You can grant sellers different levels of access to their control panel depending on their plan."
+msgstr "판매자에게 요금제에 따라 서로 다른 수준의 제어판 접근 권한을 부여할 수 있습니다."
+
+msgctxt "Languages::upsell.direct_payments.popup_title"
+msgid "Direct customer-to-vendor payments"
+msgstr "고객과 판매자 간의 직접 결제"
+
+msgctxt "Languages::upsell.direct_payments.popup_text"
+msgid "Save time and effort on distributing money between vendors. Let your customers pay directly to vendors. It then becomes a vendor’s responsibility to pay the marketplace. This also allows vendors to run their own promotions."
+msgstr "판매자 간 자금 분배에 드는 시간과 노력을 절약하세요. 고객이 판매자에게 직접 결제할 수 있도록 하세요. 그러면 판매자는 마켓플레이스에 대금을 지불할 책임이 생깁니다. 또한 판매자는 자체 프로모션을 진행할 수 있습니다."
+
+msgctxt "Languages::upsell.direct_payments.payment_methods"
+msgid "Let sellers set up their own payment methods with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "\"고객-판매자 직접 결제\" 추가 기능을 통해 판매자가 직접 결제 방식을 설정할 수 있도록 하세요."
+
+msgctxt "Languages::upsell.direct_payments.promotions"
+msgid "Let sellers run their own promotions with the \"Direct customer-to-vendor payments\" add-on."
+msgstr "\"고객 직접 결제\" 추가 기능을 통해 판매자가 직접 프로모션을 진행할 수 있도록 하세요."
+
+msgctxt "Languages::upsell.order_fulfillment.popup_title"
+msgid "Order fulfillment by marketplace"
+msgstr "마켓플레이스를 통한 주문 처리"
+
+msgctxt "Languages::upsell.order_fulfillment.popup_text"
+msgid "Let customers select a single shipping method and charge them for shipping only once, even if multiple sellers are involved."
+msgstr "여러 판매자가 참여하더라도 고객이 배송 방법을 하나만 선택하도록 하고 배송비는 한 번만 청구하세요."
+
+msgctxt "Languages::upsell.order_fulfillment.shipping_methods"
+msgid "Charge for shipping from multiple sellers just once with the \"Order fulfillment by marketplace\" add-on."
+msgstr "\"마켓플레이스 주문 처리\" 추가 기능을 사용하면 여러 판매자로부터 주문하더라도 배송비를 한 번만 청구할 수 있습니다."
+
+msgctxt "Languages::upsell.payments_by_country.popup_title"
+msgid "Payments by country"
+msgstr "국가별 지불"
+
+msgctxt "Languages::upsell.payments_by_country.popup_text"
+msgid "Get more control as you scale your business. Make a payment method exclusive to a certain country, or hide it in one or a few specific countries with the \"Payments by country\" add-on."
+msgstr "비즈니스 규모가 커짐에 따라 더욱 효과적인 제어를 경험해 보세요. \"국가별 결제\" 추가 기능을 사용하면 특정 국가에서만 사용 가능한 결제 수단을 설정하거나, 특정 국가에서만 결제 수단을 숨길 수 있습니다."
+
+msgctxt "Languages::upsell.payments_by_country.payment_methods"
+msgid "Configure payment method availability in certain countries with the \"Payments by country\" add-on."
+msgstr "\"국가별 결제\" 추가 기능을 사용하여 특정 국가에서 결제 수단 이용 가능 여부를 설정할 수 있습니다."
+
+msgctxt "Languages::upsell.llms.promo_text"
+msgid "Tell AI assistants like ChatGPT what's most important on your website. The llms.txt file helps you get more accurate and relevant summaries in AI-powered search, driving better-informed traffic to your store and its key products."
+msgstr "ChatGPT와 같은 AI 비서에게 웹사이트에서 가장 중요한 정보를 알려주세요. llms.txt 파일은 AI 기반 검색에서 더욱 정확하고 관련성 높은 요약 정보를 제공하여, 고객들이 더 많은 정보를 바탕으로 스토어와 주요 상품에 방문하도록 유도합니다."
+

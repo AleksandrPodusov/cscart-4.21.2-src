@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /release-4.21.2/upgrade.po\n"
+"X-Crowdin-File-ID: 10864\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Languages::upgrade_notification.rus_taxes.vat_20_obsolete.title"
+msgid "Taxes: the VAT rate of 20% is now obsolete"
+msgstr ""
+
+msgctxt "Languages::upgrade_notification.rus_taxes.vat_20_obsolete.message"
+msgid "<p>Since January 1, 2026 the base VAT rate in Russia is 22%. The rates of 20% and 20/120 are no longer offered when you create or edit a tax, but the taxes that already use them keep working and are still passed to shipping services and online cash registers.</p><p>Your store has products with such a tax.</p><p><a class=\"btn btn-primary\" target=\"_blank\" href=\"[url]\">Show the affected products</a></p>"
+msgstr ""
+

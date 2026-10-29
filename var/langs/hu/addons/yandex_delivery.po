@@ -1,0 +1,357 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+
+msgctxt "Addons::name::yandex_delivery"
+msgid "Yandex Delivery"
+msgstr "Yandex Delivery"
+
+msgctxt "Addons::description::yandex_delivery"
+msgid "Integration with Yandex Delivery for next-day shipping in Russia."
+msgstr "Integration with Yandex Delivery for next-day shipping in Russia."
+
+msgctxt "Languages::yandex_delivery.carrier"
+msgid "Yandex Delivery"
+msgstr "Yandex Delivery"
+
+msgctxt "Languages::yandex_delivery.auth_token"
+msgid "Bearer token"
+msgstr "Bearer token"
+
+msgctxt "Languages::yandex_delivery.auth_token.tooltip"
+msgid "Get the token in the <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/api/other-day/access\" target=\"_blank\" rel=\"noopener noreferrer\">Yandex Delivery account profile</a>."
+msgstr "Get the token in the <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/api/other-day/access\" target=\"_blank\" rel=\"noopener noreferrer\">Yandex Delivery account profile</a>."
+
+msgctxt "Languages::yandex_delivery.auth_token_required"
+msgid "Yandex Delivery: Enter the Bearer token in the shipping method settings."
+msgstr "Yandex Delivery: Enter the Bearer token in the shipping method settings."
+
+msgctxt "Languages::yandex_delivery.connection"
+msgid "Connection"
+msgstr "Connection"
+
+msgctxt "Languages::yandex_delivery.environment"
+msgid "Environment"
+msgstr "Environment"
+
+msgctxt "Languages::yandex_delivery.environment.production"
+msgid "Production"
+msgstr "Production"
+
+msgctxt "Languages::yandex_delivery.environment.sandbox"
+msgid "Sandbox"
+msgstr "Sandbox"
+
+msgctxt "Languages::yandex_delivery.environment.tooltip"
+msgid "The sandbox and production environments use different tokens, and a warehouse from one environment does not exist in the other. After switching, pick the warehouse again."
+msgstr "The sandbox and production environments use different tokens, and a warehouse from one environment does not exist in the other. After switching, pick the warehouse again."
+
+msgctxt "Languages::yandex_delivery.handover"
+msgid "Handover to Yandex"
+msgstr "Handover to Yandex"
+
+msgctxt "Languages::yandex_delivery.handover_scheme"
+msgid "Handover scheme"
+msgstr "Handover scheme"
+
+msgctxt "Languages::yandex_delivery.handover_scheme.courier"
+msgid "A Yandex courier picks parcels up at my warehouse"
+msgstr "A Yandex courier picks parcels up at my warehouse"
+
+msgctxt "Languages::yandex_delivery.handover_needs_token"
+msgid "To make this section available, save the shipping method with a valid token."
+msgstr "To make this section available, save the shipping method with a valid token."
+
+msgctxt "Languages::yandex_delivery.warehouses_stale"
+msgid "The token or the environment has changed. The warehouse lists below still come from the previous one — save the shipping method to reload them."
+msgstr "The token or the environment has changed. The warehouse lists below still come from the previous one — save the shipping method to reload them."
+
+msgctxt "Languages::yandex_delivery.warehouse_reset"
+msgid "Yandex Delivery: the selected warehouse was cleared because the token or the environment has changed. Warehouse IDs only work in the account they were picked in, so choose a warehouse again."
+msgstr "Yandex Delivery: the selected warehouse was cleared because the token or the environment has changed. Warehouse IDs only work in the account they were picked in, so choose a warehouse again."
+
+msgctxt "Languages::yandex_delivery.check"
+msgid "Check connection"
+msgstr "Check connection"
+
+msgctxt "Languages::yandex_delivery.check.token_ok"
+msgid "Yandex Delivery accepted the token. Warehouses on the account: [count]."
+msgstr "Yandex Delivery accepted the token. Warehouses on the account: [count]."
+
+msgctxt "Languages::yandex_delivery.check.token_failed"
+msgid "Could not check the connection: [error]"
+msgstr "Could not check the connection: [error]"
+
+msgctxt "Languages::yandex_delivery.handover_scheme.dropoff"
+msgid "I bring parcels to a Yandex drop-off point myself"
+msgstr "I bring parcels to a Yandex drop-off point myself"
+
+msgctxt "Languages::yandex_delivery.source_platform_station_id"
+msgid "My warehouse"
+msgstr "My warehouse"
+
+msgctxt "Languages::yandex_delivery.source_platform_station_id.tooltip"
+msgid "Warehouses are created in the Yandex Delivery account: add the address in the Addresses section, then open Shipment calendar and pick it there. <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/other-day/add-address\" target=\"_blank\" rel=\"noopener noreferrer\">Yandex instructions</a>."
+msgstr "Warehouses are created in the Yandex Delivery account: add the address in the Addresses section, then open Shipment calendar and pick it there. <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/other-day/add-address\" target=\"_blank\" rel=\"noopener noreferrer\">Yandex instructions</a>."
+
+msgctxt "Languages::yandex_delivery.source_platform_station_id_required"
+msgid "Yandex Delivery: Select a shipping warehouse in the shipping method settings."
+msgstr "Yandex Delivery: Select a shipping warehouse in the shipping method settings."
+
+msgctxt "Languages::yandex_delivery.pickup_unavailable"
+msgid "Yandex returns no pickup dates for this warehouse. Check that its city is in the <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/other-day/rules#cities\" target=\"_blank\" rel=\"noopener noreferrer\">list of cities with courier pickup</a> and that the address falls inside the service zone on the map. Otherwise switch to bringing parcels to a Yandex warehouse yourself."
+msgstr "Yandex returns no pickup dates for this warehouse. Check that its city is in the <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/other-day/rules#cities\" target=\"_blank\" rel=\"noopener noreferrer\">list of cities with courier pickup</a> and that the address falls inside the service zone on the map. Otherwise switch to bringing parcels to a Yandex warehouse yourself."
+
+msgctxt "Languages::yandex_delivery.pickup_not_scheduled"
+msgid "Pickup from this warehouse is available but not scheduled. Schedule it in the <a class=\"underline\" href=\"https://dostavka.yandex.ru/account/shipment\" target=\"_blank\" rel=\"noopener noreferrer\">Shipment calendar</a>: without a scheduled pickup Yandex quotes no price and the shipping method stays hidden at checkout."
+msgstr "Pickup from this warehouse is available but not scheduled. Schedule it in the <a class=\"underline\" href=\"https://dostavka.yandex.ru/account/shipment\" target=\"_blank\" rel=\"noopener noreferrer\">Shipment calendar</a>: without a scheduled pickup Yandex quotes no price and the shipping method stays hidden at checkout."
+
+msgctxt "Languages::yandex_delivery.dropoff_city"
+msgid "City"
+msgstr "City"
+
+msgctxt "Languages::yandex_delivery.dropoff_city.tooltip"
+msgid "Defines where to look for drop-off points. The region is shown next to each city because the same name occurs several times across the country."
+msgstr "Defines where to look for drop-off points. The region is shown next to each city because the same name occurs several times across the country."
+
+msgctxt "Languages::yandex_delivery.station_type.warehouse"
+msgid "Hub"
+msgstr "Hub"
+
+msgctxt "Languages::yandex_delivery.station_type.warehouse.description"
+msgid "Sorting centre"
+msgstr "Sorting centre"
+
+msgctxt "Languages::yandex_delivery.station_type.pickup_point"
+msgid "Point"
+msgstr "Point"
+
+msgctxt "Languages::yandex_delivery.station_type.pickup_point.description"
+msgid "Pickup point"
+msgstr "Pickup point"
+
+msgctxt "Languages::yandex_delivery.station_type.limits_note"
+msgid "Volume and size limits are listed in the Yandex Delivery <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/other-day/rules\" target=\"_blank\" rel=\"noopener noreferrer\">shipping rules</a>."
+msgstr "Volume and size limits are listed in the Yandex Delivery <a class=\"underline\" href=\"https://yandex.ru/support/delivery-profile/ru/other-day/rules\" target=\"_blank\" rel=\"noopener noreferrer\">shipping rules</a>."
+
+msgctxt "Languages::yandex_delivery.dropoff_platform_station_id"
+msgid "Drop-off point"
+msgstr "Drop-off point"
+
+msgctxt "Languages::yandex_delivery.dropoff_platform_station_id_required"
+msgid "Yandex Delivery: Select a drop-off point in the shipping method settings."
+msgstr "Yandex Delivery: Select a drop-off point in the shipping method settings."
+
+msgctxt "Languages::yandex_delivery.delivery"
+msgid "Delivery to the customer"
+msgstr "Delivery to the customer"
+
+msgctxt "Languages::yandex_delivery.delivery_type"
+msgid "Delivery type"
+msgstr "Delivery type"
+
+msgctxt "Languages::yandex_delivery.delivery_type.time_interval"
+msgid "Door delivery"
+msgstr "Door delivery"
+
+msgctxt "Languages::yandex_delivery.delivery_type.self_pickup"
+msgid "Pickup point delivery"
+msgstr "Pickup point delivery"
+
+msgctxt "Languages::yandex_delivery.package"
+msgid "Default parcel dimensions"
+msgstr "Default parcel dimensions"
+
+msgctxt "Languages::yandex_delivery.dimensions"
+msgid "Length, width, height"
+msgstr "Length, width, height"
+
+msgctxt "Languages::yandex_delivery.dimensions.tooltip"
+msgid "Used when a product has no box dimensions of its own. A product's own dimensions apply only together with \"items in box\"."
+msgstr "Used when a product has no box dimensions of its own. A product's own dimensions apply only together with \"items in box\"."
+
+msgctxt "Languages::yandex_delivery.dimensions_all_required"
+msgid "Fill in all three: Yandex Delivery will not quote a rate without the length, width and height."
+msgstr "Fill in all three: Yandex Delivery will not quote a rate without the length, width and height."
+
+msgctxt "Languages::yandex_delivery.cm"
+msgid "cm"
+msgstr "cm"
+
+msgctxt "Languages::yandex_delivery.destination_address_required"
+msgid "Yandex Delivery: Enter the recipient address."
+msgstr "Yandex Delivery: Enter the recipient address."
+
+msgctxt "Languages::yandex_delivery.dimensions_required"
+msgid "Yandex Delivery: Enter default parcel dimensions in the shipping method settings or specify box dimensions for products."
+msgstr "Yandex Delivery: Enter default parcel dimensions in the shipping method settings or specify box dimensions for products."
+
+msgctxt "Languages::yandex_delivery.schedule.daily"
+msgid "Daily"
+msgstr "Daily"
+
+msgctxt "Languages::yandex_delivery.schedule.utc_offset"
+msgid "UTC[offset]"
+msgstr "UTC[offset]"
+
+msgctxt "Languages::yandex_delivery.error.pickups_not_configured"
+msgid "The warehouse has no scheduled shipment. Schedule one in the Yandex Delivery shipment calendar."
+msgstr "The warehouse has no scheduled shipment. Schedule one in the Yandex Delivery shipment calendar."
+
+msgctxt "Languages::yandex_delivery.error.no_delivery_options"
+msgid "Yandex Delivery has no route for this parcel."
+msgstr "Yandex Delivery has no route for this parcel."
+
+msgctxt "Languages::yandex_delivery.error.parcel_over_limit"
+msgid "The order exceeds the Yandex Delivery weight and dimension limits."
+msgstr "The order exceeds the Yandex Delivery weight and dimension limits."
+
+msgctxt "Languages::yandex_delivery.error.dimensions_limit"
+msgid "The parcel exceeds the Yandex Delivery size or weight limit."
+msgstr "The parcel exceeds the Yandex Delivery size or weight limit."
+
+msgctxt "Languages::yandex_delivery.error.unauthorized"
+msgid "Yandex Delivery did not accept the token."
+msgstr "Yandex Delivery did not accept the token."
+
+msgctxt "Languages::yandex_delivery.error.forbidden"
+msgid "The token has no access to this Yandex Delivery request."
+msgstr "The token has no access to this Yandex Delivery request."
+
+msgctxt "Languages::yandex_delivery.error.not_found"
+msgid "Yandex Delivery did not find the requested object."
+msgstr "Yandex Delivery did not find the requested object."
+
+msgctxt "Languages::yandex_delivery.error.too_many_requests"
+msgid "Too many requests to Yandex Delivery. Try again later."
+msgstr "Too many requests to Yandex Delivery. Try again later."
+
+msgctxt "Languages::yandex_delivery.error.server"
+msgid "Yandex Delivery is temporarily unavailable."
+msgstr "Yandex Delivery is temporarily unavailable."
+
+msgctxt "Languages::yandex_delivery.error.http"
+msgid "Yandex Delivery responded with error [status]."
+msgstr "Yandex Delivery responded with error [status]."
+
+msgctxt "Languages::yandex_delivery.empty_response"
+msgid "Yandex Delivery returned an empty response."
+msgstr "Yandex Delivery returned an empty response."
+
+msgctxt "Languages::yandex_delivery.invalid_response"
+msgid "Yandex Delivery returned an invalid response."
+msgstr "Yandex Delivery returned an invalid response."
+
+msgctxt "Languages::yandex_delivery.error_calculate"
+msgid "Yandex Delivery calculation error."
+msgstr "Yandex Delivery calculation error."
+
+msgctxt "Languages::yandex_delivery.label_unavailable"
+msgid "The Yandex Delivery label file could not be read. Try again."
+msgstr "The Yandex Delivery label file could not be read. Try again."
+
+msgctxt "Languages::yandex_delivery.rate_calculation_failed"
+msgid "An error occurred. Please try again."
+msgstr "An error occurred. Please try again."
+
+msgctxt "Languages::yandex_delivery.selected_pickup_point_unavailable"
+msgid "This pickup point is not available. Please select another."
+msgstr "This pickup point is not available. Please select another."
+
+msgctxt "Languages::yandex_delivery.pickup_point_required"
+msgid "Yandex Delivery: Select a pickup point for this shipment."
+msgstr "Yandex Delivery: Select a pickup point for this shipment."
+
+msgctxt "Languages::yandex_delivery.pickup_point"
+msgid "Yandex Delivery pickup point"
+msgstr "Yandex Delivery pickup point"
+
+msgctxt "Languages::yandex_delivery.recipient_phone_required"
+msgid "Yandex Delivery: Enter the recipient phone number."
+msgstr "Yandex Delivery: Enter the recipient phone number."
+
+msgctxt "Languages::yandex_delivery.shipment_products_required"
+msgid "Yandex Delivery: The shipment has no products."
+msgstr "Yandex Delivery: The shipment has no products."
+
+msgctxt "Languages::yandex_delivery.shipment_not_found"
+msgid "Yandex Delivery: Shipment not found."
+msgstr "Yandex Delivery: Shipment not found."
+
+msgctxt "Languages::yandex_delivery.order_not_found"
+msgid "Yandex Delivery: Order not found."
+msgstr "Yandex Delivery: Order not found."
+
+msgctxt "Languages::yandex_delivery.shipping_method_not_found"
+msgid "Yandex Delivery: Shipping method not found."
+msgstr "Yandex Delivery: Shipping method not found."
+
+msgctxt "Languages::yandex_delivery.not_yandex_delivery_shipment"
+msgid "Yandex Delivery: This shipment does not belong to Yandex Delivery."
+msgstr "Yandex Delivery: This shipment does not belong to Yandex Delivery."
+
+msgctxt "Languages::yandex_delivery.request_id_not_found"
+msgid "Yandex Delivery did not return the request ID."
+msgstr "Yandex Delivery did not return the request ID."
+
+msgctxt "Languages::yandex_delivery.no_request_id"
+msgid "Yandex Delivery request has not been created for this shipment yet."
+msgstr "Yandex Delivery request has not been created for this shipment yet."
+
+msgctxt "Languages::yandex_delivery.cancel_refused"
+msgid "Yandex refused to cancel the delivery without explaining why."
+msgstr "Yandex refused to cancel the delivery without explaining why."
+
+msgctxt "Languages::yandex_delivery.cancel_failed_shipment_kept"
+msgid "The shipment was not deleted: [error]"
+msgstr "The shipment was not deleted: [error]"
+
+msgctxt "Languages::yandex_delivery.cancel_already_done"
+msgid "Deliveries of these shipments have already been called off and cannot be brought back: [shipments]."
+msgstr "Deliveries of these shipments have already been called off and cannot be brought back: [shipments]."
+
+msgctxt "Languages::yandex_delivery.cancel_failed_order_kept"
+msgid "The order was not deleted: [error]"
+msgstr "The order was not deleted: [error]"
+
+msgctxt "Languages::yandex_delivery.request_created"
+msgid "Yandex Delivery request [request_id] has been created."
+msgstr "Yandex Delivery request [request_id] has been created."
+
+msgctxt "Languages::yandex_delivery.status_updated"
+msgid "Yandex Delivery status has been updated."
+msgstr "Yandex Delivery status has been updated."
+
+msgctxt "Languages::yandex_delivery.request"
+msgid "Yandex Delivery request"
+msgstr "Yandex Delivery request"
+
+msgctxt "Languages::yandex_delivery.request_id"
+msgid "Yandex request ID"
+msgstr "Yandex request ID"
+
+msgctxt "Languages::yandex_delivery.status"
+msgid "Yandex Delivery status"
+msgstr "Yandex Delivery status"
+
+msgctxt "Languages::yandex_delivery.not_sent"
+msgid "Not sent to Yandex Delivery"
+msgstr "Not sent to Yandex Delivery"
+
+msgctxt "Languages::yandex_delivery.create_request"
+msgid "Send to Yandex Delivery"
+msgstr "Send to Yandex Delivery"
+
+msgctxt "Languages::yandex_delivery.update_status"
+msgid "Update Yandex Delivery status"
+msgstr "Update Yandex Delivery status"
+
+msgctxt "Languages::yandex_delivery.print_label"
+msgid "Print Yandex Delivery label"
+msgstr "Print Yandex Delivery label"
+
+msgctxt "Languages::yandex_delivery.print_labels"
+msgid "Print Yandex Delivery labels"
+msgstr "Print Yandex Delivery labels"

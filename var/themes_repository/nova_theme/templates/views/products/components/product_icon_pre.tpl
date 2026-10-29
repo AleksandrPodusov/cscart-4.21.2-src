@@ -1,0 +1,1 @@
+{$product_image_gallery_type = "swiper" scope=parent}

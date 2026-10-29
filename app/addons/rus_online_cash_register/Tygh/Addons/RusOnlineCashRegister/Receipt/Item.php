@@ -1,0 +1,229 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+
+namespace Tygh\Addons\RusOnlineCashRegister\Receipt;
+
+use Tygh\Addons\RusTaxes\Receipt\Item as BaseItem;
+use Tygh\Enum\FiscalData1212Objects;
+
+/**
+ * Model of receipt item.
+ *
+ * @package Tygh\Addons\RusOnlineCashRegister\Receipt
+ */
+class Item
+{
+    /** @var string|null */
+    protected $name;
+
+    /** @var float|null */
+    protected $price;
+
+    /** @var float|null  */
+    protected $quantity;
+
+    /** @var string|null */
+    protected $tax_type;
+
+    /** @var float|null */
+    protected $tax_sum;
+
+    /** @var float|null */
+    protected $discount;
+
+    /** @var string|null */
+    protected $type;
+
+    /** @var int Same default as {@see BaseItem}: PAYMENT. */
+    protected $fiscal_data_1212 = FiscalData1212Objects::PAYMENT;
+
+    /**
+     * Item constructor.
+     *
+     * @param string $name     Item name
+     * @param float  $price    Item price
+     * @param float  $quantity Item quantity
+     * @param string $tax_type Item tax type
+     * @param float  $tax_sum  Item tax sum
+     * @param float  $discount Item total discount
+     * @param string $type     Item type
+     * @param int    $fiscal_data_1212 Item payment subject tag 1212
+     */
+    public function __construct($name, $price, $quantity, $tax_type, $tax_sum, $discount = 0.0, $type = '', $fiscal_data_1212 = FiscalData1212Objects::PAYMENT)
+    {
+        if ($name !== null) {
+            $this->name = (string) $name;
+        }
+
+        if ($price !== null) {
+            $this->price = (float) $price;
+        }
+
+        if ($quantity !== null) {
+            $this->quantity = (float) $quantity;
+        }
+
+        if ($tax_type !== null) {
+            $this->tax_type = $tax_type;
+        }
+
+        if ($tax_sum !== null) {
+            $this->tax_sum = $tax_sum;
+        }
+
+        $this->discount = $discount;
+
+        if ($type !== null) {
+            $this->type = $type;
+        }
+
+        $this->fiscal_data_1212 = $fiscal_data_1212;
+    }
+
+    /**
+     * @return int
+     */
+    public function getFiscalData1212()
+    {
+        return $this->fiscal_data_1212;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @return float|null
+     */
+    public function getPrice()
+    {
+        return $this->price;
+    }
+
+    /**
+     * @return float|null
+     */
+    public function getQuantity()
+    {
+        return $this->quantity;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getTaxType()
+    {
+        return $this->tax_type;
+    }
+
+    /**
+     * @return float|null
+     */
+    public function getTaxSum()
+    {
+        return $this->tax_sum;
+    }
+
+    /**
+     * Gets item total sum.
+     *
+     * @return float
+     */
+    public function getSum()
+    {
+        return $this->quantity * $this->price - $this->discount;
+    }
+
+    /**
+     * @return float|null
+     */
+    public function getDiscount()
+    {
+        return $this->discount;
+    }
+
+    /**
+     * Convert to array.
+     *
+     * @return array
+     */
+    public function toArray()
+    {
+        return [
+            'name' => $this->name,
+            'price' => $this->price,
+            'quantity' => $this->quantity,
+            'tax_type' => $this->tax_type,
+            'tax_sum' => $this->tax_sum,
+            'discount' => $this->discount,
+            'type' => $this->type,
+            'fiscal_data_1212' => $this->fiscal_data_1212,
+        ];
+    }
+
+    /**
+     * Create object from array.
+     *
+     * @param array $data
+     *
+     * @return Item
+     */
+    public static function fromArray(array $data)
+    {
+        return new self(
+            isset($data['name']) ? $data['name'] : null,
+            isset($data['price']) ? $data['price'] : null,
+            isset($data['quantity']) ? $data['quantity'] : null,
+            isset($data['tax_type']) ? $data['tax_type'] : null,
+            isset($data['tax_sum']) ? $data['tax_sum'] : null,
+            isset($data['discount']) ? $data['discount'] : 0.0,
+            isset($data['type']) ? $data['type'] : '',
+            isset($data['fiscal_data_1212']) ? (int) $data['fiscal_data_1212'] : FiscalData1212Objects::PAYMENT
+        );
+    }
+
+    /**
+     * Create receipt item from base receipt item.
+     *
+     * @param BaseItem $item
+     *
+     * @return Item
+     */
+    public static function fromBaseReceiptItem(BaseItem $item)
+    {
+        return new self(
+            $item->getName(),
+            $item->getPrice(),
+            $item->getQuantity(),
+            $item->getTaxType(),
+            $item->getTaxSum(),
+            $item->getTotalDiscount(),
+            $item->getType(),
+            $item->getFiscalData1212()
+        );
+    }
+}

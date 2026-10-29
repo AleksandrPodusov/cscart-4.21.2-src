@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /release-4.21.2/addons/full_page_cache.po\n"
+"X-Crowdin-File-ID: 10710\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::full_page_cache"
+msgid "Performance Booster"
+msgstr "معزز الأداء"
+
+msgctxt "Addons::description::full_page_cache"
+msgid "Set up full-page cache powered by Varnish to speed up your site under heavy workload."
+msgstr "قم بإعداد ذاكرة تخزين مؤقتة للصفحة الكاملة مدعومة من Varnish لتسريع موقعك تحت ضغط العمل الثقيل."
+
+msgctxt "Languages::full_page_cache.unable_to_enable_full_page_caching"
+msgid "Unable to enable full-page caching."
+msgstr "تعذر تفعيل التخزين المؤقت للصفحة الكاملة."
+
+msgctxt "Languages::full_page_cache.unable_to_connect_to_varhish"
+msgid "Unable to connect to Varnish server. Please make sure that Varnish service is running and check the entered address and port."
+msgstr "تعذر الاتصال بخادم Varnish. يرجى التأكد من تشغيل خدمة Varnish والتحقق من العنوان والمنفذ المُدخلين."
+
+msgctxt "Languages::full_page_cache.error_session_auto_start_enabled"
+msgid "The \"session.auto_start\" PHP configuration option is enabled. Please, disable this option by setting \"session.auto_start = 0\" in your php.ini file."
+msgstr "تم تفعيل خيار \"session.auto_start\" في إعدادات PHP. يُرجى تعطيل هذا الخيار عن طريق ضبط \"session.auto_start = 0\" في ملف php.ini الخاص بك."
+
+msgctxt "Languages::full_page_cache.notice_caching_was_enabled"
+msgid "Full-page caching have been successfully enabled, started and running."
+msgstr "تم تفعيل خاصية التخزين المؤقت للصفحة الكاملة بنجاح، وتم تشغيلها وهي تعمل الآن."
+
+msgctxt "Languages::full_page_cache.warning_root_dir_not_writable"
+msgid "<strong>Performance Booster:</strong> Root directory of your site isn't writable. Couldn't create symlink to esi.php in the root directory. Please make the directory writable and activate the add-on. Alternatively, create the symlink from the root directory to app/addons/full_page_cache/esi.php manually."
+msgstr "<strong>مُحسِّن الأداء:</strong> المجلد الرئيسي لموقعك غير قابل للكتابة. تعذّر إنشاء رابط رمزي إلى esi.php في المجلد الرئيسي. يُرجى جعل المجلد قابلاً للكتابة وتفعيل الإضافة. أو بدلاً من ذلك، أنشئ الرابط الرمزي يدويًا من المجلد الرئيسي إلى app/addons/full_page_cache/esi.php."
+
+msgctxt "Languages::full_page_cache.failed_to_create_symlink"
+msgid "Failed to create symlink [file]"
+msgstr "فشل إنشاء الرابط الرمزي [ملف]"
+
+msgctxt "Languages::full_page_cache.notice_configure_addon"
+msgid "Before you can activate Performance Booster, you'll need to <a href=\"[url]\">configure the server and the add-on.</a>"
+msgstr "قبل تفعيل مُحسِّن الأداء، ستحتاج إلى <a href=\"[url]\">تهيئة الخادم والإضافة.</a>"
+
+msgctxt "Languages::full_page_cache.text_settings_general"
+msgid "This add-on will only work after proper server configuration. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">Learn more about how to configure caching on your server</a>."
+msgstr "لن تعمل هذه الإضافة إلا بعد تهيئة الخادم بشكل صحيح. <a target=\"_blank\" href=\"[docs_url]user_guide/addons/full_page_cache/configure.html\">تعرّف على المزيد حول كيفية تهيئة التخزين المؤقت على خادمك</a>."
+
+msgctxt "SettingsOptions::full_page_cache::varnish"
+msgid "Varnish"
+msgstr "ورنيش"
+
+msgctxt "SettingsOptions::full_page_cache::varnish_host"
+msgid "Host"
+msgstr "يستضيف"
+
+msgctxt "SettingsOptions::full_page_cache::common"
+msgid "Common"
+msgstr "شائع"
+

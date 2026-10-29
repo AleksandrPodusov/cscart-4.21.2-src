@@ -1,0 +1,1062 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Finnish\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: fi\n"
+"X-Crowdin-File: /release-4.21.2/addons/commerceml.po\n"
+"X-Crowdin-File-ID: 10688\n"
+"PO-Revision-Date: 2026-09-21 11:53\n"
+
+msgctxt "Addons::name::commerceml"
+msgid "CommerceML Integration"
+msgstr "CommerceML-integraatio"
+
+msgctxt "Addons::description::commerceml"
+msgid "Allows you to import products from and export orders to CRMs that support CommerceML."
+msgstr "Voit tuoda tuotteita CommerceML:ää tukevista CRM-järjestelmistä ja viedä tilauksia niihin."
+
+msgctxt "Languages::commerceml.map.no_available_data.marketplace"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the marketplace."
+msgstr "Tietoja ei ole saatavilla. Ne näkyvät yleensä täällä sen jälkeen, kun olet yhdistänyt CRM-järjestelmäsi markkinapaikkaan."
+
+msgctxt "Languages::commerceml.map.no_available_data.store"
+msgid "No data is available. It usually appears here after you successfully connect your CRM to the store."
+msgstr "Tietoja ei ole saatavilla. Ne näkyvät yleensä täällä, kun olet yhdistänyt CRM:si kauppaan onnistuneesti."
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode"
+msgid "Import strategy"
+msgstr "Tuontistrategia"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.all"
+msgid "Import all products"
+msgstr "Tuo kaikki tuotteet"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_new"
+msgid "Create new products only"
+msgstr "Luo vain uusia tuotteita"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.only_existing"
+msgid "Update existing products only"
+msgstr "Päivitä vain olemassa olevia tuotteita"
+
+msgctxt "Languages::commerceml.cml_catalog_import_mode.none"
+msgid "Don't import anything"
+msgstr "Älä tuo mitään"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_offers"
+msgid "Import product offers"
+msgstr "Tuo tuotetarjouksia"
+
+msgctxt "Languages::commerceml.cml_catalog_hide_out_of_stock_products"
+msgid "Hide out-of-stock products"
+msgstr "Piilota loppuneet tuotteet"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_categories"
+msgid "Import categories"
+msgstr "Tuo luokat"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_import_features"
+msgid "Import features"
+msgstr "Tuo ominaisuuksia"
+
+msgctxt "Languages::commerceml.cml_catalog_import_images_as_additional"
+msgid "Import images as additional ones"
+msgstr "Tuo kuvia lisäkuvina"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status"
+msgid "Status for new products"
+msgstr "Uusien tuotteiden tila"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.a"
+msgid "Active"
+msgstr "Aktiivinen"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.h"
+msgid "Hidden"
+msgstr "Piilotettu"
+
+msgctxt "Languages::commerceml.cml_catalog_new_product_status.d"
+msgid "Disabled"
+msgstr "Liikuntarajoitteinen"
+
+msgctxt "Languages::commerceml.cml_default_lang"
+msgid "Content language in CRM"
+msgstr "Sisällön kieli CRM:ssä"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id"
+msgid "Default category"
+msgstr "Oletusluokka"
+
+msgctxt "Languages::commerceml.cml_catalog_default_category_id.tooltip"
+msgid "Products that don't have any other category will be imported here."
+msgstr "Tuotteet, joilla ei ole muita kategorioita, tuodaan tänne."
+
+msgctxt "Languages::commerceml.cml_catalog_use_taxes"
+msgid "Add tax to products"
+msgstr "Lisää vero tuotteisiin"
+
+msgctxt "Languages::commerceml.main_information"
+msgid "Main information"
+msgstr "Tärkeimmät tiedot"
+
+msgctxt "Languages::commerceml.field_in_marketplace"
+msgid "Field in the marketplace"
+msgstr "Kenttä torilla"
+
+msgctxt "Languages::commerceml.field_in_store"
+msgid "Field in the store"
+msgstr "Kenttä myymälässä"
+
+msgctxt "Languages::commerceml.field_in_crm"
+msgid "Field in CRM"
+msgstr "Kenttä CRM:ssä"
+
+msgctxt "Languages::commerceml.fields_in_crm"
+msgid "Field(s) in CRM"
+msgstr "Kenttä(t) CRM:ssä"
+
+msgctxt "Languages::commerceml.custom_field_name"
+msgid "Custom field name"
+msgstr "Mukautetun kentän nimi"
+
+msgctxt "Languages::commerceml.show_as_product_feature"
+msgid "Show as a product feature"
+msgstr "Näytä tuotteen ominaisuutena"
+
+msgctxt "Languages::commerceml.automatic_matching_title"
+msgid "Automatic matching"
+msgstr "Automaattinen haku"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_category_by_name"
+msgid "Match categories by name"
+msgstr "Yhdistä kategoriat nimen mukaan"
+
+msgctxt "Languages::commerceml.cml_catalog_allow_matching_product_by_product_code"
+msgid "Match products by product code"
+msgstr "Yhdistä tuotteet tuotekoodin mukaan"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source"
+msgid "Product name"
+msgstr "Tuotteen nimi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.name"
+msgid "Name"
+msgstr "Nimi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_name_source.full_name"
+msgid "Full name"
+msgstr "Koko nimi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source"
+msgid "Product code"
+msgstr "Tuotekoodi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.article"
+msgid "SKU"
+msgstr "Tuotenumero"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.code"
+msgid "Item number"
+msgstr "Tuotenumero"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_product_code_source.bar"
+msgid "Bar code"
+msgstr "Viivakoodi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source"
+msgid "Full description"
+msgstr "Täydellinen kuvaus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.none"
+msgid "Do not import"
+msgstr "Älä tuo"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.description"
+msgid "Description"
+msgstr "Kuvaus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.html_description"
+msgid "File description"
+msgstr "Tiedoston kuvaus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_full_description_source.full_name"
+msgid "Full name"
+msgstr "Koko nimi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source"
+msgid "Short description"
+msgstr "Lyhyt kuvaus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.none"
+msgid "Do not import"
+msgstr "Älä tuo"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.description"
+msgid "Description"
+msgstr "Kuvaus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.html_description"
+msgid "File description"
+msgstr "Tiedoston kuvaus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_short_description_source.full_name"
+msgid "Full name"
+msgstr "Koko nimi"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from"
+msgid "Names of product variations"
+msgstr "Tuotevariaatioiden nimet"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.tooltip"
+msgid "Determines where product variations will get their names during import. After the import, you'll be able to edit their names in CS-Cart as you see fit."
+msgstr "Määrittää, mistä tuotevariaatiot saavat nimensä tuonnin aikana. Tuonnin jälkeen voit muokata niiden nimiä CS-Cartissa haluamallasi tavalla."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically"
+msgid "Choose automatically"
+msgstr "Valitse automaattisesti"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.automatically.tooltip"
+msgid "If any of a product's variations are \"separate products\", then all variations of that product will use unique names from offers.xml"
+msgstr "Jos jokin tuotteen muunnelmista on \"erillinen tuote\", kaikki kyseisen tuotteen muunnelmat käyttävät offers.xml-tiedostosta saatuja yksilöllisiä nimiä."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import"
+msgid "Use catalog names"
+msgstr "Käytä luettelonimiä"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.import.tooltip"
+msgid "All variations of a product will use their common catalog name from import.xml"
+msgstr "Kaikissa tuotteen muunnelmissa käytetään niiden yhteistä luettelonimeä import.xml-tiedostosta."
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers"
+msgid "Use offer names"
+msgstr "Käytä tarjousten nimiä"
+
+msgctxt "Languages::commerceml.cml_catalog_use_product_variation_name_from.offers.tooltip"
+msgid "All variations of a product will use their unique offer names from offers.xml"
+msgstr "Kaikissa tuotteen muunnelmissa käytetään niiden ainutlaatuisia tarjousnimiä offers.xml-tiedostosta."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source"
+msgid "Page title (SEO)"
+msgstr "Sivun otsikko (hakukoneoptimointi)"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.none"
+msgid "Do not import"
+msgstr "Älä tuo"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.name"
+msgid "Name"
+msgstr "Nimi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_page_title_source.full_name"
+msgid "Full name"
+msgstr "Koko nimi"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source.custom_field"
+msgid "Custom field"
+msgstr "Mukautettu kenttä"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_promo_text_property_source"
+msgid "Promo text (field in CRM)"
+msgstr "Mainosteksti (kenttä CRM:ssä)"
+
+msgctxt "Languages::commerceml.shipping_information"
+msgid "Shipping information"
+msgstr "Toimitustiedot"
+
+msgctxt "Languages::commerceml.shipping_information_info_block"
+msgid "If your CRM has fields with the same information as product shipping properties in the store, then you can import values from those fields. You can enter multiple fields (each in new line). In that case, the value of the latest found field will be used."
+msgstr "Jos CRM-järjestelmässäsi on kenttiä, joilla on samat tiedot kuin myymälän tuotteiden toimitusominaisuuksilla, voit tuoda arvoja näistä kentistä. Voit syöttää useita kenttiä (jokaisen uudelle riville). Tässä tapauksessa käytetään viimeksi löydetyn kentän arvoa."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_weight_property_source_list"
+msgid "Weight"
+msgstr "Paino"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list"
+msgid "Free shipping"
+msgstr "Ilmainen toimitus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_free_shipping_property_source_list.tooltip"
+msgid "Value of the field in CRM must be \"true\" or \"false\""
+msgstr "Kentän arvon CRM:ssä on oltava \"true\" tai \"false\"."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_shipping_cost_property_source_list"
+msgid "Shipping cost"
+msgstr "Toimituskulut"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_number_of_items_property_source_list"
+msgid "Items in a box"
+msgstr "Laatikon sisältö"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_length_property_source_list"
+msgid "Box length"
+msgstr "Laatikon pituus"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_width_property_source_list"
+msgid "Box width"
+msgstr "Laatikon leveys"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_box_height_property_source_list"
+msgid "Box height"
+msgstr "Laatikon korkeus"
+
+msgctxt "Languages::commerceml.orders_export"
+msgid "Orders export"
+msgstr "Tilausten vienti"
+
+msgctxt "Languages::commerceml.orders_import"
+msgid "Orders import"
+msgstr "Tilausten tuonti"
+
+msgctxt "Languages::commerceml.cml_order_export_strategy"
+msgid "Export strategy"
+msgstr "Vientistrategia"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.a"
+msgid "Export all orders"
+msgstr "Vie kaikki tilaukset"
+
+msgctxt "Languages::commerceml.cml_orders_exporter_strategy.n"
+msgid "Export new orders and changes to existing orders only"
+msgstr "Vie vain uudet tilaukset ja muutokset olemassa oleviin tilauksiin"
+
+msgctxt "Languages::commerceml.product_features"
+msgid "Product features"
+msgstr "Tuotteen ominaisuudet"
+
+msgctxt "Languages::commerceml.product_features_info_block"
+msgid "Write each CRM field in a new line."
+msgstr "Kirjoita jokainen CRM-kenttä uudelle riville."
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_blocklist"
+msgid "Don't import these CRM fields as product features"
+msgstr "Älä tuo näitä CRM-kenttiä tuoteominaisuuksina"
+
+msgctxt "Languages::commerceml.cml_catalog_convertor_property_allowlist"
+msgid "Import only these CRM fields as product features"
+msgstr "Tuo vain nämä CRM-kentät tuoteominaisuuksina"
+
+msgctxt "Languages::commerceml.never"
+msgid "Never"
+msgstr "Ei koskaan"
+
+msgctxt "Languages::commerceml.last_status.X"
+msgid "&mdash;"
+msgstr "&mdash;"
+
+msgctxt "Languages::commerceml.last_status.S"
+msgid "Success"
+msgstr "Menestys"
+
+msgctxt "Languages::commerceml.last_status.P"
+msgid "In progress"
+msgstr "Käynnissä"
+
+msgctxt "Languages::commerceml.last_status.F"
+msgid "Failure"
+msgstr "Epäonnistuminen"
+
+msgctxt "Languages::commerceml.last_status.N"
+msgid "New"
+msgstr "Uusi"
+
+msgctxt "Languages::privilege_groups.commerceml"
+msgid "CommerceML"
+msgstr "CommerceML"
+
+msgctxt "Languages::commerceml.step_1_title"
+msgid "Step 1: Connect your CRM"
+msgstr "Vaihe 1: Yhdistä CRM-järjestelmäsi"
+
+msgctxt "Languages::commerceml.step_1_instruction.marketplace"
+msgid "<p>Make sure that your CRM sends files to the marketplace. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the marketplace receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Varmista, että CRM-järjestelmäsi lähettää tiedostot markkinapaikkaan. Voit yhdistää 1C:n tai minkä tahansa muun CRM:n, joka tukee CommerceML:ää.</p><p>Rastitamme tämän valintaruudun, kun markkinapaikka vastaanottaa ja käsittelee ensimmäisen tiedoston CRM-järjestelmästäsi. Tässä ovat ohjeet CRM-järjestelmän yhdistämiseen:</p>"
+
+msgctxt "Languages::commerceml.step_1_instruction.store"
+msgid "<p>Make sure that your CRM sends files to the store. You can connect 1C or any other CRM that supports CommerceML.</p><p>We'll tick this checkbox once the store receives and processes the first file from your CRM. Here are the instructions how you can connect your CRM:</p>"
+msgstr "<p>Varmista, että CRM-järjestelmäsi lähettää tiedostot kauppaan. Voit yhdistää 1C:n tai minkä tahansa muun CRM:n, joka tukee CommerceML:ää.</p><p>Rastitamme tämän valintaruudun, kun kauppa vastaanottaa ja käsittelee ensimmäisen tiedoston CRM-järjestelmästäsi. Tässä ovat ohjeet CRM-järjestelmän yhdistämiseen:</p>"
+
+msgctxt "Languages::commerceml.step_1_links"
+msgid "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Trade Management</a>"
+msgstr "<a href=\"[docs_url]user_guide/addons/commerceml/1c/\">1C Kaupankäyntinhallinta</a>"
+
+msgctxt "Languages::commerceml.step_2_title"
+msgid "Step 2: Set the data exchange rules"
+msgstr "Vaihe 2: Tiedonvaihtosääntöjen määrittäminen"
+
+msgctxt "Languages::commerceml.step_2_instruction.marketplace"
+msgid "<p>Before importing anything, the marketplace checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the marketplace, you'll be able to import it.</p>"
+msgstr "<p>Ennen minkään tuontia markkinapaikka tarkistaa CRM-tiedostosi sisällön. Sinä päätät, mitä tietoja käytetään ja miten niitä käytetään. Kun olet asettanut säännöt tiedostosi tietojen ja markkinapaikan tietojen yhteensovittamiseksi, voit tuoda tiedostosi.</p>"
+
+msgctxt "Languages::commerceml.step_2_instruction.store"
+msgid "<p>Before importing anything, the store checks the content of your CRM file. You decide what data to use, and how to use it. One you set the rules for matching the data from your file with the data in the store, you'll be able to import it.</p>"
+msgstr "<p>Ennen tuontia kauppa tarkistaa CRM-tiedostosi sisällön. Sinä päätät, mitä tietoja käytetään ja miten niitä käytetään. Kun olet asettanut säännöt tiedostosi tietojen ja kauppasi tietojen yhteensovittamiseksi, voit tuoda tiedoston.</p>"
+
+msgctxt "Languages::commerceml.step_2_specify_matches"
+msgid "Please specify the matches for:"
+msgstr "Määritä osumat haulle:"
+
+msgctxt "Languages::commerceml.step_3_title"
+msgid "Step 3: Synchronize the data"
+msgstr "Vaihe 3: Synkronoi tiedot"
+
+msgctxt "Languages::commerceml.step_3_instruction.marketplace"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the marketplace successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Kun olet asettanut säännöt, tiedot voidaan tuoda. Aloita tuonti CRM-järjestelmästäsi. Rastitamme tämän valintaruudun, kun markkinapaikka vastaanottaa tiedot onnistuneesti. Jos ilmenee ongelmia, ilmoitamme niistä täällä.</p>"
+
+msgctxt "Languages::commerceml.step_3_instruction.store"
+msgid "<p>Once you set the rules, data can be imported. Start the import from your CRM. We'll tick this checkbox after the store successfully receives the data. If there're any issues, we'll notify you here.</p>"
+msgstr "<p>Kun olet asettanut säännöt, tiedot voidaan tuoda. Aloita tuonti CRM-järjestelmästäsi. Rastitamme tämän valintaruudun, kun kauppa on vastaanottanut tiedot onnistuneesti. Jos ilmenee ongelmia, ilmoitamme niistä täällä.</p>"
+
+msgctxt "Languages::commerceml.last_successful_sync"
+msgid "Last successful sync"
+msgstr "Viimeisin onnistunut synkronointi"
+
+msgctxt "Languages::commerceml.view_log"
+msgid "View log"
+msgstr "Näytä loki"
+
+msgctxt "Languages::commerceml.no_match"
+msgid "No match specified yet!"
+msgstr "Ei vielä määriteltyä ottelua!"
+
+msgctxt "Languages::commerceml.done"
+msgid "Done!"
+msgstr "Tehty!"
+
+msgctxt "Languages::commerceml.marketplace"
+msgid "marketplace"
+msgstr "markkinapaikka"
+
+msgctxt "Languages::commerceml.store"
+msgid "store"
+msgstr "myymälä"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee"
+msgid "Export shipping fee"
+msgstr "Vientilähetysmaksu"
+
+msgctxt "Languages::commerceml.cml_order_export_shipping_fee.tooltip"
+msgid "Orders will have shipping fee as a separate product"
+msgstr "Tilauksiin lisätään toimituskulut erillisenä tuotteena"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options"
+msgid "Export product options"
+msgstr "Vie tuotevaihtoehdot"
+
+msgctxt "Languages::commerceml.cml_order_export_product_options.tooltip"
+msgid "Export order with product options"
+msgstr "Vie tilaus tuotevaihtoehtoineen"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses.tooltip"
+msgid "Export order statuses in CommerceML format"
+msgstr "Vie tilausten tilatiedot CommerceML-muodossa"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id"
+msgid "Start export from Order #"
+msgstr "Aloita vienti tilauksesta nro"
+
+msgctxt "Languages::commerceml.cml_order_export_from_order_id.tooltip"
+msgid "Leave empty to export all orders"
+msgstr "Jätä tyhjäksi, jos haluat viedä kaikki tilaukset"
+
+msgctxt "Languages::commerceml.cml_order_export_statuses"
+msgid "Export order statuses"
+msgstr "Vie tilausten tilat"
+
+msgctxt "Languages::commerceml.cml_order_statuses_filter"
+msgid "Order statuses"
+msgstr "Tilausten tilat"
+
+msgctxt "Languages::commerceml.cml_orders_import_changes"
+msgid "Import changes to orders"
+msgstr "Tuo muutokset tilauksiin"
+
+msgctxt "Languages::commerceml.map.entity_name"
+msgid "External name"
+msgstr "Ulkoinen nimi"
+
+msgctxt "Languages::commerceml.map.entity_id"
+msgid "External ID"
+msgstr "Ulkoinen tunniste"
+
+msgctxt "Languages::commerceml.map.local_id"
+msgid "Local ID"
+msgstr "Paikallinen tunnus"
+
+msgctxt "Languages::commerceml.tab.currency"
+msgid "Currencies"
+msgstr "Valuutat"
+
+msgctxt "Languages::commerceml.tab.general"
+msgid "General"
+msgstr "Yleistä"
+
+msgctxt "Languages::commerceml.tab.catalog"
+msgid "Catalog"
+msgstr "Luettelo"
+
+msgctxt "Languages::commerceml.tab.products"
+msgid "Products"
+msgstr "Tuotteet"
+
+msgctxt "Languages::commerceml.tab.orders"
+msgid "Orders"
+msgstr "Tilaukset"
+
+msgctxt "Languages::commerceml.tab.price_type"
+msgid "Prices"
+msgstr "Hinnat"
+
+msgctxt "Languages::commerceml.tab.tax"
+msgid "Taxes"
+msgstr "Verot"
+
+msgctxt "Languages::commerceml.tab.category"
+msgid "Categories"
+msgstr "Luokat"
+
+msgctxt "Languages::commerceml.tab.product_feature"
+msgid "Product features"
+msgstr "Tuotteen ominaisuudet"
+
+msgctxt "Languages::commerceml.variation_default_product_feature_name"
+msgid "Variant"
+msgstr "Variantti"
+
+msgctxt "Languages::base_price"
+msgid "Base price"
+msgstr "Perushinta"
+
+msgctxt "Languages::commerceml.import.error.product_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only new products are imported"
+msgstr "Ohitetaan tuote [id]; syy: vain uudet tuotteet tuodaan"
+
+msgctxt "Languages::commerceml.import.error.product_not_exists_and_skipped_by_import_mode"
+msgid "Skipping product [id]; reason: only the changes to existing products are imported"
+msgstr "Ohitetaan tuote [id]; syy: vain olemassa olevien tuotteiden muutokset tuodaan"
+
+msgctxt "Languages::commerceml.import.error.product.caregory_not_found"
+msgid "Couldn't find category [id]"
+msgstr "Luokkaa [id] ei löytynyt"
+
+msgctxt "Languages::commerceml.import.message.product.default_category_used"
+msgid "Couldn't find category [id]; default category [local_id] used instead"
+msgstr "Luokkaa [id] ei löytynyt; sen sijaan käytettiin oletusluokkaa [local_id]."
+
+msgctxt "Languages::commerceml.import.message.product.no_categories_default_category_used"
+msgid "Product [product_id] does not have categories; default category [local_id] used instead"
+msgstr "Tuotteella [product_id] ei ole luokkia; sen sijaan käytetään oletusluokkaa [local_id]."
+
+msgctxt "Languages::commerceml.import.message.product.created"
+msgid "Product [id] created; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Tuote [id] luotu; paikallinen tunnus: [local_id], hinta: [price], määrä: [mount]"
+
+msgctxt "Languages::commerceml.import.message.product.updated"
+msgid "Product [id] updated; local ID: [local_id], price: [price], quantity: [amount]"
+msgstr "Tuote [id] päivitetty; paikallinen tunnus: [local_id], hinta: [price], määrä: [mount]"
+
+msgctxt "Languages::commerceml.import.message.product.deleted"
+msgid "Product [id] deleted; local ID: [local_id]"
+msgstr "Tuote [id] poistettu; paikallinen tunnus: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.not_import_deleted"
+msgid "Couldn't import product [id]; reason: product marked as deleted"
+msgstr "Tuotetta [id] ei voitu tuoda; syy: tuote merkitty poistetuksi"
+
+msgctxt "Languages::commerceml.import.message.product.marked_as_removed"
+msgid "Couldn't import product [id]; reason: product was deleted earlier"
+msgstr "Tuotetta [id] ei voitu tuoda; syy: tuote on poistettu aiemmin"
+
+msgctxt "Languages::commerceml.import.message.product.is_not_creatable"
+msgid "Couldn't import product [id]; reason: not enough data to create a product"
+msgstr "Tuotetta [id] ei voitu tuoda; syy: ei tarpeeksi dataa tuotteen luomiseen"
+
+msgctxt "Languages::commerceml.import.message.product.found_by_product_code"
+msgid "Couldn't find product [id] by product code [product_code]; local ID: [local_id]"
+msgstr "Tuotetta [id] ei löytynyt tuotekoodilla [product_code]; paikallinen tunnus: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product.local_id_exists_but_product_not_found"
+msgid "Couldn't find local ID [local_id] for product [id] in the database"
+msgstr "Tuotteelle [id] ei löytynyt paikallista tunnusta [local_id] tietokannasta."
+
+msgctxt "Languages::commerceml.import.message.category.found_by_name"
+msgid "Category [id] was matched by name: [name]; local ID: [local_id]"
+msgstr "Luokkaa [id] löydettiin nimellä: [name]; paikallinen tunnus: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_found"
+msgid "Couldn't find parent category [parent_id] for category [id]"
+msgstr "Yläluokkaa [parent_id] ei löytynyt luokalle [id]"
+
+msgctxt "Languages::commerceml.import.error.category.parent_category_not_imported"
+msgid "Couldn't import parent category [parent_id] for category [id]"
+msgstr "Yläluokkaa [parent_id] ei voitu tuoda luokalle [id]"
+
+msgctxt "Languages::commerceml.import.message.category.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "Luokka [id] luotu; paikallinen tunnus: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.created"
+msgid "Product feature [id] created; local ID: [local_id]"
+msgstr "Tuoteominaisuus [id] luotu; paikallinen tunnus: [local_id]"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped"
+msgid "Skipping product feature [id]; reason: import this product feature is disabled in the mapping settings"
+msgstr "Tuoteominaisuuden [id] ohittaminen; syy: tämän tuoteominaisuuden tuonti on poistettu käytöstä kartoitusasetuksissa"
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_skipped"
+msgid "Skipping product feature variant [id]; reason: import this product feature variant is disabled in the mapping settings"
+msgstr "Tuoteominaisuusvariantin [id] ohittaminen; syy: tämän tuoteominaisuusvariantin tuonti on poistettu käytöstä kartoitusasetuksissa"
+
+msgctxt "Languages::commerceml.import.message.category.skipped"
+msgid "Skipping product category [id]; reason: import this product category is disabled in the mapping settings"
+msgstr "Tuotekategoria [id] ohitetaan; syy: tämän tuotekategorian tuonti on poistettu käytöstä kartoitusasetuksissa"
+
+msgctxt "Languages::commerceml.import.error.product_feature.not_found"
+msgid "Couldn't find product feature [id]"
+msgstr "Tuoteominaisuutta [id] ei löytynyt"
+
+msgctxt "Languages::commerceml.import.message.product_feature.skipped_by_settings"
+msgid "Couldn't import product feature [id]; reason: import of product features is disabled in the settings"
+msgstr "Tuoteominaisuutta [id] ei voitu tuoda; syy: tuoteominaisuuksien tuonti on poistettu käytöstä asetuksissa."
+
+msgctxt "Languages::commerceml.import.message.product_feature.variant_created"
+msgid "Variant [id] of product feature [feature_id] created; local ID: [local_id]"
+msgstr "Tuoteominaisuuden [feature_id] variantti [id] luotu; paikallinen tunnus: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.variation_not_deleted"
+msgid "Couldn't delete product variation [id]; local ID: [local_id]"
+msgstr "Tuotemuunnosta [id] ei voitu poistaa; paikallinen tunnus: [local_id]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.parent_product_not_found"
+msgid "Couldn't find parent product for variation [id]"
+msgstr "Muunnelman [id] päätuotetta ei löytynyt."
+
+msgctxt "Languages::commerceml.import.error.product.parent_product_removed"
+msgid "Couldn't import product [id]; reason: its parent product [parent_id] was deleted"
+msgstr "Tuotetta [id] ei voitu tuoda; syy: sen päätuote [parent_id] poistettiin"
+
+msgctxt "Languages::commerceml.import.error.product_variation.invalid_features_count"
+msgid "The number of features doesn't match the number of features in variation group [group_code]"
+msgstr "Ominaisuuksien määrä ei vastaa variaatioryhmän [group_code] ominaisuuksien määrää."
+
+msgctxt "Languages::commerceml.import.error.product_variation.feature_not_found_at_group"
+msgid "Couldn't find feature [feature_id] in variation group [group_code]"
+msgstr "Ominaisuutta [feature_id] ei löytynyt variaatioryhmästä [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.same_variation_exists"
+msgid "Variation group [group_code] already has a variation with the same combination of feature values"
+msgstr "Muunnelmaryhmällä [group_code] on jo muunnelma, jolla on sama ominaisuusarvojen yhdistelmä."
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation"
+msgid "Couldn't create product variation [id] in variation group [group_code]"
+msgstr "Tuotevariaatiota [id] ei voitu luoda variaatioryhmässä [group_code]"
+
+msgctxt "Languages::commerceml.import.error.product_variation.can_not_create_variation_group"
+msgid "Couldn't create variation group for product [id]"
+msgstr "Tuotteen [id] muunnelmaryhmän luominen epäonnistui."
+
+msgctxt "Languages::commerceml.import.message.start_import_product"
+msgid "Starting the import of product [id]"
+msgstr "Tuotteen [id] tuonnin aloittaminen"
+
+msgctxt "Languages::commerceml.import.message.end_import_product"
+msgid "Finishing the import of product [id]"
+msgstr "Tuotteen [id] tuonnin viimeistely"
+
+msgctxt "Languages::commerceml.controller.import_orders_is_disabled"
+msgid "Import changes to orders is disabled. Importing order was canceled."
+msgstr "Tilausten muutosten tuonti on poistettu käytöstä. Tilauksen tuonti peruutettiin."
+
+msgctxt "Languages::commerceml.controller.import_orders_no_permissions"
+msgid "Used administrator's account have no permissions to edit and create orders. Order import was canceled."
+msgstr "Käytetyllä järjestelmänvalvojan tilillä ei ole oikeuksia muokata ja luoda tilauksia. Tilauksen tuonti peruutettiin."
+
+msgctxt "Lnaguages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting the orders received"
+msgstr "Pyyntö vastaanotettujen tilausten viennistä"
+
+msgctxt "Lnaguages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting the orders processed"
+msgstr "Pyyntö käsiteltyjen tilausten viennistä"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] received"
+msgstr "Pyyntö myynnin synkronointitiedoston [tiedostonimi] lataamiseksi vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_file"
+msgid "Request for downloading the sale synchronization file [filename] processed"
+msgstr "Myynnin synkronointitiedoston [tiedostonimi] latauspyyntö käsitelty"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_convert"
+msgid "Request for converting the sale synchronization file [filename] received"
+msgstr "Pyyntö myyntisynkronointitiedoston [tiedostonimi] muuntamiseksi vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Pyyntö luettelon synkronointitiedoston [tiedostonimi] muuntamiseksi käsitelty"
+
+msgctxt "Languages::commerceml.controller.start_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] received"
+msgstr "Pyyntö tietojen tuomiseksi myyntisynkronointitiedostosta [tiedostonimi] vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_sale_import_execute"
+msgid "Request for importing data from the sale synchronization file [filename] processed"
+msgstr "Pyyntö tietojen tuomiseksi myyntisynkronointitiedostosta [tiedostonimi] käsitelty"
+
+msgctxt "Languages::commerceml.import.message.start_update_order"
+msgid "Starting the import of order [id]"
+msgstr "Tilauksen [id] tuonnin aloittaminen"
+
+msgctxt "Languages::commerceml.import.message.end_update_order"
+msgid "Finishing the import of order [id]"
+msgstr "Tilauksen [id] tuonnin viimeistely"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_checkauth_request"
+msgid "Request for synchronization session received"
+msgstr "Synkronointi-istuntopyyntö vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_checkauth_request"
+msgid "Request for synchronization session processed. Session ID: [session_id]"
+msgstr "Synkronointi-istunnon pyyntö käsitelty. Istuntotunnus: [session_id]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_init"
+msgid "Request for synchronization parameters received"
+msgstr "Synkronointiparametrien pyyntö vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_init"
+msgid "Request for synchronization parameters processed. File size limit: [limit]. ZIP support: [zip]"
+msgstr "Synkronointiparametrien pyyntö käsitelty. Tiedoston kokorajoitus: [limit]. ZIP-tuki: [zip]"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] received"
+msgstr "Pyyntö synkronointitiedoston [tiedostonimi] lataamiseksi vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_file"
+msgid "Request for downloading the synchronization file [filename] processed"
+msgstr "Synkronointitiedoston [tiedostonimi] latauspyyntö käsitelty"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] received"
+msgstr "Pyyntö synkronointitiedoston [tiedostonimi] purkamiseksi vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_unzip"
+msgid "Request for unpacking the synchronization file [filename] processed"
+msgstr "Synkronointitiedoston [tiedostonimi] purkamispyyntö käsitelty"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] received"
+msgstr "Pyyntö luettelon synkronointitiedoston [tiedostonimi] muuntamiseksi vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_convert"
+msgid "Request for converting the catalog synchronization file [filename] processed"
+msgstr "Pyyntö luettelon synkronointitiedoston [tiedostonimi] muuntamiseksi käsitelty"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] received"
+msgstr "Pyyntö luettelon synkronointitiedoston [tiedostonimi] analysoimiseksi vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_analyze"
+msgid "Request for analyzing the catalog synchronization file [filename] processed"
+msgstr "Luettelon synkronointitiedoston [tiedostonimi] analysointipyyntö käsitelty"
+
+msgctxt "Languages::commerceml.controller.start_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] received"
+msgstr "Pyyntö tietojen tuomiseksi luettelon synkronointitiedostosta [tiedostonimi] vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_catalog_import_execute"
+msgid "Request for importing data from the catalog synchronization file [filename] processed"
+msgstr "Pyyntö tietojen tuomiseksi luettelon synkronointitiedostosta [tiedostonimi] käsitelty"
+
+msgctxt "Languages::commerceml.controller.end_handle_request"
+msgid "Finishing the processing of the [mode] request"
+msgstr "[mode]-pyynnön käsittelyn viimeistely"
+
+msgctxt "Languages::commerceml.controller.upload_directory_cleaned"
+msgid "Directory [dir] cleared of old synchronization files"
+msgstr "Hakemisto [dir] tyhjennetty vanhoista synkronointitiedostoista"
+
+msgctxt "Languages::commerceml.controller.convert_import_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: the import works in the 'Do not import' mode"
+msgstr "Ohitetaan tiedosto [tiedostonimi]; syy: tuonti toimii 'Älä tuo' -tilassa"
+
+msgctxt "Languages::commerceml.controller.convert_offers_file_skiped_by_import_mode"
+msgid "Skipping file [filename]; reason: settings forbid the import of offers"
+msgstr "Ohitetaan tiedosto [tiedostonimi]; syy: asetukset estävät tarjousten tuonnin"
+
+msgctxt "Languages::commerceml.controller.error"
+msgid "Error: [message]"
+msgstr "Virhe: [viesti]"
+
+msgctxt "Languages::commerceml.controller.start_handle_export_orders"
+msgid "Request for exporting orders received"
+msgstr "Vientitilauksia koskevat pyynnöt vastaanotettu"
+
+msgctxt "Languages::commerceml.controller.end_handle_export_orders"
+msgid "Request for exporting orders processed"
+msgstr "Vientitilausten pyyntö käsitelty"
+
+msgctxt "Languages::commerceml.brand_manufacturer_default_product_feature_name"
+msgid "Manufacturer"
+msgstr "Valmistaja"
+
+msgctxt "Languages::commerceml.sync_data_name"
+msgid "CommerceML Integration"
+msgstr "CommerceML-integraatio"
+
+msgctxt "Languages::commerceml.map.entity_type.category"
+msgid "Categories"
+msgstr "Luokat"
+
+msgctxt "Languages::commerceml.map.entity_type.tax"
+msgid "Taxes"
+msgstr "Verot"
+
+msgctxt "Languages::commerceml.map.entity_type.price_type"
+msgid "Price types"
+msgstr "Hintatyypit"
+
+msgctxt "Languages::commerceml.map.entity_type.currency"
+msgid "Currencies"
+msgstr "Valuutat"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature"
+msgid "Product features"
+msgstr "Tuotteen ominaisuudet"
+
+msgctxt "Languages::commerceml.map.entity_type.product_feature_variant"
+msgid "Product features variants"
+msgstr "Tuoteominaisuuksien variantit"
+
+msgctxt "Languages::commerceml.general_information.marketplace"
+msgid "To sync your CRM with the marketplace, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Synkronoi CRM-järjestelmäsi markkinapaikan kanssa määrittämällä uusi synkronointi (vaihtosolmu) verkkosivuston kanssa. Käytä seuraavia asetuksia vaihtosolmua luodessasi:<ul><li>Verkkosivuston osoite: <a href=\"[http_location]\">[http_location]</a></li><li>Käyttäjätunnus: Ylläpitäjän sähköpostiosoite</li><li>Salasana: Ylläpitäjän salasana</li></ul>Suosittelemme uuden järjestelmänvalvojan lisäämistä \"CommerceML\"-oikeuksilla."
+
+msgctxt "Languages::commerceml.general_information.store"
+msgid "To sync your CRM with the store, set up a new synchronization (exchange node) with the website. Use the following settings when creating an exchange node:<ul><li>Website address: <a href=\"[http_location]\">[http_location]</a></li><li>User name: Administrator e-mail address</li><li>Password: Administrator password</li></ul>We recommend adding a new administrator with the \"CommerceML\" privilege."
+msgstr "Synkronoi CRM-järjestelmäsi kaupan kanssa määrittämällä uusi synkronointi (vaihtosolmu) verkkosivuston kanssa. Käytä seuraavia asetuksia vaihtosolmua luodessasi:<ul><li>Verkkosivuston osoite: <a href=\"[http_location]\">[http_location]</a></li><li>Käyttäjätunnus: Ylläpitäjän sähköpostiosoite</li><li>Salasana: Ylläpitäjän salasana</li></ul>Suosittelemme uuden ylläpitäjän lisäämistä \"CommerceML\"-oikeuksilla."
+
+msgctxt "Languages::commerceml.map.category.create"
+msgid "Create category on next sync"
+msgstr "Luo luokka seuraavalla synkronoinnilla"
+
+msgctxt "Languages::commerceml.map.category.use_default"
+msgid "Use default category"
+msgstr "Käytä oletuskategoriaa"
+
+msgctxt "Languages::commerceml.map.product_feature.create"
+msgid "Create product feature on next sync"
+msgstr "Luo tuoteominaisuus seuraavassa synkronoinnissa"
+
+msgctxt "Languages::commerceml.map.product_feature.skip"
+msgid "Don't import"
+msgstr "Älä tuo"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.create"
+msgid "Create product feature variant on next sync"
+msgstr "Luo tuoteominaisuusvariantti seuraavassa synkronoinnissa"
+
+msgctxt "Languages::commerceml.map.product_feature_variant.skip"
+msgid "Don't import"
+msgstr "Älä tuo"
+
+msgctxt "Languages::commerceml.n_items_will_be_created_automatically"
+msgid "[n] item will be created automatically|[n] items will be created automatically"
+msgstr "[n] kohde luodaan automaattisesti|[n] kohdetta luodaan automaattisesti"
+
+msgctxt "Languages::commerceml.n_items_will_be_skipped"
+msgid "[n] item not matched and will be skipped|[n] item not matched and will be skipped"
+msgstr "[n] kohdetta ei löydetty ja se ohitetaan|[n] kohdetta ei löydetty ja se ohitetaan"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation"
+msgid "Product feature creation"
+msgstr "Tuoteominaisuuksien luominen"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.y"
+msgid "Create new features and variants from CRM automatically"
+msgstr "Luo uusia ominaisuuksia ja variantteja CRM:stä automaattisesti"
+
+msgctxt "Languages::commerceml.cml_catalog_product_feature_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Älä luo ominaisuuksia ja variantteja CRM:stä ennen kuin olen tarkistanut ne"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation"
+msgid "Category creation"
+msgstr "Luokan luominen"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.y"
+msgid "Create new categories from CRM automatically"
+msgstr "Luo uusia kategorioita CRM:stä automaattisesti"
+
+msgctxt "Languages::commerceml.cml_catalog_category_creation.n"
+msgid "Don't create features and variants from CRM until I check them"
+msgstr "Älä luo ominaisuuksia ja variantteja CRM:stä ennen kuin olen tarkistanut ne"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy"
+msgid "If the category of a product changes in CRM"
+msgstr "Jos tuotteen kategoria muuttuu CRM:ssä"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.append"
+msgid "Add the new category alongside the existing ones"
+msgstr "Lisää uusi kategoria olemassa olevien rinnalle"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.replace_main"
+msgid "Change the main category of the product"
+msgstr "Vaihda tuotteen pääkategoriaa"
+
+msgctxt "Languages::commerceml.cml_catalog_product_category_update_strategy.ignore"
+msgid "Ignore the change; assign a category only to new products"
+msgstr "Älä huomioi muutosta; määritä kategoria vain uusille tuotteille"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy"
+msgid "If the image of a product changes in CRM"
+msgstr "Jos tuotteen kuva muuttuu CRM:ssä"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.append"
+msgid "Add the new image alongside the existing ones"
+msgstr "Lisää uusi kuva olemassa olevien rinnalle"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.replace"
+msgid "Replace all images of the product"
+msgstr "Korvaa kaikki tuotteen kuvat"
+
+msgctxt "Languages::commerceml.cml_catalog_product_image_update_strategy.ignore"
+msgid "Ignore the change; assign an image only to new products"
+msgstr "Älä huomioi muutosta; liitä kuva vain uusiin tuotteisiin"
+
+msgctxt "Languages::commerceml.additional_settings_title"
+msgid "Additional settings"
+msgstr "Lisäasetukset"
+
+msgctxt "Languages::commerceml.field_import_only_for_new_products"
+msgid "Import only for new products"
+msgstr "Tuonti vain uusille tuotteille"
+
+msgctxt "Languages::commerceml.dont_import"
+msgid "Don't import"
+msgstr "Älä tuo"
+
+msgctxt "Languages::commerceml.import.message.order.updated"
+msgid "Order [local_id] was updated: Products id: [products];"
+msgstr "Tilaus [local_id] päivitettiin: Tuotetunnus: [products];"
+
+msgctxt "Languages::commerceml.import.message.order.status_updated"
+msgid "Status for order [local_id] was updated: Old status: [old_status]; New status: [new_status];"
+msgstr "Tilauksen [local_id] tila päivitettiin: Vanha tila: [old_status]; Uusi tila: [new_status];"
+
+msgctxt "Languages::commerceml.import.error.order.local_order_not_found"
+msgid "Local order was not found"
+msgstr "Paikallista tilausta ei löytynyt"
+
+msgctxt "Languages::commerceml.import.error.order.local_product_not_found"
+msgid "Was not found local equivalent of products"
+msgstr "Tuotteille ei löytynyt paikallisia vastineita"
+
+msgctxt "Languages::commerceml.products_were_disabled_after_addon_was_activated"
+msgid "We detected some duplicate entities (products, features, etc.) loaded from your CRM. They were created by mistake when the old CommerceML add-on was replaced with the new one. For your convenience, we've changed the status of the duplicates to \"Disabled\". For example, <a href=\"[href]\">here is the list of duplicate products which you can safely delete.</a>"
+msgstr "Havaitsimme joitakin CRM-järjestelmästäsi ladattuja kaksoiskappaleita (tuotteita, ominaisuuksia jne.). Ne luotiin vahingossa, kun vanha CommerceML-lisäosa korvattiin uudella. Olemme muuttaneet kaksoiskappaleiden tilan \"Pois käytöstä\". Esimerkiksi <a href=\"[href]\">tässä on luettelo kaksoiskappaleista, jotka voit turvallisesti poistaa.</a>"
+
+msgctxt "Languages::commerceml.export_field_via_commerceml"
+msgid "Export via CommerceML"
+msgstr "Vienti CommerceML:n kautta"
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml"
+msgid "Field export in the orders file in CommerceML format"
+msgstr "Kentän vienti tilaustiedostoon CommerceML-muodossa"
+
+msgctxt "Languages::commerceml.import.order.shipment_date_status"
+msgid "Order status upon acquisition of shipment date"
+msgstr "Tilauksen tila toimituspäivänä"
+
+msgctxt "Languages::commerceml.import.order.payment_date_status"
+msgid "Order status upon acquisition of payment date"
+msgstr "Tilauksen tila maksupäivänä"
+
+msgctxt "Languages::commerceml.import.order.status_mapping_information"
+msgid "By default, the order status is taken from the <b>Статус заказа</b> attribute. If it is not there, the statuses will be determined by the date of payment and shipment. If both dates exist, shipment date will have higher priority."
+msgstr "Oletusarvoisesti tilauksen tila otetaan <b>Статус заказа</b> -attribuutista. Jos sitä ei ole, tilat määräytyvät maksu- ja lähetyspäivämäärien perusteella. Jos molemmat päivämäärät ovat olemassa, lähetyspäivämäärällä on korkeampi prioriteetti."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_bs"
+msgid "This is a standard field. It is always exported via CommerceML. Fields from the shipping address have priority over fields from the billing address."
+msgstr "Tämä on vakiokenttä. Se viedään aina CommerceML:n kautta. Toimitusosoitteen kentillä on etusija laskutusosoitteen kenttiin nähden."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_bs"
+msgid "Export this field via CommerceML. If you export the same field from the billing and shipping address, then shipping address takes priority."
+msgstr "Vie tämä kenttä CommerceML:n kautta. Jos viet saman kentän laskutus- ja toimitusosoitteesta, toimitusosoitteella on etusija."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_default_contact_info"
+msgid "This is a standard field. It is always exported via CommerceML."
+msgstr "Tämä on vakiokenttä. Se viedään aina CommerceML:n kautta."
+
+msgctxt "Languages::commerceml.tooltip.export_field_via_commerceml_custom_contact_info"
+msgid "Export this field via CommerceML."
+msgstr "Vie tämä kenttä CommerceML:n kautta."
+
+msgctxt "Languages::commerceml.connection_instructions.mve"
+msgid "<p>Here is the page where your vendors can connect their CRMs to your marketplace via CommerceML. Copy the link and share with your vendors.</p>"
+msgstr "<p>Tässä sivussa myyjäsi voivat yhdistää CRM-järjestelmänsä markkinapaikkaasi CommerceML:n kautta. Kopioi linkki ja jaa se myyjäsi kanssa.</p>"
+
+msgctxt "Languages::commerceml.connection_instructions.ult"
+msgid "To connect your CRMs to CS-Cart, go to <b>Administration → <a href=\"[href]\">Sync data</a></b> and choose <b>CommerceML Integration.</b>"
+msgstr "Yhdistääksesi CRM-järjestelmäsi CS-Cartiin, mene kohtaan <b>Hallinta → <a href=\"[href]\">Synkronoi tiedot</a></b> ja valitse <b>CommerceML-integraatio.</b>"
+
+msgctxt "Languages::commerceml.the_file_does_not_exist"
+msgid "The file [file] does not exist."
+msgstr "Tiedostoa [tiedosto] ei ole olemassa."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names"
+msgid "Names of product features"
+msgstr "Tuoteominaisuuksien nimet"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal"
+msgid "Use names from CRM in CS-Cart admin panel"
+msgstr "Käytä CRM:n nimiä CS-Cartin hallintapaneelissa"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.internal.tooltip"
+msgid "Internal feature names in CS-Cart will always change match those in your CRM. You can safely edit display names for the storefront."
+msgstr "CS-Cartin sisäiset ominaisuuksien nimet muuttuvat aina vastaamaan CRM:ssäsi olevia nimiä. Voit muokata myymälän näyttönimiä turvallisesti."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both"
+msgid "Use names from CRM everywhere in CS-Cart"
+msgstr "Käytä CRM:n nimiä kaikkialla CS-Cartissa"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.both.tooltip"
+msgid "Feature names in CS-Cart will change to match the names in your CRM. Any changes to feature names on the CS-Cart end will be lost."
+msgstr "CS-Cartin ominaisuuksien nimet muuttuvat vastaamaan CRM-järjestelmässäsi olevia nimiä. Kaikki CS-Cartin ominaisuuksien nimiin tehdyt muutokset menetetään."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no"
+msgid "Do not use names from CRM"
+msgstr "Älä käytä CRM:stä löytyviä nimiä"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_names.no.tooltip"
+msgid "Feature names will come from CRM only on first import. Subsequent changes in the CRM won't affect existing feature names in CS-Cart."
+msgstr "Ominaisuuksien nimet tulevat CRM:stä vain ensimmäisen tuonnin yhteydessä. Myöhemmät muutokset CRM:ssä eivät vaikuta CS-Cartin olemassa oleviin ominaisuuksien nimiin."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names"
+msgid "Names of feature variants"
+msgstr "Ominaisuusvarianttien nimet"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes"
+msgid "Use names from CRM"
+msgstr "Käytä CRM:n nimiä"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.yes.tooltip"
+msgid "Feature variant names will always be updated from the CRM. Your edits will be lost on import."
+msgstr "Ominaisuusvarianttien nimet päivitetään aina CRM:stä. Muokkauksesi menetetään tuonnin yhteydessä."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no"
+msgid "Do not use names from CRM"
+msgstr "Älä käytä CRM:stä löytyviä nimiä"
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature_variant_names.no.tooltip"
+msgid "Feature variant names will come from CRM only on first import. Useful if you plan to change their names in CS-Cart."
+msgstr "Ominaisuusvarianttien nimet tulevat CRM:stä vain ensimmäisen tuonnin yhteydessä. Hyödyllinen, jos aiot muuttaa niiden nimiä CS-Cartissa."
+
+msgctxt "Languages::commerceml.cml_catalog_sync_feature.vendor_notice"
+msgid "The settings about the names of product features and their variants only affect the product features that belong to you, not to the marketplace."
+msgstr "Tuoteominaisuuksien nimiä ja niiden variantteja koskevat asetukset vaikuttavat vain sinulle kuuluviin tuoteominaisuuksiin, eivät markkinapaikalle kuuluviin."
+

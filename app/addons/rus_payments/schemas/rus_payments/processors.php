@@ -1,0 +1,136 @@
+<?php
+/***************************************************************************
+*                                                                          *
+*   © 2012 ООО "Эком Системы"                                              *
+*                                                                          *
+* Это коммерческое программное обеспечение. Только пользователи, которые   *
+* приобрели действующую лицензию и согласились с условиями лицензионного   *
+* соглашения, могут устанавливать и использовать эту программу.            *
+*                                                                          *
+****************************************************************************
+* ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ ПОЛНЫЙ ТЕКСТ ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ   *
+* В ФАЙЛЕ "copyright.txt", ПРЕДОСТАВЛЕННОМ ВМЕСТЕ С ЭТИМ ДИСТРИБУТИВОМ.    *
+***************************************************************************/
+
+return [
+    'yandex_money' => [
+        'processor' => 'Яндекс.Касса [Устарел]',
+        'processor_script' => 'yandex_money.php',
+        'processor_template' => 'addons/rus_payments/views/orders/components/payments/yandex_money.tpl',
+        'admin_template' => 'yandex_money.tpl',
+        'callback' => 'Y',
+        'type' => 'P',
+        'position' => 10,
+        'addon' => 'rus_payments',
+    ],
+    'yandex_p2p' => [
+        'processor' => 'ЮMoney: Перевод на счёт',
+        'processor_script' => 'yandex_p2p.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'yandex_p2p.tpl',
+        'callback' => 'Y',
+        'type' => 'P',
+        'position' => 20,
+        'addon' => 'rus_payments',
+    ],
+    'sbrf' => [
+        'processor' => 'Сбербанк: QR-код',
+        'processor_script' => 'sbrf.php',
+        'processor_template' => '',
+        'admin_template' => 'sbrf_receipt.tpl',
+        'callback' => 'N',
+        'type' => 'P',
+        'position' => 30,
+        'addon' => 'rus_payments',
+    ],
+    'webmoney' => [
+        'processor' => 'WebMoney',
+        'processor_script' => 'webmoney.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'webmoney.tpl',
+        'callback' => 'N',
+        'type' => 'P',
+        'position' => 35,
+        'addon' => 'rus_payments',
+    ],
+    'assist' => [
+        'processor' => 'Assist',
+        'processor_script' => 'assist.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'assist.tpl',
+        'callback' => 'N',
+        'type' => 'P',
+        'position' => 45,
+        'addon' => 'rus_payments',
+    ],
+    'rbk' => [
+        'processor' => 'RBK.money',
+        'processor_script' => 'rbk.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'rbk.tpl',
+        'callback' => 'Y',
+        'type' => 'P',
+        'position' => 60,
+        'addon' => 'rus_payments',
+    ],
+    'vsevcredit' => [
+        'processor' => 'Вкредит24.ру',
+        'processor_script' => 'vsevcredit.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'vsevcredit.tpl',
+        'callback' => 'Y',
+        'type' => 'P',
+        'position' => 65,
+        'addon' => 'rus_payments',
+    ],
+    'paymaster' => [
+        'processor' => 'PayMaster',
+        'processor_script' => 'paymaster.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'paymaster.tpl',
+        'callback' => 'Y',
+        'type' => 'P',
+        'position' => 70,
+        'addon' => 'rus_payments',
+    ],
+    'avangard' => [
+        'processor' => 'Avangard',
+        'processor_script' => 'avangard.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'avangard.tpl',
+        'callback' => 'Y',
+        'type' => 'P',
+        'position' => 75,
+        'addon' => 'rus_payments',
+    ],
+    'payanyway' => [
+        'processor' => 'Moneta (PayAnyWay)',
+        'processor_script' => 'payanyway.php',
+        'processor_template' => 'addons/rus_payments/views/orders/components/payments/payanyway.tpl',
+        'admin_template' => 'payanyway.tpl',
+        'callback' => 'Y',
+        'type' => 'P',
+        'position' => 80,
+        'addon' => 'rus_payments',
+    ],
+    'payler' => [
+        'processor' => 'Payler',
+        'processor_script' => 'payler.php',
+        'processor_template' => 'views/orders/components/payments/cc_outside.tpl',
+        'admin_template' => 'payler.tpl',
+        'callback' => 'N',
+        'type' => 'P',
+        'position' => 85,
+        'addon' => 'rus_payments',
+    ],
+    'account' => [
+        'processor' => 'Выставить счет',
+        'processor_script' => 'account.php',
+        'processor_template' => 'addons/rus_payments/views/orders/components/payments/account_payment.tpl',
+        'admin_template' => 'account_payment.tpl',
+        'callback' => 'N',
+        'type' => 'P',
+        'position' => 90,
+        'addon' => 'rus_payments',
+    ],
+];
